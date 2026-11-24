@@ -2,7 +2,7 @@
 
 Dados do Trabalho de Conclusão de Curso **"Proposta e Avaliação de Agentes de LLM Independentes para a Detecção de Falhas de Redação em Questões de Múltipla Escolha"** (Nicole Alves Rodrigues, Bacharelado em Ciência da Computação, Instituto Federal Goiano – Campus Iporá, 2026).
 
-O pipeline auditou 240 questões de múltipla escolha de três bases (80 de cada), em duas execuções por questão, segundo as diretrizes de redação de itens de Haladyna, Downing e Rodriguez (2002). Este repositório reúne os 480 relatórios gerados, as tabelas de saída do pipeline e as tabelas das análises apresentadas no Capítulo 4 do TCC.
+O pipeline auditou 240 questões de múltipla escolha de três bases (80 de cada), em duas execuções por questão, segundo as diretrizes de redação de itens de Haladyna, Downing e Rodriguez (2002). Este repositório reúne os 480 relatórios gerados, as tabelas de saída do pipeline e o script das análises apresentadas no Capítulo 4 do TCC.
 
 ## Estrutura
 
@@ -10,11 +10,7 @@ O pipeline auditou 240 questões de múltipla escolha de três bases (80 de cada
 OBI/  QCONCURSOS/  WAPLA/
 ├── relatorio_auditoria_unificado.csv   uma linha por questão e por execução (160 linhas)
 └── laudos/                             um relatório .txt por questão e por execução (160 arquivos)
-resultados/
-├── 1_consistencia_intra_conjunto/<CONJUNTO>/   execução 1 × execução 2 de cada conjunto
-├── 2_comparacao_entre_conjuntos/               comparação entre os três conjuntos
-└── distratores_plausibilidade_1de5.csv         distratores que receberam plausibilidade 1/5
-analise.py                              script que gera a pasta resultados/ a partir dos CSVs
+analise.py                              script que gera as tabelas e os gráficos das análises a partir dos CSVs
 ```
 
 Os laudos seguem o padrão `relatorio_auditoria_q<N>_run0<E>_<data>_<hora>.txt`, em que `N` é o número da questão no conjunto e `E` é a execução (1 ou 2). Cada laudo tem quatro seções: nível cognitivo, qualidade do enunciado, resolução cega e distratores, e consolidação das violações, com o agente de origem de cada uma.
@@ -40,6 +36,7 @@ Os laudos seguem o padrão `relatorio_auditoria_q<N>_run0<E>_<data>_<hora>.txt`,
 - **Diretriz violada em uma questão:** nas comparações entre conjuntos, considera-se violada a diretriz apontada nas duas execuções (consenso). A união das execuções é usada como análise de sensibilidade.
 - **G19 e G29:** são calculadas em código, não pelos agentes. A G19 é marcada quando a resolução cega não coincide com o gabarito oficial. A G29 é marcada quando a plausibilidade média é menor que 3.
 - **Nível de Bloom:** em 12 das 480 saídas, o agente usou grafias fora dos seis níveis previstos ("ANÁLISE" e "APLICAR"). O CSV mantém a saída original. O `analise.py` padroniza os rótulos antes das análises (função `normaliza_bloom`), e o nível Understand é rotulado como "Compreender", como no esquema de saída do agente.
+- **Notas de plausibilidade por posição:** os números sobre as notas 1 e a posição do distrator (Seção 4.4 do TCC) não são gerados pelo `analise.py`. Eles podem ser recontados nos laudos, na lista de alternativas da seção 3 de cada relatório.
 - **Avaliação humana:** as respostas dos avaliadores humanos (Seção 4.5 do TCC) não estão incluídas. O Termo de Consentimento previa a divulgação apenas de resultados agregados, que constam nas Tabelas 7 e 25 do TCC.
 
 ## Como reproduzir as análises
@@ -49,7 +46,7 @@ pip install numpy pandas scipy matplotlib
 python analise.py
 ```
 
-Na pasta do repositório, o script lê os três CSVs e grava em `resultados/` as tabelas desta pasta, além dos gráficos (não incluídos aqui; os usados no TCC estão no texto). Os intervalos de confiança por *bootstrap* usam semente fixa.
+Na pasta do repositório, o script lê os três CSVs e gera, na pasta `resultados/`, as tabelas e os gráficos das análises. Os intervalos de confiança por *bootstrap* usam semente fixa.
 
 ## Fontes das questões
 
