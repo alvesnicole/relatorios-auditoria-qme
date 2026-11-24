@@ -1,0 +1,51 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:08:43
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda a função de um drive de impressora, diferenciando-a de outras opções. Embora envolva conhecimento factual, a escolha da resposta correta requer interpretação e compreensão do conceito.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17): Nenhuma detectada.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : A pergunta busca a principal função de um drive de impressora. Analisando as alternativas, a opção D parece ser a mais precisa. Um drive de impressora é essencial para a comunicação entre o sistema operacional e o hardware da impressora, permitindo que a impressora receba e interprete os comandos de impressão. As outras opções descrevem funções relacionadas, mas não a função primária do driver. A opção A descreve a função do spooler, a opção B é função do cartucho/impressora, a opção C é função da fonte de alimentação e a opção E é função de uma conexão de rede, não do driver.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a função do driver com o gerenciamento da fila de impressão, uma etapa do processo, mas não a função principal do driver.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Estudantes podem associar o driver à tinta, pensando que ele controla o nível, quando na verdade é um componente separado.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que o driver protege a impressora de picos de energia, confundindo-o com um filtro de voltagem.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Opção absurda, pois drivers de impressora não estabelecem conexão com a internet diretamente.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e nível de detalhe.
+    [G30] As alternativas não refletem erros típicos de estudantes sobre o funcionamento de drivers de impressora.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e nível de detalhe.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior uniformidade na estrutura e estilo.
+    [G30] As alternativas não refletem erros típicos de estudantes sobre o funcionamento de drivers de impressora.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Analisar os erros comuns dos alunos sobre drivers de impressora e criar alternativas que explorem esses equívocos.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

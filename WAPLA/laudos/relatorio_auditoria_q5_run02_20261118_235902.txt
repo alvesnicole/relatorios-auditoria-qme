@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:02:54
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique conceitos geométricos (distância de um ponto a um plano, projeção ortogonal) para analisar uma situação específica e identificar a relação correta entre os elementos. Não se trata apenas de lembrar definições, mas de usar o conhecimento para interpretar e resolver um problema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação de que 'O é a projeção ortogonal de P sobre α'. Essa informação já está implícita na definição de pé da perpendicular.
+         → Sugestão: Remover a frase 'Com base nessa situação, qual afirmação descreve corretamente a relação geométrica entre P, O e o plano α?' e substituir por 'Determine a relação geométrica entre P, O e o plano α'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema descreve uma situação geométrica envolvendo um ponto P, um plano α e a projeção ortogonal O de P sobre α. A distância de P ao plano α é a distância perpendicular de P ao plano, que é o comprimento do segmento PO. A alternativa A afirma corretamente que PO é perpendicular a α, o que define a distância mínima de P ao plano. As outras alternativas apresentam interpretações incorretas da relação geométrica. A alternativa B considera segmentos arbitrários de P a pontos de α, que não necessariamente representam a distância mínima. A alternativa C afirma que PO é paralelo a α, o que é falso, pois O é a projeção ortogonal de P sobre α. A alternativa D relaciona a distância a uma área de triângulo, o que é irrelevante. A alternativa E afirma que a distância é sempre nula, o que é falso, pois P está a 6 m de α. Portanto, a alternativa A é a única que descreve corretamente a relação geométrica.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a distância de um ponto a um plano com o comprimento de qualquer segmento que o ligue, ignorando a perpendicularidade.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão entre projeção ortogonal e a ideia de que a distância é medida ao longo do plano, em vez de perpendicularmente.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea da distância como dependente da área de um triângulo, demonstrando falta de compreensão do conceito de distância a um plano.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Afirmação absurda que ignora completamente a geometria espacial e a definição de distância a um plano.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (64 caracteres) é significativamente mais longa que a alternativa C (38 caracteres), com uma diferença de 26 palavras.
+    [G30] As alternativas B, C e D não refletem erros típicos de estudantes ao lidar com projeções ortogonais e distâncias a planos.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém repetição desnecessária da informação de que 'O é a projeção ortogonal de P sobre α'. Essa informação já está implícita na definição de pé da perpendicular.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Com base nessa situação, qual afirmação descreve corretamente a relação geométrica entre P, O e o plano α?' e substituir por 'Determine a relação geométrica entre P, O e o plano α'.
+    [G24] A alternativa B (64 caracteres) é significativamente mais longa que a alternativa C (38 caracteres), com uma diferença de 26 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar que a extensão influencie a escolha do candidato.
+    [G30] As alternativas B, C e D não refletem erros típicos de estudantes ao lidar com projeções ortogonais e distâncias a planos.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar as alternativas para que representem melhor os equívocos comuns dos alunos sobre o tema.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

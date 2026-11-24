@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:21:50
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno interprete uma instalação artística contemporânea, considerando o contexto histórico e as características de movimentos artísticos específicos, para selecionar a interpretação que melhor justifica a proposta poética da obra. Isso envolve a desconstrução da informação e a identificação de relações entre elementos diversos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa sobre a instalação artística que não contribui diretamente para a avaliação do conhecimento do aluno. A descrição detalhada da obra e do ambiente pode ser considerada window dressing.
+         → Sugestão: Remover a descrição detalhada da instalação artística e focar diretamente na pergunta sobre a interpretação da proposta poética.
+    [G14] Não está claro qual aspecto da 'proposta poética' o aluno deve analisar. A pergunta é vaga e pode levar a diferentes interpretações.
+         → Sugestão: Especificar o que se espera que o aluno interprete na 'proposta poética'. Por exemplo: 'Considerando o contexto apresentado e as características dos movimentos da segunda metade do século XX, qual a principal intenção comunicativa da obra?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : A obra descrita enfatiza a experiência do visitante e a importância dos materiais como suporte para essa experiência, mais do que a beleza intrínseca dos objetos. Isso se alinha com a arte conceitual e a desmaterialização da arte, movimentos importantes na segunda metade do século XX. A alternativa C, 'Privilegia a ideia sobre o objeto', captura essa essência, pois a instalação não se preocupa com a forma, a técnica, a beleza ou a imitação, mas sim com a ideia ou conceito que ela transmite e a experiência que proporciona. As outras alternativas são incompatíveis com a descrição: A (forma pura) remete ao modernismo; B (técnica manual) é o oposto da desmaterialização; D (imitação da pintura clássica) é incompatível com a arte contemporânea; E (beleza decorativa) é irrelevante para a proposta da obra.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode associar arte contemporânea a movimentos formais como o cubismo, ignorando a ênfase na experiência e conceito.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Aluno pode confundir a obra com práticas artesanais, não compreendendo a desmaterialização do objeto e a valorização da ideia.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar a obra como uma releitura de técnicas clássicas, não percebendo a ruptura com a tradição e a busca por novas formas de expressão.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Opção claramente inadequada, pois a obra é descrita como tendo materiais simples e a ênfase é na experiência, não na estética decorativa.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' é significativamente mais curta que as demais.
+    [G30] A alternativa 'B' não reflete um erro comum de interpretação sobre arte contemporânea.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G16] O enunciado contém uma contextualização extensa sobre a instalação artística que não contribui diretamente para a avaliação do conhecimento do aluno. A descrição detalhada da obra e do ambiente pode ser considerada window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da instalação artística e focar diretamente na pergunta sobre a interpretação da proposta poética.
+    [G14] Não está claro qual aspecto da 'proposta poética' o aluno deve analisar. A pergunta é vaga e pode levar a diferentes interpretações.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Especificar o que se espera que o aluno interprete na 'proposta poética'. Por exemplo: 'Considerando o contexto apresentado e as características dos movimentos da segunda metade do século XX, qual a principal intenção comunicativa da obra?'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' é significativamente mais curta que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G30] A alternativa 'B' não reflete um erro comum de interpretação sobre arte contemporânea.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a alternativa 'B' para que reflita um equívoco mais comum entre os estudantes.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

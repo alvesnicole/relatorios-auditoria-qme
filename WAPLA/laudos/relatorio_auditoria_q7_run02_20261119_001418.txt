@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:17:46
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda a premissa central da pesquisa do artista (ênfase na ideia e processo reflexivo) e, a partir disso, avalie qual alternativa representa uma reformulação coerente com essa visão, descartando opções que priorizam a dimensão visual ou material. Isso envolve analisar as opções à luz dos princípios artísticos descritos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa extensa sobre a interação entre o artista e a curadora, que não contribui diretamente para a compreensão da tarefa de avaliação. A descrição detalhada do contexto é desnecessária e distrai do problema central.
+         → Sugestão: Remover a descrição da interação entre o artista e a curadora, focando diretamente na questão da reformulação da participação do artista e na sua ênfase na centralidade da ideia.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado enfatiza a centralidade da ideia e do processo reflexivo, em detrimento do produto final material. O artista busca preservar essa ênfase, o que implica que a reformulação deve manter o foco na experiência mental do público. A alternativa A é a única que se alinha a essa premissa, propondo manter as instruções como núcleo da obra e registrar os vestígios do processo como complemento documental. As demais alternativas sugerem a criação de objetos visuais (esculturas, telas, objetos tridimensionais, vídeos), o que contradiz a ênfase do artista na ideia e no processo reflexivo. Portanto, a alternativa A é a mais coerente com a pesquisa do artista.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a ênfase na ideia e a necessidade de impacto visual, interpretando erroneamente a proposta do artista.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da centralidade da ideia, buscando uma representação visual simplificada que não reflete a pesquisa do artista.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Foco excessivo na representação visual das ações, negligenciando a importância do processo reflexivo e da centralidade da ideia.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Substituição da proposta conceitual por um recurso audiovisual elaborado, desvirtuando a ênfase na centralidade da ideia e no processo reflexivo.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa B (45 palavras) é significativamente mais longa que a alternativa E (28 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma narrativa extensa sobre a interação entre o artista e a curadora, que não contribui diretamente para a compreensão da tarefa de avaliação. A descrição detalhada do contexto é desnecessária e distrai do problema central.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da interação entre o artista e a curadora, focando diretamente na questão da reformulação da participação do artista e na sua ênfase na centralidade da ideia.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa B (45 palavras) é significativamente mais longa que a alternativa E (28 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés na escolha.
+
+================================================================================

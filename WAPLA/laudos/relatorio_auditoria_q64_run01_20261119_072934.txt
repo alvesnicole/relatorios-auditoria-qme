@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:33:57
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o estudante compreenda as nuances da relação entre Economia e Geografia Econômica, identificando a interpretação mais adequada entre as opções apresentadas. Isso envolve a análise das definições, da evolução histórica e das contribuições de diferentes autores, demandando um nível de raciocínio que vai além da simples compreensão.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém um bloco de texto extenso (descrição dos textos de referência e autores) que, embora informativo, não é essencial para a compreensão da pergunta. Essa contextualização excessiva torna a leitura mais longa e pode distrair o aluno do foco principal.
+         → Sugestão: Remover a descrição detalhada dos textos de referência e autores. Manter apenas a informação essencial para o entendimento da relação entre Economia e Geografia Econômica, como: 'A Economia é definida como administração de recursos e a Geografia Econômica investiga como essas atividades se organizam no espaço.'
+    [G16] A contextualização sobre a etimologia da economia e a contribuição de autores como Weber, Lösch e Milton Santos, embora relevantes para a história da Geografia Econômica, não são diretamente necessárias para responder à pergunta sobre a relação entre Economia e Geografia Econômica. Trata-se de uma contextualização decorativa que não contribui para a avaliação do conhecimento do aluno.
+         → Sugestão: Eliminar a contextualização histórica e a menção de autores específicos. O foco deve ser a relação conceitual entre Economia e Geografia Econômica.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado descreve a evolução da Geografia Econômica, desde sua etimologia na Economia (administração da casa) até sua consolidação como campo que analisa a organização espacial das atividades econômicas. Menciona Weber, Lösch e Milton Santos como autores importantes. A alternativa correta deve refletir essa relação entre Economia e Geografia Econômica, destacando a espacialização dos fenômenos econômicos e a influência de autores relevantes. 
+
+A) Elimina-se pela descrição inadequada da Geografia Econômica, que não se limita a descrever paisagens naturais. 
+B) Elimina-se por sugerir que a Geografia Econômica é um campo derivado sem objeto próprio, o que contradiz a descrição do enunciado. 
+C) Parece ser a alternativa mais adequada, pois reconhece a Economia como estudo da produção, distribuição e consumo, e a Geografia Econômica como análise da espacialização desses fenômenos, mencionando autores relevantes. 
+D) Elimina-se pela afirmação incorreta sobre a origem da Geografia Econômica e sua substituição da Economia Política. 
+E) Elimina-se por descrever a Geografia Econômica como um ramo da Geografia Física e atribuir a localização das atividades produtivas exclusivamente ao clima e relevo, o que não corresponde ao enunciado.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a economia com administração doméstica e a Geografia Econômica com mera descrição de paisagens, ignorando a análise espacial.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem acreditar que a Geografia Econômica é apenas uma aplicação de teorias econômicas em mapas, desconsiderando sua autonomia e objeto de estudo.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem associar erroneamente o surgimento da Geografia Econômica à globalização recente, ignorando sua história e a substituição da Economia Política.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Alunos com pouco conhecimento podem acreditar que a Geografia Econômica é parte da Geografia Física e se limita a explicar a localização de atividades por fatores climáticos e de relevo.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém um bloco de texto extenso (descrição dos textos de referência e autores) que, embora informativo, não é essencial para a compreensão da pergunta. Essa contextualização excessiva torna a leitura mais longa e pode distrair o aluno do foco principal.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada dos textos de referência e autores. Manter apenas a informação essencial para o entendimento da relação entre Economia e Geografia Econômica, como: 'A Economia é definida como administração de recursos e a Geografia Econômica investiga como essas atividades se organizam no espaço.'
+    [G16] A contextualização sobre a etimologia da economia e a contribuição de autores como Weber, Lösch e Milton Santos, embora relevantes para a história da Geografia Econômica, não são diretamente necessárias para responder à pergunta sobre a relação entre Economia e Geografia Econômica. Trata-se de uma contextualização decorativa que não contribui para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Eliminar a contextualização histórica e a menção de autores específicos. O foco deve ser a relação conceitual entre Economia e Geografia Econômica.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

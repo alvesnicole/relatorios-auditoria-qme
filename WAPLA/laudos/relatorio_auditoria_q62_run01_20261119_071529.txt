@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:19:17
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre as características da EJA para selecionar a intervenção pedagógica mais adequada, considerando o contexto específico da turma. Não se trata apenas de lembrar ou compreender conceitos, mas de utilizá-los para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa (a descrição da turma de EJA e os problemas enfrentados) que não é essencial para a compreensão da questão. Essa contextualização funciona como um 'window dressing', adicionando detalhes que não contribuem diretamente para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a descrição detalhada da turma e dos problemas enfrentados. Apresentar apenas a informação essencial: 'Em uma turma de Educação de Jovens e Adultos, a professora percebe que uma proposta padronizada tem gerado evasão e silêncio em sala.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O problema exige uma intervenção pedagógica adequada para a EJA, considerando a diversidade dos alunos (trabalhadores, mães solo, afastados da escola, diferentes níveis de escolarização) e a ineficácia de uma abordagem padronizada. A alternativa C parece ser a mais adequada, pois propõe uma prática pedagógica centrada nos saberes prévios, flexibilidade e valorização das trajetórias dos estudantes. As demais alternativas apresentam falhas: A ignora a diversidade, B simplifica demais o aprendizado, D impõe rigidez desnecessária e E elimina o planejamento, o que é inviável. A análise das pistas estruturais revelou a repetição de termos do enunciado na alternativa C, o que pode indicar sua correção.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a padronização garante igualdade, ignorando as necessidades individuais e a diversidade da turma.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Reduzir o conteúdo e focar em memorização pode parecer uma solução para dificuldades, mas ignora a importância do contexto e do desenvolvimento de habilidades.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Acreditar que frequência e desempenho rígidos forçam a adaptação ignora a necessidade de acolhimento e estratégias pedagógicas flexíveis.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Achar que a diversidade impede qualquer planejamento comum pode levar à desistência de tentar criar um ambiente de aprendizagem inclusivo.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (53 palavras) é significativamente mais longa que a alternativa B (33 palavras), D (35 palavras) e E (37 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa (a descrição da turma de EJA e os problemas enfrentados) que não é essencial para a compreensão da questão. Essa contextualização funciona como um 'window dressing', adicionando detalhes que não contribuem diretamente para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da turma e dos problemas enfrentados. Apresentar apenas a informação essencial: 'Em uma turma de Educação de Jovens e Adultos, a professora percebe que uma proposta padronizada tem gerado evasão e silêncio em sala.'
+    [G24] A alternativa A (53 palavras) é significativamente mais longa que a alternativa B (33 palavras), D (35 palavras) e E (37 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior equilíbrio e evitar que a extensão influencie a escolha.
+
+================================================================================

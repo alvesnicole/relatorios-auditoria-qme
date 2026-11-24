@@ -1,0 +1,85 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 17/11/2026 às 23:43:41
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar qual par de provas pode ser agendado para o dia 1. É necessário analisar as condições e combiná-las para encontrar a resposta correta, demonstrando aplicação de regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre o período das provas (dias 1 a 5).
+         → Sugestão: Remover a repetição 'entre os dias 1 e 5 (inclusive)' e manter apenas 'nos dias 1 a 5'.
+    [G17] Uso da palavra 'exceto' sem destaque visual (negrito ou maiúsculas).
+         → Sugestão: Destacar a palavra 'exceto' com negrito ou maiúsculas para enfatizar a restrição.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Análise cega do gabarito e pistas estruturais.
+
+Representação do problema:
+Restrições:
+1. Duas provas do mesmo professor não podem ser no mesmo dia, exceto no dia 3 (Rui).
+2. Vera sempre no dia 5.
+3. Sônia não pode com Rui.
+
+Alternativas:
+Verificação da alternativa A (Duas provas do prof. Rui):
+1. Viola a restrição 1 (duas provas do mesmo professor no mesmo dia, fora do dia 3).
+Verificação da alternativa B (Duas provas da profa. Sônia):
+1. Satisfaz todas as restrições.
+Verificação da alternativa C (Uma prova do prof. Rui e uma prova da profa. Sônia):
+1. Satisfaz todas as restrições.
+Verificação da alternativa D (Uma prova do prof. Rui e uma prova do prof. Udo):
+1. Satisfaz todas as restrições.
+Verificação da alternativa E (Uma prova do prof. Udo e uma prova da profa. Vera):
+1. Viola a restrição 2 (Vera no dia 5).
+
+Considerando as restrições, as alternativas B, C e D são plausíveis. No entanto, a alternativa C é a mais restritiva, pois combina Rui e Sônia, o que é proibido em outros dias. A alternativa D é a mais flexível, permitindo maior liberdade para as outras provas. A alternativa B é a única que não envolve Rui, o que pode ser uma vantagem.
+
+Após uma segunda verificação, a alternativa C é a que melhor se encaixa nas restrições, pois a combinação de Rui e Sônia é a mais restritiva e, portanto, a mais provável de ser permitida.
+
+Análise das pistas estruturais:
+- G28a: Não há termos absolutos que funcionem como pista.
+- G28b: Não há repetição de termos incomuns que sirva de pista.
+- G28c: Não há inconsistência gramatical.
+- G28d: Nenhuma alternativa é significativamente mais longa ou detalhada.
+- G28e: Não há pares ou trincas de opções que se anulem.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a restrição de provas do mesmo professor no mesmo dia como flexível, ignorando a exceção para o dia 3.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar apenas na quantidade de provas por dia, sem considerar as restrições de professores.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Alunos podem não considerar a restrição de provas de Sônia e Rui no mesmo dia, priorizando a combinação de professores.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem escolher essa opção por simplesmente combinar nomes de professores e Vera, sem considerar as restrições.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas: A (42 palavras) e E (27 palavras) apresentam uma diferença de 15 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação sobre o período das provas (dias 1 a 5).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição 'entre os dias 1 e 5 (inclusive)' e manter apenas 'nos dias 1 a 5'.
+    [G17] Uso da palavra 'exceto' sem destaque visual (negrito ou maiúsculas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Destacar a palavra 'exceto' com negrito ou maiúsculas para enfatizar a restrição.
+    [G24] Diferença de tamanho entre as alternativas: A (42 palavras) e E (27 palavras) apresentam uma diferença de 15 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade, evitando desviar a atenção do candidato.
+    [G19] A resolução cega apontou C, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 03:31:31
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre cicatrização e manejo compressivo em um cenário clínico específico, selecionando a alternativa mais condizente com a fase cicatricial e as melhores práticas. Não se trata apenas de lembrar informações, mas de utilizá-las para tomar uma decisão profissional.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição detalhada do exame físico e da condição do paciente é excessiva e poderia ser resumida sem comprometer a compreensão da tarefa.
+         → Sugestão: Remover detalhes redundantes da descrição do exame físico e da condição do paciente, focando nos aspectos mais relevantes para a tomada de decisão do profissional.
+    [G16] A contextualização inicial, com a descrição detalhada do caso clínico, pode ser considerada window dressing, pois não contribui diretamente para a avaliação do conhecimento do aluno sobre o tema central (manejo compressivo das cicatrizes na fase proliferativa).
+         → Sugestão: Simplificar a introdução, apresentando o cenário clínico de forma mais concisa e direta, sem detalhes excessivos sobre o histórico do paciente.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O cenário descreve um paciente em fase proliferativa da cicatrização, com queixas de coceira, repuxamento e dor leve, além de limitações de amplitude de movimento. O manejo compressivo é crucial para modular o comportamento cicatricial e prevenir retrações. A alternativa A é a mais condizente, pois propõe o uso de vestimentas compressivas e bandagens elásticas, ajustando a pressão conforme a evolução e tolerância do paciente, além de acompanhamento da amplitude de movimento. As demais alternativas apresentam abordagens inadequadas: B adia o uso de compressão sem justificativa clara; C propõe compressão intensa e fixa, o que pode ser prejudicial; D ignora a importância da compressão; E restringe a compressão de forma arbitrária. A fase proliferativa requer compressão gradual e controlada para otimizar a formação de tecido cicatricial saudável.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode acreditar que faixas de algodão frouxas são suficientes para o manejo inicial, subestimando a importância da compressão na fase proliferativa.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar erroneamente a necessidade de compressão intensa e fixa, ignorando a importância da tolerância do paciente e da progressão da cicatrização.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode priorizar a mobilização articular sem considerar a necessidade de compressão para modular o comportamento cicatricial e prevenir retrações.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode acreditar que a compressão deve ser restrita a áreas específicas, ignorando a importância de um tratamento abrangente para a cicatrização.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa A sendo consideravelmente mais longa.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição detalhada do exame físico e da condição do paciente é excessiva e poderia ser resumida sem comprometer a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover detalhes redundantes da descrição do exame físico e da condição do paciente, focando nos aspectos mais relevantes para a tomada de decisão do profissional.
+    [G16] A contextualização inicial, com a descrição detalhada do caso clínico, pode ser considerada window dressing, pois não contribui diretamente para a avaliação do conhecimento do aluno sobre o tema central (manejo compressivo das cicatrizes na fase proliferativa).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a introdução, apresentando o cenário clínico de forma mais concisa e direta, sem detalhes excessivos sobre o histórico do paciente.
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa A sendo consideravelmente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés na escolha.
+
+================================================================================

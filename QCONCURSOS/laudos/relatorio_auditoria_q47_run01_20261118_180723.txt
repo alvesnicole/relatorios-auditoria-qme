@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 18:10:36
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda a relação entre hardware e software, identificando o que cada um representa dentro de um computador. Não se trata de mera memorização, mas de interpretar e relacionar conceitos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é vago e não explicita diretamente a pergunta que se espera do aluno. É necessário ler as alternativas para entender o que está sendo perguntado.
+         → Sugestão: Reformular o enunciado para que a pergunta seja clara, por exemplo: 'Explique o que representam, respectivamente, hardware e software em um computador.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O enunciado define hardware e software como componentes de um computador que atuam conjuntamente. A alternativa D parece ser a mais adequada, pois hardware se refere aos componentes físicos (placa-mãe, processador, memória RAM, etc.) e software se refere aos programas que são executados por esses componentes. As outras alternativas apresentam definições imprecisas ou incorretas. A alternativa A mistura programas instalados com componentes de armazenamento. A alternativa B confunde comunicação com processamento. A alternativa C associa processamento à execução de programas, o que não é uma definição precisa de hardware. A alternativa E relaciona aplicativos a dispositivos, o que não é uma correspondência correta.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confunde programas com hardware, associando-os erroneamente ao armazenamento de informações.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Troca a função de hardware (comunicação) e software (processamento), demonstrando confusão entre as funções.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Inverte as funções de hardware (processamento) e software (execução), indicando uma compreensão superficial dos conceitos.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Associa hardware a aplicativos e software à organização de dispositivos, demonstrando uma compreensão equivocada de suas funções.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G15] O enunciado é vago e não explicita diretamente a pergunta que se espera do aluno. É necessário ler as alternativas para entender o que está sendo perguntado.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para que a pergunta seja clara, por exemplo: 'Explique o que representam, respectivamente, hardware e software em um computador.'
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho e a estrutura das alternativas para garantir maior clareza e equivalência.
+
+================================================================================

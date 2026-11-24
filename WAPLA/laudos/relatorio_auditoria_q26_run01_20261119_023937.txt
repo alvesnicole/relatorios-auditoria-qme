@@ -1,0 +1,50 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 02:43:28
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Avaliar
+  Justificativa   : O item exige que o candidato julgue a adequação da organização de um verbete de dicionário, considerando critérios lexicográficos e a relação entre lexicologia e lexicografia. Isso envolve analisar as opções e avaliar qual delas melhor reflete uma perspectiva crítica sobre a organização do verbete, demandando um nível de discernimento e julgamento.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A informação de que o verbete registra classes gramaticais, exemplos de uso e remissões já está implícita na descrição de um dicionário.
+         → Sugestão: Remover a frase: 'A obra também registra a classe gramatical, exemplos de uso e remissões para unidades correlatas, como 'banqueta' e 'bancada'.' 
+    [G16] A descrição detalhada do verbete de 'banco' no dicionário, embora relevante para o contexto, funciona como contextualização decorativa sem função avaliativa direta. A informação é excessiva para o propósito da questão.
+         → Sugestão: Simplificar a introdução, removendo a descrição detalhada do verbete. Por exemplo: 'Em um dicionário contemporâneo de língua portuguesa, a palavra 'banco' apresenta diversas acepções...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O item aborda a relação entre lexicologia e lexicografia, especificamente a organização de verbetes em dicionários. A questão central é avaliar como a organização do verbete de 'banco' reflete critérios lexicográficos. A alternativa C parece ser a mais adequada, pois alinha-se com a descrição de como a lexicografia articula acepções, usos e relações paradigmáticas, refletindo critérios de seleção e representação. A alternativa A é eliminada por sugerir que cada ocorrência da palavra deve ser um verbete autônomo, o que é impraticável. A alternativa B é eliminada por restringir o dicionário à etimologia original, ignorando o uso contemporâneo. A alternativa D é eliminada por apresentar uma visão limitada da lexicologia. A alternativa E é eliminada por restringir o dicionário a sinônimos, ignorando a riqueza de significados de uma palavra.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar erroneamente a ideia de que um dicionário deve registrar cada ocorrência de uma palavra, sem considerar a seleção e organização dos sentidos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem ter uma visão restrita do papel do dicionário, acreditando que ele deve se limitar à etimologia, ignorando o uso contemporâneo.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem confundir a lexicologia com a morfologia, ignorando a importância da semântica e organização do verbete.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que um dicionário deve ser limitado a sinônimos, desconsiderando a necessidade de apresentar acepções distintas.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetições desnecessárias. A informação de que o verbete registra classes gramaticais, exemplos de uso e remissões já está implícita na descrição de um dicionário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase: 'A obra também registra a classe gramatical, exemplos de uso e remissões para unidades correlatas, como 'banqueta' e 'bancada'.' 
+    [G16] A descrição detalhada do verbete de 'banco' no dicionário, embora relevante para o contexto, funciona como contextualização decorativa sem função avaliativa direta. A informação é excessiva para o propósito da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a introdução, removendo a descrição detalhada do verbete. Por exemplo: 'Em um dicionário contemporâneo de língua portuguesa, a palavra 'banco' apresenta diversas acepções...'
+
+================================================================================

@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 02:56:53
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conceito de 'redução e serialização das formas' para selecionar a alternativa curatorial mais adequada, considerando o objetivo da primeira sala da exposição. Não se trata de mera recordação, mas de aplicar um princípio a uma situação específica.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa e narrativa sobre a curadora e a organização da exposição, que não contribui diretamente para a compreensão da tarefa de avaliação. Essa contextualização pode ser considerada window dressing.
+         → Sugestão: Remover a descrição detalhada da curadora e da organização da exposição, focando diretamente na questão da lógica da redução e serialização das formas na arte contemporânea.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado busca uma ação curatorial que enfatize a redução e serialização de formas, com foco em objetos concretos, sem elementos narrativos ou subjetivos. A alternativa A se alinha diretamente a esse objetivo, descrevendo esculturas com módulos repetidos e alinhamentos, características que exemplificam a redução e serialização. As demais alternativas apresentam elementos que contradizem o objetivo da primeira sala: B (relatos autobiográficos), C (objetos cotidianos com carga simbólica), D (retratos expressivos) e E (cenas mitológicas). Portanto, a alternativa A é a mais adequada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a expressividade individual e a redução/serialização das formas, associando a subjetividade à primeira sala.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação equivocada da serialização como mera repetição de objetos aleatórios, ignorando a organização formal.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Associação da figuração e da expressividade individual com a redução e serialização, conceitos distintos.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Entendimento superficial da serialização, associando-a à distribuição de peças em pedestais, sem considerar a repetição formal.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa B é significativamente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa e narrativa sobre a curadora e a organização da exposição, que não contribui diretamente para a compreensão da tarefa de avaliação. Essa contextualização pode ser considerada window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da curadora e da organização da exposição, focando diretamente na questão da lógica da redução e serialização das formas na arte contemporânea.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa B é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés.
+
+================================================================================

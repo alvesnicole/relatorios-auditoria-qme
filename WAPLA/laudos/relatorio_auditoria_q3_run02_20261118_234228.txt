@@ -1,0 +1,71 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 23:47:53
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : APLICAR
+  Justificativa   : O item exige que o aluno aplique o conhecimento da transformada de Laplace inversa para converter uma função no domínio de Laplace para o domínio do tempo, demonstrando a capacidade de usar uma técnica específica para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação de que o engenheiro propôs decompor F(s) em frações parciais e aplicar a transformada inversa de Laplace. Essa ação é uma etapa padrão e não agrega valor à compreensão do problema.
+         → Sugestão: Remover a frase: 'um engenheiro propôs decompor F(s) em frações parciais e, em seguida, aplicar a transformada inversa de Laplace usando a tabela e as propriedades conhecidas.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : A expressão no domínio de Laplace é $F(s)=(2s+3)/((s+1)(s+2)^2)$. Para encontrar a expressão no domínio do tempo, precisamos decompor $F(s)$ em frações parciais.  $F(s) = rac{A}{s+1} + rac{B}{s+2} + rac{C}{(s+2)^2}$. Multiplicando ambos os lados por $(s+1)(s+2)^2$, temos $2s+3 = A(s+2)^2 + B(s+1)(s+2) + C(s+1)$.
+
+Para encontrar A, fazemos $s = -1$: $2(-1)+3 = A(-1+2)^2 ightarrow 1 = A ightarrow A = 1$.
+
+Para encontrar B, fazemos $s = -2$: $2(-2)+3 = B(-2+1)(-2+2) + C(-2+1) ightarrow -1 = -C ightarrow C = 1$.
+
+Para encontrar B, comparamos os coeficientes de s: $2 = 2A + B + B ightarrow 2 = 2(1) + 2B ightarrow 0 = 2B ightarrow B = 0$.
+
+Então, $F(s) = rac{1}{s+1} + rac{0}{s+2} + rac{1}{(s+2)^2}$.
+
+Agora, aplicamos a transformada inversa de Laplace: $f(t) = rac{1}{1}e^{-t} + rac{1}{2!}e^{-2t} = e^{-t} + rac{1}{2}e^{-2t}$.
+
+Analisando as alternativas, percebemos que nenhuma corresponde exatamente a essa expressão. No entanto, a alternativa C, $2e^{-t}-e^{-2t}-3te^{-2t}$, parece ser a mais próxima, considerando possíveis erros de cálculo ou interpretação na decomposição em frações parciais. A alternativa E, $2e^{-t}+e^{-2t}+3te^{-2t}$, também parece plausível, mas a alternativa C parece mais consistente com a forma geral da transformada inversa de Laplace.
+
+Após uma reavaliação, a decomposição em frações parciais foi feita incorretamente. Vamos refazer:
+$F(s) = rac{A}{s+1} + rac{B}{s+2} + rac{C}{(s+2)^2}$.
+$2s+3 = A(s+2)^2 + B(s+1)(s+2) + C(s+1)$.
+Para $s = -1$: $2(-1)+3 = A(-1+2)^2 ightarrow 1 = A$.
+Para $s = -2$: $2(-2)+3 = B(-2+1)(-2+2) + C(-2+1) ightarrow -1 = -C ightarrow C = 1$.
+Comparando coeficientes de $s^2$: $0 = A + B ightarrow B = -A = -1$.
+Então, $F(s) = rac{1}{s+1} - rac{1}{s+2} + rac{1}{(s+2)^2}$.
+$f(t) = e^{-t} - e^{-2t} + rac{1}{2}e^{-2t} = e^{-t} - e^{-2t} + rac{1}{2}e^{-2t} = e^{-t} - rac{1}{2}e^{-2t}$.
+Nenhuma das alternativas corresponde a essa expressão. Parece haver um erro na questão ou nas alternativas. A alternativa C é a que mais se aproxima, mas ainda está incorreta.
+
+Considerando a possibilidade de um erro na questão, e a necessidade de escolher uma alternativa, a alternativa C é a que mais se aproxima da forma geral da solução, apesar de não corresponder à decomposição correta em frações parciais.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre os sinais dos termos na transformada inversa de Laplace, possivelmente devido a erros de sinal na decomposição em frações parciais.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Erro na aplicação da transformada inversa, trocando o sinal de um dos termos, indicando falta de atenção aos detalhes da manipulação algébrica.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação incorreta dos coeficientes na decomposição em frações parciais, levando a uma combinação inadequada de exponenciais.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Confusão na aplicação da transformada inversa, possivelmente devido a uma interpretação errônea dos termos na decomposição em frações parciais.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetição desnecessária da informação de que o engenheiro propôs decompor F(s) em frações parciais e aplicar a transformada inversa de Laplace. Essa ação é uma etapa padrão e não agrega valor à compreensão do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase: 'um engenheiro propôs decompor F(s) em frações parciais e, em seguida, aplicar a transformada inversa de Laplace usando a tabela e as propriedades conhecidas.'
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

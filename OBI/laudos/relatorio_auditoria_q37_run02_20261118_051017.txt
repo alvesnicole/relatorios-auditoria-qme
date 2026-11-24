@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 05:13:58
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique informações sobre a disposição das pessoas ao redor da mesa para deduzir quem está ao lado de Eunice. Não se trata de memorização direta, mas sim de aplicar um conjunto de regras e restrições para chegar a uma resposta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa desnecessária sobre o aniversário de Cíntia e o almoço com as amigas, que não contribui para a compreensão da pergunta. Essa contextualização decorativa dificulta o foco no problema central.
+         → Sugestão: Remover a primeira frase: 'Para comemorar o aniversário de Cíntia, ela e mais quatro amigas – Alice, Bia, Dirce e Eunice – foram almoçar juntas no restaurante da escola.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Representação: As cinco amigas (Cíntia, Alice, Bia, Dirce, Eunice) estão sentadas em uma mesa redonda. Cíntia e Dirce devem estar juntas. Alice e Bia não podem estar juntas. A pergunta busca as duas amigas que estão ao lado de Eunice. 
+
+Verificação das Alternativas:
+
+A) Cíntia e Alice: Impossível determinar sem mais informações sobre a posição de Dirce.
+B) Cíntia e Dirce: Se Cíntia e Dirce estão juntas, e Eunice tem Cíntia e Dirce ao seu lado, isso satisfaz as restrições.
+C) Alice e Bia: Viola a restrição de que Alice e Bia não podem estar juntas.
+D) Dirce e Bia: Impossível determinar sem mais informações sobre a posição de Cíntia.
+E) Alice e Dirce: Impossível determinar sem mais informações sobre a posição de Cíntia.
+
+Considerando as restrições, a alternativa B é a mais consistente.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na proximidade física sem considerar a restrição de que Alice e Bia não podem sentar juntas.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a proximidade de Cíntia e Dirce (obrigatória) e a proximidade de Eunice com outras pessoas.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação superficial da restrição, ignorando a relação entre Alice e Bia.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar em combinações possíveis sem considerar todas as restrições do problema.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma narrativa desnecessária sobre o aniversário de Cíntia e o almoço com as amigas, que não contribui para a compreensão da pergunta. Essa contextualização decorativa dificulta o foco no problema central.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase: 'Para comemorar o aniversário de Cíntia, ela e mais quatro amigas – Alice, Bia, Dirce e Eunice – foram almoçar juntas no restaurante da escola.'
+    [G19] A resolução cega apontou B, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

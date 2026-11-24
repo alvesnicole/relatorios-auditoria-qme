@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:13:46
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda a evolução histórica do capitalismo, compare diferentes fases e identifique a análise que melhor caracteriza a transição entre elas. Isso envolve a desconstrução das informações apresentadas e a identificação de relações de causa e efeito, características do nível de análise.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição de informações. A descrição das fases do capitalismo é extensa e poderia ser mais concisa.
+         → Sugestão: Revisar a descrição das fases do capitalismo, eliminando repetições e focando nos aspectos mais relevantes para a questão.
+    [G16] A contextualização sobre a evolução histórica do capitalismo, embora relevante, parece excessiva e não contribui diretamente para a avaliação da compreensão do aluno sobre a transição entre as fases. É um exemplo de window dressing.
+         → Sugestão: Remover a contextualização sobre a evolução histórica do capitalismo e focar diretamente na questão da transição entre as fases.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve três fases do capitalismo: comercial (expansão ultramarina, metais preciosos, Estados nacionais), industrial (mecanização, fábrica, indústria) e financeira (fluxos de crédito, capitais globais, grandes grupos financeiros). A questão busca a análise que melhor caracteriza a transição entre essas fases. A alternativa A parece ser a mais adequada, pois descreve a progressão da complexidade das redes econômicas, da circulação de mercadorias à valorização do capital. As demais alternativas apresentam inconsistências ou distorções na sequência histórica. A B inverte a relação entre capitalismo mercantil e industrial. A C coloca o capitalismo financeiro antes do comercial, o que é historicamente incorreto. A D apresenta uma relação de causa e efeito inadequada entre industrialização e expansão comercial. A E ignora as diferenças significativas entre as fases. A análise da alternativa A está alinhada com a interpretação geográfica mencionada no enunciado, que enfatiza a reorganização do espaço e da divisão territorial do trabalho em cada fase.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde a transição entre capitalismo comercial e industrial, invertendo a ordem e atribuindo ao sistema bancário um papel eliminatório, o que não reflete a evolução histórica.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Atribui uma precedência cronológica incorreta ao capitalismo financeiro, ignorando o desenvolvimento gradual e interdependente das fases.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Apresenta uma relação de causa e efeito simplista e incorreta entre industrialização e expansão comercial, desconsiderando a complexidade das dinâmicas de mercado.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Ignora completamente as transformações estruturais e organizacionais que caracterizam as diferentes fases do capitalismo, apresentando uma visão homogênea e descontextualizada.
+  Violações (G21–G24, G27–G31):
+    [G22] Alternativas B e D apresentam ideias conflitantes sobre a relação entre as fases do capitalismo, gerando sobreposição conceitual.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado apresenta repetição de informações. A descrição das fases do capitalismo é extensa e poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Revisar a descrição das fases do capitalismo, eliminando repetições e focando nos aspectos mais relevantes para a questão.
+    [G16] A contextualização sobre a evolução histórica do capitalismo, embora relevante, parece excessiva e não contribui diretamente para a avaliação da compreensão do aluno sobre a transição entre as fases. É um exemplo de window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização sobre a evolução histórica do capitalismo e focar diretamente na questão da transição entre as fases.
+    [G22] Alternativas B e D apresentam ideias conflitantes sobre a relação entre as fases do capitalismo, gerando sobreposição conceitual.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir a exclusividade dos conceitos apresentados.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

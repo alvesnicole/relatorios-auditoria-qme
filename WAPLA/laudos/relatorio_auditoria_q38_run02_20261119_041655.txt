@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:21:24
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre compressão terapêutica em um cenário clínico específico, selecionando a alternativa que melhor se condiz com as necessidades do paciente. Não se trata de mera recordação de fatos, mas sim de avaliar e aplicar princípios fisioterapêuticos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa e detalhada sobre o paciente e a situação clínica, que não é essencial para a compreensão da questão e para a avaliação do conhecimento do aluno sobre a técnica compressiva. A descrição detalhada da avaliação e do plano terapêutico inicial é excessiva.
+         → Sugestão: Remover detalhes desnecessários da descrição do caso, focando na informação essencial para a aplicação da técnica compressiva. Por exemplo, eliminar a descrição detalhada da avaliação e do plano terapêutico inicial, mantendo apenas a informação de que o paciente apresenta risco de contratura e a necessidade de controle da hipertrofia e retração tecidual.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O item descreve um paciente com queimaduras em fase de remodelação cicatricial, apresentando sinais de hipertrofia e retração tecidual. O fisioterapeuta opta por compressão como parte do plano terapêutico. A alternativa correta deve abordar o uso adequado da compressiva nesse contexto, considerando a necessidade de controle da hipertrofia, retração e edema, com ajustes conforme a remodelação. 
+
+Análise das alternativas:
+
+A) Apresenta um uso adequado da compressiva, com pressão graduada, uso diário prolongado e ajustes periódicos, alinhado com a remodelação cicatricial e redução do edema. 
+B) Prioriza o conforto imediato, sem planejamento para remodelação, o que é inadequado para o estágio do paciente. 
+C) Compressão intermitente intensa é agressiva e não condiz com o manejo da cicatrização nessa fase. 
+D) Compressão localizada no centro da cicatriz pode comprometer a circulação. 
+E) Malha ampla e frouxa não oferece compressão efetiva para os objetivos terapêuticos.
+
+Portanto, a alternativa A é a mais condizente com o uso adequado da técnica compressiva.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode acreditar que o conforto imediato é prioridade, ignorando a necessidade de remodelação cicatricial a longo prazo.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode confundir compressão intermitente com técnica adequada, buscando alívio do prurido em vez de remodelação.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode acreditar que focar no ponto mais alto da cicatriz é a melhor abordagem, ignorando a importância da pressão uniforme.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode acreditar que compressão frouxa e esporádica é suficiente, negligenciando a necessidade de pressão graduada e contínua.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (correta) tem 63 palavras, enquanto a alternativa E tem 43.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa e detalhada sobre o paciente e a situação clínica, que não é essencial para a compreensão da questão e para a avaliação do conhecimento do aluno sobre a técnica compressiva. A descrição detalhada da avaliação e do plano terapêutico inicial é excessiva.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover detalhes desnecessários da descrição do caso, focando na informação essencial para a aplicação da técnica compressiva. Por exemplo, eliminar a descrição detalhada da avaliação e do plano terapêutico inicial, mantendo apenas a informação de que o paciente apresenta risco de contratura e a necessidade de controle da hipertrofia e retração tecidual.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (correta) tem 63 palavras, enquanto a alternativa E tem 43.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés.
+
+================================================================================

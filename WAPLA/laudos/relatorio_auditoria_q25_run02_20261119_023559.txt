@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 02:39:37
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o estudante desconstrua a situação clínica complexa, identifique as interações entre múltiplos fatores (uso de antibióticos, diabetes, cateteres, etc.) e compreenda como esses fatores contribuem para a transformação da flora normal em agentes oportunistas. Isso vai além da simples compreensão ou aplicação de conceitos, exigindo a análise das relações causais e a avaliação da importância relativa de cada fator.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa (histórico do paciente) que não contribui diretamente para a avaliação do conhecimento do estudante sobre o tema central (transformação de microrganismos da flora normal em agentes oportunistas).
+         → Sugestão: Remover detalhes desnecessários do histórico do paciente, como a descrição da cirurgia abdominal de grande porte, o tipo de antibioticoterapia, o controle glicêmico irregular e a presença de cateter venoso periférico e sonda vesical. Concentrar o enunciado nos elementos essenciais para a questão: febre persistente, mal-estar, dor na inserção do cateter e exsudato purulento.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um caso de infecção hospitalar em um paciente com múltiplos fatores de risco. A alternativa correta deve abordar a interação desses fatores, especialmente o desequilíbrio da flora normal induzido pela antibioticoterapia de amplo espectro e a consequente oportunidade para microrganismos oportunistas. A alternativa A parece ser a mais completa, pois relaciona o uso de antibióticos, a presença de dispositivos invasivos (cateter e sonda), a ruptura de barreiras e o controle glicêmico inadequado. As demais alternativas negligenciam algum desses aspectos cruciais ou atribuem importância excessiva a fatores menos relevantes (idade, sonda vesical, diabetes). A alternativa B minimiza o desequilíbrio da flora, a C minimiza a importância da flora cutânea e a D atribui peso excessivo à sonda vesical. A E ignora a antibioticoterapia e os dispositivos invasivos.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem superestimar o impacto da idade e subestimar o papel da flora normal no desenvolvimento de infecções oportunistas.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que o diabetes afeta primariamente a cicatrização e a defesa local, ignorando a importância do desequilíbrio da flora.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem atribuir a sonda vesical um papel desproporcional na bacteremia e interpretar o uso de antibióticos como um mero indicador de gravidade.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem simplificar a infecção como um evento puramente relacionado ao ambiente hospitalar, negligenciando fatores como a flora normal e o uso de antibióticos.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém uma contextualização narrativa extensa (histórico do paciente) que não contribui diretamente para a avaliação do conhecimento do estudante sobre o tema central (transformação de microrganismos da flora normal em agentes oportunistas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover detalhes desnecessários do histórico do paciente, como a descrição da cirurgia abdominal de grande porte, o tipo de antibioticoterapia, o controle glicêmico irregular e a presença de cateter venoso periférico e sonda vesical. Concentrar o enunciado nos elementos essenciais para a questão: febre persistente, mal-estar, dor na inserção do cateter e exsudato purulento.
+
+================================================================================

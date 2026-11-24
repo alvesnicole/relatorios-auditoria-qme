@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:17:06
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de palíndromo para identificar qual das alternativas não se encaixa na definição. Não há necessidade de análise profunda ou avaliação crítica, apenas a aplicação do conceito.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da definição de palíndromo na primeira frase e na explicação dos exemplos. A informação poderia ser condensada.
+         → Sugestão: Combine a definição e os exemplos em uma única frase mais concisa: 'Um palíndromo é um número inteiro positivo, sem zeros à esquerda, que é o mesmo se lido da esquerda para a direita ou da direita para a esquerda, como os números 11 e 65256. Números como 010 e 123 não são palíndromos.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Analisando cada alternativa, verificamos se é um palíndromo, ou seja, se é igual lido da esquerda para a direita e da direita para a esquerda. 
+A) 8989898: lido da direita para a esquerda é 8989898. É palíndromo.
+B) 527725: lido da direita para a esquerda é 527725. É palíndromo.
+C) 4853854: lido da direita para a esquerda é 4853854. É palíndromo.
+D) 1110111: lido da direita para a esquerda é 1110111. É palíndromo.
+E) 9876789: lido da direita para a esquerda é 9876789. É palíndromo.
+Como todas as alternativas são palíndromos, nenhuma é a resposta correta. Portanto, a resposta é NENHUM.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem se distrair com a repetição do padrão numérico, não verificando a simetria completa.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre simetria e repetição de dígitos; pode parecer palíndromo devido à presença de sequências simétricas.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Erro na leitura, interpretando o '0' como um dígito significativo, ignorando a regra de não ter zeros à esquerda.
+    [E] Distrator (Plausibilidade: 5/5)
+         → A sequência de dígitos pode ser confundida com um palíndromo devido à sua estrutura aparentemente simétrica, exigindo análise cuidadosa.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (8989898) é significativamente mais longa que as demais, com diferença de 7 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da definição de palíndromo na primeira frase e na explicação dos exemplos. A informação poderia ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Combine a definição e os exemplos em uma única frase mais concisa: 'Um palíndromo é um número inteiro positivo, sem zeros à esquerda, que é o mesmo se lido da esquerda para a direita ou da direita para a esquerda, como os números 11 e 65256. Números como 010 e 123 não são palíndromos.'
+    [G24] A alternativa A (8989898) é significativamente mais longa que as demais, com diferença de 7 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reduzir o comprimento das alternativas para promover maior equilíbrio e evitar viés.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

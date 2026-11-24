@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 04:03:02
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento das cédulas disponíveis para determinar qual valor de troco é impossível de ser formado. É necessário testar cada alternativa, combinando as cédulas para verificar a possibilidade ou impossibilidade de atingir o valor desejado.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre os valores das cédulas ao descrever o que o vendedor possui.
+         → Sugestão: Remover a frase 'uma de cada um dos valores das cédulas existentes na Nlogônia'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O problema exige determinar qual valor de troco é impossível de ser dado com as cédulas de $1, $3, $9, $27 e $81. Para isso, precisamos verificar se cada valor de troco pode ser obtido combinando essas cédulas. 
+
+A) $40,00: Pode ser obtido com uma cédula de $27, uma de $9, duas de $3 e uma de $1 (27 + 9 + 3 + 1 = 40). 
+B) $35,00: Pode ser obtido com uma cédula de $27, uma de $6 (não existe, mas pode ser feito com 2 de $3), uma de $1 (27 + 6 + 2 = 35). 
+C) $31,00: Pode ser obtido com uma cédula de $27, uma de $3 e uma de $1 (27 + 3 + 1 = 31). 
+D) $13,00: Pode ser obtido com uma cédula de $9, duas de $2 (não existe, mas pode ser feito com 2 de $1), uma de $1 (9 + 2 + 2 = 13). 
+E) $4,00: Pode ser obtido com quatro cédulas de $1 (4 * 1 = 4). 
+
+Analisando as opções, $13,00 pode ser obtido com $9 + $3 + $1. Portanto, a opção E ($4,00) é a única que não pode ser formada com as cédulas disponíveis.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode não considerar a combinação de todas as cédulas para atingir o valor de troco, focando em uma única cédula.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode tentar subtrair as cédulas diretamente do valor do troco, sem considerar a restrição de usar apenas uma de cada tipo.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não perceber que a combinação de algumas cédulas pode gerar o valor do troco, levando a uma análise superficial.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode achar que qualquer valor pequeno é facilmente obtido com as cédulas disponíveis, sem considerar a combinação necessária.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação sobre os valores das cédulas ao descrever o que o vendedor possui.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'uma de cada um dos valores das cédulas existentes na Nlogônia'.
+    [G19] A resolução cega apontou E, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

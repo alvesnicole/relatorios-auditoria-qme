@@ -1,0 +1,71 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:41:40
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar qual das opções de atribuição de instrumentos é válida. Isso envolve a análise das regras e a aplicação delas a diferentes cenários para verificar a consistência.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que cada amigo toca um instrumento. Essa informação já está implícita nas restrições.
+         → Sugestão: Remover a frase 'Cada amigo vai tocar um dos seguintes instrumentos: Bateria, Flauta, Guitarra, Piano e Viola.' e integrar essa informação nas restrições.
+    [G17] A restrição 'Luiz toca qualquer instrumento, mas se Chico tocar Bateria, Luiz vai tocar Flauta' utiliza a conjunção 'mas', que introduz uma condição negativa, sem destaque visual (negrito ou maiúsculas).
+         → Sugestão: Destacar a parte negativa da frase, por exemplo: 'Luiz toca qualquer instrumento, mas *se Chico tocar Bateria, Luiz vai tocar Flauta*.' ou 'Luiz toca qualquer instrumento, mas, *caso Chico toque Bateria, Luiz tocará Flauta*.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das restrições:
+
+*   Ana só toca Flauta ou Viola.
+*   Diva toca somente Guitarra ou Flauta.
+*   Eva não toca Guitarra.
+*   Luiz toca qualquer instrumento, mas se Chico tocar Bateria, Luiz vai tocar Flauta.
+
+Verificação das alternativas:
+
+A) Bateria: Ana (VIOLADO - Ana não pode tocar bateria, só flauta ou viola)
+B) Bateria: Chico, Flauta: Luiz, Guitarra: Ana, Piano: Diva, Viola: Eva (VIOLADO - Eva não pode tocar guitarra)
+C) Bateria: Luiz, Flauta: Ana, Guitarra: Diva, Piano: Chico, Viola: Eva (VIOLADO - Ana não pode tocar flauta, só viola)
+D) Bateria: Chico, Flauta: Luiz, Guitarra: Diva, Piano: Ana, Viola: Eva (VIOLADO - Ana não pode tocar piano, só flauta ou viola)
+E) Bateria: Chico, Flauta: Diva, Guitarra: Ana, Piano: Eva, Viola: Luiz (VIOLADO - Ana não pode tocar guitarra, só flauta ou viola)
+
+Nenhuma das alternativas satisfaz todas as restrições. Portanto, a resposta é NENHUM.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem ignorar a restrição de que Ana só toca Flauta ou Viola, atribuindo Bateria a ela.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre as restrições de Diva (Guitarra ou Flauta) e a atribuição de Guitarra a Ana, ignorando a restrição de Eva.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não considerar a restrição de que Luiz toca qualquer instrumento, mas se Chico tocar Bateria, Luiz vai tocar Flauta.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Ignora a restrição de que Eva não toca Guitarra, atribuindo-a a ela.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas: A (53 palavras) e E (47 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação de que cada amigo toca um instrumento. Essa informação já está implícita nas restrições.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Cada amigo vai tocar um dos seguintes instrumentos: Bateria, Flauta, Guitarra, Piano e Viola.' e integrar essa informação nas restrições.
+    [G17] A restrição 'Luiz toca qualquer instrumento, mas se Chico tocar Bateria, Luiz vai tocar Flauta' utiliza a conjunção 'mas', que introduz uma condição negativa, sem destaque visual (negrito ou maiúsculas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Destacar a parte negativa da frase, por exemplo: 'Luiz toca qualquer instrumento, mas *se Chico tocar Bateria, Luiz vai tocar Flauta*.' ou 'Luiz toca qualquer instrumento, mas, *caso Chico toque Bateria, Luiz tocará Flauta*.'
+    [G24] Diferença de tamanho entre as alternativas: A (53 palavras) e E (47 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para maior uniformidade.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

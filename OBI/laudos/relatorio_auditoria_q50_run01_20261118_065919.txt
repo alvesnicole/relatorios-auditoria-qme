@@ -1,0 +1,60 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 07:03:23
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras de vizinhança para determinar quais casas devem ter cores diferentes, combinando informações e inferindo relações. Não se trata de memorização direta, mas de usar as informações para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que casas vizinhas não podem ter a mesma cor, já explicitada na condição inicial.
+         → Sugestão: Remover a frase 'com a condição de que casas vizinhas não podem ter a mesma cor' pois a restrição já foi estabelecida.
+    [G15] O enunciado não explicita claramente qual é a pergunta. O leitor precisa inferir que se trata de identificar pares de casas que devem ter cores diferentes.
+         → Sugestão: Adicionar uma frase como: 'Determine quais pares de casas devem obrigatoriamente ter cores diferentes.' ou similar.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Análise do problema: O problema descreve um condomínio com seis casas e restrições sobre as cores das casas vizinhas. As vizinhanças são: R, S, X e Y são vizinhas de W; X é vizinha de Y; R e S são vizinhas de Z. O objetivo é identificar pares de casas que devem ter cores diferentes. 
+
+Verificação das alternativas:
+
+A) R e X: R é vizinha de Z e X é vizinha de Y. Não há restrição direta entre R e X, portanto, podem ter a mesma cor. Incorreta.
+B) S e X: S é vizinha de Z e X é vizinha de Y e W. Não há restrição direta entre S e X, portanto, podem ter a mesma cor. Incorreta.
+C) S e Z: R e S são vizinhas de Z. Portanto, S e Z devem ter cores diferentes. Correta.
+D) X e Z: X é vizinha de Y e W. Z é vizinha de R e S. Não há restrição direta entre X e Z, portanto, podem ter a mesma cor. Incorreta.
+E) Y e Z: Y é vizinha de X e W. Z é vizinha de R e S. Não há restrição direta entre Y e Z, portanto, podem ter a mesma cor. Incorreta.
+
+A alternativa C é a única que satisfaz a condição de que casas vizinhas não podem ter a mesma cor.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na relação de vizinhança direta, ignorando a restrição de cores diferentes para casas vizinhas.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre vizinhança direta e a necessidade de cores diferentes em todas as casas adjacentes.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar a relação de vizinhança como um fator determinante para a necessidade de cores diferentes, sem considerar outras restrições.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Interpretação superficial das relações de vizinhança, sem considerar a restrição de cores diferentes.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação de que casas vizinhas não podem ter a mesma cor, já explicitada na condição inicial.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'com a condição de que casas vizinhas não podem ter a mesma cor' pois a restrição já foi estabelecida.
+    [G15] O enunciado não explicita claramente qual é a pergunta. O leitor precisa inferir que se trata de identificar pares de casas que devem ter cores diferentes.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Adicionar uma frase como: 'Determine quais pares de casas devem obrigatoriamente ter cores diferentes.' ou similar.
+
+================================================================================

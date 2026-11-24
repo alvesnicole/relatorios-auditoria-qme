@@ -1,0 +1,5 @@
+variavel,kappa,ic95_inf,ic95_sup
+diretrizes_micro,0.8568,0.8192,0.8937
+gabarito_agente,0.9184,0.8235,1.0
+confere_gabarito,0.5556,0.0,1.0
+bloom,0.978,0.9277,1.0

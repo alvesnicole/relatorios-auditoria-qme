@@ -1,0 +1,73 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 09:30:47
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique os postulados da geometria espacial para analisar uma situação específica e determinar qual proposta está corretamente justificada. Não se trata de mera recordação de fatos, mas sim de aplicação do conhecimento em um contexto prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A primeira frase descreve uma atividade de modelagem espacial e a segunda repete a ideia de discussão e propostas sobre o plano.
+         → Sugestão: Combine as duas primeiras frases em uma única, mais concisa. Exemplo: 'Em uma atividade de modelagem espacial, uma equipe discute como representar um plano que contenha uma reta r e um ponto P fora de r.'
+    [G15] O enunciado não explicita claramente qual é a pergunta a ser respondida. O leitor precisa inferir que a questão é qual proposta está corretamente justificada com base nos postulados da geometria espacial.
+         → Sugestão: Adicione uma frase que deixe explícito o que se espera do aluno. Exemplo: 'Qual das seguintes propostas justifica corretamente a determinação do plano com base nos postulados da Geometria Espacial?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema envolve determinar qual alternativa corretamente justifica a possibilidade de planos contendo uma reta e um ponto fora dela. A alternativa correta deve estar alinhada com os postulados da geometria espacial, que afirmam que uma reta e um ponto não pertencente a ela determinam um plano. 
+
+Análise das alternativas:
+
+A) Correta: Uma reta e um ponto fora dela determinam um plano. Este é um postulado fundamental da geometria espacial.
+B) Incorreta: Infinitos planos não são determinados por uma reta e um ponto fora dela. A rotação é irrelevante para a determinação do plano.
+C) Incorreta: É possível que uma reta e um ponto fora dela pertençam a um plano.
+D) Incorreta: A condição de que o plano contenha dois pontos distintos de r e o ponto P não garante que contenha toda a reta r.
+E) Incorreta: Três pontos não colineares determinam um plano, mas a condição de que contenha qualquer ponto do espaço é excessiva.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre rotação de um plano e a existência de múltiplos planos que contêm uma reta e um ponto.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Incompreensão da relação entre uma reta e um plano; acredita que uma reta não pode estar contida em um plano.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação equivocada da condição para determinar um plano a partir de pontos, focando em pontos da reta e ignorando a necessidade de todos os pontos da reta.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Confusão entre o postulado de que três pontos não colineares determinam um plano e a necessidade de que todos os pontos pertençam ao plano.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa B sendo consideravelmente mais longa.
+    [G27] Alternativa C utiliza linguagem negativa ('Não existe'), o que pode gerar confusão.
+    [G30] A alternativa D parece arbitrária, sem conexão clara com erros comuns de estudantes.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (6):
+    [G13] O enunciado contém repetições desnecessárias. A primeira frase descreve uma atividade de modelagem espacial e a segunda repete a ideia de discussão e propostas sobre o plano.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Combine as duas primeiras frases em uma única, mais concisa. Exemplo: 'Em uma atividade de modelagem espacial, uma equipe discute como representar um plano que contenha uma reta r e um ponto P fora de r.'
+    [G15] O enunciado não explicita claramente qual é a pergunta a ser respondida. O leitor precisa inferir que a questão é qual proposta está corretamente justificada com base nos postulados da geometria espacial.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Adicione uma frase que deixe explícito o que se espera do aluno. Exemplo: 'Qual das seguintes propostas justifica corretamente a determinação do plano com base nos postulados da Geometria Espacial?'
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa B sendo consideravelmente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés na escolha.
+    [G27] Alternativa C utiliza linguagem negativa ('Não existe'), o que pode gerar confusão.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular a alternativa C para evitar a negação e facilitar a compreensão.
+    [G30] A alternativa D parece arbitrária, sem conexão clara com erros comuns de estudantes.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a alternativa D para garantir que ela reflita um erro conceitual plausível.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

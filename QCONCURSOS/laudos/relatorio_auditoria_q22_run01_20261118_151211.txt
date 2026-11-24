@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 15:16:22
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato compreenda o conceito de algoritmo e sua representação, identificando a ferramenta adequada (pseudolinguagem) para descrevê-lo, em vez de simplesmente memorizar definições ou aplicar regras.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que o algoritmo pode ser descrito por meio de um procedimento, dada a natureza da pergunta implícita.
+         → Sugestão: Remover a segunda parte da frase: 'pode ser descrito por meio da'.
+    [G15] O enunciado é vago e não explicita a pergunta central. Não fica claro o que se espera do aluno.
+         → Sugestão: Reformular o enunciado para incluir uma pergunta direta, como: 'Qual é o método mais adequado para descrever um algoritmo?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O enunciado busca uma forma de descrever algoritmos, independentemente da linguagem ou complexidade. Analisando as alternativas:
+
+A) Reografia: Termo desconhecido, provavelmente relacionado a representação visual, não se encaixa na descrição de algoritmos.
+B) Criptografia: Relacionada à codificação de informações, mas não descreve a estrutura de um algoritmo.
+C) Linguagem de marcação: Usada para estruturar dados, não para descrever a lógica de um algoritmo.
+D) Engenharia estruturada: Refere-se a um processo de desenvolvimento, não a uma descrição do algoritmo em si.
+E) Pseudolinguagem: Uma forma simplificada de representar algoritmos, utilizando linguagem próxima da natural, facilitando a compreensão da lógica sem se preocupar com a sintaxe de uma linguagem de programação específica. Esta alternativa parece ser a mais adequada.
+
+Considerando a definição de pseudolinguagem, ela se alinha com a necessidade de descrever algoritmos de forma independente da linguagem de programação.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir 'reografia' com algum termo relacionado à representação visual de dados, embora não seja um termo técnico correto.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão com a aplicação da criptografia em algoritmos, sem entender que ela é uma técnica específica, não a descrição geral.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Alunos podem associar 'linguagem de marcação' (como HTML) à descrição de algoritmos, sem entender a diferença entre código e representação.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Termo técnico obscuro e sem relação direta com a descrição de algoritmos, facilmente eliminável por um candidato com conhecimento básico.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de tecnicidade.
+    [G30] A alternativa D não reflete um erro típico de estudantes ao lidarem com algoritmos.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que o algoritmo pode ser descrito por meio de um procedimento, dada a natureza da pergunta implícita.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a segunda parte da frase: 'pode ser descrito por meio da'.
+    [G15] O enunciado é vago e não explicita a pergunta central. Não fica claro o que se espera do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para incluir uma pergunta direta, como: 'Qual é o método mais adequado para descrever um algoritmo?'
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de tecnicidade.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a formulação das alternativas para manter um nível consistente de formalidade e tecnicidade.
+    [G30] A alternativa D não reflete um erro típico de estudantes ao lidarem com algoritmos.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Substituir a alternativa D por uma opção que represente um equívoco comum sobre a descrição de algoritmos.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

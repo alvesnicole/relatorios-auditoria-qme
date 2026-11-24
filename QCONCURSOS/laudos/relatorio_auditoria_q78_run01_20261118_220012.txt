@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 22:03:35
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique o conceito de abstração do pensamento computacional a um cenário prático, identificando qual alternativa demonstra corretamente essa aplicação. Não se trata de mera recordação ou análise profunda, mas sim de aplicar um conceito a uma situação específica.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa e desnecessária (a situação da turma e do sistema de empréstimos) que não contribui diretamente para a avaliação do conhecimento sobre abstração.
+         → Sugestão: Remover a contextualização narrativa e apresentar diretamente o cenário que envolve a aplicação da abstração. Exemplo: 'Considerando a aplicação da abstração no contexto do pensamento computacional, analise a seguinte situação:'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O problema envolve a aplicação do pensamento computacional, especificamente a abstração. Abstração, nesse contexto, significa focar nos aspectos essenciais e ignorar detalhes irrelevantes para a finalidade do sistema. A alternativa C descreve diretamente essa ação: representar cada exemplar por um conjunto reduzido de atributos. As demais alternativas abordam outros pilares do pensamento computacional (decomposição, algoritmos, avaliação). A alternativa A fala de decomposição, B de algoritmos, D de algoritmos e E de avaliação.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confunde abstração com decomposição do sistema, focando na organização funcional e não na simplificação da representação.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Interpreta abstração como a identificação de padrões de comportamento, em vez de eliminar detalhes irrelevantes.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Entende abstração como a definição de um algoritmo, confundindo com a formalização de um processo.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Acha que abstração se relaciona com testes e correção de erros, ignorando a remoção de informações desnecessárias.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam extensão ligeiramente diferente, embora não de forma discrepante.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização narrativa extensa e desnecessária (a situação da turma e do sistema de empréstimos) que não contribui diretamente para a avaliação do conhecimento sobre abstração.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização narrativa e apresentar diretamente o cenário que envolve a aplicação da abstração. Exemplo: 'Considerando a aplicação da abstração no contexto do pensamento computacional, analise a seguinte situação:'
+    [G24] As alternativas apresentam extensão ligeiramente diferente, embora não de forma discrepante.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para promover maior uniformidade, sem alterar o conteúdo.
+
+================================================================================

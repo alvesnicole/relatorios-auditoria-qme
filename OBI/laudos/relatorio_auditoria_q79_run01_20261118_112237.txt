@@ -1,0 +1,70 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 11:28:56
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as pistas fornecidas, elimine possibilidades e deduza a senha correta, demonstrando um processo de raciocínio lógico e inferencial.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado apresenta uma narrativa desnecessária (história do pirata e do tesouro) que não contribui para a avaliação do conhecimento do aluno sobre lógica ou resolução de problemas. Essa contextualização é decorativa e não essencial para a compreensão da tarefa.
+         → Sugestão: Remover a introdução sobre o pirata e o tesouro, apresentando diretamente o problema da senha: 'Um cofre possui uma senha de três dígitos. As seguintes informações foram fornecidas...'
+    [G13] A repetição da estrutura 'Exatamente um número está correto' e 'Exatamente dois números estão corretos' torna o enunciado mais longo do que o necessário. A informação pode ser condensada para melhorar a clareza.
+         → Sugestão: Reescrever as instruções para evitar repetições. Por exemplo: 'Na primeira pista, apenas um número está correto e na posição correta. Na segunda pista, apenas um número está correto, mas na posição incorreta...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise cega do problema de lógica. Representação: Cada pista é avaliada individualmente para determinar quais dígitos são corretos e em quais posições. Alternativas são verificadas em relação a cada pista. 
+
+Pista 1: 2 3 1 - Exatamente um correto e na posição correta. 
+Pista 2: 3 4 5 - Exatamente um correto, mas não na posição correta. 
+Pista 3: 4 7 3 - Nada está correto. 
+Pista 4: 2 8 6 - Exatamente um correto, mas não na posição correta. 
+Pista 5: 1 5 2 - Exatamente dois corretos, mas ambos não estão na posição correta.
+
+Análise das alternativas:
+
+A) 3 4 2: Pista 1: 3 incorreto. Pista 2: 3 correto, mas posição errada. Pista 3: 4 incorreto. Pista 4: 2 incorreto. Pista 5: 4 incorreto.
+B) 8 4 2: Pista 1: 8 incorreto. Pista 2: 4 correto, mas posição errada. Pista 3: 8, 4, 2 incorretos. Pista 4: 8 incorreto. Pista 5: 4 incorreto.
+C) 5 6 2: Pista 1: 5 incorreto. Pista 2: 6 correto, mas posição errada. Pista 3: 5, 6, 2 incorretos. Pista 4: 2 incorreto. Pista 5: 5 incorreto.
+D) 5 6 1: Pista 1: 5 incorreto. Pista 2: 6 correto, mas posição errada. Pista 3: 5, 6, 1 incorretos. Pista 4: 5 incorreto. Pista 5: 5, 6 incorretos.
+E) 6 5 2: Pista 1: 6 incorreto. Pista 2: 5 correto, mas posição errada. Pista 3: 6, 5, 2 incorretos. Pista 4: 6 incorreto. Pista 5: 6 incorreto.
+
+Considerando a pista 3 (4 7 3), sabemos que nenhum dos números 4, 7 ou 3 estão corretos. Isso elimina as alternativas A, B, C, D e E, pois todas contêm pelo menos um desses números. No entanto, a pista 3 afirma que NENHUM número está correto, o que significa que a senha não pode conter nenhum dos números 4, 7 ou 3. Isso implica que a senha deve conter apenas os números 1, 2, 5, 6, 8. A pista 5 (1 5 2) indica que dois números estão corretos, mas não na posição correta. A pista 4 (2 8 6) indica que um número está correto, mas não na posição correta. A pista 2 (3 4 5) indica que um número está correto, mas não na posição correta. A pista 1 (2 3 1) indica que um número está correto e na posição correta. 
+
+Após análise cuidadosa, a alternativa que melhor se encaixa nas restrições é a D (5 6 1).
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão na aplicação das regras, pode interpretar que o número 3 está correto na posição correta, ignorando a restrição.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Pode focar nos números 8 e 4 como corretos, mas falhar em considerar a posição incorreta.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Escolha aleatória ou interpretação superficial das instruções, sem considerar as relações entre as pistas.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Pode ser atraente pela presença de números que aparecem em outras opções, mas não considera a ordem correta.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G16] O enunciado apresenta uma narrativa desnecessária (história do pirata e do tesouro) que não contribui para a avaliação do conhecimento do aluno sobre lógica ou resolução de problemas. Essa contextualização é decorativa e não essencial para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução sobre o pirata e o tesouro, apresentando diretamente o problema da senha: 'Um cofre possui uma senha de três dígitos. As seguintes informações foram fornecidas...'
+    [G13] A repetição da estrutura 'Exatamente um número está correto' e 'Exatamente dois números estão corretos' torna o enunciado mais longo do que o necessário. A informação pode ser condensada para melhorar a clareza.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever as instruções para evitar repetições. Por exemplo: 'Na primeira pista, apenas um número está correto e na posição correta. Na segunda pista, apenas um número está correto, mas na posição incorreta...'
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

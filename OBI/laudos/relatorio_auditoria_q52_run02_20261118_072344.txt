@@ -1,0 +1,66 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 07:28:13
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar qual sequência de músicas é possível. Não se trata de memorização direta, mas sim de combinar informações e testar hipóteses.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição da ideia de precedência de músicas no CD, utilizando frases como 'W e Y precedem S no CD' e 'T precede W no CD'.
+         → Sugestão: Simplificar a redação, eliminando a repetição. Exemplo: 'W e Y estão em faixas anteriores a S no CD, e T está em uma faixa anterior a W'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise das restrições:
+1. S ocupa a quarta faixa: Todas as alternativas devem satisfazer isso.
+2. W e Y precedem S: W e Y devem estar nas faixas 1, 2 ou 3.
+3. T precede W: T deve estar antes de W.
+4. Sucesso de rock na sexta faixa: A sexta faixa deve ser um sucesso de rock.
+5. Sucesso de rock precedido por composição: Cada sucesso de rock deve ter uma composição antes.
+6. Z é um sucesso de rock: Z deve ser um sucesso de rock.
+
+Verificação das alternativas:
+* A) T, W, V, S, Y, X, Z: S na 4ª, W e Y antes de S (ok), T antes de W (ok), 6ª faixa X (não é rock), Z no final (ok).
+* B) V, Y, T, S, W, Z, X: S na 4ª, W e Y antes de S (ok), T antes de W (ok), 6ª faixa Z (rock), Z precedido por W (composição) (ok).
+* C) X, Y, W, S, T, Z, S: S na 4ª, W e Y antes de S (ok), T antes de W (violado), 6ª faixa Z (rock), Z precedido por T (composição) (ok).
+* D) Y, T, W, S, X, Z, V: S na 4ª, W e Y antes de S (ok), T antes de W (ok), 6ª faixa Z (rock), Z precedido por X (composição) (ok).
+* E) Z, T, X, W, V, Y, S: S na 4ª, W e Y antes de S (violado), T antes de W (ok), 6ª faixa Y (não é rock), Z no início (ok).
+
+Alternativa B satisfaz todas as restrições. Alternativa D também parece satisfazer, mas a ordem de X e Z pode ser questionável dependendo da interpretação da regra de precedência. Alternativa A falha na regra do rock na sexta posição. Alternativa C falha na regra de T antes de W. Alternativa E falha na regra de W e Y antes de S.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar erroneamente a restrição de precedência, colocando W antes de S, mas não considerando a posição fixa de S.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão na ordem de precedência entre T, W e S, ignorando a restrição de que W e Y precedem S.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Erro na aplicação da restrição de que S ocupa a quarta faixa, resultando em uma ordem impossível.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na posição de Z como sucesso de rock, mas não considerar a sequência correta das outras músicas e restrições.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas. A alternativa A (50 caracteres) é significativamente mais longa que a alternativa C (36 caracteres).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição da ideia de precedência de músicas no CD, utilizando frases como 'W e Y precedem S no CD' e 'T precede W no CD'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a redação, eliminando a repetição. Exemplo: 'W e Y estão em faixas anteriores a S no CD, e T está em uma faixa anterior a W'.
+    [G24] Diferença no tamanho entre as alternativas. A alternativa A (50 caracteres) é significativamente mais longa que a alternativa C (36 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para maior uniformidade, evitando opções excessivamente longas.
+    [G19] A resolução cega apontou B, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

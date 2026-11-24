@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:20:55
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de palíndromo para identificar qual das alternativas não se encaixa na definição. Não há necessidade de análise profunda ou avaliação crítica, apenas a aplicação da regra.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da definição de palíndromo na primeira frase e na explicação dos exemplos. A informação poderia ser condensada.
+         → Sugestão: Combine a primeira frase e a explicação dos exemplos em uma única frase mais concisa, por exemplo: 'Um palíndromo é um número inteiro positivo, sem zeros à esquerda, que se mantém igual quando lido da esquerda para a direita ou da direita para a esquerda, como os números 11 e 65256.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Analisando cada alternativa para verificar se é um palíndromo (lê-se igual da esquerda para a direita e da direita para a esquerda):
+
+A) 8989898: Lê-se 8989898 da esquerda para a direita e 8989898 da direita para a esquerda. É um palíndromo.
+B) 527725: Lê-se 527725 da esquerda para a direita e 527725 da direita para a esquerda. É um palíndromo.
+C) 4853854: Lê-se 4853854 da esquerda para a direita e 4853854 da direita para a esquerda. É um palíndromo.
+D) 1110111: Lê-se 1110111 da esquerda para a direita e 1110111 da direita para a esquerda. É um palíndromo.
+E) 9876789: Lê-se 9876789 da esquerda para a direita e 9876789 da direita para a esquerda. É um palíndromo.
+
+Como todas as alternativas são palíndromos, nenhuma delas 'não é palíndromo'.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar o padrão de repetição como um palíndromo, ignorando a necessidade de simetria completa.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode focar na simetria parcial do número, sem perceber que todos os dígitos devem ser iguais da esquerda para a direita.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode confundir a presença de um '0' no meio do número com a ausência de zeros à esquerda, invalidando a condição de palíndromo.
+    [E] Distrator (Plausibilidade: 5/5)
+         → Aluno pode se distrair com a aparência de simetria, sem verificar se a leitura é exatamente igual em ambas as direções.
+  Violações (G21–G24, G27–G31):
+    [G21] Opções numéricas não seguem ordem aplicável.
+    [G30] Distratores arbitrários, sem ligação com misconceptions de estudantes.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da definição de palíndromo na primeira frase e na explicação dos exemplos. A informação poderia ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Combine a primeira frase e a explicação dos exemplos em uma única frase mais concisa, por exemplo: 'Um palíndromo é um número inteiro positivo, sem zeros à esquerda, que se mantém igual quando lido da esquerda para a direita ou da direita para a esquerda, como os números 11 e 65256.'
+    [G21] Opções numéricas não seguem ordem aplicável.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reorganizar as opções em ordem crescente ou decrescente para evitar pistas visuais.
+    [G30] Distratores arbitrários, sem ligação com misconceptions de estudantes.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores baseados em erros comuns de leitura e interpretação de palíndromos.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

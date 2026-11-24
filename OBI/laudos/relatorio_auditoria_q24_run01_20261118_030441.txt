@@ -1,0 +1,67 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 03:09:49
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um conjunto de regras complexas para determinar qual alternativa satisfaz todas as condições apresentadas. É necessário analisar cada opção à luz das restrições fornecidas, demonstrando a capacidade de aplicar as regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da relação entre carne e frango. As regras 'Uma caixa que contenha a ração de frango deve conter também uma ração de carne' e 'Uma caixa que contenha a ração de carne deve conter também uma ração de frango' são redundantes.
+         → Sugestão: Substituir as duas regras por uma única: 'Uma caixa que contenha a ração de frango deve conter também uma ração de carne.'
+    [G17] A regra 'Uma caixa que contenha uma ração de vegetais deve conter também uma ração de sardinha, mas uma caixa que contenha uma ração de sardinha não precisa necessariamente conter uma ração de vegetais' utiliza a estrutura negativa ('não precisa necessariamente').
+         → Sugestão: Reformular a regra para uma construção positiva: 'Se uma caixa contém ração de vegetais, ela deve conter ração de sardinha. A presença de ração de sardinha não implica a presença de ração de vegetais.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das alternativas:
+
+A) Atum, Vegetais, Frango: Viola a regra 'Atum não pode estar numa caixa que contenha sardinha'.
+B) Frango, Vegetais, Carne: Viola a regra 'Uma caixa que contenha a ração de frango deve conter também uma ração de carne'.
+C) Vegetais, Vegetais, Sardinha: Viola a regra 'Cada caixa deve conter dois ou três sabores distintos de ração'.
+D) Atum, Atum, Atum: Viola a regra 'Cada caixa deve conter dois ou três sabores distintos de ração'.
+E) Frango, Frango, Frango: Viola a regra 'Cada caixa deve conter dois ou três sabores distintos de ração'.
+
+Nenhuma das alternativas satisfaz todas as regras.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar que a presença de atum e vegetais é suficiente, ignorando a restrição de sardinha e a regra de sabores distintos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na presença de vegetais e carne, esquecendo a regra de que a ração de vegetais deve conter sardinha.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem interpretar que a quantidade de ração é o fator determinante, ignorando as regras sobre sabores e combinações.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Alunos podem focar apenas no sabor frango, ignorando completamente as regras de combinação de sabores e a necessidade de dois ou três sabores distintos.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho das alternativas, com a alternativa A sendo consideravelmente mais longa que as demais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] Repetição desnecessária da relação entre carne e frango. As regras 'Uma caixa que contenha a ração de frango deve conter também uma ração de carne' e 'Uma caixa que contenha a ração de carne deve conter também uma ração de frango' são redundantes.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir as duas regras por uma única: 'Uma caixa que contenha a ração de frango deve conter também uma ração de carne.'
+    [G17] A regra 'Uma caixa que contenha uma ração de vegetais deve conter também uma ração de sardinha, mas uma caixa que contenha uma ração de sardinha não precisa necessariamente conter uma ração de vegetais' utiliza a estrutura negativa ('não precisa necessariamente').
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a regra para uma construção positiva: 'Se uma caixa contém ração de vegetais, ela deve conter ração de sardinha. A presença de ração de sardinha não implica a presença de ração de vegetais.'
+    [G24] Diferença significativa no tamanho das alternativas, com a alternativa A sendo consideravelmente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

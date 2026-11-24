@@ -1,0 +1,68 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 15:50:20
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre segurança da informação para identificar a solução mais adequada para um problema específico, considerando a performance da rede. Não se trata apenas de lembrar definições, mas de entender como diferentes tecnologias podem resolver um cenário prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de controle de acesso e otimização de performance. A segunda frase poderia ser integrada à primeira.
+         → Sugestão: Reescrever a primeira parte para evitar a repetição: 'Em uma empresa, o acesso a páginas web não autorizadas por parte dos funcionários é um dos maiores problemas de segurança. Para controlar esses acessos indevidos à Internet e otimizar a performance, os gestores estabeleceram uma diretriz de segurança, que levou a equipe técnica a instalar, na rede interna da empresa, um servidor de...' 
+    [G15] O enunciado não explicita claramente qual é a pergunta ou problema central. O leitor precisa das alternativas para entender o que se espera dele.
+         → Sugestão: Adicionar um comando claro no início do enunciado, como: 'Qual a finalidade da instalação do servidor na rede interna da empresa?' ou 'Descreva a solução implementada para o problema de acesso a páginas web não autorizadas.' 
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema central é controlar o acesso a páginas web não autorizadas, otimizando a performance. 
+
+A) Antivírus: Protege contra malware, não controla acesso à web.
+B) Domínio: Gerencia recursos de rede, não controla acesso a páginas.
+C) Network: Termo genérico, não especifica a solução.
+D) Firewall: Controla o tráfego de rede, bloqueando acessos não autorizados e otimizando a performance.
+E) Proxy: Intermediário entre o cliente e a internet, podendo controlar o acesso a sites, mas não necessariamente otimiza a performance.
+
+O firewall é a solução mais adequada para o problema descrito, pois combina controle de acesso e otimização de performance.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a função de um antivírus com a de um servidor de segurança de rede, especialmente se não compreenderem a diferença entre proteção individual e proteção de rede.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Um servidor de domínio controla recursos de rede, e pode ser confundido com um controle de acesso à internet, especialmente por quem tem conhecimento superficial de administração de redes.
+    [C] Distrator (Plausibilidade: 1/5)
+         → O termo 'network' é genérico e pode ser interpretado como a rede em si, e não como um dispositivo que controla o acesso a ela. Opção facilmente eliminável.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Firewalls são usados para segurança, mas a confusão surge ao não distinguir entre o controle de acesso (proxy) e a proteção contra intrusões (firewall).
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de tecnicidade e formalidade, gerando heterogeneidade na linguagem.
+    [G30] As opções não refletem erros típicos de estudantes sobre o tema de segurança de redes.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de controle de acesso e otimização de performance. A segunda frase poderia ser integrada à primeira.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever a primeira parte para evitar a repetição: 'Em uma empresa, o acesso a páginas web não autorizadas por parte dos funcionários é um dos maiores problemas de segurança. Para controlar esses acessos indevidos à Internet e otimizar a performance, os gestores estabeleceram uma diretriz de segurança, que levou a equipe técnica a instalar, na rede interna da empresa, um servidor de...' 
+    [G15] O enunciado não explicita claramente qual é a pergunta ou problema central. O leitor precisa das alternativas para entender o que se espera dele.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Adicionar um comando claro no início do enunciado, como: 'Qual a finalidade da instalação do servidor na rede interna da empresa?' ou 'Descreva a solução implementada para o problema de acesso a páginas web não autorizadas.' 
+    [G23] As alternativas apresentam diferentes níveis de tecnicidade e formalidade, gerando heterogeneidade na linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para uniformizar o nível de linguagem e tecnicidade.
+    [G30] As opções não refletem erros típicos de estudantes sobre o tema de segurança de redes.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Analisar os erros mais comuns dos alunos sobre o tema e criar distratores que os representem.
+    [G19] A resolução cega apontou D, mas o gabarito oficial é E; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

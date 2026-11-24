@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 07:23:44
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar qual sequência de músicas é possível. Não se trata de memorização direta, mas sim de combinar informações e testar hipóteses.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição da ideia de precedência de músicas no CD. A frase 'W e Y estão numa faixa que é tocada antes de S no CD' é redundante, pois a ordem das faixas já implica precedência.
+         → Sugestão: Remover a repetição. Exemplo: 'W e Y precedem S no CD.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise das restrições:
+1. S ocupa a quarta faixa: Todas as alternativas devem satisfazer essa condição.
+2. W e Y precedem S: W e Y devem estar nas faixas 1, 2 ou 3.
+3. T precede W: T deve estar antes de W.
+4. Sucesso de rock na sexta faixa: A sexta faixa deve ser um sucesso de rock.
+5. Sucesso de rock precedido por composição: Cada sucesso de rock deve ser precedido por uma composição.
+6. Z é um sucesso de rock: Z deve estar em uma faixa que seja um sucesso de rock.
+
+Verificação das alternativas:
+A) T, W, V, S, Y, X, Z: S na 4ª, W e Y antes de S (W na 2ª, Y na 5ª - viola), T antes de W (T na 1ª), Rock na 6ª (X), Rock precedido por composição (Y precedido por S - viola), Z é rock (Z na 7ª).
+B) V, Y, T, S, W, Z, X: S na 4ª, W e Y antes de S (Y na 2ª, W na 5ª), T antes de W (T na 3ª), Rock na 6ª (Z), Rock precedido por composição (W precedido por S), Z é rock (Z na 6ª).
+C) X, Y, W, S, T, Z, S: S na 4ª, W e Y antes de S (W na 3ª, Y na 2ª), T antes de W (T na 5ª - viola), Rock na 6ª (Z), Rock precedido por composição (T precedido por S), Z é rock (Z na 6ª).
+D) Y, T, W, S, X, Z, V: S na 4ª, W e Y antes de S (Y na 1ª, W na 3ª), T antes de W (T na 2ª), Rock na 6ª (Z), Rock precedido por composição (X precedido por S), Z é rock (Z na 6ª).
+E) Z, T, X, W, V, Y, S: S na 4ª, W e Y antes de S (W na 4ª - viola), T antes de W (T na 2ª), Rock na 6ª (Y - viola), Rock precedido por composição (W precedido por X), Z é rock (Z na 1ª).
+
+Alternativa B satisfaz todas as restrições.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar 'precede' como 'imediatamente precede', ignorando a possibilidade de outras músicas entre T e W.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode se confundir com a ordem de W e S, não percebendo que W deve preceder S.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Aluno pode ignorar a restrição de que Z é um sucesso de rock e, portanto, deve ser precedido por uma composição.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode se confundir com a ordem de T e X, não percebendo que T deve preceder W.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição da ideia de precedência de músicas no CD. A frase 'W e Y estão numa faixa que é tocada antes de S no CD' é redundante, pois a ordem das faixas já implica precedência.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição. Exemplo: 'W e Y precedem S no CD.'
+    [G19] A resolução cega apontou B, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

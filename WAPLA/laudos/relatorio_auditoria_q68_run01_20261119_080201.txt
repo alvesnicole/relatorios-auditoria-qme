@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:05:16
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as propostas de montagem, avalie seu alinhamento com o objetivo curatorial e identifique a opção mais adequada. Isso envolve a compreensão das intenções da curadora e a capacidade de discernir qual decisão de montagem melhor atende a esses objetivos, demonstrando um nível de análise e avaliação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização narrativa extensa (a descrição da curadora e seus planos) que não contribui diretamente para a tarefa de avaliação. Essa contextualização pode ser considerada window dressing.
+         → Sugestão: Remover a descrição da curadora e seus planos, focando diretamente no problema da montagem e na escolha da alternativa mais adequada.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O objetivo da curadora é evidenciar a emergência da videoarte em diálogo com novas plataformas e mídias, destacando o uso experimental do vídeo. A alternativa A alinha-se a esse objetivo ao priorizar as propostas que melhor representam essa experimentação (vídeos em looping e manipulações ao vivo), relegando o vídeo com roteiro tradicional a um espaço secundário para fins de contraste e análise crítica. As demais alternativas não se encaixam tão bem no objetivo curatorial, seja por dar excessiva importância ao vídeo narrativo (B), por não estabelecer hierarquias claras (C), por sugerir um percurso linear que não reflete a natureza experimental da videoarte (D) ou por buscar uma unidade que dilui as diferenças entre as abordagens (E).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde a familiaridade com a qualidade artística, acreditando que aproximar a mostra do cinema tradicional agradará o público.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpreta erroneamente a curadoria como um processo de descoberta individual, ignorando a intenção de destacar características específicas da videoarte.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Assume uma progressão linear e hierárquica entre as mídias, desconsiderando a natureza experimental e dialógica da videoarte.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Ignora a necessidade de diferenciar videoarte de outras formas de produção audiovisual, buscando uma unidade artificial na experiência.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém contextualização narrativa extensa (a descrição da curadora e seus planos) que não contribui diretamente para a tarefa de avaliação. Essa contextualização pode ser considerada window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da curadora e seus planos, focando diretamente no problema da montagem e na escolha da alternativa mais adequada.
+
+================================================================================

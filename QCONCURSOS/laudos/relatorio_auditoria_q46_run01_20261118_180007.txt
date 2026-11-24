@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 18:03:46
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre metodologias de desenvolvimento de software a um cenário específico, caracterizado por alta incerteza e entregas frequentes. A escolha da alternativa correta demanda a compreensão de como diferentes abordagens se adequam a esse contexto.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da ideia de que a equipe está em um ambiente de alta incerteza e precisa de entregas frequentes. Essa informação poderia ser condensada.
+         → Sugestão: Reescrever o enunciado para eliminar a redundância, por exemplo: 'Uma equipe desenvolve produto digital em ambiente de alta incerteza, com entregas frequentes e prioridades sujeitas a revisão. A direção exige aprendizagem contínua a partir de feedback real. Nesse contexto, assinale a alternativa mais adequada:'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema descreve um cenário de desenvolvimento de produto digital com alta incerteza, entregas frequentes, revisão de prioridades e aprendizagem contínua. A alternativa ideal deve refletir a capacidade de lidar com essa dinâmica. 
+
+A) Metodologias incrementais fixam escopo, o que é incompatível com a incerteza e a necessidade de revisão de prioridades. 
+B) Modelos sequenciais com validação tardia são inadequados para ambientes que exigem feedback rápido e adaptação. 
+C) Abordagens preditivas detalham antecipadamente, o que é contraproducente em cenários de alta incerteza. 
+D) Abordagens adaptativas (como Agile) são projetadas para lidar com a incerteza, ciclos curtos, priorização contínua e feedback. 
+E) Abordagens híbridas que evitam revisão de prioridades são inflexíveis e não atendem à necessidade de adaptação.
+
+Portanto, a alternativa D é a mais adequada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que metodologias incrementais eliminam a incerteza, ignorando a necessidade de adaptação em ambientes dinâmicos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem associar modelos sequenciais a maior controle, sem considerar a rigidez em face de mudanças de prioridade.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que detalhamento antecipado resolve a incerteza, demonstrando falta de compreensão sobre a natureza adaptativa necessária.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem interpretar erroneamente a estabilidade como prioridade, ignorando a necessidade de flexibilidade em ambientes de alta incerteza.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetição desnecessária da ideia de que a equipe está em um ambiente de alta incerteza e precisa de entregas frequentes. Essa informação poderia ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever o enunciado para eliminar a redundância, por exemplo: 'Uma equipe desenvolve produto digital em ambiente de alta incerteza, com entregas frequentes e prioridades sujeitas a revisão. A direção exige aprendizagem contínua a partir de feedback real. Nesse contexto, assinale a alternativa mais adequada:'
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar e padronizar o tamanho e a estrutura das alternativas para maior uniformidade.
+
+================================================================================

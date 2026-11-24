@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:52:55
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda a atitude antiarte e o conceito de deslocamento de função e contexto, e então analise as alternativas para identificar aquela que melhor articula esses conceitos. Isso envolve a desestruturação das opções para identificar a que melhor se alinha com a descrição do artista.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa extensa sobre o artista e seu processo, que não contribui diretamente para a tarefa de avaliação. A descrição detalhada do processo artístico funciona como contextualização decorativa, sem impacto na compreensão do que se espera do aluno.
+         → Sugestão: Remover a descrição detalhada do processo do artista e focar na definição do problema a ser analisado nas alternativas. Por exemplo: 'Um artista contemporâneo utiliza objetos industrializados em suas obras, deslocando-os de seu contexto original. Considerando essa prática...'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um artista que utiliza objetos industrializados encontrados em ambientes urbanos, intervindo minimamente neles (apenas seleção e reorganização) e deslocando-os para o contexto da exposição. O objetivo é tensionar expectativas sobre autoria, beleza e criação artística. A alternativa A articula essa atitude antiarte ao enfatizar o deslocamento de função como gesto central, alinhando-se diretamente com a descrição do artista. As demais alternativas divergem: B altera fisicamente os objetos, C preserva a função original, D reforma os objetos e E integra fragmentos em moldes, o que não corresponde ao mínimo de intervenção descrito.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde a intervenção artística com transformação física do objeto, ignorando o foco no deslocamento de contexto.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpreta a arte como representação da realidade, não como descontextualização e questionamento.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Acredita que a arte industrializada envolve a modificação estética dos objetos, perdendo a essência do antiarte.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Associa a arte a narrativas pessoais e figurativas, desviando-se do conceito de deslocamento e questionamento.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém uma narrativa extensa sobre o artista e seu processo, que não contribui diretamente para a tarefa de avaliação. A descrição detalhada do processo artístico funciona como contextualização decorativa, sem impacto na compreensão do que se espera do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada do processo do artista e focar na definição do problema a ser analisado nas alternativas. Por exemplo: 'Um artista contemporâneo utiliza objetos industrializados em suas obras, deslocando-os de seu contexto original. Considerando essa prática...'.
+
+================================================================================

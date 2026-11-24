@@ -1,0 +1,66 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 00:20:32
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar o horário de partida do ônibus E. É necessário analisar as condições e deduzir a resposta, o que caracteriza a aplicação de regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre os horários de partida (6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00) logo após a introdução dos ônibus.
+         → Sugestão: Remover a lista de horários após a primeira menção, pois ela já foi apresentada. A referência pode ser feita de forma mais concisa, como 'nos horários previamente definidos'.
+    [G14] A pergunta 'Se o ônibus G for escalado para partir às 9:00, o ônibus E deve ser escalado para partir às' não está totalmente clara. Falta explicitar o que se espera como resposta (qual horário o ônibus E deve partir).
+         → Sugestão: Reformular a pergunta para algo como: 'Se o ônibus G for escalado para partir às 9:00, a que horário o ônibus E deve ser escalado para partir?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Análise do problema:
+
+Restrições:
+1. Ônibus A: 6:00
+2. Ônibus E após B e C.
+3. Ônibus D, F e G consecutivos e nessa ordem.
+4. G = 9:00
+
+Se G = 9:00, então D, F e G devem estar em 9:00, 10:00 e 11:00, respectivamente.  Como E deve partir após B e C, e os horários disponíveis são 6:00, 7:00, 8:00, 10:00, 11:00 e 12:00, e A já está em 6:00, E só pode estar em 12:00, 11:00 ou 10:00.  Como D, F e G estão em 9:00, 10:00 e 11:00, E deve estar em 12:00.
+
+Verificação das alternativas:
+
+A) 07:00: Incompatível com a ordem de D, F, G e a posição de E após B e C.
+B) 08:00: Incompatível com a ordem de D, F, G e a posição de E após B e C.
+C) 10:00: Incompatível com a ordem de D, F, G, pois D deve partir antes de F e G.
+D) 11:00: Incompatível com a ordem de D, F, G, pois F deve partir antes de G.
+E) 12:00: Compatível com todas as restrições. D, F, G em 9:00, 10:00, 11:00. E em 12:00. A em 6:00. B e C em 7:00 e 8:00 (em alguma ordem).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que o horário do ônibus A influencia diretamente o horário do ônibus E, sem considerar as restrições de ordem.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode pensar que, como G parte às 9:00, E deve partir logo após, sem considerar a relação com B e C.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode focar na relação entre G e E, esquecendo a restrição de que E deve partir após B e C.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não compreender a restrição de ordem entre D, F e G, atribuindo um horário aleatório para E.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação sobre os horários de partida (6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00) logo após a introdução dos ônibus.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a lista de horários após a primeira menção, pois ela já foi apresentada. A referência pode ser feita de forma mais concisa, como 'nos horários previamente definidos'.
+    [G14] A pergunta 'Se o ônibus G for escalado para partir às 9:00, o ônibus E deve ser escalado para partir às' não está totalmente clara. Falta explicitar o que se espera como resposta (qual horário o ônibus E deve partir).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para algo como: 'Se o ônibus G for escalado para partir às 9:00, a que horário o ônibus E deve ser escalado para partir?'
+
+================================================================================

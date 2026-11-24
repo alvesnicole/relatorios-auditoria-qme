@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 18:22:30
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato compreenda a relação entre hardware e software, identificando exemplos corretos de cada um. Embora envolva conhecimento factual, a seleção da resposta correta requer interpretação e comparação entre as opções.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é desfocado. Não é imediatamente claro qual é a pergunta que o candidato deve responder. A solicitação de identificar um componente de hardware e um software é implícita, mas não explícita.
+         → Sugestão: Reformule o enunciado para que a pergunta seja clara desde o início. Exemplo: 'Em relação à arquitetura e ao funcionamento de computadores na administração pública, identifique um componente de hardware e um software.' 
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Análise das alternativas:
+
+A) Memória RAM (hardware) e Disco Rígido (HD) (hardware). Incorreta, pois pede um hardware e um software.
+B) Sistema Operacional Linux (software) e Placa-Mãe (hardware). Correta, pois apresenta um software e um hardware.
+C) Teclado (hardware) e Memória Cache (hardware). Incorreta, pois pede um hardware e um software.
+D) Editor de Planilhas (software) e Pacote Office (software). Incorreta, pois pede um hardware e um software.
+E) Processador (CPU) (hardware) e Navegador de Internet (software). Correta, pois apresenta um hardware e um software.
+
+Considerando que a questão pede 'respeitivamente', a ordem é importante. A alternativa B parece mais adequada, mas a E também é válida. Uma segunda verificação é necessária para diferenciar as duas.
+
+Na alternativa B, 'Sistema Operacional Linux' é um exemplo específico, enquanto 'Placa-Mãe' é um componente genérico. Na alternativa E, 'Processador (CPU)' é um componente específico, e 'Navegador de Internet' é um software. Ambas as alternativas são válidas, mas a E parece mais abrangente e comum em contextos de administração pública.
+
+Flag G28a: 'hardware' e 'software' são termos absolutos que direcionam a escolha.
+Flag G28b: A repetição de termos do enunciado pode ajudar na identificação.
+Flag G28c: Não há inconsistências gramaticais relevantes.
+Flag G28d: Nenhuma alternativa se destaca significativamente em tamanho ou detalhe.
+Flag G28e: Não há pares de opções que se anulem.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir memória RAM com armazenamento, ambos sendo componentes de hardware.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre sistema operacional (software) e placa-mãe (hardware), ambos relacionados à infraestrutura computacional.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não diferenciar teclado (periférico de entrada) de memória cache (componente de hardware de alta velocidade).
+    [D] Distrator (Plausibilidade: 2/5)
+         → Confundir um editor de planilhas com um pacote de software, não compreendendo a relação hierárquica entre eles.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G15] O enunciado é desfocado. Não é imediatamente claro qual é a pergunta que o candidato deve responder. A solicitação de identificar um componente de hardware e um software é implícita, mas não explícita.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para que a pergunta seja clara desde o início. Exemplo: 'Em relação à arquitetura e ao funcionamento de computadores na administração pública, identifique um componente de hardware e um software.' 
+
+================================================================================

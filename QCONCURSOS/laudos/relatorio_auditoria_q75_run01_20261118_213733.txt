@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 21:41:06
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento de CSS para resolver um problema prático de formatação de texto em uma página web. Não envolve análise profunda ou criação, mas sim a seleção da regra correta para um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação de que o desenvolvedor deseja um efeito específico. A frase 'o desenvolvedor deseja que o conteúdo de todos os elementos de cabeçalho <h1> seja exibido inteiramente em letras maiúsculas' é redundante, pois o problema já está claro.
+         → Sugestão: Remover a frase 'o desenvolvedor deseja que o conteúdo de todos os elementos de cabeçalho <h1> seja exibido inteiramente em letras maiúsculas' e substituir pelo 'Exibir o conteúdo de todos os elementos de cabeçalho <h1> em letras maiúsculas'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado busca uma regra CSS que converta todo o texto dentro de elementos `<h1>` para letras maiúsculas. A propriedade `text-transform: uppercase;` é a forma correta de realizar essa transformação em CSS. As outras opções apresentam problemas: `text-size` não é uma propriedade CSS válida, `font-style` controla o estilo da fonte (itálico, normal, etc.), `text-case` é obsoleta e não funciona consistentemente em todos os navegadores, e `font-format` especifica o formato da fonte, não a transformação do texto.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 2/5)
+         → Confusão entre propriedades de tamanho (text-size) e transformação de texto (text-transform).
+    [C] Distrator (Plausibilidade: 1/5)
+         → Interpretação errônea de 'font-style' como um modificador de capitalização, quando se refere ao estilo da fonte (itálico, normal, etc).
+    [D] Distrator (Plausibilidade: 3/5)
+         → Confusão entre 'text-case' (que não existe em CSS) e 'text-transform'.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Interpretação errônea de 'font-format' como um modificador de capitalização, quando se refere ao formato da fonte.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no uso de termos técnicos.
+    [G30] As alternativas não refletem erros típicos de estudantes ao lidar com CSS.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (1.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém repetição desnecessária da informação de que o desenvolvedor deseja um efeito específico. A frase 'o desenvolvedor deseja que o conteúdo de todos os elementos de cabeçalho <h1> seja exibido inteiramente em letras maiúsculas' é redundante, pois o problema já está claro.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'o desenvolvedor deseja que o conteúdo de todos os elementos de cabeçalho <h1> seja exibido inteiramente em letras maiúsculas' e substituir pelo 'Exibir o conteúdo de todos os elementos de cabeçalho <h1> em letras maiúsculas'.
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no uso de termos técnicos.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das alternativas, utilizando frases completas e terminologia consistente.
+    [G30] As alternativas não refletem erros típicos de estudantes ao lidar com CSS.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Analisar os erros mais comuns dos alunos ao aplicar CSS e criar distratores que os representem.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (1.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

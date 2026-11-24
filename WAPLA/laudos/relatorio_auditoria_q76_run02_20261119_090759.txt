@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 09:12:08
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno compreenda a relação entre significado e sentido na Semântica, diferenciando-as e relacionando-as ao contexto. A escolha da alternativa correta demanda a análise das opções para identificar a que melhor descreve o objeto de estudo da Semântica, o que envolve a desconstrução das informações apresentadas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a aula de Semântica e a explicação da professora) que não contribui diretamente para a avaliação do conhecimento do aluno sobre o objeto de estudo da Semântica e a distinção entre significado e sentido. Essa contextualização é desnecessária e distrai do foco da questão.
+         → Sugestão: Remover a contextualização da aula de Semântica e apresentar diretamente a questão sobre o objeto de estudo da Semântica e a distinção entre significado e sentido.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado descreve a distinção entre sentido (interpretação em contexto) e significado (informação lexical). A alternativa correta deve refletir essa distinção e a função da Semântica em estudar essas relações. A alternativa C parece ser a mais adequada, pois define significado como informação lexical estável e sentido como interpretação contextual. As demais alternativas apresentam equívocos sobre o objeto de estudo da Semântica (gramática, sons da fala, origem histórica, uso estilístico, definição de dicionário). 
+
+Análise das Pistas Estruturais:
+- G28a: O termo "contexto" é um determinante absoluto, pois a distinção entre sentido e significado é feita em relação ao contexto.
+- G28b: A alternativa C usa o termo "interpretação", que é incomum no contexto das outras alternativas.
+- G28d: A alternativa C é mais detalhada e qualificada ao definir significado e sentido.
+- G28e: Não há pares de opções que se anulem e revelem a resposta.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre semântica e gramática, e a crença de que significado e sentido são sinônimos.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Conceito distorcido de semântica, associando-a à fonética e a definições materialistas de significado e sentido.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Entendimento limitado da semântica, restringindo-a à etimologia e ignorando a importância do contexto.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Visão restritiva da semântica, focada apenas no uso estilístico e na definição lexicográfica, desconsiderando o papel do contexto.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (50 palavras) é significativamente mais curta que a alternativa C (44 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a aula de Semântica e a explicação da professora) que não contribui diretamente para a avaliação do conhecimento do aluno sobre o objeto de estudo da Semântica e a distinção entre significado e sentido. Essa contextualização é desnecessária e distrai do foco da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização da aula de Semântica e apresentar diretamente a questão sobre o objeto de estudo da Semântica e a distinção entre significado e sentido.
+    [G24] A alternativa A (50 palavras) é significativamente mais curta que a alternativa C (44 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+
+================================================================================

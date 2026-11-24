@@ -1,0 +1,50 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 03:54:59
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique o conhecimento sobre artigos definidos e indefinidos e coerência referencial para completar as lacunas em um texto, demonstrando a capacidade de usar regras gramaticais em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] As instruções não estão totalmente claras. O enunciado descreve uma situação e pede para 'assinale a alternativa que completa corretamente as lacunas', mas não especifica explicitamente que se trata de um problema de preenchimento de lacunas com artigos e coerência referencial. Poderia ser mais direto.
+         → Sugestão: Reformule a instrução para algo como: 'Complete as lacunas na frase abaixo, considerando o uso de artigos e a coerência referencial, e assinale a alternativa correspondente.'
+    [G16] A contextualização da situação (revisão de relatório em inglês sobre expedição na Amazônia) é um tanto desnecessária e não contribui diretamente para a avaliação do conhecimento do aluno sobre artigos e coerência referencial. É um exemplo de window dressing.
+         → Sugestão: Remova a contextualização e apresente a frase diretamente: 'Complete as lacunas na frase abaixo, considerando o uso de artigos e a coerência referencial: ___ researchers found ___ unusual pattern in the samples, and ___ pattern suggested a possible environmental change.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A frase descreve um dado já conhecido e um elemento novo. A primeira lacuna precisa de um artigo definido ('the') para o dado conhecido. A segunda lacuna precisa de um artigo indefinido ('a' ou 'an') para o padrão incomum. A terceira lacuna precisa de um artigo definido ('the') para se referir ao padrão específico que foi descoberto. A opção A ('The / an / the') se encaixa nessa lógica. A primeira ocorrência de 'the' indica que os pesquisadores já estavam cientes do dado. 'an' é usado corretamente antes de 'pattern' (começando com vogal). A terceira ocorrência de 'the' reforça que se trata do mesmo padrão descoberto.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre artigo indefinido e definido, considerando 'a' adequado para introduzir o padrão.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Uso inadequado do artigo definido 'the' para descrever o padrão, sem considerar a introdução do elemento.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Escolha aleatória de artigos, sem considerar a progressão lógica da informação no texto.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Uso excessivo do artigo definido 'the', sem considerar a introdução de um novo elemento no contexto.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G14] As instruções não estão totalmente claras. O enunciado descreve uma situação e pede para 'assinale a alternativa que completa corretamente as lacunas', mas não especifica explicitamente que se trata de um problema de preenchimento de lacunas com artigos e coerência referencial. Poderia ser mais direto.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule a instrução para algo como: 'Complete as lacunas na frase abaixo, considerando o uso de artigos e a coerência referencial, e assinale a alternativa correspondente.'
+    [G16] A contextualização da situação (revisão de relatório em inglês sobre expedição na Amazônia) é um tanto desnecessária e não contribui diretamente para a avaliação do conhecimento do aluno sobre artigos e coerência referencial. É um exemplo de window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remova a contextualização e apresente a frase diretamente: 'Complete as lacunas na frase abaixo, considerando o uso de artigos e a coerência referencial: ___ researchers found ___ unusual pattern in the samples, and ___ pattern suggested a possible environmental change.'
+
+================================================================================

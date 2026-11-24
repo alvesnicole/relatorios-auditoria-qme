@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 09:42:10
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de integral tripla para calcular a massa de um sólido com densidade variável, conectando a definição teórica com uma aplicação prática. Não há necessidade de análise profunda ou criação de novos métodos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A primeira frase descreve o que o cálculo de integrais triplas permite determinar, e a segunda frase repete a ideia de que essas grandezas podem ser expressas por integrais.
+         → Sugestão: Combine as duas primeiras frases em uma única, mais concisa. Exemplo: 'O cálculo de integrais triplas permite determinar grandezas como volume, massa, centro de massa e momentos de inércia de sólidos com densidade variável, as quais podem ser expressas por integrais sobre a região espacial ocupada pelo objeto.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve o cálculo de integrais triplas para determinar a massa de um sólido com densidade variável. A fórmula geral para a massa é a integral tripla da densidade sobre o volume do sólido. A alternativa A representa essa fórmula corretamente.
+
+Análise das alternativas:
+
+A) $m=∭_E ρ(x,y,z) dV$: Representa a integral tripla da densidade sobre a região E, que é a definição de massa.
+B) $m=∬_E ρ(x,y) dA$: Integral dupla, calcula área, não massa.
+C) $m=∭_E x ρ(x,y,z) dV$: Integral tripla com 'x' multiplicando, não representa massa.
+D) $m=∭_E ρ(x,y,z)^2 dV$: Integral tripla do quadrado da densidade, não representa massa.
+E) $m=∫_E ρ(x,y,z) dz$: Integral simples, calcula uma grandeza unidimensional, não massa.
+
+A alternativa A é a única que corresponde à definição de massa para um sólido com densidade variável.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre integral tripla e integral dupla, ignorando a dimensão z para calcular a massa.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Interpretação errônea da integral tripla, multiplicando a densidade por x em vez de integrá-la para obter a massa.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Erro fundamental na aplicação da integral tripla, elevando a densidade ao quadrado em vez de integrá-la diretamente.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Interpretação errônea da integral tripla como uma integral de primeira ordem, considerando apenas a integração em relação a z.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (10 palavras) é significativamente mais curta que a alternativa C (20 palavras), violando a regra de diferença mínima de 8 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A primeira frase descreve o que o cálculo de integrais triplas permite determinar, e a segunda frase repete a ideia de que essas grandezas podem ser expressas por integrais.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Combine as duas primeiras frases em uma única, mais concisa. Exemplo: 'O cálculo de integrais triplas permite determinar grandezas como volume, massa, centro de massa e momentos de inércia de sólidos com densidade variável, as quais podem ser expressas por integrais sobre a região espacial ocupada pelo objeto.'
+    [G24] A alternativa B (10 palavras) é significativamente mais curta que a alternativa C (20 palavras), violando a regra de diferença mínima de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar desorientação do candidato.
+
+================================================================================

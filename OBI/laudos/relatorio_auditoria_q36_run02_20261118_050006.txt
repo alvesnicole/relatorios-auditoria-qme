@@ -1,0 +1,74 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 05:05:25
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno combine informações fornecidas nas premissas, utilize o raciocínio lógico para eliminar possibilidades e deduzir uma conclusão necessariamente verdadeira, demonstrando capacidade de análise e inferência.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre quem são os professores e alunos. A repetição 'Os professores são Ana, Bia e Carlos; os alunos são Deco, Eda e Flávio' é redundante após a apresentação inicial dos organizadores.
+         → Sugestão: Remover a repetição da lista de professores e alunos. Exemplo: 'Os organizadores da OBI resolveram premiar os três melhores professores e três melhores alunos, oferecendo um passeio. Quatro passeios estavam disponíveis para escolha: Cinema, Museu, Parque e Zoológico. Sabe-se que: ...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Representação: 
+- Professores: Ana, Bia, Carlos
+- Alunos: Deco, Eda, Flávio
+- Passeios: Cinema, Museu, Parque, Zoológico
+- Restrições:
+  1. Ao menos um professor deve ir ao passeio.
+  2. Ana só vai ao Cinema ou Zoológico.
+  3. Deco só vai ao Museu ou Parque.
+
+Condição dada: Ana vai ao Zoológico e Deco vai ao Museu.
+
+Análise das alternativas:
+
+A) Carlos vai ao Cinema ou ao Parque. - Possível, mas não necessariamente verdadeiro. 
+B) Se Carlos vai ao Parque, Bia vai ao Museu. - Não há relação direta estabelecida.
+C) Bia vai sozinha ao Cinema. - Improvável, pois precisa de um professor.
+D) Se Bia vai ao Zoológico, Carlos vai ao Parque. - Não há relação direta estabelecida.
+E) Se Carlos vai ao Museu, Bia vai ao Parque. - Não há relação direta estabelecida.
+
+Considerando que Ana vai ao Zoológico e Deco vai ao Museu, o passeio do Museu já tem um participante (Deco). Para que o passeio aconteça, é necessário pelo menos um professor. Se Ana já está no Zoológico, e Deco no Museu, então Bia, Carlos precisam estar em algum outro passeio. Se Carlos for para o Museu, a regra de que Deco só vai para o Museu ou Parque é violada. Portanto, Carlos não pode ir para o Museu. Se Carlos for para o Parque, então Bia deve ir para o Cinema, para que haja um professor no Parque. Se Carlos for para o Cinema, então Bia deve ir para o Parque. A alternativa A parece ser a mais plausível, mas vamos verificar se ela é a única possibilidade.
+
+Se Carlos for para o Cinema, então Bia deve ir para o Parque. Nesse caso, a alternativa A (Carlos vai ao Cinema ou ao Parque) é verdadeira. Se Carlos for para o Parque, então Bia deve ir para o Cinema. Nesse caso, a alternativa A (Carlos vai ao Cinema ou ao Parque) também é verdadeira.
+
+Após uma análise mais profunda, a alternativa A é a única que pode ser necessariamente verdadeira, pois se Carlos não for para o Cinema ou Parque, ele terá que ir para o Museu, o que é impossível devido à restrição de Deco.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar que Carlos pode ir para Cinema ou Parque, sem considerar as restrições de Ana e Deco.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a necessidade de um professor ir ao passeio e a possibilidade de Bia ir sozinha, ignorando a restrição de que um professor deve estar presente.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da implicação, sem considerar as restrições de Ana e Deco e a necessidade de um professor no passeio.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a possibilidade de Carlos ir ao Museu e a consequência para Bia, sem considerar as restrições de Ana e Deco.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (41 palavras) é significativamente maior que a alternativa C (23 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre quem são os professores e alunos. A repetição 'Os professores são Ana, Bia e Carlos; os alunos são Deco, Eda e Flávio' é redundante após a apresentação inicial dos organizadores.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da lista de professores e alunos. Exemplo: 'Os organizadores da OBI resolveram premiar os três melhores professores e três melhores alunos, oferecendo um passeio. Quatro passeios estavam disponíveis para escolha: Cinema, Museu, Parque e Zoológico. Sabe-se que: ...'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (41 palavras) é significativamente maior que a alternativa C (23 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar desorientação.
+    [G19] A resolução cega apontou A, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

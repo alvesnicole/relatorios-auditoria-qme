@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 18:25:50
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda a distinção entre hardware e software, interpretando as funções de cada um. Não se trata de mera memorização, mas de aplicar o conhecimento para identificar a alternativa correta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é um termo solto e vago, não explicita a pergunta ou problema central. É necessário ler as alternativas para entender o que se espera do aluno.
+         → Sugestão: Reformule o enunciado para que a pergunta seja clara, por exemplo: 'Qual das alternativas apresenta a principal diferença entre o papel do hardware e do software em arquitetura de computadores?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema exige diferenciar a função de hardware e software. A alternativa B descreve corretamente o hardware como o executor de instruções fornecidas pelo software, enquanto o software fornece as instruções. As demais alternativas contêm imprecisões: A atribui ao hardware a função de armazenamento permanente (função do armazenamento, não do hardware em si), C atribui ao software a gestão de energia (função da fonte de alimentação e circuitos de controle), D descreve protocolos de rede (função do software de rede), e E mistura hardware e software.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre armazenamento de dados e a função do hardware como camada física.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Atribuição de uma função específica (gerenciamento de energia) exclusivamente ao software.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Equívoco sobre o papel do hardware em relação aos protocolos de rede, confundindo com a função do software.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Confusão entre hardware e software, atribuindo a função de execução de instruções lógicas ao hardware.
+  Violações (G21–G24, G27–G31):
+    [G23] Heterogeneidade na estrutura das frases e no nível de detalhe das alternativas.
+    [G24] Diferenças significativas no comprimento das alternativas.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é um termo solto e vago, não explicita a pergunta ou problema central. É necessário ler as alternativas para entender o que se espera do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para que a pergunta seja clara, por exemplo: 'Qual das alternativas apresenta a principal diferença entre o papel do hardware e do software em arquitetura de computadores?'
+    [G23] Heterogeneidade na estrutura das frases e no nível de detalhe das alternativas.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura gramatical e o nível de detalhe das alternativas para maior clareza.
+    [G24] Diferenças significativas no comprimento das alternativas.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para garantir maior uniformidade e evitar desorientação.
+
+================================================================================

@@ -1,0 +1,90 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 01:03:29
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para determinar qual atribuição de tarefas é válida. É necessário analisar as restrições e testar cada opção para verificar a consistência.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição da palavra 'limpa' em diversas partes do enunciado, tornando a leitura redundante e menos fluida.
+         → Sugestão: Substituir algumas ocorrências de 'limpa' por sinônimos como 'lava', 'organiza' ou reformular as frases para evitar a repetição.
+    [G17] A condição 'Alan limpa qualquer cômodo, mas se Carlos limpar a Cozinha, Alan irá limpar a Sala' utiliza a estrutura condicional com 'mas', que pode ser interpretada de forma ambígua. A condição poderia ser mais clara.
+         → Sugestão: Reformular a condição para algo como: 'Alan limpa qualquer cômodo. No entanto, se Carlos limpar a Cozinha, Alan limpa a Sala.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise cega do gabarito e pistas estruturais.
+
+Regras:
+1. Cada irmão limpa somente um cômodo.
+2. Eduardo não limpa o Banheiro.
+3. Bruno só limpa a Sala ou o Quintal.
+4. Alan limpa qualquer cômodo, mas se Carlos limpar a Cozinha, Alan irá limpar a Sala.
+5. Douglas limpa somente o Banheiro ou a Sala.
+
+Análise das alternativas:
+
+A) Cozinha: Bruno, Sala: Eduardo, Banheiro: Alan, Quarto: Douglas, Quintal: Carlos.
+1. OK
+2. Eduardo não limpa o Banheiro (OK)
+3. Bruno limpa a Cozinha (VIOLADO - Bruno só limpa Sala ou Quintal)
+
+B) Cozinha: Alan, Sala: Bruno, Banheiro: Douglas, Quarto: Carlos, Quintal: Eduardo.
+1. OK
+2. Eduardo não limpa o Banheiro (OK)
+3. Bruno limpa a Sala (OK)
+4. Carlos não limpa a Cozinha, então Alan não precisa limpar a Sala (OK)
+5. Douglas limpa o Banheiro (OK)
+
+C) Cozinha: Carlos, Sala: Alan, Banheiro: Bruno, Quarto: Douglas, Quintal: Eduardo.
+1. OK
+2. Eduardo não limpa o Banheiro (OK)
+3. Bruno limpa o Banheiro (VIOLADO - Douglas limpa somente o Banheiro ou a Sala)
+
+D) Cozinha: Carlos, Sala: Alan, Banheiro: Douglas, Quarto: Bruno, Quintal: Eduardo.
+1. OK
+2. Eduardo não limpa o Banheiro (OK)
+3. Bruno limpa o Quarto (OK)
+4. Carlos limpa a Cozinha, então Alan deve limpar a Sala (OK)
+5. Douglas limpa o Banheiro (OK)
+
+E) Cozinha: Carlos, Sala: Douglas, Banheiro: Bruno, Quarto: Eduardo, Quintal: Alan.
+1. OK
+2. Eduardo não limpa o Banheiro (OK)
+3. Bruno limpa o Banheiro (VIOLADO - Douglas limpa somente o Banheiro ou a Sala)
+
+Alternativa B parece ser a única que satisfaz todas as condições.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno ignora a restrição de que Bruno só limpa Sala ou Quintal, atribuindo-lhe a Cozinha.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno compreende parcialmente as restrições, mas não consegue combiná-las corretamente para gerar uma atribuição válida.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode ter interpretado erroneamente a relação entre Alan e Carlos, ou a restrição de Douglas.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode ter ignorado a restrição de Eduardo, ou a de Douglas, gerando uma atribuição incoerente.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição da palavra 'limpa' em diversas partes do enunciado, tornando a leitura redundante e menos fluida.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir algumas ocorrências de 'limpa' por sinônimos como 'lava', 'organiza' ou reformular as frases para evitar a repetição.
+    [G17] A condição 'Alan limpa qualquer cômodo, mas se Carlos limpar a Cozinha, Alan irá limpar a Sala' utiliza a estrutura condicional com 'mas', que pode ser interpretada de forma ambígua. A condição poderia ser mais clara.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a condição para algo como: 'Alan limpa qualquer cômodo. No entanto, se Carlos limpar a Cozinha, Alan limpa a Sala.'
+
+================================================================================

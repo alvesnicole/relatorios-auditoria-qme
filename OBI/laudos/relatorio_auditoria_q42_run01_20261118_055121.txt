@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 05:54:49
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre nomes de meninas para resolver um problema prático, combinando informações do texto com um processo de tentativa e erro (inferência) para encontrar a senha correta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa extensa e detalhada sobre a gincana, a busca pelo cofre e as ações da equipe de meninas. Essa contextualização é desnecessária para a compreensão do problema e não contribui para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a narrativa introdutória e apresentar diretamente o problema: 'Um cofre digital exige uma senha de quatro letras. A equipe encontrou a sequência Xkzk, que não funcionou. A senha é o nome de uma das cinco meninas da equipe. Quais as possíveis senhas?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : MULTIPLOS
+  Justificativa           : O problema exige encontrar o nome de uma das cinco meninas que corresponde à senha do cofre, que é uma palavra de quatro letras. As alternativas são: Anna, Lisa, Nina, Iris e Nara. Verificamos cada uma para ver se se encaixa no contexto do problema.
+
+Anna: Possui quatro letras e é um nome comum. Parece plausível.
+Lisa: Possui quatro letras e é um nome comum. Parece plausível.
+Nina: Possui quatro letras e é um nome comum. Parece plausível.
+Iris: Possui quatro letras e é um nome comum. Parece plausível.
+Nara: Possui quatro letras e é um nome comum. Parece plausível.
+
+Como todas as alternativas são nomes de quatro letras, a pista 'Xkzk' pode ser irrelevante ou uma distração. A ausência de informações adicionais para diferenciar as opções sugere que qualquer uma delas poderia ser a resposta correta. No entanto, a repetição da palavra 'nome' no enunciado sugere que a resposta deve ser um nome próprio, o que todas as alternativas satisfazem. Sem informações adicionais, não é possível determinar uma resposta única.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem associar 'Anna' a um nome comum, ignorando a necessidade de um nome de equipe.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem se concentrar em nomes de meninas, sem considerar a lógica do enigma.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem se fixar em nomes com quatro letras, sem analisar o contexto da gincana.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem escolher nomes aleatoriamente, sem considerar a pista do cofre e da senha.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma narrativa extensa e detalhada sobre a gincana, a busca pelo cofre e as ações da equipe de meninas. Essa contextualização é desnecessária para a compreensão do problema e não contribui para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a narrativa introdutória e apresentar diretamente o problema: 'Um cofre digital exige uma senha de quatro letras. A equipe encontrou a sequência Xkzk, que não funcionou. A senha é o nome de uma das cinco meninas da equipe. Quais as possíveis senhas?'
+    [G19] Mais de uma alternativa foi considerada defensável na resolução cega. A resolução cega apontou MULTIPLOS, mas o gabarito oficial é E; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

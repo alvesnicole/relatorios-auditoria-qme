@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 14:16:51
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de malware a uma situação específica, identificando a causa de um software legal ser considerado indevidamente como malware. A resposta correta exige a compreensão do funcionamento de malwares e a capacidade de relacionar falhas de programação com o comportamento indesejado.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado carece de um comando ou pergunta explícita. O leitor não tem clareza sobre o que deve fazer com as informações apresentadas.
+         → Sugestão: Adicionar um comando claro ao final do enunciado, como 'Identifique qual das opções completa corretamente a frase' ou 'Explique por que o software pode ser considerado malware'.
+    [G12] O uso da palavra 'inderdevidamente' é gramaticalmente correto, mas soa estranho e pode gerar confusão. A construção da frase pode ser aprimorada.
+         → Sugestão: Substituir 'inderdevidamente' por 'injustamente' ou reformular a frase para 'quando são classificados erroneamente'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O enunciado descreve malwares e busca uma condição que pode levar softwares legais a serem erroneamente classificados como malwares. A alternativa E, 'possuírem falhas de programação que causem danos ao sistema', é a mais plausível. Falhas (bugs) em softwares podem levar a comportamentos inesperados e potencialmente prejudiciais, sendo confundidos com características de malwares. As demais alternativas são menos adequadas: A (inserção em páginas web) é uma forma de distribuição, não a causa da classificação errônea; B (extensão de arquivos) é irrelevante; C (antivírus não verificar) é uma consequência, não a causa; D (programadores hackers) é uma associação equivocada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem pensar que a simples presença em páginas web torna um software malicioso.
+    [B] Distrator (Plausibilidade: 2/5)
+         → A extensão de um arquivo é frequentemente associada à segurança, levando a uma falsa sensação de segurança ou perigo.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a capacidade de um antivírus detectar um software determina sua natureza maliciosa.
+    [D] Distrator (Plausibilidade: 3/5)
+         → A reputação do programador pode ser confundida com a segurança do software, ignorando a possibilidade de código malicioso em softwares legítimos.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da frase.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado carece de um comando ou pergunta explícita. O leitor não tem clareza sobre o que deve fazer com as informações apresentadas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Adicionar um comando claro ao final do enunciado, como 'Identifique qual das opções completa corretamente a frase' ou 'Explique por que o software pode ser considerado malware'.
+    [G12] O uso da palavra 'inderdevidamente' é gramaticalmente correto, mas soa estranho e pode gerar confusão. A construção da frase pode ser aprimorada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'inderdevidamente' por 'injustamente' ou reformular a frase para 'quando são classificados erroneamente'.
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da frase.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior uniformidade no tamanho e estrutura.
+
+================================================================================

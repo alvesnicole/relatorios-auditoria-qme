@@ -1,0 +1,70 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 17/11/2026 às 23:53:46
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um conjunto de regras específicas (restrições sobre as palavras) para determinar qual sequência de palavras é um comando válido. Não se trata de memorização direta, nem de análise profunda, mas sim de aplicar as regras para testar as alternativas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que as palavras devem conter pelo menos cinco letras e ter um número limitado de vogais, já que isso é explicitado em dois pontos distintos.
+         → Sugestão: Remover a repetição da restrição sobre o número de letras e vogais, combinando as informações em uma única frase.
+    [G15] O enunciado não explicita diretamente qual é a tarefa a ser realizada. A pergunta 'Qual das seguintes alternativas é um comando válido?' só se torna clara após a leitura das restrições.
+         → Sugestão: Reformular o enunciado para que a tarefa seja clara desde o início, por exemplo: 'Identifique qual das alternativas abaixo representa um comando válido, de acordo com as regras especificadas.' 
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das alternativas:
+
+A) abrir brincar durar entrar faltar: 'abrir' tem 5 letras, 'brincar' tem 7, 'durar' tem 5, 'entrar' tem 6, 'faltar' tem 6. Não atende à regra de 5 letras por palavra.
+B) junto kremlim livrar missa nariz: 'junto' tem 5 letras, 'kremlim' tem 7, 'livrar' tem 6, 'missa' tem 5, 'nariz' tem 5. Não atende à regra de 5 letras por palavra.
+C) nenhum olhar perder querer roncar: 'nenhum' tem 6 letras, 'olhar' tem 5, 'perder' tem 6, 'querer' tem 6, 'roncar' tem 6. Não atende à regra de 5 letras por palavra.
+D) rosnar subir trincar urrar voar: 'rosnar' tem 6 letras, 'subir' tem 5, 'trincar' tem 7, 'urrar' tem 5, 'voar' tem 5. Não atende à regra de 5 letras por palavra.
+E) falar gravar hertz jorrar kodak: 'falar' tem 5 letras, 'gravar' tem 6, 'hertz' tem 5, 'jorrar' tem 6, 'kodak' tem 5. Não atende à regra de 5 letras por palavra.
+
+Verificação das regras:
+1. Cada palavra deve conter pelo menos cinco letras: Todas as alternativas violam essa regra.
+2. Não mais do que duas vogais por palavra: Todas as alternativas violam essa regra.
+3. Palavras não podem iniciar com c, q ou z: Todas as alternativas cumprem essa regra.
+4. Primeira letra de cada palavra deve ser consecutiva: Todas as alternativas violam essa regra.
+
+Conclusão: Nenhuma alternativa atende a todos os critérios.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na restrição de palavras com 5 letras, ignorando a restrição de vogais e a ordem alfabética inicial.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar a restrição de vogais de forma superficial, focando apenas no número, sem considerar a restrição de ordem alfabética.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem se concentrar apenas na quantidade de letras, ignorando a restrição de vogais e a ordem alfabética.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem se concentrar na existência de palavras com cinco letras, ignorando as restrições de vogais e a ordem alfabética.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho das alternativas: 'falhar gravar hertz jorrar kodak' (24 palavras) é significativamente maior que 'abrir brincar durar entrar faltar' (21 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação de que as palavras devem conter pelo menos cinco letras e ter um número limitado de vogais, já que isso é explicitado em dois pontos distintos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da restrição sobre o número de letras e vogais, combinando as informações em uma única frase.
+    [G15] O enunciado não explicita diretamente qual é a tarefa a ser realizada. A pergunta 'Qual das seguintes alternativas é um comando válido?' só se torna clara após a leitura das restrições.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para que a tarefa seja clara desde o início, por exemplo: 'Identifique qual das alternativas abaixo representa um comando válido, de acordo com as regras especificadas.' 
+    [G24] Diferença no tamanho das alternativas: 'falhar gravar hertz jorrar kodak' (24 palavras) é significativamente maior que 'abrir brincar durar entrar faltar' (21 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reduzir a diferença no número de palavras entre as alternativas para evitar desorientação.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

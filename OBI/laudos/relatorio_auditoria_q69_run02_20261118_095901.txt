@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 10:04:19
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de subsequência crescente para analisar diferentes sequências e determinar qual delas possui a maior subsequência máxima com exatamente dois elementos. Isso envolve a aplicação de um procedimento para identificar a subsequência crescente em cada opção.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado é prolixo na explicação do problema da mais longa subsequência crescente. A definição é excessivamente detalhada e repetitiva, especialmente a explicação do que constitui uma subsequência.
+         → Sugestão: Remover a explicação detalhada sobre o que é uma subsequência e simplificar a definição do problema. Por exemplo: 'Um problema clássico em computação é denominado mais longa subsequência crescente. Esse problema consiste em, dada uma sequência de números, encontrar uma subsequência crescente com o maior número de elementos possível.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema pede para encontrar a sequência onde a maior subsequência crescente tem exatamente dois elementos. Uma subsequência crescente é formada por elementos da sequência original, mantendo a ordem, mas não necessariamente consecutivos. Para cada alternativa, verificamos se existe uma subsequência crescente de tamanho 2 e se não existe uma subsequência crescente de tamanho maior. 
+
+A) {1, 2, 3, 4, 5}: A subsequência crescente {1, 2} tem tamanho 2. Também existem subsequências crescentes maiores, como {1, 2, 3}. 
+B) {5, 2, 3, 4, 1}: A subsequência crescente {2, 3} tem tamanho 2. A subsequência {1, 2} também é crescente e de tamanho 2. A subsequência {2, 3, 4} tem tamanho 3. 
+C) {5, 2, 3, 1, 4}: A subsequência crescente {2, 3} tem tamanho 2. A subsequência {1, 4} também é crescente e de tamanho 2. A subsequência {2, 3, 4} tem tamanho 3. 
+D) {5, 3, 4, 2, 1}: A subsequência crescente {3, 4} tem tamanho 2. A subsequência {2, 4} também é crescente e de tamanho 2. A subsequência {3, 4} tem tamanho 2. Não existe subsequência crescente maior. 
+E) {5, 4, 3, 2, 1}: A subsequência crescente {5, 4} não é crescente. A subsequência {5, 3} não é crescente. A subsequência {5, 2} não é crescente. A subsequência {5, 1} não é crescente. A subsequência {4, 3} não é crescente. A subsequência {4, 2} não é crescente. A subsequência {4, 1} não é crescente. A subsequência {3, 2} não é crescente. A subsequência {3, 1} não é crescente. A subsequência {2, 1} não é crescente. Não existe subsequência crescente de tamanho 2. 
+
+A alternativa D é a única que satisfaz a condição de ter uma subsequência crescente máxima de tamanho 2 e não ter subsequências crescentes maiores.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a sequência ordenada com a mais longa subsequência crescente, ignorando a restrição de remoção de elementos.
+    [B] Distrator (Plausibilidade: 4/5)
+         → A sequência pode parecer ter uma subsequência crescente de tamanho 2 devido à presença de números em ordem crescente, mas a restrição de remoção pode não ser considerada.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na ordem crescente local, sem considerar a necessidade de remover elementos para maximizar o comprimento da subsequência.
+    [E] Distrator (Plausibilidade: 5/5)
+         → A sequência decrescente pode ser interpretada como tendo uma subsequência crescente de tamanho 2, devido à presença de dois elementos consecutivos que poderiam ser considerados.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa E é significativamente mais longa que a alternativa A.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado é prolixo na explicação do problema da mais longa subsequência crescente. A definição é excessivamente detalhada e repetitiva, especialmente a explicação do que constitui uma subsequência.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a explicação detalhada sobre o que é uma subsequência e simplificar a definição do problema. Por exemplo: 'Um problema clássico em computação é denominado mais longa subsequência crescente. Esse problema consiste em, dada uma sequência de números, encontrar uma subsequência crescente com o maior número de elementos possível.'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa E é significativamente mais longa que a alternativa A.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o comprimento das alternativas para evitar disparidade na percepção do aluno.
+
+================================================================================

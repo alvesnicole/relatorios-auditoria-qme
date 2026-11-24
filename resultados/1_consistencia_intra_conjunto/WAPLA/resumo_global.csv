@@ -1,0 +1,21 @@
+metrica,valor,observacao
+Questões pareadas,80,
+Jaccard médio das diretrizes,0.7964,1 = mesmas diretrizes
+Jaccard mediano,1.0,
+Jaccard desvio-padrão,0.2302,
+Questões com diretrizes idênticas,41/80,
+Hamming médio (diretrizes alteradas por questão),0.675,
+"Kappa diretrizes (micro, todas as células)",0.8568,quase perfeita
+Kappa médio por diretriz (macro),0.6807,substancial
+Concordância gabarito_agente,0.9625,
+Kappa gabarito_agente,0.9184,quase perfeita
+Taxa confere_gabarito exec1,0.975,
+Taxa confere_gabarito exec2,0.9375,
+Kappa confere_gabarito,0.5556,moderada
+McNemar confere (0->1 / 1->0),0 / 3,p = 0.2500
+Kappa nível de Bloom,0.978,quase perfeita
+Plausibilidade média exec1,2.8938,
+Plausibilidade média exec2,2.9062,
+Wilcoxon plausibilidade,26.5,p = 0.5500
+"ICC(3,1) plausibilidade",0.8346,
+Questões totalmente estáveis,41/80,mesmas diretrizes e mesma resposta

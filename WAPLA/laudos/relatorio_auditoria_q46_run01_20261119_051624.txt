@@ -1,0 +1,70 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 05:20:46
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique o conhecimento sobre postulados da geometria espacial para justificar uma construção específica. Ele precisa conectar um cenário prático (a construção do plano) com princípios teóricos, demonstrando compreensão e aplicação dos conceitos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Considerando a situação descrita e os postulados da Geometria Espacial' é redundante, pois a situação já foi descrita.
+         → Sugestão: Remover a frase 'Considerando a situação descrita e os postulados da Geometria Espacial'.
+    [G16] A contextualização inicial sobre a atividade de modelagem espacial e a discussão em turma é um floreio narrativo que não contribui diretamente para a avaliação do conhecimento.
+         → Sugestão: Remover a primeira parte do enunciado, que descreve a atividade de modelagem espacial e a discussão em turma. O enunciado pode começar diretamente com a pergunta: 'Considerando os postulados da Geometria Espacial, qual afirmação é a mais adequada para justificar a determinação do plano?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema envolve determinar qual afirmação justifica a construção de um plano que contém uma reta (r) e um ponto (P) externo a essa reta. O postulado fundamental da geometria espacial que rege essa situação é que uma reta e um ponto fora dela determinam um único plano. Portanto, a alternativa que melhor reflete esse princípio é a A.
+
+Análise das alternativas:
+
+A) Correta: Reflete diretamente o postulado de que uma reta e um ponto fora dela determinam um único plano.
+B) Incorreta: Afirmação falsa. Uma reta e um ponto fora dela determinam um único plano, não infinitos.
+C) Incorreta: Contradiz o postulado fundamental da geometria espacial.
+D) Incorreta: A afirmação de que um plano paralelo a r e passando por P é o mesmo que contém r e P é falsa. Paralelismo não implica coincidência.
+E) Incorreta: A relação entre retas reversas e planos é mais complexa e não se aplica diretamente à determinação do plano a partir de uma reta e um ponto externo.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a existência de múltiplos planos que contêm uma reta e a determinação de um plano único por uma reta e um ponto.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Incompreensão do conceito de ponto pertencente a um plano; aluno acredita que um ponto externo a uma reta impede a existência de um plano comum.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Interpretação equivocada da relação entre paralelismo e determinação de um plano; aluno associa paralelismo à unicidade do plano.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a determinação de um plano por duas retas concorrentes e a relação entre uma reta e um ponto para determinar um plano.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas: A (48 palavras) é significativamente maior que C (27 palavras).
+    [G27] Alternativa C utiliza negação ('Não existe'), o que pode dificultar a compreensão.
+    [G30] A alternativa E parece arbitrária, sem uma ligação clara com os erros comuns de estudantes sobre o tema.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Considerando a situação descrita e os postulados da Geometria Espacial' é redundante, pois a situação já foi descrita.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Considerando a situação descrita e os postulados da Geometria Espacial'.
+    [G16] A contextualização inicial sobre a atividade de modelagem espacial e a discussão em turma é um floreio narrativo que não contribui diretamente para a avaliação do conhecimento.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira parte do enunciado, que descreve a atividade de modelagem espacial e a discussão em turma. O enunciado pode começar diretamente com a pergunta: 'Considerando os postulados da Geometria Espacial, qual afirmação é a mais adequada para justificar a determinação do plano?'
+    [G24] Diferença de tamanho entre as alternativas: A (48 palavras) é significativamente maior que C (27 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G27] Alternativa C utiliza negação ('Não existe'), o que pode dificultar a compreensão.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular a alternativa para evitar a negação, mantendo o mesmo significado.
+    [G30] A alternativa E parece arbitrária, sem uma ligação clara com os erros comuns de estudantes sobre o tema.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a alternativa E para garantir que ela reflita um erro conceitual plausível.
+
+================================================================================

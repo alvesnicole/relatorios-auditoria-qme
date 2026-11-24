@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 15:41:53
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento do comando correto do Linux para resolver um problema prático específico (mover um arquivo). Não envolve análise profunda, avaliação crítica ou criação de novas soluções.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação de que a ficha deve ser movida para o diretório do cliente, já que o contexto de 'ficha de cadastro padrão' implica essa destinação.
+         → Sugestão: Remover a frase 'para o diretório designado ao cliente'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema pede o comando para mover um arquivo na Shell do Linux. O comando 'mv' (move) é o comando padrão para mover arquivos em sistemas Linux. As outras opções não correspondem a comandos válidos do Linux: 'is' não é um comando, 'ns' e 'pr' não são comandos padrão, e 'xl' também não é um comando conhecido. Portanto, a alternativa 'mv' é a única que faz sentido no contexto do problema.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 2/5)
+         → Confusão entre comandos de listagem de diretórios e comandos de movimentação de arquivos.
+    [C] Distrator (Plausibilidade: 1/5)
+         → Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no tipo de comando apresentado.
+    [G30] As alternativas C, D e E não refletem erros típicos de estudantes ao lidar com comandos Linux.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (1.25/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém repetição desnecessária da informação de que a ficha deve ser movida para o diretório do cliente, já que o contexto de 'ficha de cadastro padrão' implica essa destinação.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'para o diretório designado ao cliente'.
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no tipo de comando apresentado.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das alternativas para manter a consistência e clareza.
+    [G30] As alternativas C, D e E não refletem erros típicos de estudantes ao lidar com comandos Linux.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores que representem erros comuns de estudantes ao usar a shell do Linux.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (1.25/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

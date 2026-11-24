@@ -1,0 +1,64 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:32:28
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno compreenda as ideias de diferentes pensadores e estabeleça relações entre elas, identificando a evolução do pensamento econômico. Isso envolve a desconstrução das informações apresentadas e a identificação de padrões e conexões, caracterizando um nível de análise.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta um bloco de texto extenso que descreve a evolução do pensamento econômico. Embora a informação seja contextual, ela é excessiva para a tarefa proposta, que é avaliar a relação entre os pensadores e suas concepções. A repetição de informações sobre cada pensador poderia ser condensada.
+         → Sugestão: Remover detalhes desnecessários da descrição de cada pensador, focando nos pontos-chave que diferenciam suas concepções. Por exemplo, em vez de detalhar a formação do pensamento econômico, poderia-se dizer algo como: 'Autores iniciais valorizaram a acumulação de metais e o papel do Estado, a fisiocracia defendeu a terra, Adam Smith criticou essa visão, Marx interpretou o capitalismo como sistema de exploração e Keynes propôs intervenção estatal em crises.'
+    [G16] O enunciado contém uma contextualização extensa sobre a formação do pensamento econômico, que não contribui diretamente para a avaliação da compreensão do aluno sobre a relação entre os pensadores e suas ideias. Trata-se de um floreio narrativo desnecessário.
+         → Sugestão: Remover a contextualização extensa e apresentar diretamente a questão: 'Adam Smith criticou a visão da fisiocracia ao defender...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise do enunciado: O texto descreve a evolução do pensamento econômico, desde o mercantilismo até o keynesianismo. A tarefa é identificar a alternativa que corretamente relaciona os pensadores e suas concepções. 
+
+Análise das alternativas:
+
+A) Incorreta. O mercantilismo não defendeu o livre-mercado, mas sim a intervenção estatal. Adam Smith não criticou o liberalismo, mas sim o mercantilismo. Keynes não rejeitou a ação do Estado, mas a defendeu em certas circunstâncias.
+B) Correta. Apresenta as ideias dos pensadores de forma coerente com o texto: mercantilismo (acumulação de metais e Estado), fisiocracia (terra como fonte de riqueza), Adam Smith (livre-mercado), Marx (contradições do capitalismo) e Keynes (intervenção estatal em crises).
+C) Incorreta. O mercantilismo surgiu em parte como resposta à expansão comercial, não como crítica. Adam Smith não propôs controle estatal integral, mas sim o livre-mercado. Marx não elaborou a teoria da utilidade marginal.
+D) Incorreta. O mercantilismo não priorizou a igualdade social, mas sim o fortalecimento do Estado. A fisiocracia não rejeitou a produção agrícola, mas a valorizou. Adam Smith não defendeu monopólios regulados.
+E) Incorreta. O mercantilismo e a fisiocracia tiveram ideias distintas. Smith, Marx e Keynes não apenas adaptaram princípios, mas desenvolveram teorias complexas.
+
+Conclusão: A alternativa B é a única que apresenta uma relação correta entre os pensadores e suas concepções, de acordo com o texto.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre mercantilismo e liberalismo, associando o primeiro ao livre-mercado e o segundo à intervenção estatal.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Incompreensão do papel do mercantilismo como sistema econômico emergente e da fisiocracia como reação a ele.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Equívoco sobre as características do mercantilismo, associando-o a ideais igualitários e coletivistas.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Generalização excessiva, sugerindo que Smith, Marx e Keynes apenas adaptaram ideias pré-existentes sem contribuições originais.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa D é significativamente mais curta que as demais, com uma diferença de mais de 8 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta um bloco de texto extenso que descreve a evolução do pensamento econômico. Embora a informação seja contextual, ela é excessiva para a tarefa proposta, que é avaliar a relação entre os pensadores e suas concepções. A repetição de informações sobre cada pensador poderia ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover detalhes desnecessários da descrição de cada pensador, focando nos pontos-chave que diferenciam suas concepções. Por exemplo, em vez de detalhar a formação do pensamento econômico, poderia-se dizer algo como: 'Autores iniciais valorizaram a acumulação de metais e o papel do Estado, a fisiocracia defendeu a terra, Adam Smith criticou essa visão, Marx interpretou o capitalismo como sistema de exploração e Keynes propôs intervenção estatal em crises.'
+    [G16] O enunciado contém uma contextualização extensa sobre a formação do pensamento econômico, que não contribui diretamente para a avaliação da compreensão do aluno sobre a relação entre os pensadores e suas ideias. Trata-se de um floreio narrativo desnecessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização extensa e apresentar diretamente a questão: 'Adam Smith criticou a visão da fisiocracia ao defender...'
+    [G24] A alternativa D é significativamente mais curta que as demais, com uma diferença de mais de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio na apresentação.
+
+================================================================================

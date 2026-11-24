@@ -1,0 +1,65 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:02:23
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as condições apresentadas e as alternativas para determinar qual delas pode ser verdadeira, inferindo relações entre as frutas e as merendas. Não se trata de simples memorização ou aplicação direta de regras, mas sim de avaliar a consistência das opções com as restrições dadas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre a visita ao Parque Ecológico e a preparação da merenda. A primeira frase contém informações redundantes.
+         → Sugestão: Remover a primeira frase e integrar a informação à segunda frase. Exemplo: 'A Diretora quer preparar uma merenda especial para os alunos levarem no dia da visita ao Parque Ecológico.'
+    [G16] Contextualização excessiva e narrativa desnecessária sobre a professora, a diretora e a visita. A história não contribui para a resolução do problema.
+         → Sugestão: Remover a contextualização inicial e apresentar o problema diretamente. Exemplo: 'Três tipos diferentes de merendas serão preparados, cada um composto por três variedades de frutas, escolhidas entre banana, caju, figo, maçã, pêra e uva...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O problema envolve a distribuição de frutas em três tipos de merenda, com restrições sobre quais frutas podem aparecer juntas. A regra chave é que exatamente uma fruta deve estar em todas as merendas. Vamos analisar cada alternativa:
+
+A) Uva está presente em todas as merendas que contêm caju e em todas as merendas que contêm figo. Se uva está em todas as merendas com caju, então caju e uva não podem estar juntas em todas as merendas, o que é inconsistente com a possibilidade de haver uma fruta em todas as merendas. 
+B) Caju está presente em todas as merendas que contêm figo, e figo está presente em todas as merendas que contêm caju. Similar à alternativa A, isso implica que caju e figo não podem estar juntas em todas as merendas, o que é inconsistente. 
+C) Figo está presente em todas as merendas que contêm maçã e em todas as merendas que contêm caju.  Isso pode ser consistente. Se figo está em todas as merendas com maçã e caju, então figo pode ser a fruta que está em todas as merendas. 
+D) Todas as merendas contêm uva. Isso violaria a restrição de que exatamente uma fruta está em todas as merendas. 
+E) Todas as merendas contêm banana. Isso violaria a restrição de que exatamente uma fruta está em todas as merendas.
+
+A alternativa C parece ser a mais plausível, pois permite que figo seja a fruta comum em todas as merendas, enquanto maçã e caju aparecem em conjunto com figo em cada merenda. A restrição de que pêra não pode estar com uva e a restrição de que banana não pode estar com maçã podem ser satisfeitas com essa configuração.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a condição de inclusão como uma regra universal, ignorando a possibilidade de outras frutas também estarem presentes.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a presença de um tipo de merenda contendo caju e a presença de caju em *todas* as merendas.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação literal da condição de que cada variedade de fruta deve estar em *pelo menos* um tipo de merenda, levando à conclusão de que todas as merendas devem conter uva.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Similar à opção D, interpretação literal da condição de inclusão mínima, generalizando para todas as merendas.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (45 palavras) é significativamente mais longa que a alternativa E (23 palavras).
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação sobre a visita ao Parque Ecológico e a preparação da merenda. A primeira frase contém informações redundantes.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase e integrar a informação à segunda frase. Exemplo: 'A Diretora quer preparar uma merenda especial para os alunos levarem no dia da visita ao Parque Ecológico.'
+    [G16] Contextualização excessiva e narrativa desnecessária sobre a professora, a diretora e a visita. A história não contribui para a resolução do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização inicial e apresentar o problema diretamente. Exemplo: 'Três tipos diferentes de merendas serão preparados, cada um composto por três variedades de frutas, escolhidas entre banana, caju, figo, maçã, pêra e uva...'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (45 palavras) é significativamente mais longa que a alternativa E (23 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

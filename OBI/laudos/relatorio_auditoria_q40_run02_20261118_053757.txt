@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 05:42:49
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras do jogo para determinar qual valor de 'x' maximiza a vantagem de Eduardo sobre Maria. Isso envolve simular o jogo para diferentes valores de 'x' e comparar os resultados, demonstrando a aplicação de um processo algorítmico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação do procedimento. A descrição do passo 2 é redundante, pois já foi introduzida no passo 1.
+         → Sugestão: Remover a repetição da explicação do procedimento no passo 2. Simplificar a redação para evitar redundância.
+    [G16] A introdução com a história de Maria e Eduardo serve como window dressing, pois não contribui diretamente para a compreensão do problema a ser resolvido.
+         → Sugestão: Remover a introdução com a história de Maria e Eduardo e apresentar o problema diretamente.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema busca a configuração inicial de 'x' que maximize a diferença entre os doces de Eduardo e Maria. A estratégia de Eduardo é maximizar as divisões por 2 (x par), enquanto a de Maria é subtrair 1 (x ímpar). 
+
+Analisando as alternativas:
+
+A) 32: Eduardo ganha doces em 32, 16, 8, 4, 2, 1. Total: 6 doces.
+B) 9: Maria ganha doces em 9, 8, 7, 6, 5, 4, 3, 2, 1. Total: 9 doces.
+C) 51: Maria ganha doces em 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1. Total: 51 doces.
+D) 17: Maria ganha doces em 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1. Total: 17 doces.
+E) 20: Eduardo ganha doces em 20, 10, 5, 2, 1. Total: 5 doces.
+
+Eduardo maximiza a vantagem quando o número inicial é par e tem muitos fatores de 2. 32 é o maior número par entre as opções, resultando no maior número de doces para Eduardo. 
+
+Comparando as quantidades de doces para Eduardo: 6 (32), 0 (9), 0 (51), 0 (17), 2 (20). A alternativa A (32) resulta na maior vantagem para Eduardo.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na divisão por 2 como fator determinante, ignorando a subtração de 1 quando x é ímpar.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a lógica de divisão para números pares e subtração para ímpares, levando a uma estimativa incorreta.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Alunos podem não compreender completamente a interação entre a divisão por 2 e a subtração de 1, resultando em uma escolha plausível.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Pode-se interpretar que um número par maior implica em mais doces para Eduardo, sem considerar a dinâmica do jogo.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da explicação do procedimento. A descrição do passo 2 é redundante, pois já foi introduzida no passo 1.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da explicação do procedimento no passo 2. Simplificar a redação para evitar redundância.
+    [G16] A introdução com a história de Maria e Eduardo serve como window dressing, pois não contribui diretamente para a compreensão do problema a ser resolvido.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução com a história de Maria e Eduardo e apresentar o problema diretamente.
+
+================================================================================

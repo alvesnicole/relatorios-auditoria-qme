@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 09:18:40
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique as regras fornecidas para determinar uma ordem possível de apresentação dos estudantes, combinando as restrições para encontrar uma solução que satisfaça todas as condições. Não se trata de mera recordação ou compreensão, mas sim de manipulação das informações para gerar uma resposta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que cada estudante se apresenta sozinho no palco e um de cada vez. Essa informação é implícita nas demais condições.
+         → Sugestão: Remover a frase 'No show, cada estudante vai se apresentar sozinho no palco, um em seguida do outro.' e a frase 'Nenhum estudante vai se apresentar mais do que uma vez'.
+    [G16] A introdução do enunciado, com a descrição do Show de Talentos e do Grêmio de Estudantes, é um floreio narrativo desnecessário para a resolução do problema. Não contribui para a compreensão da tarefa.
+         → Sugestão: Remover a primeira frase: 'Show de Talentos Seis estudantes, Pipa, Quico, Rui, Sara, Teco e Ula, vão se apresentar no Show de Talentos organizado pelo Grêmio de Estudantes.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise das restrições:
+1. Pipa, Quico e Rui devem se apresentar um imediatamente após o outro, em alguma ordem: Isso significa que eles devem estar juntos na ordem PQR ou qualquer permutação.
+2. Teco e Ula devem se apresentar antes de Rui: Teco e Ula devem aparecer antes de Rui na ordem.
+3. Sara deve ser a primeira ou a última a se apresentar: Sara deve estar no primeiro ou último lugar.
+4. Exatamente um estudante deve se apresentar entre Pipa e Ula: Existe um estudante entre Pipa e Ula.
+
+Verificação das alternativas:
+A) Sara, Teco, Ula, Rui, Pipa, Quico: Sara (1ª), Teco e Ula antes de Rui (ok), Pipa e Quico juntos (ok), um estudante entre Pipa e Ula (Teco e Ula estão antes de Pipa). OK.
+B) Sara, Pipa, Quico, Rui, Teco, Ula: Sara (1ª), Teco e Ula antes de Rui (violação), Pipa e Quico juntos (ok), um estudante entre Pipa e Ula (ok).
+C) Teco, Sara, Pipa, Rui, Quico, Ula: Sara (1ª), Teco e Ula antes de Rui (violação), Pipa e Quico juntos (ok), um estudante entre Pipa e Ula (ok).
+D) Ula, Rui, Teco, Quico, Pipa, Sara: Sara (última), Teco e Ula antes de Rui (violação), Pipa e Quico juntos (ok), um estudante entre Pipa e Ula (ok).
+E) Teco, Pipa, Quico, Ula, Rui, Sara: Sara (última), Teco e Ula antes de Rui (violação), Pipa e Quico juntos (ok), um estudante entre Pipa e Ula (ok).
+
+Alternativa A satisfaz todas as condições.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar erroneamente a condição de que Pipa e Quico devem estar juntos, mas não necessariamente em sequência com Sara.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na ordem de Teco e Ula antes de Rui, ignorando a restrição de Sara ser a primeira ou a última.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem interpretar a condição de Teco e Ula antes de Rui de forma muito literal, ignorando a restrição de Sara.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na ordem de Pipa e Quico, mas esquecer a condição de que Sara deve ser a primeira ou a última.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação de que cada estudante se apresenta sozinho no palco e um de cada vez. Essa informação é implícita nas demais condições.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'No show, cada estudante vai se apresentar sozinho no palco, um em seguida do outro.' e a frase 'Nenhum estudante vai se apresentar mais do que uma vez'.
+    [G16] A introdução do enunciado, com a descrição do Show de Talentos e do Grêmio de Estudantes, é um floreio narrativo desnecessário para a resolução do problema. Não contribui para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase: 'Show de Talentos Seis estudantes, Pipa, Quico, Rui, Sara, Teco e Ula, vão se apresentar no Show de Talentos organizado pelo Grêmio de Estudantes.'
+
+================================================================================

@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:39:43
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda as características da body art e, a partir disso, analise as opções para identificar qual decisão da artista melhor se alinha com essa abordagem, implicando na desconstrução das alternativas e identificação de padrões.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa e narrativa sobre a artista, o festival e o diálogo com a curadoria, que não contribui diretamente para a avaliação do conhecimento do aluno sobre body art. Essa contextualização funciona como window dressing.
+         → Sugestão: Remover a contextualização inicial sobre a artista e o festival, focando diretamente na questão da decisão da artista em relação à sua prática e sua relação com a body art.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A questão pede a decisão da artista que mais se articula com a body art contemporânea. A body art geralmente envolve o corpo como suporte, linguagem e obra, frequentemente explorando temas de vulnerabilidade, dor e transformação. A alternativa A se alinha mais diretamente com essa definição, pois descreve uma intervenção permanente no corpo, enfatizando a dor e a vulnerabilidade, e minimizando elementos externos. As outras alternativas apresentam abordagens mais distantes da body art, como projeções de vídeo (B), encenação dramática (C), intervenções temporárias (D) e fotografia com figurino (E). A alternativa A é a única que incorpora a permanência da marca no corpo, um elemento central na body art.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde body art com performance que utiliza recursos audiovisuais, ignorando a centralidade do corpo como suporte e linguagem.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpreta body art como mera representação simbólica, desconsiderando a materialidade e a experiência corporal direta.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Entende a interação com o público como elemento central, negligenciando a transformação e a exploração do corpo como obra de arte.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Associa body art à representação de identidades culturais, sem considerar a modificação e a exposição do corpo como prática artística.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas: A (115 palavras) vs. B (65 palavras), C (88 palavras), D (78 palavras), E (75 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa e narrativa sobre a artista, o festival e o diálogo com a curadoria, que não contribui diretamente para a avaliação do conhecimento do aluno sobre body art. Essa contextualização funciona como window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização inicial sobre a artista e o festival, focando diretamente na questão da decisão da artista em relação à sua prática e sua relação com a body art.
+    [G24] Diferença de tamanho entre as alternativas: A (115 palavras) vs. B (65 palavras), C (88 palavras), D (78 palavras), E (75 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+
+================================================================================

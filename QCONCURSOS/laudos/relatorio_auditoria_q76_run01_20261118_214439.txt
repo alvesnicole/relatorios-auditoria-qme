@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 21:48:00
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Lembrar
+  Justificativa   : O item exige que o aluno recorde a categoria a qual um bloco específico pertence, o que corresponde à memorização de informações factuais.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação de que o bloco serve para que o personagem se comunique com quem usa o projeto. Essa informação é implícita e pode ser removida.
+         → Sugestão: Remover a frase 'utilizado para que o personagem se comunique com quem usa o projeto'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve o bloco "diga [Olá!] por 2 segundos" como usado para comunicação entre o personagem e o usuário do projeto. Analisando as alternativas, a categoria 'Som' parece ser a mais adequada, pois o bloco produz um som (a fala). As outras categorias não se encaixam tão bem: 'Eventos' se refere a ações que iniciam o bloco, 'Controle' se refere a blocos que alteram o fluxo do programa, 'Aparência' se refere a blocos que modificam a aparência do personagem e 'Sensores' se refere a blocos que detectam informações do ambiente.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem associar o som a comunicação, sem entender a categoria específica de blocos para isso.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a função de comunicação e a resposta a eventos no Scratch.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Interpretação equivocada de que a comunicação é um aspecto de controle do programa.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Associação superficial entre a comunicação e a coleta de dados de sensores.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam pequenas variações no tamanho, o que pode influenciar a escolha do aluno.
+    [G30] A alternativa 'E' (Sensores) parece arbitrária e não reflete um erro comum de estudantes.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] O enunciado contém repetição desnecessária da informação de que o bloco serve para que o personagem se comunique com quem usa o projeto. Essa informação é implícita e pode ser removida.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'utilizado para que o personagem se comunique com quem usa o projeto'.
+    [G24] As alternativas apresentam pequenas variações no tamanho, o que pode influenciar a escolha do aluno.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho das alternativas para evitar viés na escolha.
+    [G30] A alternativa 'E' (Sensores) parece arbitrária e não reflete um erro comum de estudantes.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Substituir a alternativa 'E' por uma opção mais relacionada a conceitos errôneos sobre blocos do Scratch.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou A, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

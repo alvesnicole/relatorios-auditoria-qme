@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 01:29:29
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para simular a sequência de ações no computador e prever o resultado exibido na tela. É necessário seguir um processo passo a passo para determinar a ordem correta de digitação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação da ação de cada tecla. A descrição de cada ação poderia ser mais concisa.
+         → Sugestão: Reescrever a seção de ações associadas a cada tecla de forma mais direta, evitando a repetição de 'É armazenado em “NUM” o valor que ele possuía...'
+    [G16] A introdução com a história de Daniel e seu computador é um exemplo de window dressing, pois não contribui diretamente para a resolução do problema.
+         → Sugestão: Remover a introdução sobre Daniel e seu computador, indo direto à descrição do problema e das ações das teclas.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema exige encontrar a sequência de teclas que resulta na exibição da sequência numérica "10 9 8 7". Inicialmente, NUM = 0. A tecla 'A' define NUM = 10. A tecla 'B' subtrai 1, 'C' subtrai 2 e 'D' soma 1. A tecla 'E' imprime o valor atual de NUM. 
+
+Analisando as alternativas:
+
+A) E-B-E-B-E-B-E: NUM = 10, NUM = 9, NUM = 9, NUM = 8, NUM = 8, NUM = 7, NUM = 7. Exibe 10 9 9 8 8 7 7. Incorreta.
+B) A-E-B-E-B-E-B-E: NUM = 10, Exibe 10, NUM = 9, Exibe 9, NUM = 8, Exibe 8, NUM = 7, Exibe 7. Exibe 10 9 8 7. Correta.
+C) A-E-B-E-B-E: NUM = 10, Exibe 10, NUM = 9, Exibe 9, NUM = 8, Exibe 8. Exibe 10 9 8. Incorreta.
+D) A-E-C-E-C-E: NUM = 10, Exibe 10, NUM = 8, Exibe 8, NUM = 6, Exibe 6. Exibe 10 8 6. Incorreta.
+E) A-E-D-E-D-E: NUM = 10, Exibe 10, NUM = 11, Exibe 11, NUM = 12, Exibe 12. Exibe 10 11 12. Incorreta.
+
+A alternativa B é a única que produz a sequência desejada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar a sequência como uma inicialização e impressão direta, sem considerar a ordem das operações.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode focar na subtração, mas não considerar a ordem correta das operações para atingir a sequência desejada.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não compreender a função de cada tecla e tentar adivinhar a sequência, sem analisar o processo passo a passo.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Aluno pode interpretar a sequência como uma simples concatenação de números, sem considerar a lógica da memória NUM.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da explicação da ação de cada tecla. A descrição de cada ação poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever a seção de ações associadas a cada tecla de forma mais direta, evitando a repetição de 'É armazenado em “NUM” o valor que ele possuía...'
+    [G16] A introdução com a história de Daniel e seu computador é um exemplo de window dressing, pois não contribui diretamente para a resolução do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução sobre Daniel e seu computador, indo direto à descrição do problema e das ações das teclas.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

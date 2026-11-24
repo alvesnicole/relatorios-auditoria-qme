@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 03:36:24
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno compreenda as relações complexas entre liberalismo econômico e Revolução Industrial, avaliando qual alternativa melhor representa essa relação, o que envolve a desconstrução das opções e a identificação de elementos-chave do texto.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização extensa sobre o cenário histórico e econômico da Inglaterra no século XVIII, que não contribui diretamente para a formulação da pergunta. Essa contextualização funciona como window dressing, pois não é essencial para a compreensão da questão.
+         → Sugestão: Remover a primeira frase do enunciado: 'No final do século XVIII, a Inglaterra combinava expansão do comércio atlântico, fortalecimento de uma burguesia ligada ao crédito e à circulação de mercadorias, disponibilidade de capitais acumulados e um processo de reorganização do trabalho que reduzia a autonomia do produtor artesanal.' A pergunta pode ser formulada diretamente após a frase 'Com base no texto...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O texto descreve o contexto histórico da Revolução Industrial na Inglaterra, enfatizando a combinação de fatores como expansão comercial, acumulação de capitais, reorganização do trabalho e a adoção de máquinas. A alternativa C parece ser a que melhor se alinha com essa descrição, pois destaca a articulação entre esses elementos como a base da industrialização. As demais alternativas apresentam interpretações equivocadas ou incompletas do processo. A alternativa A exclui fatores cruciais, a B nega a importância do comércio e do capital, a D localiza a Revolução Industrial em regiões periféricas (o que não é o foco do texto) e a E afirma um fim da integração mundial (o oposto do que o texto sugere). 
+
+Análise das Pistas Estruturais:
+
+G28a: A palavra 'articulação' na alternativa C, embora não seja um termo absoluto, é um ponto chave na descrição do processo industrial no texto, o que a diferencia das demais opções.
+
+G28b: A alternativa C repete termos como 'industrialização', 'mercado' e 'lucratividade' presentes no texto, funcionando como um reforço visual.
+
+G28d: A alternativa C é mais detalhada e qualificada que as demais, pois apresenta uma explicação mais abrangente do processo industrial.
+
+G28e: Não há pares ou trincas de opções que se anulem e revelem a resposta.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a Revolução Industrial foi puramente tecnológica, ignorando fatores econômicos e sociais.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre liberalismo e abolicão do comércio, acreditando que a industrialização surgiu de forma espontânea.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea da Revolução Industrial como um fenômeno periférico, ignorando seu epicentro na Inglaterra.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a industrialização interrompeu o comércio global, quando na verdade o expandiu.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém contextualização extensa sobre o cenário histórico e econômico da Inglaterra no século XVIII, que não contribui diretamente para a formulação da pergunta. Essa contextualização funciona como window dressing, pois não é essencial para a compreensão da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase do enunciado: 'No final do século XVIII, a Inglaterra combinava expansão do comércio atlântico, fortalecimento de uma burguesia ligada ao crédito e à circulação de mercadorias, disponibilidade de capitais acumulados e um processo de reorganização do trabalho que reduzia a autonomia do produtor artesanal.' A pergunta pode ser formulada diretamente após a frase 'Com base no texto...'
+
+================================================================================

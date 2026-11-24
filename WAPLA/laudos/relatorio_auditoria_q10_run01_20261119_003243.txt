@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:36:22
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as opções apresentadas, considerando as características da body art e a proposta da artista, para identificar a decisão que melhor se articula com a abordagem. Não se trata apenas de lembrar definições, mas de aplicar o conhecimento a uma situação específica e avaliar a adequação de cada alternativa.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa e narrativa sobre a artista, o festival e o diálogo com a curadoria, que não contribui diretamente para a avaliação do conhecimento do aluno sobre body art. Essa contextualização funciona como window dressing.
+         → Sugestão: Remover a contextualização inicial sobre a artista e o festival, focando diretamente na questão da decisão da artista em relação à sua prática e sua relação com a body art.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A questão pede a decisão da artista que mais se articula com a body art contemporânea. A body art geralmente envolve o corpo como suporte, linguagem e obra, frequentemente explorando temas de vulnerabilidade, dor e transformação. A alternativa A se alinha mais diretamente com essa definição, pois descreve uma intervenção permanente no corpo, enfatizando a dor e a vulnerabilidade, e minimizando elementos externos. As outras alternativas apresentam abordagens mais distantes da body art, como projeções de vídeo (B), encenação dramática com figurino (C), mensagens temporárias no corpo (D) e sessão fotográfica com roupas (E). A alternativa A é a única que incorpora o corpo como o principal meio de expressão e exploração, alinhando-se com a essência da body art.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde body art com performance visual passiva, ignorando a centralidade do corpo como suporte e linguagem.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpreta body art como mera representação simbólica, desconsiderando a materialidade e a experiência corporal direta.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Entende a intervenção corporal como algo superficial e efêmero, sem impacto duradouro ou significado crítico.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Associa body art à exploração de identidade através de vestimentas, negligenciando a modificação e a exposição do corpo em si.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas: A (115 palavras) vs. B (58 palavras), C (77 palavras), D (68 palavras), E (65 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa e narrativa sobre a artista, o festival e o diálogo com a curadoria, que não contribui diretamente para a avaliação do conhecimento do aluno sobre body art. Essa contextualização funciona como window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização inicial sobre a artista e o festival, focando diretamente na questão da decisão da artista em relação à sua prática e sua relação com a body art.
+    [G24] Diferença de tamanho entre as alternativas: A (115 palavras) vs. B (58 palavras), C (77 palavras), D (68 palavras), E (65 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+
+================================================================================

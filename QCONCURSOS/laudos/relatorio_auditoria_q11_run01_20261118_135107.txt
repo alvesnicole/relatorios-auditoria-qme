@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:55:23
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno compare e contraste as diferentes funcionalidades do Windows 10 (Suspender, Hibernar, Logoff), identificando suas características e diferenças para determinar a alternativa correta. Isso envolve a desestruturação das informações fornecidas e a dedução da resposta, ultrapassando a simples memorização.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da informação de que o Windows 10 possui funcionalidades que podem ajudar na economia de energia ou segurança. A frase 'algumas deverão ser ativadas pelo usuário' é redundante, pois é implícito que funcionalidades precisam ser ativadas.
+         → Sugestão: Remover a frase 'O Windows 10, instalação padrão, português do Brasil, possui algumas funcionalidades (algumas deverão ser ativadas pelo usuário) que ajuda na economia de energia ou segurança quando o usuário deixa seu computador por um período de inatividade.'
+    [G12] O enunciado contém um erro de concordância verbal na assertiva II: 'Hibernar ou congelar os programas...'. O correto seria 'Hibernar ou congelar o programa...'.
+         → Sugestão: Corrigir a concordância verbal na assertiva II para 'Hibernar ou congelar o programa...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : Análise das assertivas:
+
+I. Suspender: A descrição está correta. Suspender interrompe o uso, mantém programas abertos e passa a um estado de baixo consumo de energia, preservando o conteúdo da RAM. A menção ao salvamento em caso de bateria insuficiente é um detalhe adicional que reforça a precisão.
+II. Hibernar: A descrição também está correta. Hibernar salva o estado atual no HD, desliga o computador e limpa a RAM. É ideal para longos períodos de inatividade devido ao menor consumo de energia.
+III. Fazer logoff: A descrição está correta. O logoff fecha a sessão do usuário, mas o computador permanece ligado.
+
+Análise das alternativas:
+
+A) Apenas I e II estão corretas: Incorreta, pois a III também está correta.
+B) Apenas I e III estão corretas: Incorreta, pois a II também está correta.
+C) Apenas II e III estão corretas: Incorreta, pois a I também está correta.
+D) Todas estão corretas: Todas as assertivas estão corretas e descrevem corretamente as funcionalidades do Windows 10.
+
+Considerando que o enunciado menciona que alguns modelos podem não ter todos os recursos, a alternativa D é a mais abrangente e precisa, pois reconhece a validade de todas as descrições.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir suspensão com hibernação, ambas interrompendo o uso, mas com diferentes níveis de salvamento de dados.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente a suspensão como um logoff, esquecendo que o computador permanece ligado.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não diferenciar completamente o logoff da hibernação, ambos encerrando a sessão do usuário.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+    [G24] As alternativas apresentam diferenças significativas no tamanho e extensão.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado apresenta repetição desnecessária da informação de que o Windows 10 possui funcionalidades que podem ajudar na economia de energia ou segurança. A frase 'algumas deverão ser ativadas pelo usuário' é redundante, pois é implícito que funcionalidades precisam ser ativadas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'O Windows 10, instalação padrão, português do Brasil, possui algumas funcionalidades (algumas deverão ser ativadas pelo usuário) que ajuda na economia de energia ou segurança quando o usuário deixa seu computador por um período de inatividade.'
+    [G12] O enunciado contém um erro de concordância verbal na assertiva II: 'Hibernar ou congelar os programas...'. O correto seria 'Hibernar ou congelar o programa...'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Corrigir a concordância verbal na assertiva II para 'Hibernar ou congelar o programa...'
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das alternativas para garantir maior clareza e uniformidade.
+    [G24] As alternativas apresentam diferenças significativas no tamanho e extensão.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar e ajustar o tamanho das alternativas para promover maior equilíbrio e evitar viés.
+
+================================================================================

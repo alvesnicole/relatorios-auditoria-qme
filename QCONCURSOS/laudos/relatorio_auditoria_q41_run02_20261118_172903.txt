@@ -1,0 +1,66 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:32:49
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre comandos Linux para resolver um problema prático específico: listar arquivos e permissões no diretório home. A escolha da resposta correta requer a compreensão do significado do comando `ls -l ~`.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] O enunciado não especifica qual diretório 'home' deve ser listado. Pode se referir ao diretório home do usuário atual, ou a um diretório com nome 'home'.
+         → Sugestão: Especificar o diretório 'home' a ser listado, por exemplo: 'Informe o comando Linux para listar os arquivos e permissões do diretório /home'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O comando Linux para listar arquivos e permissões no diretório home é `ls -l ~`. O comando `pwd` (print working directory) exibe o diretório atual, não lista arquivos. A opção `~` representa o diretório home do usuário. A opção `-l` em `ls` fornece detalhes como permissões, tamanho, data de modificação, etc. 
+
+A) `pwd /home` lista o diretório /home, não o diretório home do usuário.
+B) `ls -l ~` lista arquivos e permissões do diretório home do usuário.
+C) `pwd -la ~` combina `pwd` com opções de `ls`, o que não é um comando válido.
+D) `ls -la` lista todos os arquivos (incluindo ocultos) no diretório atual, não no diretório home.
+E) `pwd *` tenta listar o conteúdo do diretório atual, o que não é o objetivo.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão entre comando para mudar de diretório (cd) e listar arquivos (ls), além de não entender o significado de /home.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Combinação incorreta de comandos 'pwd' (imprime diretório atual) com opções de 'ls', demonstrando falta de compreensão da função de cada um.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Entende que 'ls' lista arquivos, mas não compreende o uso de '~' como atalho para o diretório home.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Uso incorreto do curinga '*' sem contexto, indicando falta de conhecimento sobre como o shell interpreta padrões.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam estruturas gramaticais e sintáticas distintas, com diferentes combinações de comandos e opções.
+    [G24] As alternativas possuem tamanhos consideravelmente diferentes, o que pode influenciar a escolha do candidato.
+    [G30] A alternativa 'E' (pwd *) não reflete um erro comum de estudantes ao lidar com comandos Linux.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G14] O enunciado não especifica qual diretório 'home' deve ser listado. Pode se referir ao diretório home do usuário atual, ou a um diretório com nome 'home'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Especificar o diretório 'home' a ser listado, por exemplo: 'Informe o comando Linux para listar os arquivos e permissões do diretório /home'.
+    [G23] As alternativas apresentam estruturas gramaticais e sintáticas distintas, com diferentes combinações de comandos e opções.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das alternativas, utilizando a mesma sintaxe e estilo de apresentação dos comandos.
+    [G24] As alternativas possuem tamanhos consideravelmente diferentes, o que pode influenciar a escolha do candidato.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para que sejam mais uniformes, mantendo a clareza e precisão.
+    [G30] A alternativa 'E' (pwd *) não reflete um erro comum de estudantes ao lidar com comandos Linux.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Substituir a alternativa 'E' por uma opção que represente um erro mais típico, como o uso incorreto de opções de um comando.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

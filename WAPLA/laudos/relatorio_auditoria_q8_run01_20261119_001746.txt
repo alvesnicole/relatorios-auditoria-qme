@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:21:19
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato organize informações clínicas complexas, relacione-as a diferentes hipercromias faciais e formule uma hipótese diagnóstica inicial, demonstrando a capacidade de analisar e integrar dados para chegar a uma conclusão. Não se trata apenas de lembrar ou aplicar informações, mas de interpretar um cenário complexo.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa (histórico da paciente, exame físico, hábitos) que, embora possa ser relevante para o cenário, não é essencial para a compreensão da pergunta e pode ser considerada window dressing.
+         → Sugestão: Remover detalhes não essenciais do histórico e exame físico, focando nos dados diretamente relevantes para a formulação da hipótese diagnóstica.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A paciente apresenta manchas hiperpigmentadas no rosto, com distribuição simétrica em áreas centrais (fronte, malar e dorso nasal), e histórico de exposição solar, uso de anticoncepcional oral e estresse. O histórico familiar também sugere predisposição genética. A alternativa A considera a combinação desses fatores, o que é consistente com a melasma, uma hipercromia comum em mulheres. As outras alternativas apresentam explicações menos abrangentes ou inconsistentes com o quadro clínico: B foca apenas na exposição solar recente, C descreve um fototipo inadequado, D associa a hipercromia ao envelhecimento em áreas atípicas, e E sugere uma causa inflamatória que não é evidente no exame físico.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem subestimar a influência de fatores hormonais e predisposição genética na hiperpigmentação, focando apenas na exposição solar recente.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confundem hipercromias faciais com características de fototipos claros, ignorando a prevalência em fototipo III e a distribuição na face.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem generalizar a ocorrência de hipercromias para áreas do corpo que não são o foco do caso, demonstrando falta de atenção aos detalhes.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Interpreta hipercromias como resultado de inflamação, ignorando a ausência de histórico de trauma ou lesões inflamatórias na face.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (44 palavras) é significativamente mais longa que a alternativa E (25 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa (histórico da paciente, exame físico, hábitos) que, embora possa ser relevante para o cenário, não é essencial para a compreensão da pergunta e pode ser considerada window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover detalhes não essenciais do histórico e exame físico, focando nos dados diretamente relevantes para a formulação da hipótese diagnóstica.
+    [G24] A alternativa B (44 palavras) é significativamente mais longa que a alternativa E (25 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+
+================================================================================

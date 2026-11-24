@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 01:57:47
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda a relação entre a resposta imune, o dano celular e os sintomas, e então avalie qual conduta é mais adequada, considerando as perspectivas conflitantes do médico e da biomédica. Isso envolve a desconstrução das informações e a identificação das implicações de cada abordagem.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a situação da equipe de microbiologia, o surto, as opiniões divergentes) que não contribui diretamente para a avaliação do conhecimento do aluno. Essa narrativa poderia ser mais concisa para focar na questão central.
+         → Sugestão: Remover a descrição detalhada do cenário, apresentando a situação de forma mais direta. Exemplo: 'Em um surto de infecção respiratória viral, a equipe médica diverge sobre a conduta para pacientes febris. Considerando a relação entre resposta imune antiviral, dano celular e sintomas sistêmicos...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um cenário de surto de infecção respiratória viral, com pacientes apresentando sintomas como febre, mialgia e mal-estar, mas com carga viral em declínio. A discussão central gira em torno da resposta imune e do uso de anti-inflamatórios. A biomédica deve defender uma abordagem que considere a importância da resposta imune para o controle da infecção, evitando medidas que suprimam a ativação linfocítica de forma indiscriminada. 
+
+Análise das alternativas:
+
+A) Parece a alternativa mais adequada, pois reconhece a febre e o mal-estar como parte da resposta imune, sugere uso criterioso de antitérmicos e propõe monitoramento. 
+B) Sugere anti-inflamatórios, o que é questionável, e busca alívio sintomático sem considerar a importância da resposta imune.
+C) Prioriza analgésicos leves, o que pode não ser suficiente para controlar os sintomas e pode atrasar a recuperação.
+D) Propõe redução de fármacos anti-inflamatórios em pacientes estáveis, o que é prematuro e pode comprometer a resposta imune.
+E) Sugere corticosteroides, que são potentes imunossupressores e inadequados para essa situação.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode acreditar que o alívio sintomático com anti-inflamatórios é suficiente, ignorando o papel da resposta imune na eliminação do vírus.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode priorizar o alívio da dor em detrimento da resposta imune, subestimando a importância dos sintomas para o controle da infecção.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode acreditar que a interrupção da inflamação é sempre benéfica, ignorando o papel da resposta inflamatória na eliminação do vírus.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode acreditar que corticosteroides são uma boa opção para aliviar sintomas, ignorando os efeitos imunossupressores e o potencial para prolongar a infecção.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas. A alternativa B é consideravelmente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a situação da equipe de microbiologia, o surto, as opiniões divergentes) que não contribui diretamente para a avaliação do conhecimento do aluno. Essa narrativa poderia ser mais concisa para focar na questão central.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada do cenário, apresentando a situação de forma mais direta. Exemplo: 'Em um surto de infecção respiratória viral, a equipe médica diverge sobre a conduta para pacientes febris. Considerando a relação entre resposta imune antiviral, dano celular e sintomas sistêmicos...'
+    [G24] Diferença significativa no tamanho entre as alternativas. A alternativa B é consideravelmente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés na escolha.
+
+================================================================================

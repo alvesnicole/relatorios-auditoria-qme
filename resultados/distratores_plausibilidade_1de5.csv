@@ -1,0 +1,104 @@
+﻿conjunto;questao;execucao;gabarito_oficial;alternativa;plausibilidade;plausibilidade_na_outra_execucao;justificativa_agente;arquivo_relatorio
+OBI;9;run01;B;A;1/5;1/5;Alunos podem interpretar que uma única viagem é suficiente se ignorarem a restrição de peso da bolsa.;relatorio_auditoria_q9_run01_20261118_004902.txt
+OBI;9;run02;B;A;1/5;1/5;Aluno ignora a restrição de peso da bolsa, presumindo que apenas uma viagem é necessária para transportar todas as barras.;relatorio_auditoria_q9_run02_20261118_005326.txt
+OBI;12;run02;B;E;1/5;2/5;Aluno pode interpretar a sequência como uma simples concatenação de números, sem considerar a lógica da memória NUM.;relatorio_auditoria_q12_run02_20261118_012416.txt
+OBI;13;run01;D;E;1/5;1/5;Ignora completamente as restrições do problema, escolhendo uma opção aleatória.;relatorio_auditoria_q13_run01_20261118_012929.txt
+OBI;13;run02;D;E;1/5;1/5;Ignorar completamente as restrições do problema, escolhendo uma opção aleatória.;relatorio_auditoria_q13_run02_20261118_013339.txt
+OBI;19;run02;C;E;1/5;2/5;Opção aleatória, sem relação com as restrições do problema. Aluno pode escolher por eliminação ou palpite.;relatorio_auditoria_q19_run02_20261118_022744.txt
+OBI;21;run01;D;E;1/5;4/5;Aluno pode fazer um cálculo aleatório, sem considerar a relação entre o prêmio individual e o total.;relatorio_auditoria_q21_run01_20261118_024150.txt
+OBI;24;run01;C;E;1/5;3/5;Alunos podem focar apenas no sabor frango, ignorando completamente as regras de combinação de sabores e a necessidade de dois ou três sabores distintos.;relatorio_auditoria_q24_run01_20261118_030441.txt
+OBI;35;run02;C;E;1/5;2/5;Opção irrealista, provavelmente escolhida por alunos que não compreendem as restrições do problema.;relatorio_auditoria_q35_run02_20261118_045115.txt
+OBI;48;run01;E;D;1/5;1/5;Opção claramente absurda, indicando falta de compreensão do enunciado.;relatorio_auditoria_q48_run01_20261118_064311.txt
+OBI;48;run02;E;D;1/5;1/5;Opção absurda, pois não há nenhuma situação em que o teste Z altere a cor para vermelho.;relatorio_auditoria_q48_run02_20261118_064700.txt
+OBI;49;run01;B;A;1/5;1/5;Ignora a restrição de peso do barquinho, presumindo que todas as arcas podem ser transportadas de uma só vez.;relatorio_auditoria_q49_run01_20261118_065104.txt
+OBI;49;run02;B;A;1/5;1/5;Aluno ignora a restrição de peso do barquinho e assume que todas as arcas podem ser transportadas de uma só vez.;relatorio_auditoria_q49_run02_20261118_065509.txt
+OBI;56;run02;C;E;1/5;2/5;Confusão entre a condição de que cada tipo de merenda tem três variedades e a necessidade de que todas as merendas contenham banana.;relatorio_auditoria_q56_run02_20261118_080223.txt
+OBI;62;run01;B;E;1/5;1/5;Opção claramente exagerada, indicando falta de compreensão do problema e da estratégia de construção das estradas.;relatorio_auditoria_q62_run01_20261118_085049.txt
+OBI;62;run02;B;E;1/5;1/5;Alunos podem fazer um cálculo arbitrário sem considerar o processo iterativo de construção das estradas.;relatorio_auditoria_q62_run02_20261118_085450.txt
+OBI;67;run01;D;E;1/5;1/5;Aluno pode ter interpretado o número de tenistas como o número de partidas, sem considerar a eliminação de jogadores a cada rodada.;relatorio_auditoria_q67_run01_20261118_093754.txt
+OBI;67;run02;D;E;1/5;1/5;Aluno pode ter interpretado o número de tenistas como o número total de partidas, sem considerar a eliminação de jogadores a cada rodada.;relatorio_auditoria_q67_run02_20261118_094108.txt
+QCONCURSOS;16;run01;B;E;1/5;1/5;Compreensão errônea de assinatura digital como uma tecnologia de holografia, demonstrando total desconhecimento do conceito.;relatorio_auditoria_q16_run01_20261118_142758.txt
+QCONCURSOS;16;run02;B;E;1/5;1/5;Associação equivocada da assinatura digital com tecnologia holográfica, demonstrando total desconhecimento do processo.;relatorio_auditoria_q16_run02_20261118_143152.txt
+QCONCURSOS;22;run01;E;D;1/5;1/5;Termo técnico obscuro e sem relação direta com a descrição de algoritmos, facilmente eliminável por um candidato com conhecimento básico.;relatorio_auditoria_q22_run01_20261118_151211.txt
+QCONCURSOS;22;run02;E;D;1/5;1/5;Termo técnico obscuro e sem relação direta com a descrição de algoritmos em si.;relatorio_auditoria_q22_run02_20261118_151622.txt
+QCONCURSOS;23;run01;E;B;1/5;1/5;Combinação aleatória de letras que não corresponde a nenhum comando Linux existente, tornando-a facilmente eliminável.;relatorio_auditoria_q23_run01_20261118_152002.txt
+QCONCURSOS;23;run01;E;D;1/5;1/5;Similar à alternativa B, 'rename' é um comando com função distinta e não relacionada à obtenção de informações do sistema.;relatorio_auditoria_q23_run01_20261118_152002.txt
+QCONCURSOS;23;run02;E;B;1/5;1/5;Combinação aleatória de letras que não corresponde a nenhum comando Linux válido, tornando-a obviamente incorreta.;relatorio_auditoria_q23_run02_20261118_152344.txt
+QCONCURSOS;23;run02;E;D;1/5;1/5;Combinação aleatória de letras que não corresponde a nenhum comando Linux válido, tornando-a obviamente incorreta.;relatorio_auditoria_q23_run02_20261118_152344.txt
+QCONCURSOS;24;run01;D;E;1/5;1/5;Opção sem sentido, pois canais de tráfego interno da CPU não são o foco do escalonamento.;relatorio_auditoria_q24_run01_20261118_152713.txt
+QCONCURSOS;24;run02;D;E;1/5;1/5;Opção sem relação direta com o conceito de escalonamento, demonstrando falta de compreensão do processo.;relatorio_auditoria_q24_run02_20261118_153117.txt
+QCONCURSOS;25;run01;B;C;1/5;1/5;Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.;relatorio_auditoria_q25_run01_20261118_153500.txt
+QCONCURSOS;25;run01;B;D;1/5;1/5;Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.;relatorio_auditoria_q25_run01_20261118_153500.txt
+QCONCURSOS;25;run01;B;E;1/5;1/5;Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.;relatorio_auditoria_q25_run01_20261118_153500.txt
+QCONCURSOS;25;run02;B;C;1/5;1/5;Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.;relatorio_auditoria_q25_run02_20261118_153833.txt
+QCONCURSOS;25;run02;B;D;1/5;1/5;Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.;relatorio_auditoria_q25_run02_20261118_153833.txt
+QCONCURSOS;25;run02;B;E;1/5;1/5;Uso de comando inexistente, demonstrando falta de familiaridade com comandos básicos do Linux.;relatorio_auditoria_q25_run02_20261118_153833.txt
+QCONCURSOS;26;run02;E;C;1/5;2/5;O termo 'network' é genérico e pode ser interpretado como a rede em si, e não como um dispositivo que controla o acesso a ela. Opção facilmente eliminável.;relatorio_auditoria_q26_run02_20261118_154602.txt
+QCONCURSOS;31;run01;C;D;1/5;1/5;Aluno demonstra falta de conhecimento sobre a função da máscara de sub-rede, atribuindo-lhe uma função inexistente.;relatorio_auditoria_q31_run01_20261118_161941.txt
+QCONCURSOS;31;run02;C;D;1/5;1/5;Entendem que o endereço IP está relacionado ao número de servidores, demonstrando falta de compreensão sobre a estrutura de sub-redes.;relatorio_auditoria_q31_run02_20261118_162307.txt
+QCONCURSOS;38;run01;D;E;1/5;1/5;Opção absurda, pois drivers de impressora não estabelecem conexão com a internet diretamente.;relatorio_auditoria_q38_run01_20261118_170517.txt
+QCONCURSOS;38;run02;D;E;1/5;1/5;Estudantes podem associar erroneamente o driver à conectividade de rede, demonstrando falta de compreensão sobre sua função principal.;relatorio_auditoria_q38_run02_20261118_170843.txt
+QCONCURSOS;41;run01;B;E;1/5;1/5;Aluno pode não entender o propósito do comando e tentar usar um curinga sem saber o que ele faz, gerando um resultado inesperado.;relatorio_auditoria_q41_run01_20261118_172521.txt
+QCONCURSOS;41;run02;B;E;1/5;1/5;Uso incorreto do curinga '*' sem contexto, indicando falta de conhecimento sobre como o shell interpreta padrões.;relatorio_auditoria_q41_run02_20261118_172903.txt
+QCONCURSOS;43;run02;A;D;1/5;3/5;Aluno pode acreditar que a ferramenta 'Localizar' registra automaticamente as alterações feitas no documento, demonstrando falta de conhecimento sobre suas funções.;relatorio_auditoria_q43_run02_20261118_174236.txt
+QCONCURSOS;51;run01;A;E;1/5;1/5;Opção claramente fora do contexto da hierarquia de memória, confundindo armazenamento secundário com cache.;relatorio_auditoria_q51_run01_20261118_183715.txt
+QCONCURSOS;51;run02;A;E;1/5;1/5;Ignorância sobre a hierarquia de memória, sugerindo que HD/SSD são níveis de cache.;relatorio_auditoria_q51_run02_20261118_184038.txt
+QCONCURSOS;53;run01;B;D;1/5;2/5;Alunos podem não compreender a distinção entre CPU e GPU, associando erroneamente a placa de vídeo às funções da CPU.;relatorio_auditoria_q53_run01_20261118_185021.txt
+QCONCURSOS;53;run02;B;E;1/5;3/5;A memória flash interna é um componente periférico e não está diretamente envolvida nas operações lógicas e aritméticas da CPU.;relatorio_auditoria_q53_run02_20261118_185349.txt
+QCONCURSOS;54;run01;E;D;1/5;1/5;Disco rígido externo é um dispositivo de armazenamento externo, não integrado à CPU e com velocidade significativamente menor.;relatorio_auditoria_q54_run01_20261118_185727.txt
+QCONCURSOS;54;run02;E;D;1/5;1/5;Disco rígido externo é um dispositivo de armazenamento externo, não relacionado à memória interna da CPU.;relatorio_auditoria_q54_run02_20261118_190120.txt
+QCONCURSOS;60;run02;D;E;1/5;2/5;Aluno pode associar falhas no POST exclusivamente a defeitos no processador, demonstrando um conhecimento limitado sobre as causas de falhas no POST.;relatorio_auditoria_q60_run02_20261118_194301.txt
+QCONCURSOS;69;run01;B;D;1/5;1/5;Interpretação errônea da função de concatenação, demonstrando desconhecimento sobre sua aplicação em contextos de lógica de programação.;relatorio_auditoria_q69_run01_20261118_205431.txt
+QCONCURSOS;69;run02;B;D;1/5;1/5;Interpretação equivocada do papel da concatenação, que não se aplica à lógica de decisão para determinar mensagens.;relatorio_auditoria_q69_run02_20261118_205741.txt
+QCONCURSOS;70;run01;B;E;1/5;1/5;Ignora completamente a sequência de comandos, presumindo que a inicialização dos LEDs implica que ambos serão apagados.;relatorio_auditoria_q70_run01_20261118_210041.txt
+QCONCURSOS;70;run02;B;E;1/5;1/5;Ignora a sequência de comandos e assume que os LEDs estarão apagados por padrão.;relatorio_auditoria_q70_run02_20261118_210426.txt
+QCONCURSOS;72;run01;B;E;1/5;1/5;Erro grosseiro na aplicação da função map, multiplicando os valores em vez de interpolar.;relatorio_auditoria_q72_run01_20261118_211619.txt
+QCONCURSOS;72;run02;B;E;1/5;1/5;Desconhecimento completo da função map e da aritmética, gerando um valor completamente fora da escala esperada.;relatorio_auditoria_q72_run02_20261118_212008.txt
+QCONCURSOS;73;run01;A;E;1/5;1/5;Alunos podem não entender o slicing e, ao verem um índice negativo em uma fatia, presumirem que isso causará um erro, mesmo que o Python trate índices negativos de forma específica.;relatorio_auditoria_q73_run01_20261118_212343.txt
+QCONCURSOS;73;run02;A;E;1/5;1/5;Entendimento superficial do slicing, levando a crer que a combinação de índices pode gerar um erro de execução, sem considerar o comportamento do Python.;relatorio_auditoria_q73_run02_20261118_212726.txt
+QCONCURSOS;74;run01;E;C;1/5;1/5;Aluno pode não entender que o sort() altera a ordem dos elementos, mas não necessariamente de forma previsível sem uma função de comparação.;relatorio_auditoria_q74_run01_20261118_213055.txt
+QCONCURSOS;74;run02;E;C;1/5;1/5;Aluno pode não entender que o sort() altera a ordem dos elementos, mas não necessariamente de forma previsível sem uma função de comparação.;relatorio_auditoria_q74_run02_20261118_213422.txt
+QCONCURSOS;75;run01;B;C;1/5;1/5;Interpretação errônea de 'font-style' como um modificador de capitalização, quando se refere ao estilo da fonte (itálico, normal, etc).;relatorio_auditoria_q75_run01_20261118_213733.txt
+QCONCURSOS;75;run01;B;E;1/5;1/5;Interpretação errônea de 'font-format' como um modificador de capitalização, quando se refere ao formato da fonte.;relatorio_auditoria_q75_run01_20261118_213733.txt
+QCONCURSOS;75;run02;B;C;1/5;1/5;Interpretação errônea de 'font-style' como um modificador de capitalização, quando se refere ao estilo da fonte (itálico, normal, etc.).;relatorio_auditoria_q75_run02_20261118_214106.txt
+QCONCURSOS;75;run02;B;E;1/5;1/5;Confusão entre formatação de fontes (font-format) e transformação de texto.;relatorio_auditoria_q75_run02_20261118_214106.txt
+QCONCURSOS;76;run01;D;E;1/5;2/5;Associação superficial entre a comunicação e a coleta de dados de sensores.;relatorio_auditoria_q76_run01_20261118_214439.txt
+QCONCURSOS;77;run01;E;D;1/5;1/5;Erro de sintaxe é um problema de formatação do código, não de lógica de execução, tornando a opção claramente incorreta.;relatorio_auditoria_q77_run01_20261118_215114.txt
+QCONCURSOS;77;run02;E;D;1/5;1/5;Erro de sintaxe é um problema de formatação do código, não de lógica de execução, sendo facilmente eliminável.;relatorio_auditoria_q77_run02_20261118_215513.txt
+QCONCURSOS;79;run02;C;E;1/5;2/5;Confusão com normalização de banco de dados, um tópico posterior ao modelo MER.;relatorio_auditoria_q79_run02_20261118_221032.txt
+QCONCURSOS;80;run02;B;E;1/5;3/5;Aluno pode inserir curingas desnecessários, demonstrando falta de compreensão do padrão de busca.;relatorio_auditoria_q80_run02_20261118_221734.txt
+WAPLA;5;run01;A;E;1/5;1/5;Compreensão totalmente equivocada da geometria espacial, sugerindo que a distância é sempre zero e a projeção é imaginária.;relatorio_auditoria_q5_run01_20261118_235528.txt
+WAPLA;5;run02;A;E;1/5;1/5;Afirmação absurda que ignora completamente a geometria espacial e a definição de distância a um plano.;relatorio_auditoria_q5_run02_20261118_235902.txt
+WAPLA;12;run01;A;E;1/5;1/5;Confusão entre interseção e conjunto vazio, demonstrando falta de entendimento sobre a operação de interseção.;relatorio_auditoria_q12_run01_20261119_004833.txt
+WAPLA;12;run02;A;E;1/5;1/5;Interpretação literal da interseção dupla, levando a um conjunto vazio, sem considerar o contexto do problema.;relatorio_auditoria_q12_run02_20261119_005328.txt
+WAPLA;16;run01;A;E;1/5;1/5;Alunos podem não compreender a necessidade de objetivos de aprendizagem na EJA, considerando que apenas atividades de convivência são suficientes.;relatorio_auditoria_q16_run01_20261119_011924.txt
+WAPLA;16;run02;A;E;1/5;1/5;Alunos podem ter uma compreensão equivocada sobre a EJA, acreditando que atividades de convivência substituem a necessidade de objetivos de aprendizagem.;relatorio_auditoria_q16_run02_20261119_012328.txt
+WAPLA;27;run02;A;E;1/5;2/5;"Completamente desconectado do conceito de momento de inércia; parece uma integral arbitrária.";relatorio_auditoria_q27_run02_20261119_025028.txt
+WAPLA;40;run01;C;E;1/5;1/5;Ignora a distinção fundamental entre a teoria do léxico e a prática da elaboração de dicionários, apresentando-as como sinônimos.;relatorio_auditoria_q40_run01_20261119_043228.txt
+WAPLA;40;run02;C;E;1/5;1/5;Ignora a distinção entre as áreas, equiparando-as e atribuindo-lhes o mesmo significado.;relatorio_auditoria_q40_run02_20261119_043710.txt
+WAPLA;43;run01;A;E;1/5;1/5;Opção claramente absurda, testando a capacidade do aluno de identificar alternativas que não se encaixam no contexto da Geografia econômica.;relatorio_auditoria_q43_run01_20261119_045448.txt
+WAPLA;43;run02;A;E;1/5;1/5;Opção evidentemente absurda, com personagem fictício aplicado a um conceito geográfico.;relatorio_auditoria_q43_run02_20261119_045814.txt
+WAPLA;48;run01;C;B;1/5;1/5;Demonstra total desconhecimento do objeto da semântica, focando em fonética e articulação.;relatorio_auditoria_q48_run01_20261119_053211.txt
+WAPLA;48;run02;C;B;1/5;1/5;Demonstra total desconhecimento do objeto da semântica, focando em aspectos da fonética.;relatorio_auditoria_q48_run02_20261119_053601.txt
+WAPLA;52;run01;B;E;1/5;1/5;O uso do Simple Past para descrever ações no momento da fala é gramaticalmente incorreto e demonstra um conhecimento superficial do tempo verbal.;relatorio_auditoria_q52_run01_20261119_060201.txt
+WAPLA;52;run02;B;E;1/5;1/5;O uso do Simple Past para descrever uma ação no momento da fala é gramaticalmente incorreto e demonstra um conhecimento superficial do tempo verbal.;relatorio_auditoria_q52_run02_20261119_060548.txt
+WAPLA;53;run01;A;E;1/5;1/5;Valor completamente desalinhado com a lógica do problema, indicando falta de compreensão básica.;relatorio_auditoria_q53_run01_20261119_060919.txt
+WAPLA;53;run02;A;E;1/5;1/5;Valor completamente arbitrário, sem relação com o cálculo do volume do prisma.;relatorio_auditoria_q53_run02_20261119_061225.txt
+WAPLA;55;run01;C;E;1/5;1/5;Ignora completamente a dimensão do significado, atribuindo-o exclusivamente à pronúncia.;relatorio_auditoria_q55_run01_20261119_062252.txt
+WAPLA;55;run02;C;E;1/5;1/5;Conceito simplista de que o significado é inerente aos sons da fala, ignorando a complexidade da interpretação.;relatorio_auditoria_q55_run02_20261119_062619.txt
+WAPLA;57;run01;E;D;1/5;1/5;Acredita que a ausência de um ponto em comum no espaço tridimensional implica que as retas são coincidentes, demonstrando um entendimento superficial do conceito de coincidência.;relatorio_auditoria_q57_run01_20261119_063849.txt
+WAPLA;57;run02;E;D;1/5;1/5;Acredita que a ausência de um ponto em comum em 3D implica que as retas são coincidentes, demonstrando uma compreensão superficial da geometria espacial.;relatorio_auditoria_q57_run02_20261119_064215.txt
+WAPLA;61;run01;A;E;1/5;2/5;Opção claramente incorreta, sem relação direta com a transformação de coordenadas esféricas.;relatorio_auditoria_q61_run01_20261119_070808.txt
+WAPLA;63;run01;D;C;1/5;2/5;Interpretação errônea da perpendicularidade, associando a ausência de interseção a um ângulo de 90 graus.;relatorio_auditoria_q63_run01_20261119_072253.txt
+WAPLA;63;run02;D;E;1/5;4/5;Interpretação equivocada da relação entre retas no espaço, associando a ausência de interseção à coincidência de direção.;relatorio_auditoria_q63_run02_20261119_072622.txt
+WAPLA;64;run01;C;E;1/5;1/5;Alunos com pouco conhecimento podem acreditar que a Geografia Econômica é parte da Geografia Física e se limita a explicar a localização de atividades por fatores climáticos e de relevo.;relatorio_auditoria_q64_run01_20261119_072934.txt
+WAPLA;64;run02;C;E;1/5;1/5;Alunos com pouco conhecimento podem acreditar que a geografia econômica é um ramo da geografia física e que as atividades produtivas são determinadas apenas pelo clima e relevo.;relatorio_auditoria_q64_run02_20261119_073357.txt
+WAPLA;67;run01;A;E;1/5;1/5;Inversão dos limites de integração em 'z', indicando uma completa falta de compreensão da geometria do sólido.;relatorio_auditoria_q67_run01_20261119_075255.txt
+WAPLA;67;run02;A;E;1/5;1/5;Inversão completa dos limites de integração da coordenada z, demonstrando falta de compreensão da geometria do sólido.;relatorio_auditoria_q67_run02_20261119_075711.txt
+WAPLA;69;run01;A;E;1/5;3/5;Ignora completamente as transformações estruturais e organizacionais que caracterizam as diferentes fases do capitalismo, apresentando uma visão homogênea e descontextualizada.;relatorio_auditoria_q69_run01_20261119_080941.txt
+WAPLA;70;run01;C;E;1/5;1/5;Opção claramente inadequada, pois a obra é descrita como tendo materiais simples e a ênfase é na experiência, não na estética decorativa.;relatorio_auditoria_q70_run01_20261119_081738.txt
+WAPLA;70;run02;C;E;1/5;1/5;A opção é claramente incompatível com o contexto da obra, que prioriza a experiência sobre a estética decorativa.;relatorio_auditoria_q70_run02_20261119_082150.txt
+WAPLA;72;run01;B;E;1/5;1/5;Opção ridícula, pois a concordância é um aspecto da sintaxe, não da semântica.;relatorio_auditoria_q72_run01_20261119_083158.txt
+WAPLA;72;run02;B;E;1/5;1/5;Confundir Semântica com a sintaxe, especificamente a concordância, demonstrando falta de compreensão do escopo da Semântica.;relatorio_auditoria_q72_run02_20261119_083609.txt
+WAPLA;78;run01;A;E;1/5;1/5;Erro grosseiro na aplicação do Jacobiano, substituindo sin φ por cos φ, demonstrando falta de familiaridade com a transformação.;relatorio_auditoria_q78_run01_20261119_091933.txt
+WAPLA;78;run02;A;E;1/5;1/5;Confusão completa entre as variáveis de coordenadas e seus respectivos fatores no Jacobiano, demonstrando falta de compreensão do conceito.;relatorio_auditoria_q78_run02_20261119_092255.txt

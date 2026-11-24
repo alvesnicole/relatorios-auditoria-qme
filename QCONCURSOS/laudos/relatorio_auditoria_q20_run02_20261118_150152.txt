@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 15:05:42
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato compreenda a relação entre uma política de segurança da informação e a proteção de recursos computacionais, necessitando de interpretação do contexto apresentado.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que a organização contratante exigiu que o software fosse desenvolvido de acordo com as regras de segurança da informação, já que isso é uma consequência direta da exigência de uma boa política de segurança.
+         → Sugestão: Remover a repetição, simplificando o enunciado para 'Ao contratar uma empresa de tecnologia para criar novo software visando à otimização de seus negócios, a organização contratante exigiu que o software fosse desenvolvido de acordo com as regras definidas para a segurança da informação, porque uma boa política de segurança estabelece...'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve a exigência de uma organização ao contratar uma empresa de tecnologia para desenvolver software, especificamente em relação à segurança da informação. A questão busca a definição de uma 'boa política de segurança'. A alternativa A parece ser a mais adequada, pois define uma política de segurança como o conjunto de princípios que orientam a proteção, controle e monitoramento dos recursos computacionais da organização. As demais alternativas abordam aspectos específicos (controle de software, monitoramento de informação, desenvolvimento de sistemas, marketing) que não representam a abrangência de uma política de segurança. A alternativa A engloba a essência do que se espera de uma política de segurança, que é estabelecer diretrizes para a proteção dos recursos da organização.
+
+Verificação das alternativas:
+
+A) Satisfeita: Define o escopo de uma política de segurança, abordando proteção, controle e monitoramento de recursos computacionais.
+B) Violada: Foca em aspectos de integridade, funcionalidade e custos de software, não abrangendo a política de segurança em si.
+C) Violada: Concentra-se no monitoramento de informação, um aspecto específico dentro de uma política de segurança, mas não a define.
+D) Violada: Trata de regras para desenvolvimento de sistemas, não da política de segurança.
+E) Violada: Relaciona-se ao marketing, um tema completamente fora do contexto de segurança da informação.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir segurança da informação com controle de custos de software, associando-as erroneamente.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pode levar à interpretação de que a política de segurança foca apenas no monitoramento do tráfego de dados, ignorando outros aspectos.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar que a segurança é apenas um aspecto secundário, subordinada às metodologias de implantação.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Confusão entre segurança da informação e estratégias de marketing, demonstrando falta de compreensão do escopo da segurança.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho, o que pode influenciar a escolha do candidato.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que a organização contratante exigiu que o software fosse desenvolvido de acordo com as regras de segurança da informação, já que isso é uma consequência direta da exigência de uma boa política de segurança.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição, simplificando o enunciado para 'Ao contratar uma empresa de tecnologia para criar novo software visando à otimização de seus negócios, a organização contratante exigiu que o software fosse desenvolvido de acordo com as regras definidas para a segurança da informação, porque uma boa política de segurança estabelece...'.
+    [G24] As alternativas apresentam variações no tamanho, o que pode influenciar a escolha do candidato.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar e ajustar o tamanho das alternativas para promover maior uniformidade.
+
+================================================================================

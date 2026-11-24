@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 04:22:56
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um raciocínio lógico para determinar o número de fichas que o vencedor terá ao final do torneio, considerando as regras do jogo e a dinâmica de eliminação dos jogadores. Não se trata de memorização direta, mas sim de aplicação de um processo para chegar a uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre o que acontece quando um jogador vence uma partida (ganha 3 fichas e as fichas do adversário).
+         → Sugestão: Remover a repetição da informação sobre as fichas ganhas ao vencer uma partida. Exemplo: 'O jogador que vence ganha todas as fichas do adversário e sai da arena.'
+    [G11] Uso de 'ﬁcha' com acento. Erro de formatação.
+         → Sugestão: Substituir todas as ocorrências de 'ﬁcha' por 'ficha'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema descreve um torneio de cartas onde o vencedor ganha as fichas do perdedor, além de 3 fichas extras. Inicialmente, cada jogador tem 1 ficha. No final, resta apenas um jogador com todas as fichas. Para determinar o número total de fichas que o vencedor terá, precisamos calcular o número total de fichas que foram transferidas durante o torneio. Como há 8 jogadores, haverá 7 partidas. Em cada partida, o perdedor sai da arena, e o vencedor ganha as fichas do perdedor (e 3 fichas extras). Portanto, o número total de fichas que o vencedor terá é a soma das fichas iniciais de todos os jogadores (8 fichas) mais as 3 fichas extras por partida (7 * 3 = 21 fichas). Isso resulta em 8 + 21 = 29 fichas. 
+
+Análise das alternativas:
+
+A) 26: Incorreta. Não considera as 3 fichas extras por partida.
+B) 27: Incorreta. Não considera as 3 fichas extras por partida.
+C) 28: Incorreta. Não considera as 3 fichas extras por partida.
+D) 29: Correta. Corresponde ao cálculo de 8 (fichas iniciais) + 7 * 3 (fichas extras) = 29.
+E) 30: Incorreta. Não considera as 3 fichas extras por partida.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode somar o número inicial de fichas (1) com o número de vitórias (7) e multiplicar por 3, sem considerar a transferência de fichas entre jogadores.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Aluno pode interpretar que cada jogador ganha 3 fichas no final, multiplicando 8 jogadores por 3 fichas.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode considerar que o vencedor acumula as fichas de todos os outros 7 jogadores, somando 7 * 3 = 21, e adicionando a ficha inicial, resultando em 22, e então cometer um erro de cálculo.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode somar o número de fichas que o vencedor ganha em cada partida (3) com o número de jogadores (8), sem considerar a transferência de fichas entre os jogadores.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa C (28 palavras) é significativamente mais longa que a alternativa A (13 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre o que acontece quando um jogador vence uma partida (ganha 3 fichas e as fichas do adversário).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da informação sobre as fichas ganhas ao vencer uma partida. Exemplo: 'O jogador que vence ganha todas as fichas do adversário e sai da arena.'
+    [G11] Uso de 'ﬁcha' com acento. Erro de formatação.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir todas as ocorrências de 'ﬁcha' por 'ficha'.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa C (28 palavras) é significativamente mais longa que a alternativa A (13 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés devido ao comprimento.
+
+================================================================================

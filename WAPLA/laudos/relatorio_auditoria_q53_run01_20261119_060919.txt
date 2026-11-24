@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 06:12:24
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique a fórmula do volume do prisma, combinando informações sobre a área da base e a altura fornecidas, demonstrando compreensão e aplicação de um conceito geométrico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária de informações. A frase 'Para resolver corretamente o problema, ele precisa reconhecer as características do sólido e aplicar a relação entre área da base, área lateral e volume' é redundante, pois o contexto já indica que o aluno deve aplicar conceitos geométricos.
+         → Sugestão: Remover a frase 'Para resolver corretamente o problema, ele precisa reconhecer as características do sólido e aplicar a relação entre área da base, área lateral e volume'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O volume de um prisma é dado pelo produto da área da base pela altura. No problema, a área da base é 18 cm² e a altura é 12 cm. Portanto, o volume é 18 * 12 = 216 cm³. Verificando as alternativas, a única que corresponde a este cálculo é a alternativa A.
+
+Regras verificadas:
+Alternativa A: 18 * 12 = 216. Satisfaz a regra do cálculo do volume.
+Alternativa B: 144 é incorreto.
+Alternativa C: 96 é incorreto.
+Alternativa D: 54 é incorreto.
+Alternativa E: 30 é incorreto.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre área da base e volume, multiplicando a área da base pela altura.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Erro na aplicação da fórmula do volume, possivelmente confundindo com a área lateral.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Cálculo incorreto do volume, possivelmente dividindo a área da base pela altura.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Valor completamente desalinhado com a lógica do problema, indicando falta de compreensão básica.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetição desnecessária de informações. A frase 'Para resolver corretamente o problema, ele precisa reconhecer as características do sólido e aplicar a relação entre área da base, área lateral e volume' é redundante, pois o contexto já indica que o aluno deve aplicar conceitos geométricos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Para resolver corretamente o problema, ele precisa reconhecer as características do sólido e aplicar a relação entre área da base, área lateral e volume'.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

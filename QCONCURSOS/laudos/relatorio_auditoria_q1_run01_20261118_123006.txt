@@ -1,0 +1,47 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 12:33:34
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda as características da arquitetura de Von Neumann para identificar qual componente não a representa. Não se trata de mera memorização, mas de entender o conceito para aplicar esse conhecimento.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição de informações. A frase 'Esta arquitetura é um projeto modelo de um computador digital de programa armazenado que utiliza uma unidade de processamento e uma de armazenamento para comportar instruções e dados' expande e reformula o que já foi dito na primeira frase.
+         → Sugestão: Remover a segunda frase, pois ela é redundante. Sugestão: 'A arquitetura de Von Neumann é uma arquitetura de computador que se caracteriza pela possibilidade de uma máquina armazenar seus programas no mesmo espaço de memória que os dados. Assinale a alternativa que não representa componentes da máquina proposta por Von Neumann.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : A questão pede para identificar qual componente NÃO faz parte da arquitetura de Von Neumann. A arquitetura de Von Neumann é caracterizada por armazenar programas e dados na mesma memória. As opções A, C e D são componentes típicos de um computador com essa arquitetura: Memória para armazenar dados e programas, ALU para realizar operações aritméticas e lógicas, e CPU para controlar o processamento. A opção B, 'Receptores', não se encaixa nesse contexto, pois não é um componente fundamental da arquitetura de Von Neumann. Receptores são mais comuns em sistemas de entrada/saída, mas não são inerentes à arquitetura em si.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode confundir memória como um componente físico separado, ignorando sua função de armazenamento de dados e programas.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode associar a ALU como um componente externo à arquitetura, não compreendendo sua função central de processamento.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode não distinguir completamente a CPU como um conjunto de componentes (incluindo ALU e Unidade de Controle) dentro da arquitetura.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de detalhe e especificidade, gerando heterogeneidade na estrutura.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição de informações. A frase 'Esta arquitetura é um projeto modelo de um computador digital de programa armazenado que utiliza uma unidade de processamento e uma de armazenamento para comportar instruções e dados' expande e reformula o que já foi dito na primeira frase.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a segunda frase, pois ela é redundante. Sugestão: 'A arquitetura de Von Neumann é uma arquitetura de computador que se caracteriza pela possibilidade de uma máquina armazenar seus programas no mesmo espaço de memória que os dados. Assinale a alternativa que não representa componentes da máquina proposta por Von Neumann.'
+    [G23] As alternativas apresentam diferentes níveis de detalhe e especificidade, gerando heterogeneidade na estrutura.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior uniformidade na estrutura e nível de detalhe.
+
+================================================================================

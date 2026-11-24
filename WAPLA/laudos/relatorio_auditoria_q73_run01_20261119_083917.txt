@@ -1,0 +1,50 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:43:05
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique conceitos de geometria espacial (planos, retas, interseções, paralelismo) para analisar uma situação específica e determinar as relações entre as figuras geométricas descritas. Não se trata de mera recordação de fatos, mas sim de usar o conhecimento para interpretar e resolver um problema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que as placas não se intersectam e permanecem à mesma distância, o que poderia ser expresso de forma mais concisa.
+         → Sugestão: Remover a repetição da condição de não-interseção e distância constante, simplificando a frase: 'Para manter o desenho previsto, as placas devem ser colocadas de modo que não se intersectem.'
+    [G16] A descrição do cenário (placas de vidro, hall, barra metálica) pode ser considerada contextualização decorativa, pois não contribui diretamente para a avaliação do conhecimento do aluno sobre o conceito geométrico em questão.
+         → Sugestão: Remover a contextualização do cenário, focando diretamente na relação geométrica entre as figuras. Por exemplo: 'Duas placas planas devem ser colocadas de modo que não se intersectem e permaneçam à mesma distância em toda a sua extensão. Uma barra reta será fixada de forma a atravessar uma das placas em um único ponto, sem pertencer a ela, e sem cortar a outra placa.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve uma configuração geométrica específica: duas placas de vidro paralelas que não se intersectam, e uma barra metálica que atravessa uma placa em um único ponto, sem cortar a outra. A condição crucial é que as placas devem permanecer à mesma distância em toda a sua extensão, o que implica que os planos que elas definem são paralelos. A barra, ao atravessar uma placa em um único ponto e não cortar a outra, deve ser secante a um dos planos e paralela ao outro. Portanto, a alternativa A é a que melhor descreve a situação. As alternativas B e E implicam que as placas se intersectam, o que é proibido. A alternativa C é impossível, pois as placas não podem coincidir. A alternativa D é inconsistente com a condição de distância constante entre as placas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a necessidade de as placas não se intersectarem com a ideia de que os planos precisam ser concorrentes.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a necessidade de as placas permanecerem à mesma distância e a interpretação de que isso implica que os planos são coincidentes.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea de que a barra metálica, ao atravessar a placa em um único ponto, implica perpendicularidade aos planos.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente a condição de que a barra atravesse a placa em um único ponto como indicativo de que ela é secante em dois pontos distintos.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que as placas não se intersectam e permanecem à mesma distância, o que poderia ser expresso de forma mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da condição de não-interseção e distância constante, simplificando a frase: 'Para manter o desenho previsto, as placas devem ser colocadas de modo que não se intersectem.'
+    [G16] A descrição do cenário (placas de vidro, hall, barra metálica) pode ser considerada contextualização decorativa, pois não contribui diretamente para a avaliação do conhecimento do aluno sobre o conceito geométrico em questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização do cenário, focando diretamente na relação geométrica entre as figuras. Por exemplo: 'Duas placas planas devem ser colocadas de modo que não se intersectem e permaneçam à mesma distância em toda a sua extensão. Uma barra reta será fixada de forma a atravessar uma das placas em um único ponto, sem pertencer a ela, e sem cortar a outra placa.'
+
+================================================================================

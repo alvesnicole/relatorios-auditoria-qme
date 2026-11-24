@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:02:40
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda o contexto da evolução do armazenamento de dados e identifique qual opção não se encaixa no conceito de armazenamento em nuvem. Não se trata de mera memorização, mas de interpretação e comparação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição de informações sobre a evolução dos dispositivos de armazenamento, tornando-o prolixo. A descrição detalhada da transição de disquetes para HDs externos e SSDs não é essencial para a compreensão da pergunta.
+         → Sugestão: Remover a descrição detalhada da evolução dos dispositivos de armazenamento, focando apenas na informação essencial para a pergunta: 'Passou-se dos disquetes para os CDs, DVDs, pendrives, HDs externos, SSDs e armazenamento em nuvem.'
+    [G16] A descrição da evolução dos dispositivos de armazenamento, embora contextualize o cenário, não contribui diretamente para a avaliação do conhecimento do aluno sobre armazenamento em nuvem. Trata-se de uma contextualização decorativa.
+         → Sugestão: Remover a contextualização sobre a evolução dos dispositivos de armazenamento, focando diretamente na pergunta sobre armazenamento em nuvem.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado descreve a evolução dos meios de armazenamento de dados, culminando no armazenamento em nuvem. A pergunta busca identificar qual alternativa NÃO representa um serviço de armazenamento em nuvem. 
+
+A) DropBox: Serviço de armazenamento em nuvem amplamente conhecido.
+B) X-BackDrive: Nome inventado, não corresponde a um serviço conhecido de armazenamento em nuvem.
+C) ADrive: Serviço de armazenamento em nuvem, embora menos popular atualmente.
+D) Google Drive: Serviço de armazenamento em nuvem oferecido pelo Google.
+
+Considerando que a alternativa B apresenta um nome fictício, ela se destaca como a opção que não representa um tipo de serviço de armazenamento na nuvem.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir Dropbox com um serviço de armazenamento físico, não entendendo a natureza de nuvem.
+    [C] Distrator (Plausibilidade: 3/5)
+         → A familiaridade com nomes de serviços pode levar à escolha, mesmo sem entender o conceito de armazenamento em nuvem.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem associar o Google Drive a outros serviços do Google, sem entender especificamente o armazenamento em nuvem.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição de informações sobre a evolução dos dispositivos de armazenamento, tornando-o prolixo. A descrição detalhada da transição de disquetes para HDs externos e SSDs não é essencial para a compreensão da pergunta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da evolução dos dispositivos de armazenamento, focando apenas na informação essencial para a pergunta: 'Passou-se dos disquetes para os CDs, DVDs, pendrives, HDs externos, SSDs e armazenamento em nuvem.'
+    [G16] A descrição da evolução dos dispositivos de armazenamento, embora contextualize o cenário, não contribui diretamente para a avaliação do conhecimento do aluno sobre armazenamento em nuvem. Trata-se de uma contextualização decorativa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização sobre a evolução dos dispositivos de armazenamento, focando diretamente na pergunta sobre armazenamento em nuvem.
+
+================================================================================

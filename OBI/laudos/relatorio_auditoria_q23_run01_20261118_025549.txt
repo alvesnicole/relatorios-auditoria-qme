@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 03:00:06
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique um conjunto de regras específicas para determinar uma sequência válida de ações, demonstrando a habilidade de aplicar regras a um cenário prático. Não há necessidade de análise profunda ou avaliação crítica, apenas a aplicação das restrições fornecidas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da palavra 'carro' em várias frases. Poderia ser substituído por pronomes ou termos mais concisos.
+         → Sugestão: Substituir repetições de 'carro' por pronomes (ele, este, aquele) ou termos mais genéricos (veículo, automóvel) para melhorar a fluidez do texto.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das alternativas:
+
+A) A, B, A, A, C, C, A: Viola a regra 1 (A não pode ser dirigido por dois dias consecutivos) devido a sequência 'A, A'.
+B) A, B, A, C, B, B, A: Viola a regra 3 (se B é dirigido por dois dias consecutivos, o próximo não pode ser C) devido a sequência 'B, B'.
+C) A, B, B, A, B, C, C: Viola a regra 3 (se B é dirigido por dois dias consecutivos, o próximo não pode ser C) devido a sequência 'B, B'.
+D) B, B, A, B, C, C, B: Viola a regra 3 (se B é dirigido por dois dias consecutivos, o próximo não pode ser C) devido a sequência 'B, B'.
+E) A, A, A, C, C, B, C: Viola a regra 1 (A não pode ser dirigido por dois dias consecutivos) devido a sequência 'A, A, A'.
+
+Nenhuma das alternativas satisfaz todas as regras.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem ignorar a restrição de dias consecutivos do carro A, focando apenas na sequência inicial.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar a restrição B-C como uma proibição absoluta, sem considerar a sequência de dias.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na sequência inicial de B, B, A, sem considerar a restrição de dois dias consecutivos de B e a subsequente restrição de C.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem ignorar a restrição de dias consecutivos do carro A e a restrição B-C, criando uma sequência impossível.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (A, B, A, A, C, C, A) é significativamente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da palavra 'carro' em várias frases. Poderia ser substituído por pronomes ou termos mais concisos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir repetições de 'carro' por pronomes (ele, este, aquele) ou termos mais genéricos (veículo, automóvel) para melhorar a fluidez do texto.
+    [G24] A alternativa A (A, B, A, A, C, C, A) é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o comprimento das alternativas para maior equilíbrio.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

@@ -1,0 +1,71 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 06:43:11
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno identifique um padrão nos diagramas fornecidos e utilize esse padrão para resolver um problema numérico. Isso envolve a aplicação de um conceito matemático a uma situação específica.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G11] Erro de digitação: 'contruindo' em vez de 'construindo'.
+         → Sugestão: Corrigir a grafia da palavra 'contruindo' para 'construindo'.
+    [G13] Repetição desnecessária de informações. A descrição dos diagramas (Diagrama 1, Diagrama 2, Diagrama 3) é redundante e pode ser eliminada.
+         → Sugestão: Remover a descrição dos diagramas, pois as informações podem ser inferidas do contexto ou apresentadas visualmente.
+    [G15] O enunciado é um pouco desfocado. Embora contenha a pergunta, a relação entre os diagramas e a pergunta não é imediatamente clara.
+         → Sugestão: Reformular o enunciado para explicitar a relação entre os diagramas e a pergunta. Por exemplo: 'Observe os diagramas que mostram a construção de cercas com postes e traves. Identifique o padrão entre o número de postes e traves em cada diagrama. Usando esse padrão, determine quantas traves terá uma cerca com seis postes.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Analisando os diagramas, observamos a relação entre o número de postes e o número de traves. 
+Diagrama 1: 2 postes, 3 traves
+Diagrama 2: 3 postes, 6 traves
+Diagrama 3: 4 postes, 9 traves
+
+Pode-se notar que o número de traves é sempre 1,5 vezes o número de postes. Ou seja, traves = 1,5 * postes.
+
+Para uma cerca com seis postes, o número de traves seria: 1,5 * 6 = 9.
+
+Verificando as alternativas:
+A) 6 - Incorreta (não segue a relação)
+B) 9 - Correta (segue a relação)
+C) 12 - Incorreta (não segue a relação)
+D) 15 - Incorreta (não segue a relação)
+E) 18 - Incorreta (não segue a relação)
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 2/5)
+         → Aluno pode interpretar que o número de traves é igual ao número de postes.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode extrapolar a relação 2:3, 3:6, e aplicar a mesma proporção para 6:x, sem entender a relação entre postes e traves.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode estar tentando encontrar um padrão linear, mas não consegue identificar a relação correta entre o número de postes e traves.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode estar multiplicando o número de postes por um fator constante, sem entender a relação entre postes e traves.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G11] Erro de digitação: 'contruindo' em vez de 'construindo'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Corrigir a grafia da palavra 'contruindo' para 'construindo'.
+    [G13] Repetição desnecessária de informações. A descrição dos diagramas (Diagrama 1, Diagrama 2, Diagrama 3) é redundante e pode ser eliminada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição dos diagramas, pois as informações podem ser inferidas do contexto ou apresentadas visualmente.
+    [G15] O enunciado é um pouco desfocado. Embora contenha a pergunta, a relação entre os diagramas e a pergunta não é imediatamente clara.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para explicitar a relação entre os diagramas e a pergunta. Por exemplo: 'Observe os diagramas que mostram a construção de cercas com postes e traves. Identifique o padrão entre o número de postes e traves em cada diagrama. Usando esse padrão, determine quantas traves terá uma cerca com seis postes.'
+    [G19] A resolução cega apontou B, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

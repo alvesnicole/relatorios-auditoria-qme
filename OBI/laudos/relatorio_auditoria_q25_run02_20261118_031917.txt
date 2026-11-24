@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 03:23:53
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise um conjunto de informações (as condições sobre a velocidade dos processadores) para deduzir qual deles pode ser o mais rápido. Isso envolve a identificação de relações, a combinação de informações e a inferência de conclusões, características do nível de análise.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre a velocidade dos processadores. A frase 'processadores usados em computadores pessoais são capazes de realizar bilhões de operações por segundo' é redundante e não agrega valor à compreensão do problema.
+         → Sugestão: Remover a frase 'processadores usados em computadores pessoais são capazes de realizar bilhões de operações por segundo'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : Representação: Criei uma lista ordenada dos processadores com base nas informações fornecidas. X > T, Z; Z > T, Y; T > R; R > V; Y > V; U < R, S > U.  Análise das alternativas: A) V é o mais lento. B) R é mais rápido que V e U, mas mais lento que T. C) U é mais lento que R. D) S é mais rápido que U e, portanto, mais rápido que R, V, U e T. E) Z é mais rápido que T e Y, mas não sabemos sua posição em relação a S. Portanto, S é o candidato mais provável a ser o mais rápido.
+
+Verificação das alternativas:
+
+A) V: Violada (não é o mais rápido, pois R > V)
+B) R: Violada (T > R)
+C) U: Violada (U < R)
+D) S: Atende a todas as condições (S > U > R > V; Z > T > R > V; Y > V). S é o mais rápido.
+E) Z: Violada (não podemos determinar se Z é mais rápido que S).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar 'mais veloz' como uma posição inicial na lista, sem considerar as relações de ordem estabelecidas.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a relação 'U é mais lento que R' e inferir que R é o mais rápido, ignorando a existência de processadores mais velozes.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Interpretação superficial da informação de que 'U é mais lento que R', levando à escolha de U como o mais rápido por eliminação.
+    [E] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na informação de que Z é mais rápido que T e Y, mas não considerar que X também é mais rápido que T e Z, o que implica que X é o mais rápido.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas. A alternativa E (mais longa) tem 10 palavras, enquanto a alternativa A (mais curta) tem 1 palavra.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação sobre a velocidade dos processadores. A frase 'processadores usados em computadores pessoais são capazes de realizar bilhões de operações por segundo' é redundante e não agrega valor à compreensão do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'processadores usados em computadores pessoais são capazes de realizar bilhões de operações por segundo'.
+    [G24] Diferença no tamanho entre as alternativas. A alternativa E (mais longa) tem 10 palavras, enquanto a alternativa A (mais curta) tem 1 palavra.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés devido ao comprimento.
+
+================================================================================

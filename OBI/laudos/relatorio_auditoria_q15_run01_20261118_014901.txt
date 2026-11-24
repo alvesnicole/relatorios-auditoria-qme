@@ -1,0 +1,65 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 01:53:02
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento da rede de computadores para determinar a rota mais eficiente para a mensagem, considerando as restrições de direção dos cabos. Não se trata de mera recordação, mas de análise e aplicação de regras para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação sobre como uma mensagem pode ir de um computador para outro, utilizando um único cabo ou uma sequência de cabos. A explicação é redundante, pois o contexto já estabelece a possibilidade de múltiplos caminhos.
+         → Sugestão: Remover a frase: 'Por exemplo, na rede descrita, uma mensagem pode ir de W para X utilizando um único cabo; e uma mensagem pode ir de X para W utilizando dois cabos (passando pelo computador Z).' 
+    [G14] A pergunta 'Se uma mensagem deve ir de Y para X usando o menor n´umero de cabos possíveis, ela deve seguir:' não está totalmente clara. O enunciado descreve a rede, mas não indica explicitamente que o aluno deve determinar o caminho mais curto. Poderia ser mais direto.
+         → Sugestão: Reformular a pergunta para: 'Qual a sequência de cabos que permite enviar uma mensagem de Y para X utilizando o menor número de cabos?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema pede o menor número de cabos para ir de Y para X. Analisando as opções:
+
+A) Y -> X: Direto, usa 1 cabo. É a opção mais simples.
+B) Y -> W -> ...: Passa por W, mas não sabemos para onde ir depois.
+C) Y -> Z -> ...: Passa por Z, mas não sabemos para onde ir depois.
+D) Y -> W -> Z -> ...: Passa por W e Z, mais cabos que a opção A.
+E) Y -> Z -> W -> ...: Passa por Z e W, mais cabos que a opção A.
+
+A opção A é a mais direta e, portanto, a que usa o menor número de cabos. Não há necessidade de passar por outros computadores.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na conectividade direta e ignorar a possibilidade de rotas alternativas, assumindo que Y só pode alcançar X via W.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem pensar que Z é um ponto de transição obrigatório, sem considerar a simplicidade de uma conexão direta.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem aplicar uma lógica complexa desnecessária, considerando rotas mais longas sem avaliar a otimização do menor número de cabos.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem interpretar erroneamente a direção dos cabos, pensando que a mensagem precisa passar por Z e depois por W para ir de Y para X.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas. A alternativa 'passando por W e depois por Z' é significativamente mais longa que as demais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da explicação sobre como uma mensagem pode ir de um computador para outro, utilizando um único cabo ou uma sequência de cabos. A explicação é redundante, pois o contexto já estabelece a possibilidade de múltiplos caminhos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase: 'Por exemplo, na rede descrita, uma mensagem pode ir de W para X utilizando um único cabo; e uma mensagem pode ir de X para W utilizando dois cabos (passando pelo computador Z).' 
+    [G14] A pergunta 'Se uma mensagem deve ir de Y para X usando o menor n´umero de cabos possíveis, ela deve seguir:' não está totalmente clara. O enunciado descreve a rede, mas não indica explicitamente que o aluno deve determinar o caminho mais curto. Poderia ser mais direto.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para: 'Qual a sequência de cabos que permite enviar uma mensagem de Y para X utilizando o menor número de cabos?'
+    [G24] Diferença no tamanho entre as alternativas. A alternativa 'passando por W e depois por Z' é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

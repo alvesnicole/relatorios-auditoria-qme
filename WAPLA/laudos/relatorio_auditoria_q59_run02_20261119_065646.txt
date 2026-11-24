@@ -1,0 +1,66 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:01:30
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Avaliar
+  Justificativa   : O item exige que o candidato avalie diferentes ações propostas para melhorar a qualidade dos dados e o processo de produção da informação, considerando as inconsistências identificadas. A escolha da alternativa correta envolve julgar a eficácia de cada ação para resolver o problema apresentado, o que caracteriza o nível de Avaliar.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição de ideias. A menção de divergências entre os relatórios e os registros das unidades de saúde é reiterada ao longo do texto, tornando a leitura redundante.
+         → Sugestão: Consolidar as informações sobre as divergências em um único parágrafo, evitando repetições.
+    [G16] O enunciado contém uma contextualização narrativa extensa (a situação da gestão municipal do SUS, a implantação do sistema, a identificação das inconsistências) que não contribui diretamente para a avaliação da qualidade dos dados ou para a identificação da ação correta. Essa contextualização pode ser considerada window dressing.
+         → Sugestão: Remover ou condensar a contextualização narrativa, focando diretamente no problema da qualidade dos dados e na necessidade de avaliação.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema central é a baixa qualidade dos dados do sistema de regulação de consultas, evidenciada por inconsistências nos relatórios, datas fora de ordem, múltiplas solicitações e planilhas divergentes. A coordenação pretende usar esses dados para redistribuição de cotas e pactuação de metas, o que é arriscado dada a situação. A alternativa ideal deve abordar a correção dos dados e o aprimoramento do processo de produção da informação, de forma colaborativa e sistemática. 
+
+Análise das alternativas:
+
+A) Correta: Propõe uma revisão conjunta das regras, dados e procedimentos, buscando reduzir as divergências. Alinha-se com a necessidade de qualificação do processo e da informação.
+B) Incorreta: Ignora o problema de qualidade dos dados, apenas buscando mais detalhes, o que pode mascarar a questão central.
+C) Incorreta: Suspende o uso do sistema, mas não propõe uma solução para a qualidade dos dados, apenas adia o problema.
+D) Incorreta: Prioriza a rapidez na atualização das filas em detrimento da qualidade dos dados, o que pode levar a decisões equivocadas.
+E) Incorreta: Delega a responsabilidade aos prestadores, sem abordar a necessidade de qualificação do processo de produção da informação.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que manter a rotina atual e adicionar campos é uma solução rápida, ignorando a necessidade de corrigir a origem dos dados.
+    [C] Distrator (Plausibilidade: 3/5)
+         → A suspensão do sistema e o uso de listas manuais podem parecer uma solução temporária, mas ignoram a necessidade de corrigir o sistema e a padronização dos dados.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem focar na rapidez e punição, negligenciando a importância da qualidade dos dados e da análise das causas das divergências.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que delegar a responsabilidade aos prestadores resolve o problema, sem considerar a necessidade de padronização e controle centralizado.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (83 caracteres) é significativamente mais curta que a alternativa A (116 caracteres).
+    [G30] As alternativas B, C, D e E não abordam diretamente os erros de registro e a necessidade de análise da causa raiz.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado apresenta repetição de ideias. A menção de divergências entre os relatórios e os registros das unidades de saúde é reiterada ao longo do texto, tornando a leitura redundante.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Consolidar as informações sobre as divergências em um único parágrafo, evitando repetições.
+    [G16] O enunciado contém uma contextualização narrativa extensa (a situação da gestão municipal do SUS, a implantação do sistema, a identificação das inconsistências) que não contribui diretamente para a avaliação da qualidade dos dados ou para a identificação da ação correta. Essa contextualização pode ser considerada window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover ou condensar a contextualização narrativa, focando diretamente no problema da qualidade dos dados e na necessidade de avaliação.
+    [G24] A alternativa B (83 caracteres) é significativamente mais curta que a alternativa A (116 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o comprimento das alternativas para evitar que uma opção domine visualmente as outras.
+    [G30] As alternativas B, C, D e E não abordam diretamente os erros de registro e a necessidade de análise da causa raiz.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores que reflitam erros de interpretação mais comuns sobre a qualidade dos dados e processos de regulação.
+
+================================================================================

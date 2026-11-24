@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:19:06
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Lembrar
+  Justificativa   : O item exige que o aluno recorde comandos específicos de terminais Linux e Windows e identifique qual deles é comum a ambos. A tarefa envolve a evocação de informações factuais, sem a necessidade de análise, aplicação ou avaliação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] As instruções não estão claras sobre o que o aluno deve identificar. O enunciado pergunta 'qual ação possui o mesmo comando nos dois terminais', mas não especifica se deve ser um comando específico, uma categoria de comandos, ou algo mais. A resposta esperada não é evidente.
+         → Sugestão: Reformule a pergunta para ser mais específica. Exemplo: 'Identifique um comando que realize a mesma função básica em ambos os terminais, Linux e Windows.'
+    [G15] O enunciado é desfocado. Não fica claro qual é o problema central a ser resolvido. O leitor precisa consultar as alternativas para entender se a questão se refere a comandos específicos, categorias de comandos, ou algo mais.
+         → Sugestão: Comece o enunciado com uma pergunta direta. Exemplo: 'Qual dos seguintes comandos tem funcionalidade equivalente no terminal Linux e no terminal Windows?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise das alternativas:
+
+A) Criar um novo diretório: No Linux, usa-se `mkdir`. No Windows, usa-se `mkdir` ou `md`. Portanto, é um comando comum.
+B) Listar arquivos: No Linux, usa-se `ls`. No Windows, usa-se `dir`. São comandos diferentes.
+C) Limpar a tela: No Linux, usa-se `clear`. No Windows, usa-se `cls`. São comandos diferentes.
+D) Excluir arquivos: No Linux, usa-se `rm`. No Windows, usa-se `del`. São comandos diferentes.
+E) Copiar arquivos: No Linux, usa-se `cp`. No Windows, usa-se `copy`. São comandos diferentes.
+
+A alternativa A é a única que apresenta um comando com nomenclatura similar em ambos os sistemas operacionais.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a listagem de arquivos com a criação de um novo diretório, especialmente se não dominam a sintaxe exata.
+    [C] Distrator (Plausibilidade: 3/5)
+         → A limpeza da tela pode ser confundida com um comando universal, sem perceber a diferença entre os sistemas.
+    [D] Distrator (Plausibilidade: 3/5)
+         → A exclusão de arquivos é uma ação comum, mas a sintaxe varia, levando à confusão.
+    [E] Distrator (Plausibilidade: 2/5)
+         → A cópia de arquivos é uma ação básica, mas a sintaxe específica pode não ser conhecida.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho, impactando a uniformidade visual e a facilidade de comparação.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G14] As instruções não estão claras sobre o que o aluno deve identificar. O enunciado pergunta 'qual ação possui o mesmo comando nos dois terminais', mas não especifica se deve ser um comando específico, uma categoria de comandos, ou algo mais. A resposta esperada não é evidente.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule a pergunta para ser mais específica. Exemplo: 'Identifique um comando que realize a mesma função básica em ambos os terminais, Linux e Windows.'
+    [G15] O enunciado é desfocado. Não fica claro qual é o problema central a ser resolvido. O leitor precisa consultar as alternativas para entender se a questão se refere a comandos específicos, categorias de comandos, ou algo mais.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Comece o enunciado com uma pergunta direta. Exemplo: 'Qual dos seguintes comandos tem funcionalidade equivalente no terminal Linux e no terminal Windows?'
+    [G24] As alternativas apresentam variações no tamanho, impactando a uniformidade visual e a facilidade de comparação.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para garantir maior similaridade no comprimento.
+
+================================================================================

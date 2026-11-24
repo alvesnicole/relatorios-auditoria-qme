@@ -1,0 +1,50 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:12:11
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre mecanismos de substituição nucleofílica para prever qual haleto de alquila otimizará a reação, considerando a polarização da ligação C–X e a estabilidade do grupo de saída. Não se trata de mera recordação, mas sim de usar princípios para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias, como a menção reiterada do objetivo de aumentar o rendimento e a ênfase na polarização da ligação C–X e na estabilidade do grupo de saída.
+         → Sugestão: Remover as repetições e condensar as informações sobre os fatores que influenciam a reação de substituição nucleofílica em uma única frase.
+    [G16] A contextualização inicial sobre a equipe em laboratório e o planejamento experimental é decorativa e não contribui diretamente para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a introdução sobre a equipe e o planejamento, focando diretamente no problema da escolha do haleto de alquila.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A questão busca a melhor alternativa para aumentar o rendimento da reação de substituição nucleofílica, considerando a polarização da ligação C–X e a facilidade de saída do grupo. A polarização da ligação C–X aumenta com a eletronegatividade do halogênio, e a facilidade de saída do grupo está relacionada à estabilidade do íon haleto. A ordem de eletronegatividade é F > Cl > Br > I. Portanto, halogênios mais eletronegativos polarizam mais a ligação C–X, mas também podem dificultar a saída do grupo devido à maior ligação C–X. No entanto, a estabilidade do íon haleto também influencia a facilidade de saída, sendo o iodeto geralmente um melhor grupo de saída que o brometo, o cloreto e o fluoreto. A alternativa A propõe a substituição de 1-bromopropano por 1-iodopropano, o que aumenta a polarização da ligação C–X e, crucialmente, o iodeto é um melhor grupo de saída que o brometo. As demais alternativas apresentam problemas: B reforça a ligação C–F (indesejável), C dificulta a aproximação do nucleófilo (contrário ao objetivo), D diminui a polarização (indesejável) e E torna o halogênio mais firmemente associado (indesejável).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o fortalecimento da ligação C–F com a promoção da reação, ignorando que essa ligação é forte e dificulta a substituição.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem acreditar que dificultar a aproximação do nucleófilo favorece a reação, demonstrando falta de compreensão sobre o mecanismo S<sub>N</sub>2.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem associar o aumento do tamanho da cadeia com a diminuição da polarização, sem entender o impacto na reatividade.
+    [E] Distrator (Plausibilidade: 4/5)
+         → Estudantes podem interpretar erroneamente que uma ligação mais forte entre o halogênio e o carbono resulta em maior rendimento, sem considerar a necessidade de um bom grupo de saída.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetições desnecessárias, como a menção reiterada do objetivo de aumentar o rendimento e a ênfase na polarização da ligação C–X e na estabilidade do grupo de saída.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover as repetições e condensar as informações sobre os fatores que influenciam a reação de substituição nucleofílica em uma única frase.
+    [G16] A contextualização inicial sobre a equipe em laboratório e o planejamento experimental é decorativa e não contribui diretamente para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução sobre a equipe e o planejamento, focando diretamente no problema da escolha do haleto de alquila.
+
+================================================================================

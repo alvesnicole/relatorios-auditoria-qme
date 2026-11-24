@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 02:36:51
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para determinar qual sabor deve ser escolhido com certeza quando U é selecionado. É necessário seguir as condições e deduzir a resposta, o que envolve a aplicação de regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da palavra 'escolhido' em diversas partes do enunciado. A repetição torna a leitura mais cansativa e pode ser evitada com sinônimos ou reformulação das frases.
+         → Sugestão: Substituir algumas ocorrências de 'escolhido' por sinônimos como 'selecionado', 'optado' ou reestruturar as frases para evitar a repetição.
+    [G14] A pergunta 'Se U for escolhido então qual deve, com certeza, ser também escolhido?' é vaga. Não está claro se o aluno deve identificar um sabor específico ou uma condição lógica.
+         → Sugestão: Reformular a pergunta para maior clareza, por exemplo: 'Considerando as condições apresentadas, qual sabor deve ser escolhido se U for selecionado?' ou 'Qual a consequência lógica da escolha de U, de acordo com as regras estabelecidas?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Análise do problema: Se U é escolhido, W não pode ser escolhido. Precisamos determinar qual alternativa deve, com certeza, ser escolhida. Vamos analisar cada alternativa:
+
+A) T: Não há restrição sobre T, então pode ou não ser escolhido.
+B) W: Se U é escolhido, W não pode ser escolhido, então W não deve ser escolhido.
+C) X: Não há restrição sobre X, então pode ou não ser escolhido.
+D) Y: Se Y é escolhido, V também deve ser escolhido. Não há restrição direta sobre Y quando U é escolhido.
+E) Z: Se U é escolhido, não há restrição direta sobre Z. No entanto, W ou Z deve ser escolhido, mas não ambos. Se U é escolhido, W não pode ser escolhido, então Z pode ser escolhido.
+
+Considerando a condição 'Se U é escolhido então W não pode ser escolhido', a alternativa B é a única que viola essa condição. Portanto, se U é escolhido, W não pode ser escolhido com certeza. A alternativa que deve ser escolhida com certeza é a que não pode ser eliminada devido à condição de que U é escolhido. Como W não pode ser escolhido, a alternativa B é eliminada. A alternativa E (Z) é a única que pode ser escolhida com certeza, pois se U é escolhido, W não pode ser escolhido, então Z deve ser escolhido para satisfazer a condição 'W ou Z deve ser escolhido'.
+
+Verificação das regras:
+Se U é escolhido, W não pode ser escolhido. Portanto, Z deve ser escolhido para satisfazer a regra 'W ou Z deve ser escolhido'.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não entender a relação entre a escolha de U e a restrição sobre W, escolhendo T por eliminação.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar erroneamente a condição 'Se U é escolhido então W não pode ser escolhido' como uma obrigação de escolher W.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Aluno pode escolher X aleatoriamente, sem considerar as restrições do problema.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode se concentrar na condição 'Se Y é escolhido então V também deve ser escolhido' e pensar que Y é uma escolha obrigatória.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da palavra 'escolhido' em diversas partes do enunciado. A repetição torna a leitura mais cansativa e pode ser evitada com sinônimos ou reformulação das frases.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir algumas ocorrências de 'escolhido' por sinônimos como 'selecionado', 'optado' ou reestruturar as frases para evitar a repetição.
+    [G14] A pergunta 'Se U for escolhido então qual deve, com certeza, ser também escolhido?' é vaga. Não está claro se o aluno deve identificar um sabor específico ou uma condição lógica.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para maior clareza, por exemplo: 'Considerando as condições apresentadas, qual sabor deve ser escolhido se U for selecionado?' ou 'Qual a consequência lógica da escolha de U, de acordo com as regras estabelecidas?'
+
+================================================================================

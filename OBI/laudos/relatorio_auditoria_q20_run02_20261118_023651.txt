@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 02:41:50
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para determinar qual sabor deve ser escolhido com certeza quando 'U' é selecionado. É necessário seguir as condições e deduzir a resposta, o que envolve a aplicação de regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da palavra 'escolhido' em diversas partes do enunciado. A repetição torna a leitura mais cansativa e pode ser evitada com sinônimos ou reformulação das frases.
+         → Sugestão: Substituir algumas ocorrências de 'escolhido' por sinônimos como 'selecionado', 'optado' ou reestruturar as frases para evitar a repetição.
+    [G14] A pergunta 'Se U for escolhido então qual deve, com certeza, ser também escolhido?' é vaga. Não está claro se a pergunta busca uma condição necessária, suficiente ou uma combinação de ambas.
+         → Sugestão: Reformular a pergunta para ser mais específica, por exemplo: 'Se U for escolhido, qual sabor deve obrigatoriamente ser escolhido?' ou 'Qual é a condição necessária para que U seja escolhido?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Análise do problema: Se U é escolhido, W não pode ser escolhido. A regra 'W ou Z deve ser escolhido, mas não ambos' implica que se W não for escolhido, Z deve ser escolhido. A regra 'Se Y é escolhido então V também deve ser escolhido' estabelece uma dependência entre Y e V. Vamos analisar cada alternativa:
+
+A) T: Não há restrição direta sobre T. Pode ou não ser escolhido.
+B) W: Se U é escolhido, W não pode ser escolhido. Portanto, W não pode ser escolhido com certeza.
+C) X: Não há restrição direta sobre X. Pode ou não ser escolhido.
+D) Y: Se Y é escolhido, V também deve ser escolhido. Não há restrição direta sobre Y, mas vamos analisar se a escolha de Y é forçada pela escolha de U.
+E) Z: Se U é escolhido e W não pode ser escolhido, então Z deve ser escolhido para satisfazer a regra 'W ou Z deve ser escolhido, mas não ambos'.
+
+Conclusão: A única alternativa que deve ser escolhida com certeza é Z.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não entender a relação entre a escolha de U e a restrição sobre W, escolhendo T por eliminação.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar erroneamente a condição 'Se U é escolhido então W não pode ser escolhido' como uma obrigação de escolher W.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Aluno pode escolher X aleatoriamente, sem considerar as restrições do problema.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode focar na condição 'Se Y é escolhido então V também deve ser escolhido' e escolher Y sem considerar a escolha de U.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da palavra 'escolhido' em diversas partes do enunciado. A repetição torna a leitura mais cansativa e pode ser evitada com sinônimos ou reformulação das frases.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir algumas ocorrências de 'escolhido' por sinônimos como 'selecionado', 'optado' ou reestruturar as frases para evitar a repetição.
+    [G14] A pergunta 'Se U for escolhido então qual deve, com certeza, ser também escolhido?' é vaga. Não está claro se a pergunta busca uma condição necessária, suficiente ou uma combinação de ambas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para ser mais específica, por exemplo: 'Se U for escolhido, qual sabor deve obrigatoriamente ser escolhido?' ou 'Qual é a condição necessária para que U seja escolhido?'
+
+================================================================================

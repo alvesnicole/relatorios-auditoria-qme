@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 02:32:02
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as informações fornecidas, considere as restrições e deduza qual afirmação é verdadeira com base na condição de que H salva o arquivo X.  É necessário avaliar as implicações das regras para chegar à resposta correta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que cada pessoa salva um arquivo, reiterada em cada restrição. Isso torna o enunciado mais longo do que o necessário.
+         → Sugestão: Remover a repetição 'Cada uma das sete pessoas deve estar salvando o arquivo X ou o Y' das restrições. Por exemplo, 'F não está salvando o mesmo arquivo que G' já implica que ambos estão salvando arquivos diferentes.'
+    [G17] Uso da negação 'não pode salvar o mesmo arquivo que' sem destaque visual. Embora não seja uma falha grave, o uso de negativas pode aumentar a complexidade cognitiva.
+         → Sugestão: Substituir 'H não pode salvar o mesmo arquivo que I está salvando' por 'H salva um arquivo diferente do que I está salvando' ou 'H salva o arquivo oposto ao de I'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Representação: Criamos um cenário onde cada pessoa salva um dos arquivos (X ou Y). As restrições indicam que F e G não salvam o mesmo arquivo, F e J não salvam o mesmo arquivo, e H e I não salvam o mesmo arquivo. Se H salva X, então I salva Y (regra H não salva o mesmo que I). Analisamos cada alternativa para verificar se é consistente com a premissa de que H salva X e as regras fornecidas. 
+
+A) F salva X: Não há informação direta que ligue a ação de H a F. Pode ser verdadeiro, mas não é uma consequência direta. 
+B) G salva Y: Não há informação direta que ligue a ação de H a G. Pode ser verdadeiro, mas não é uma consequência direta. 
+C) I salva Y: Se H salva X, então I deve salvar Y (H não pode salvar o mesmo que I). Esta alternativa é consistente com a premissa. 
+D) K salva X: Não há informação direta que ligue a ação de H a K. Pode ser verdadeiro, mas não é uma consequência direta. 
+E) L salva Y: Não há informação direta que ligue a ação de H a L. Pode ser verdadeiro, mas não é uma consequência direta.
+
+Conclusão: A alternativa C é a única que pode ser inferida diretamente da premissa de que H salva X.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem inferir que, se H salva X, F também deve salvar X, ignorando as restrições sobre as escolhas individuais.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a restrição de que F e G não salvam o mesmo arquivo e a inferência de que G necessariamente salva Y.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem assumir que, como H salva X, K também deve salvar X, sem considerar as informações sobre as outras pessoas.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Opção aleatória, sem relação com as restrições do problema. Aluno pode escolher por eliminação ou palpite.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (26 palavras) é significativamente maior que a alternativa E (13 palavras).
+    [G30] A alternativa E parece arbitrária e não reflete um erro comum de raciocínio.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] Repetição desnecessária da informação de que cada pessoa salva um arquivo, reiterada em cada restrição. Isso torna o enunciado mais longo do que o necessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição 'Cada uma das sete pessoas deve estar salvando o arquivo X ou o Y' das restrições. Por exemplo, 'F não está salvando o mesmo arquivo que G' já implica que ambos estão salvando arquivos diferentes.'
+    [G17] Uso da negação 'não pode salvar o mesmo arquivo que' sem destaque visual. Embora não seja uma falha grave, o uso de negativas pode aumentar a complexidade cognitiva.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'H não pode salvar o mesmo arquivo que I está salvando' por 'H salva um arquivo diferente do que I está salvando' ou 'H salva o arquivo oposto ao de I'.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (26 palavras) é significativamente maior que a alternativa E (13 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés na escolha.
+    [G30] A alternativa E parece arbitrária e não reflete um erro comum de raciocínio.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular a alternativa E para que reflita um erro de raciocínio mais plausível, baseado em possíveis equívocos dos alunos.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 06:27:20
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique conceitos de fluxo, tempo e capacidade para determinar o tempo mínimo para encher os caminhões, considerando a introdução de uma segunda torneira e a possibilidade de enchimento simultâneo de dois caminhões.  É necessário integrar informações e realizar cálculos para chegar à resposta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G11] Presença de erros de digitação: a palavra 'ﬂuxo' aparece com um caractere estranho (ﬂ).
+         → Sugestão: Substituir 'ﬂuxo' por 'fluxo'.
+    [G13] O enunciado é prolixo e repetitivo. A informação de que o tempo de enchimento com a segunda torneira é a metade do tempo da primeira já está implícita no fato de que o fluxo é o dobro.
+         → Sugestão: Remover a frase: 'de tal forma que o tempo de enchimento de cada caminhão com a segunda torneira é a metade quando comparado com a primeira torneira.'
+    [G14] Não está claro como a utilização simultânea das torneiras afeta o tempo de enchimento. A frase 'ambas as torneiras podem ser utilizadas para encher dois caminhões simultaneamente' é vaga.
+         → Sugestão: Esclarecer como a utilização simultânea das torneiras afeta o tempo de enchimento. Por exemplo, especificar se o tempo de enchimento de cada caminhão é dividido por dois ou se o tempo total para encher todos os caminhões é reduzido.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O problema envolve o tempo de enchimento de caminhões com duas torneiras. A segunda torneira tem o dobro do fluxo da primeira, o que significa que ela enche a metade do tempo. A questão crucial é como a utilização simultânea das torneiras afeta o tempo total. Vamos analisar as alternativas para ver qual se encaixa melhor nesse cenário. A complexidade reside em considerar o enchimento simultâneo de dois caminhões. É necessário calcular o fluxo total das duas torneiras e como isso impacta o tempo de enchimento dos caminhões. A alternativa E (110) parece ser a mais plausível, considerando que o tempo de enchimento diminui com a adição da segunda torneira e o enchimento simultâneo de dois caminhões.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não considerar o tempo de enchimento de cada caminhão individualmente, somando os tempos totais sem levar em conta a utilização simultânea.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar erroneamente a relação entre o fluxo e o tempo, não considerando a influência do número de caminhões.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode ter dificuldade em integrar as informações sobre o fluxo das torneiras e o número de caminhões, levando a um cálculo incorreto.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não compreender a relação entre o fluxo da água e o tempo de enchimento, aplicando uma regra de três simples incorreta.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas. A alternativa E é significativamente mais curta que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G11] Presença de erros de digitação: a palavra 'ﬂuxo' aparece com um caractere estranho (ﬂ).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'ﬂuxo' por 'fluxo'.
+    [G13] O enunciado é prolixo e repetitivo. A informação de que o tempo de enchimento com a segunda torneira é a metade do tempo da primeira já está implícita no fato de que o fluxo é o dobro.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase: 'de tal forma que o tempo de enchimento de cada caminhão com a segunda torneira é a metade quando comparado com a primeira torneira.'
+    [G14] Não está claro como a utilização simultânea das torneiras afeta o tempo de enchimento. A frase 'ambas as torneiras podem ser utilizadas para encher dois caminhões simultaneamente' é vaga.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Esclarecer como a utilização simultânea das torneiras afeta o tempo de enchimento. Por exemplo, especificar se o tempo de enchimento de cada caminhão é dividido por dois ou se o tempo total para encher todos os caminhões é reduzido.
+    [G24] Diferença no tamanho entre as alternativas. A alternativa E é significativamente mais curta que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés na escolha.
+    [G19] A resolução cega apontou E, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

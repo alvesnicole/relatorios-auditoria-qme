@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:56:39
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda as funções de diferentes componentes de um computador e como eles se relacionam, indo além da simples memorização de fatos. A escolha da alternativa correta requer a interpretação das descrições e a identificação da relação correta entre processador, memória RAM e sistema operacional.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é vago e não explicita a pergunta central. O leitor precisa das alternativas para entender o que se espera dele.
+         → Sugestão: Reformule o enunciado para incluir a pergunta diretamente, por exemplo: 'Em um computador, quais componentes atuam no processamento, no armazenamento e na execução de programas?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise das alternativas:
+
+A) Incorreta: Afirma que a RAM mantém dados após o desligamento, o que é falso (dados são perdidos). Também associa o sistema operacional como hardware, o que é errado (é software).
+B) Correta: Descreve corretamente a função do processador (executar instruções), da RAM (armazenamento temporário) e do sistema operacional (software).
+C) Incorreta: Afirma que o processador gerencia a impressão (função da impressora), a RAM armazena programas permanentemente (função do armazenamento permanente) e o sistema operacional é um periférico (é software).
+D) Incorreta: Afirma que o processador armazena arquivos permanentemente (função do armazenamento permanente) e a RAM executa instruções (função do processador). Também associa o sistema operacional como software, o que é correto, mas o restante da alternativa está incorreto.
+
+Conclusão: A alternativa B é a única que apresenta as funções dos componentes de forma precisa.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre memória RAM (volátil) e armazenamento permanente (HD/SSD), além de não distinguir hardware de software.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Equívoco sobre a função do processador (não gerencia impressão) e a natureza da memória RAM (não armazena programas permanentemente).
+    [D] Distrator (Plausibilidade: 2/5)
+         → Incompreensão das funções do processador (não armazena arquivos) e da memória RAM (não executa instruções).
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+    [G24] As alternativas apresentam diferenças significativas no comprimento, o que pode influenciar a escolha do candidato.
+    [G30] As opções não refletem erros comuns de estudantes sobre os componentes de um computador.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G15] O enunciado é vago e não explicita a pergunta central. O leitor precisa das alternativas para entender o que se espera dele.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para incluir a pergunta diretamente, por exemplo: 'Em um computador, quais componentes atuam no processamento, no armazenamento e na execução de programas?'
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das alternativas para garantir maior clareza e uniformidade.
+    [G24] As alternativas apresentam diferenças significativas no comprimento, o que pode influenciar a escolha do candidato.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para que sejam mais semelhantes em extensão.
+    [G30] As opções não refletem erros comuns de estudantes sobre os componentes de um computador.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar os distratores para que incorporem concepções errôneas mais frequentes.
+
+================================================================================

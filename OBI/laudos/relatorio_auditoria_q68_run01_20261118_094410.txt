@@ -1,0 +1,73 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 09:48:47
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as informações fornecidas (regras sobre as idades das amigas) para deduzir uma ordem possível, combinando as restrições para encontrar a alternativa correta. Não se trata de mera recordação, mas de manipulação das informações para resolver um problema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G2] O trecho inicial sobre as amigas e seus hobbies é irrelevante para a tarefa de ordenar as idades. Essa contextualização não contribui para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a primeira frase e a descrição dos hobbies. Iniciar o enunciado diretamente com a informação sobre as idades e as restrições.
+    [G13] Há repetição desnecessária de informações. A frase 'estão aprendendo a programar computadores para desenvolverem seus próprios jogos' não agrega valor à tarefa e pode ser eliminada.
+         → Sugestão: Remover a frase 'Agora estão aprendendo a programar computadores para desenvolverem seus próprios jogos.'
+    [G16] A introdução com a história das amigas configura um window dressing, pois não contribui para a avaliação do conhecimento técnico do aluno.
+         → Sugestão: Remover a introdução narrativa e apresentar o problema diretamente.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das restrições:
+1. Alice nasceu antes de Duda: Alice < Duda
+2. Alice nasceu depois de Iza e Lia: Iza < Alice e Lia < Alice
+3. Bia nasceu depois de Lia: Lia < Bia
+4. Lia nasceu depois de Clara: Clara < Lia
+5. Clara nasceu depois de Elza: Elza < Clara
+6. Iza não é a mais velha.
+
+Análise das alternativas:
+
+A) Bia, Duda, Alice, Iza, Clara, Lia, Elza - Violação: Alice < Duda (regra 1) e Lia < Alice (regra 2).
+B) Bia, Duda, Alice, Lia, Clara, Elza, Iza - Violação: Alice < Duda (regra 1) e Lia < Alice (regra 2).
+C) Duda, Alice, Bia, Iza, Lia, Clara, Elza - Violação: Alice < Duda (regra 1) e Iza < Alice (regra 2).
+D) Duda, Alice, Iza, Lia, Bia, Clara, Elza - Violação: Alice < Duda (regra 1) e Iza < Alice (regra 2).
+E) Alice, Duda, Bia, Lia, Iza, Clara, Elza - Violação: Alice < Duda (regra 1) e Lia < Alice (regra 2).
+
+Nenhuma das alternativas satisfaz todas as restrições. Parece haver um erro no enunciado ou nas alternativas.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno inverte a ordem de prioridade entre as restrições, priorizando a posição de Bia em vez da relação entre Alice e Duda.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno ignora a relação entre Alice e Iza/Lia, colocando Alice em uma posição inadequada em relação a elas.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno interpreta erroneamente a relação entre Alice e Bia, colocando Bia antes de Alice na ordem.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno ignora a relação entre Alice e Iza/Lia, colocando Alice como a mais jovem.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G2] O trecho inicial sobre as amigas e seus hobbies é irrelevante para a tarefa de ordenar as idades. Essa contextualização não contribui para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase e a descrição dos hobbies. Iniciar o enunciado diretamente com a informação sobre as idades e as restrições.
+    [G13] Há repetição desnecessária de informações. A frase 'estão aprendendo a programar computadores para desenvolverem seus próprios jogos' não agrega valor à tarefa e pode ser eliminada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Agora estão aprendendo a programar computadores para desenvolverem seus próprios jogos.'
+    [G16] A introdução com a história das amigas configura um window dressing, pois não contribui para a avaliação do conhecimento técnico do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução narrativa e apresentar o problema diretamente.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:03:38
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato avalie diferentes propostas didáticas, considerando a perspectiva de lexicogrammar e a BNCC, para identificar a mais adequada. Isso envolve a desconstrução das opções e a análise de como cada uma se alinha com os princípios de intencionalidade discursiva e investigação de estruturas linguísticas, extrapolando a simples aplicação de regras.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização extensa sobre a discussão da equipe pedagógica e a elaboração da sequência didática, que não contribui diretamente para a avaliação do conhecimento do aluno sobre o tema proposto.
+         → Sugestão: Remover a descrição da discussão da equipe pedagógica e da elaboração da sequência didática, focando diretamente na questão sobre a proposta didática mais adequada.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O item busca a alternativa que melhor se alinha com a perspectiva de lexicogrammar e a BNCC, valorizando a intencionalidade discursiva e a investigação de estruturas linguísticas em inglês. A lexicogrammar enfatiza a relação entre léxico, gramática e sentido. A BNCC, por sua vez, propõe uma abordagem comunicativa e contextualizada do ensino de línguas. 
+
+Análise das alternativas:
+
+A) Eliminar: Propõe memorização e reprodução de regras, o que é contrário à abordagem lexicogramática e à BNCC.
+B) Eliminar: Foco exclusivo na forma, sem relação com o uso comunicativo, também diverge da proposta.
+C) Considerar: Alinha-se à perspectiva de lexicogrammar, ao promover a análise de escolhas lexicais e gramaticais em contextos reais, buscando a compreensão de sentidos e intenções.
+D) Eliminar: Separação artificial entre vocabulário e sintaxe, desconsiderando a relação entre forma e significado.
+E) Eliminar: Sugere substituir a morfossintaxe por atividades orais, o que pode comprometer a compreensão das estruturas linguísticas.
+
+A alternativa C é a que melhor incorpora os princípios da lexicogrammar e da BNCC, ao promover a análise contextualizada da língua e a investigação de estruturas linguísticas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a memorização de regras isoladas é a forma mais eficaz de aprender gramática, ignorando a importância do contexto e uso.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Acredita-se que o domínio formal da gramática deve preceder o uso comunicativo, negligenciando a importância da prática em contextos reais.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Pode-se pensar que o aprendizado de vocabulário e sintaxe são etapas separadas, ignorando a interdependência entre eles.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que a reflexão sobre estruturas linguísticas impede a fluência, o que é uma visão simplista e potencialmente prejudicial.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (64 caracteres) é significativamente mais curta que a alternativa C (116 caracteres).
+    [G30] A alternativa E não aborda um erro comum de alunos sobre a relação entre gramática e fluência.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G16] O enunciado contém contextualização extensa sobre a discussão da equipe pedagógica e a elaboração da sequência didática, que não contribui diretamente para a avaliação do conhecimento do aluno sobre o tema proposto.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da discussão da equipe pedagógica e da elaboração da sequência didática, focando diretamente na questão sobre a proposta didática mais adequada.
+    [G24] A alternativa A (64 caracteres) é significativamente mais curta que a alternativa C (116 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G30] A alternativa E não aborda um erro comum de alunos sobre a relação entre gramática e fluência.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular a alternativa E para refletir um equívoco mais comum sobre o ensino de gramática.
+
+================================================================================

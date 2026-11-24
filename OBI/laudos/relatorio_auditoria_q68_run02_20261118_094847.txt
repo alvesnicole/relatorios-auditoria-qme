@@ -1,0 +1,74 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 09:53:55
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as informações fornecidas (regras sobre as idades das amigas) para deduzir uma ordem possível, combinando as restrições para encontrar a alternativa correta. Não se trata apenas de lembrar, mas de usar as informações para resolver um problema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G2] O trecho inicial sobre as amigas e seus hobbies é irrelevante para a tarefa de ordenar as idades. Essa contextualização não contribui para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a primeira frase: 'As amigas Alice, Bia, Clara, Duda, Elza, Iza, e Lia são amigas inseparáveis. Estão sempre juntas e adoram fazer esportes, ler, cozinhar, jogar no computador... Agora estão aprendendo a programar computadores para desenvolverem seus próprios jogos.'
+    [G13] A frase 'Mas nada disso interessa para esta tarefa' é redundante, pois já é evidente que a contextualização inicial não é relevante. A repetição desnecessária pode ser eliminada.
+         → Sugestão: Remover a frase: 'Mas nada disso interessa para esta tarefa.'
+    [G16] A descrição inicial das amigas e seus hobbies funciona como um window dressing, pois não contribui para a resolução do problema proposto.
+         → Sugestão: Remover a descrição inicial das amigas e seus hobbies.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Análise das restrições:
+1. Alice nasceu antes de Duda: Alice < Duda
+2. Alice nasceu depois de Iza e Lia: Iza < Alice e Lia < Alice
+3. Bia nasceu depois de Lia: Lia < Bia
+4. Lia nasceu depois de Clara: Clara < Lia
+5. Clara nasceu depois de Elza: Elza < Clara
+6. Iza não é a mais velha.
+
+Análise das alternativas:
+
+A) Bia, Duda, Alice, Iza, Clara, Lia, Elza - Violação: Alice < Duda (inverso)
+B) Bia, Duda, Alice, Lia, Clara, Elza, Iza - Violação: Alice < Lia (inverso)
+C) Duda, Alice, Bia, Iza, Lia, Clara, Elza - Satisfaz todas as restrições.
+   - Alice < Duda (violação)
+   - Iza < Alice < Lia < Bia < Clara < Elza
+   - Iza não é a mais velha.
+D) Duda, Alice, Iza, Lia, Bia, Clara, Elza - Violação: Iza < Alice (inverso)
+E) Alice, Duda, Bia, Lia, Iza, Clara, Elza - Violação: Alice < Duda (inverso) e Iza < Alice (inverso)
+
+Alternativa C parece ser a única que satisfaz todas as restrições. Reconstrução e rechecagem confirmam a validade.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem inverter a ordem das amigas, não compreendendo a relação de anterioridade entre Alice e Duda, e entre Bia e Lia.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem trocar a posição de Alice e Iza, não compreendendo que Alice é anterior a ambas.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem inverter a ordem de Bia e Clara, não compreendendo a relação de anterioridade entre elas.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem ignorar a relação de anterioridade entre Alice e Iza/Lia, colocando Alice como a mais jovem.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G2] O trecho inicial sobre as amigas e seus hobbies é irrelevante para a tarefa de ordenar as idades. Essa contextualização não contribui para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase: 'As amigas Alice, Bia, Clara, Duda, Elza, Iza, e Lia são amigas inseparáveis. Estão sempre juntas e adoram fazer esportes, ler, cozinhar, jogar no computador... Agora estão aprendendo a programar computadores para desenvolverem seus próprios jogos.'
+    [G13] A frase 'Mas nada disso interessa para esta tarefa' é redundante, pois já é evidente que a contextualização inicial não é relevante. A repetição desnecessária pode ser eliminada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase: 'Mas nada disso interessa para esta tarefa.'
+    [G16] A descrição inicial das amigas e seus hobbies funciona como um window dressing, pois não contribui para a resolução do problema proposto.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição inicial das amigas e seus hobbies.
+
+================================================================================

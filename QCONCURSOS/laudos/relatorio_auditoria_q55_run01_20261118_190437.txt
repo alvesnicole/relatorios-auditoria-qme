@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 19:08:26
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre componentes de arquitetura de computadores para resolver um problema prático (liberar espaço no disco rígido). A escolha da resposta correta demanda a compreensão do funcionamento dos componentes e sua relação com a situação apresentada.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da ideia de que o assistente precisa liberar espaço no disco rígido para salvar novos relatórios, mas também precisa manter programas essenciais rodando. Essa informação poderia ser condensada.
+         → Sugestão: Remover a primeira parte da frase: 'Um assistente administrativo precisa liberar espaço no disco rígido do computador de trabalho para salvar novos relatórios, mas...' e começar com '...mas sabe que precisa manter os programas essenciais rodando na memória de execução enquanto trabalha.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O enunciado busca identificar componentes de hardware relacionados ao armazenamento de dados, distinguindo entre armazenamento permanente e temporário. A alternativa correta deve nomear o disco rígido/SSD (armazenamento permanente) e a memória RAM (armazenamento temporário). 
+
+Análise das alternativas:
+
+A) Incorreta. O processador (CPU) executa instruções, não armazena dados.
+B) Incorreta. A memória ROM armazena dados de inicialização, não dados de trabalho. A placa-mãe é a base do sistema, não um componente de armazenamento.
+C) Incorreta. A memória cache é um tipo de memória rápida, mas não armazena dados de programas em execução.
+D) Correta. O disco rígido (HD/SSD) é o armazenamento permanente, e a memória RAM armazena temporariamente os dados dos programas em execução.
+E) Incorreta. O monitor exibe informações, e dispositivos de armazenamento é um termo genérico, não específico.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a RAM (memória volátil) e a CPU (processador), ambos relacionados ao funcionamento do computador.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Associação incorreta da ROM (memória de leitura) com armazenamento de dados e da placa-mãe com armazenamento temporário.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a memória cache (armazenamento rápido) e a ROM (memória de leitura), ambas relacionadas à memória do computador.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Ignora a distinção entre armazenamento permanente (HD/SSD) e armazenamento temporário (RAM), confundindo ambos com dispositivos de armazenamento.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+    [G24] As alternativas apresentam diferenças significativas no comprimento e complexidade.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetição desnecessária da ideia de que o assistente precisa liberar espaço no disco rígido para salvar novos relatórios, mas também precisa manter programas essenciais rodando. Essa informação poderia ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira parte da frase: 'Um assistente administrativo precisa liberar espaço no disco rígido do computador de trabalho para salvar novos relatórios, mas...' e começar com '...mas sabe que precisa manter os programas essenciais rodando na memória de execução enquanto trabalha.'
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das alternativas para garantir maior uniformidade e clareza.
+    [G24] As alternativas apresentam diferenças significativas no comprimento e complexidade.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para promover maior equilíbrio e evitar desorientação.
+
+================================================================================

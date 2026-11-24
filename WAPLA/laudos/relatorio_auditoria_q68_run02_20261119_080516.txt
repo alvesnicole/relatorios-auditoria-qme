@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:09:41
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as propostas de montagem, avalie seu alinhamento com o objetivo curatorial e identifique a opção mais adequada. Isso envolve a compreensão das intenções da curadora e a capacidade de discernir qual decisão de montagem melhor atende a esses objetivos, demonstrando um nível de análise e avaliação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização narrativa extensa e desnecessária, descrevendo a situação da curadora e o planejamento da exposição. Essa contextualização não contribui diretamente para a compreensão da tarefa de avaliação.
+         → Sugestão: Remover a descrição detalhada do cenário da curadora e focar diretamente no problema da montagem da exposição. Por exemplo: 'A curadora de uma exposição sobre a emergência da videoarte recebeu diversas propostas...' 
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado busca uma alternativa que alinhe a montagem da exposição com a intenção de evidenciar o papel das novas plataformas e do diálogo das mídias na consolidação da videoarte. A curadora quer destacar a experimentação e a distinção do vídeo em relação ao cinema narrativo. 
+
+Análise das alternativas:
+
+A) Esta alternativa parece a mais adequada, pois prioriza as obras experimentais (looping e manipulações ao vivo) em áreas centrais, enquanto relegada o vídeo narrativo a um espaço secundário, o que reforça a distinção entre as abordagens.
+B) Esta alternativa é inadequada, pois prioriza o vídeo com roteiro tradicional, indo contra a intenção de destacar a experimentação.
+C) Esta alternativa dilui a proposta curatorial, não enfatizando a importância das experiências experimentais.
+D) Esta alternativa impõe uma progressão linear que não se alinha com a ideia de diálogo entre as mídias, mas sim com uma hierarquia.
+E) Esta alternativa elimina a distinção entre as obras, o que não contribui para evidenciar o papel das novas plataformas e do diálogo das mídias.
+
+Portanto, a alternativa A é a que melhor se encaixa no objetivo curatorial.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a familiaridade com o cinema narrativo é um fator mais importante para o público do que a experimentação, buscando uma experiência mais previsível.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente a necessidade de evidenciar a videoarte como uma busca por igualdade entre as propostas, ignorando a importância da hierarquia curatorial.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a progressão linear de registros televisivos para o cinema narrativo simplifica a compreensão da videoarte, desconsiderando a complexidade do diálogo entre as mídias.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem focar na unidade da experiência audiovisual, negligenciando a importância da curadoria em destacar as características experimentais da videoarte.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas. A alternativa B é consideravelmente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém contextualização narrativa extensa e desnecessária, descrevendo a situação da curadora e o planejamento da exposição. Essa contextualização não contribui diretamente para a compreensão da tarefa de avaliação.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada do cenário da curadora e focar diretamente no problema da montagem da exposição. Por exemplo: 'A curadora de uma exposição sobre a emergência da videoarte recebeu diversas propostas...' 
+    [G24] Diferença significativa no tamanho entre as alternativas. A alternativa B é consideravelmente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade, evitando que o tamanho influencie a escolha.
+
+================================================================================

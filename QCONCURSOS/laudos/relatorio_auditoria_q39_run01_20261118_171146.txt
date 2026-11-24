@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:15:27
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Lembrar
+  Justificativa   : O item exige que o aluno recorde comandos específicos de terminais Linux e Windows e identifique qual deles é comum a ambos. Não há necessidade de análise, aplicação ou avaliação de conceitos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] O enunciado não deixa claro qual ação o aluno deve identificar. Ele pede para informar qual ação possui o mesmo comando, mas não especifica se deve ser um comando específico, um tipo de comando, ou algo mais.
+         → Sugestão: Reformule o enunciado para especificar o tipo de comando a ser comparado. Exemplo: 'Considerando os comandos básicos de listagem de diretórios nos terminais Linux e Windows, informe qual comando possui a mesma função em ambos os sistemas.'
+    [G15] O enunciado é um tanto vago. Não é imediatamente claro qual é a pergunta central sem olhar para as alternativas.
+         → Sugestão: Comece o enunciado com uma pergunta direta. Exemplo: 'Qual comando do terminal Linux tem um equivalente no terminal Windows?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise das alternativas:
+
+A) Criar um novo diretório: No Linux, usa-se `mkdir`, no Windows, `mkdir` ou `md`. Coincidem.
+B) Listar arquivos: No Linux, `ls`, no Windows, `dir`. Diferem.
+C) Limpar a tela: No Linux, `clear`, no Windows, `cls`. Diferem.
+D) Excluir arquivos: No Linux, `rm`, no Windows, `del`. Diferem.
+E) Copiar arquivos: No Linux, `cp`, no Windows, `copy`. Diferem.
+
+A alternativa A é a única que apresenta um comando equivalente em ambos os sistemas operacionais.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a listagem de arquivos com a criação de um novo diretório, especialmente se não dominam a sintaxe exata.
+    [C] Distrator (Plausibilidade: 3/5)
+         → A limpeza da tela pode ser associada a comandos de gerenciamento de arquivos, levando à escolha equivocada.
+    [D] Distrator (Plausibilidade: 3/5)
+         → A exclusão de arquivos pode ser confundida com outras operações de manipulação de arquivos, como mover ou renomear.
+    [E] Distrator (Plausibilidade: 2/5)
+         → A cópia de arquivos pode ser vista como uma ação comum em ambos os sistemas, sem considerar a sintaxe específica.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho, o que pode influenciar a percepção de dificuldade.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G14] O enunciado não deixa claro qual ação o aluno deve identificar. Ele pede para informar qual ação possui o mesmo comando, mas não especifica se deve ser um comando específico, um tipo de comando, ou algo mais.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para especificar o tipo de comando a ser comparado. Exemplo: 'Considerando os comandos básicos de listagem de diretórios nos terminais Linux e Windows, informe qual comando possui a mesma função em ambos os sistemas.'
+    [G15] O enunciado é um tanto vago. Não é imediatamente claro qual é a pergunta central sem olhar para as alternativas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Comece o enunciado com uma pergunta direta. Exemplo: 'Qual comando do terminal Linux tem um equivalente no terminal Windows?'
+    [G24] As alternativas apresentam variações no tamanho, o que pode influenciar a percepção de dificuldade.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para garantir maior uniformidade.
+
+================================================================================

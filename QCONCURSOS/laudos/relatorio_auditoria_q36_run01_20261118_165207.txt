@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 16:55:35
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno compreenda o funcionamento do protocolo TLS e aplique esse conhecimento para identificar a alternativa correta, conectando conceitos de criptografia simétrica e assimétrica em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é desfocado. Não é claro qual é a pergunta central sobre o protocolo TLS. A frase 'Sobre esse processo, assinale a alternativa CORRETA' é genérica e não direciona o foco do aluno.
+         → Sugestão: Reformule o enunciado para explicitar a pergunta. Exemplo: 'Explique qual o papel da combinação de criptografia simétrica e assimétrica no protocolo TLS.'
+    [G16] A contextualização inicial sobre o protocolo TLS é excessiva e não contribui para a avaliação do conhecimento do aluno. É uma introdução descritiva desnecessária.
+         → Sugestão: Remova a primeira parte do enunciado, começando com 'No funcionamento do protocolo TLS... utilizado para prover segurança nas comunicações via web'. Comece diretamente com a pergunta sobre o processo.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O protocolo TLS utiliza criptografia assimétrica para a troca segura de chaves e criptografia simétrica para a cifragem dos dados. A alternativa A descreve incorretamente o uso do AES, que é uma criptografia simétrica, não assimétrica. A alternativa B inverte o papel das chaves pública e privada. A alternativa C afirma incorretamente que o certificado digital contém a chave privada do servidor, o que é um risco de segurança. A alternativa D descreve corretamente a utilização da criptografia assimétrica no handshake e da criptografia simétrica na cifragem dos dados.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o AES com um componente de não-repúdio, ignorando sua função principal na criptografia simétrica.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre criptografia simétrica e assimétrica, acreditando que a simétrica usa um par de chaves.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Entendimento incorreto do papel do certificado digital, associando-o à decriptação de mensagens.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de complexidade e detalhamento, gerando heterogeneidade na estrutura.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é desfocado. Não é claro qual é a pergunta central sobre o protocolo TLS. A frase 'Sobre esse processo, assinale a alternativa CORRETA' é genérica e não direciona o foco do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para explicitar a pergunta. Exemplo: 'Explique qual o papel da combinação de criptografia simétrica e assimétrica no protocolo TLS.'
+    [G16] A contextualização inicial sobre o protocolo TLS é excessiva e não contribui para a avaliação do conhecimento do aluno. É uma introdução descritiva desnecessária.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remova a primeira parte do enunciado, começando com 'No funcionamento do protocolo TLS... utilizado para prover segurança nas comunicações via web'. Comece diretamente com a pergunta sobre o processo.
+    [G23] As alternativas apresentam diferentes níveis de complexidade e detalhamento, gerando heterogeneidade na estrutura.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para uniformizar o nível de detalhe e complexidade.
+
+================================================================================

@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 06:47:00
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as informações fornecidas sobre os testes X e Z para determinar a sequência de cores resultante da combinação de vírus, simulando uma situação prática e exigindo a aplicação de regras.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre a cor da amostra após o teste X. A frase 'Uma amostra mantém a cor adquirida em um teste a menos que outro teste posterior altere a cor da amostra' é redundante, pois a sequência de testes já implica essa característica.
+         → Sugestão: Remover a frase 'Uma amostra mantém a cor adquirida em um teste a menos que outro teste posterior altere a cor da amostra.'
+    [G16] O enunciado apresenta uma contextualização excessiva e desnecessária sobre o laboratório de pesquisas e a batalha contra o mosquito, que não contribuem para a compreensão da tarefa.
+         → Sugestão: Remover a primeira frase: 'O Brasil trava uma batalha contra o mosquito Aedes Aegypti, transmissor de várias doenças.' e a frase 'Um laboratório de pesquisas está desenvolvendo um método para determinar se um paciente está infectado com virus de Chicungunha, Denque ou Zika, utilizando uma amostra de sangue do paciente e dois novos testes, chamados de teste X e teste Z.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O problema descreve um cenário de diagnóstico de doenças utilizando testes X e Z. A amostra contém Chicungunya, Dengue e não Zika. O teste X indica a presença de Chicungunya ou Dengue (ou ambos), resultando em cor verde. O teste Z, na ausência de Zika, mantém a cor do teste anterior. Portanto, a sequência de cores deve ser verde (teste X) e verde (teste Z). 
+
+Análise das alternativas:
+
+A) laranja, roxo: Incorreta. O teste X resulta em verde, não laranja.
+B) verde, roxo: Incorreta. O teste Z mantém a cor, não muda para roxo.
+C) laranja, vermelho: Incorreta. O teste X resulta em verde, não laranja, e o teste Z não resulta em vermelho.
+D) laranja, laranja: Incorreta. O teste X resulta em verde, não laranja.
+E) verde, verde: Correta. O teste X resulta em verde (Chicungunya e Dengue presentes) e o teste Z mantém a cor verde (Zika ausente).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão na ordem dos testes e cores, interpretando que o teste Z altera a cor do teste X.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Interpretação errônea de que o teste Z altera a cor do teste X, mesmo que não contenha Zika.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Ignora a regra de que o teste Z não altera a cor se não houver vírus Zika.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Opção claramente absurda, indicando falta de compreensão do enunciado.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre a cor da amostra após o teste X. A frase 'Uma amostra mantém a cor adquirida em um teste a menos que outro teste posterior altere a cor da amostra' é redundante, pois a sequência de testes já implica essa característica.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Uma amostra mantém a cor adquirida em um teste a menos que outro teste posterior altere a cor da amostra.'
+    [G16] O enunciado apresenta uma contextualização excessiva e desnecessária sobre o laboratório de pesquisas e a batalha contra o mosquito, que não contribuem para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase: 'O Brasil trava uma batalha contra o mosquito Aedes Aegypti, transmissor de várias doenças.' e a frase 'Um laboratório de pesquisas está desenvolvendo um método para determinar se um paciente está infectado com virus de Chicungunha, Denque ou Zika, utilizando uma amostra de sangue do paciente e dois novos testes, chamados de teste X e teste Z.'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

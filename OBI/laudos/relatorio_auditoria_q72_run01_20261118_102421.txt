@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 10:27:51
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas (preferências de cada amiga) para encontrar uma solução que satisfaça todas as condições. Não se trata apenas de lembrar informações, mas de combiná-las para resolver um problema lógico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa desnecessária sobre as amigas e seus planos de dormir, que não contribui para a compreensão do problema central. A história serve apenas como contextualização e não possui função avaliativa direta.
+         → Sugestão: Remover a descrição das amigas e seus planos. Apresentar diretamente o problema: 'Em um quarto com dois beliches, um pintado de azul e outro de verde, como as amigas podem se organizar para dormir?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Representação: As amigas (Joana, Keila, Leda, Meire) são alocadas aos beliches (Azul: cima/baixo, Verde: cima/baixo). Restrições: 1) Joana quer dormir na cama de cima; 2) Leda não quer dormir no beliche verde; 3) Keila não quer dormir no mesmo beliche que Meire. Verificação: A) Leda (baixo) e Keila (cima) no azul; Meire (baixo) e Joana (cima) no verde. Satisfaz 1, 2 e 3. B) Leda (baixo) e Joana (cima) no azul; Meire (baixo) e Keila (cima) no verde. Viola 1. C) Leda (baixo) e Keila (cima) no azul; Joana (baixo) e Meire (cima) no verde. Viola 1. D) Keila (baixo) e Joana (cima) no azul; Meire (baixo) e Leda (cima) no verde. Viola 2. E) Keila (baixo) e Meire (cima) no azul; Leda (baixo) e Joana (cima) no verde. Viola 2.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão na atribuição de camas, priorizando Joana na cama de cima sem considerar as restrições de Leda e Keila.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial das restrições, colocando Joana no beliche verde sem considerar a preferência de Leda.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Ignora a restrição de Keila em relação a Meire, alocando-as no mesmo beliche.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Atribuição aleatória de nomes às camas, sem considerar as restrições de posicionamento e preferência.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém uma narrativa desnecessária sobre as amigas e seus planos de dormir, que não contribui para a compreensão do problema central. A história serve apenas como contextualização e não possui função avaliativa direta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição das amigas e seus planos. Apresentar diretamente o problema: 'Em um quarto com dois beliches, um pintado de azul e outro de verde, como as amigas podem se organizar para dormir?'
+
+================================================================================

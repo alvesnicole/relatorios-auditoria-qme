@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 14:43:01
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato interprete o contexto do projeto de segurança e compreenda o papel da loja virtual dentro desse projeto, relacionando-o a um dos papéis definidos nas opções. Não se trata de memorização direta, mas de inferência e interpretação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que o projeto envolve a definição de papéis e funções, o que torna a leitura mais longa do que o necessário.
+         → Sugestão: Remover a frase 'Uma das fases desse processo é determinar quem e quais as funções que irão representar dentro do projeto.'
+    [G15] O enunciado não explicita claramente qual é a pergunta a ser respondida. O leitor precisa inferir que a questão é sobre o papel da loja virtual dentro do projeto de segurança.
+         → Sugestão: Reformular o enunciado para incluir uma pergunta direta, como: 'De acordo com o contexto apresentado, qual a função da loja virtual dentro do projeto de segurança?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um projeto de segurança para uma loja virtual, onde o foco é determinar quem e quais funções participarão. A questão pergunta o que a loja virtual representa dentro desse projeto. Analisando as alternativas:
+
+A) Objeto: A loja virtual pode ser vista como um objeto a ser protegido, mas não representa a essência do projeto.
+B) Usuário: O usuário é quem interage com a loja virtual, mas não é o que a loja virtual *representa* no contexto do projeto.
+C) Recurso: A loja virtual pode ser um recurso a ser protegido, mas a opção 'objeto' é mais precisa.
+D) Proprietário: A loja virtual é propriedade da loja de departamentos, mas isso não define sua representação no projeto.
+E) Patrocinador: O patrocinador financia o projeto, mas não é o que a loja virtual representa.
+
+A alternativa mais adequada é 'objeto', pois o projeto de segurança visa proteger a loja virtual como um objeto de valor. A loja virtual é o foco da segurança, o que a torna o objeto do projeto.
+
+Não foram identificadas inconsistências gramaticais ou pistas visuais evidentes nas alternativas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde o usuário com um ator dentro do projeto, ignorando que a loja virtual é o sistema em si.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpreta a loja virtual como um recurso técnico, não como o objeto central do projeto de segurança.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Assume que a loja virtual possui propriedade, o que não se aplica no contexto de um projeto de segurança.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Confunde o patrocinador do projeto com a loja virtual, não compreendendo o papel de cada um.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que o projeto envolve a definição de papéis e funções, o que torna a leitura mais longa do que o necessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Uma das fases desse processo é determinar quem e quais as funções que irão representar dentro do projeto.'
+    [G15] O enunciado não explicita claramente qual é a pergunta a ser respondida. O leitor precisa inferir que a questão é sobre o papel da loja virtual dentro do projeto de segurança.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para incluir uma pergunta direta, como: 'De acordo com o contexto apresentado, qual a função da loja virtual dentro do projeto de segurança?'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

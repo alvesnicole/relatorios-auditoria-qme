@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 18:07:23
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre metodologias de desenvolvimento de software a um cenário específico, selecionando a abordagem mais adequada para um contexto de alta incerteza e entregas frequentes. A escolha da resposta correta demanda a compreensão das características de cada metodologia e sua compatibilidade com as exigências do cenário.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da ideia de que a equipe está em um ambiente de alta incerteza e precisa de entregas frequentes. Essa informação poderia ser condensada.
+         → Sugestão: Reescrever o enunciado para eliminar a redundância, por exemplo: 'Uma equipe desenvolve produto digital em ambiente de alta incerteza, exigindo entregas frequentes e adaptação contínua. A direção demanda revisões de prioridade e feedback real. Nesse contexto, assinale a alternativa mais adequada:'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema descreve um cenário de desenvolvimento de produto digital com alta incerteza, entregas frequentes, revisão de prioridades e aprendizagem contínua. A alternativa ideal deve refletir a capacidade de adaptação a essas condições. 
+
+A) Metodologia incremental: Fixar o escopo antecipadamente é incompatível com a incerteza. Eliminação.
+B) Modelo sequencial: Validação concentrada ao final impede a adaptação e revisão de prioridades. Eliminação.
+C) Abordagem preditiva: Detalhar antecipadamente é inadequado em um ambiente de alta incerteza. Eliminação.
+D) Abordagem adaptativa: Ciclos curtos, priorização contínua e feedback são características de metodologias adaptativas, adequadas ao cenário. Confirmação.
+E) Abordagem híbrida: Evitar revisão de prioridades é contrário à necessidade de flexibilidade e aprendizagem contínua. Eliminação.
+
+A alternativa D é a única que se alinha com os requisitos do cenário, enfatizando a adaptabilidade e a incorporação de feedback.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que metodologias incrementais eliminam a incerteza, ignorando a necessidade de adaptação em ambientes dinâmicos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Acreditam que um modelo sequencial, com validação tardia, controla melhor as mudanças, desconsiderando a importância do feedback contínuo.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pensam que detalhamento antecipado resolve a incerteza, ignorando a natureza adaptativa necessária em ambientes de alta incerteza.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que estabilidade é sempre positiva, ignorando a necessidade de flexibilidade em ambientes de alta incerteza.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetição desnecessária da ideia de que a equipe está em um ambiente de alta incerteza e precisa de entregas frequentes. Essa informação poderia ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever o enunciado para eliminar a redundância, por exemplo: 'Uma equipe desenvolve produto digital em ambiente de alta incerteza, exigindo entregas frequentes e adaptação contínua. A direção demanda revisões de prioridade e feedback real. Nesse contexto, assinale a alternativa mais adequada:'
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar e ajustar o tamanho das alternativas para promover maior uniformidade e clareza.
+
+================================================================================

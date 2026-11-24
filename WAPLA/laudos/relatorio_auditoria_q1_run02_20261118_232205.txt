@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 23:26:36
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre variação linguística para propor uma ação que reorganize o uso do livro didático. A resolução demanda a compreensão do cenário e a seleção da alternativa que melhor se adapta à necessidade de contemplar a diversidade da língua inglesa.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa extensa e detalhada sobre a professora, a escola, o livro didático e as dificuldades dos alunos. Essa contextualização, embora possa parecer relevante, não contribui diretamente para a avaliação do conhecimento sobre variação linguística. É um exemplo de window dressing.
+         → Sugestão: Remover a descrição detalhada do cenário e apresentar diretamente a situação problema: 'Uma professora de Língua Inglesa do Ensino Médio observa que seus alunos têm dificuldade em entender vídeos de influenciadores estrangeiros devido à diferença de pronúncia e vocabulário em relação ao livro didático. Considerando esse cenário, diferencie a ação que organiza o uso do livro didático de modo a contemplar a variação linguística da Língua Inglesa.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema central é a necessidade de adaptar o material didático para refletir a variação linguística do inglês, considerando a dificuldade dos alunos em compreender falas autênticas. A alternativa correta deve propor uma ação que incorpore essa variação. 
+
+A) Elimina-se por reforçar a memorização e evitar o contato com outras formas de falar, o que é o oposto do que a professora busca.
+B) Considera-se a mais adequada, pois sugere a comparação entre o material do livro e falas autênticas, promovendo a conscientização sobre a variação linguística.
+C) Elimina-se por focar na memorização de vocabulário formal, ignorando a importância da pronúncia e do contexto.
+D) Elimina-se por promover a imitação de um modelo único de fala, limitando a exposição a outras variedades.
+E) Elimina-se por instruir os alunos a ignorar outras formas de falar, o que é contrário à proposta de valorizar a variação linguística.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a memorização de formas fixas é suficiente para a compreensão da língua, ignorando a variação.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem pensar que decorar vocabulário formal isolado é uma forma eficaz de aprender inglês, sem considerar o contexto e a pronúncia.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que imitar um modelo de fala predominante é a única maneira de falar inglês corretamente, desconsiderando outras variações.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que ignorar variações linguísticas é uma forma de aprender o inglês 'correto', demonstrando falta de compreensão sobre a natureza dinâmica da língua.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (44 palavras) é significativamente mais curta que a alternativa B (33 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma narrativa extensa e detalhada sobre a professora, a escola, o livro didático e as dificuldades dos alunos. Essa contextualização, embora possa parecer relevante, não contribui diretamente para a avaliação do conhecimento sobre variação linguística. É um exemplo de window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada do cenário e apresentar diretamente a situação problema: 'Uma professora de Língua Inglesa do Ensino Médio observa que seus alunos têm dificuldade em entender vídeos de influenciadores estrangeiros devido à diferença de pronúncia e vocabulário em relação ao livro didático. Considerando esse cenário, diferencie a ação que organiza o uso do livro didático de modo a contemplar a variação linguística da Língua Inglesa.'
+    [G24] A alternativa A (44 palavras) é significativamente mais curta que a alternativa B (33 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para maior equilíbrio.
+
+================================================================================

@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 09:15:55
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o método do payback para avaliar um investimento, utilizando os dados fornecidos e considerando um critério específico definido pela diretoria. Não se trata de mera memorização ou cálculo direto, mas sim da aplicação de um conceito em um cenário prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias, como a explicação detalhada do método do payback e a reafirmação do objetivo de recuperação do capital.
+         → Sugestão: Remover a repetição da explicação do payback e simplificar a frase sobre a recuperação do capital, focando na necessidade de avaliar se o investimento se enquadra no prazo definido.
+    [G16] A descrição da política de investimentos da diretoria (prazo máximo aceitável de recuperação) pode ser considerada contextualização decorativa, pois não é essencial para a compreensão da tarefa.
+         → Sugestão: Remover a informação sobre a política de investimentos da diretoria, focando apenas nos dados necessários para o cálculo do payback.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema exige a aplicação do payback para avaliar a viabilidade do investimento, considerando um prazo máximo de 3 anos. O payback é calculado somando os fluxos de caixa até que o investimento inicial seja recuperado. A alternativa A descreve precisamente esse procedimento, somando os fluxos de caixa anuais até atingir R$ 200.000,00 e comparando o tempo de recuperação com o limite de 3 anos. As demais alternativas propõem métodos inadequados (taxa de atratividade, média aritmética, valor presente com taxa de desconto, comparação com o total de fluxos sem considerar o tempo). A alternativa A é a única que se alinha com a definição de payback e a política da diretoria.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir o cálculo do payback com a aplicação de uma taxa de atratividade, demonstrando confusão entre diferentes métodos de avaliação de investimento.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Confusão entre o cálculo do payback e a determinação de um ponto de equilíbrio, levando a uma simplificação excessiva do processo de recuperação do investimento.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que o desconto dos fluxos de caixa é necessário para calcular o payback, demonstrando falta de compreensão do método.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Ignora a temporalidade dos fluxos de caixa, focando apenas na comparação do investimento total com a soma dos recebimentos, sem considerar o tempo de recuperação.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa C (média aritmética) é significativamente mais curta que as demais, com uma diferença de mais de 8 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetições desnecessárias, como a explicação detalhada do método do payback e a reafirmação do objetivo de recuperação do capital.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da explicação do payback e simplificar a frase sobre a recuperação do capital, focando na necessidade de avaliar se o investimento se enquadra no prazo definido.
+    [G16] A descrição da política de investimentos da diretoria (prazo máximo aceitável de recuperação) pode ser considerada contextualização decorativa, pois não é essencial para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a informação sobre a política de investimentos da diretoria, focando apenas nos dados necessários para o cálculo do payback.
+    [G24] A alternativa C (média aritmética) é significativamente mais curta que as demais, com uma diferença de mais de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar desequilíbrio na percepção do candidato.
+
+================================================================================

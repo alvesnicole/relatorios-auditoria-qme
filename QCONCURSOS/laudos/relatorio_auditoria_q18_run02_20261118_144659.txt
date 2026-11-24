@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 14:50:42
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato interprete o contexto da Norma ISO 27002:2005 e compreenda qual premissa se encaixa no requisito de segurança das informações, o que vai além da simples memorização de fatos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que a Norma ISO auxilia as empresas na gestão qualitativa de seus negócios, seguida por uma explicação sobre a necessidade de um plano de segurança para a ISO 27002:2005. Essa informação poderia ser condensada.
+         → Sugestão: Remover a primeira frase ('As Normas ISO são um conjunto de regras internacionais que auxiliam as empresas na gestão qualitativa de seus negócios.') e integrar a informação sobre o plano de segurança na primeira frase, por exemplo: 'Para uma empresa se enquadrar dentro da Norma ISO 27002:2005, é preciso um amplo plano de segurança das informações, que auxilia na gestão qualitativa dos negócios.'
+    [G15] O enunciado não explicita claramente qual é a pergunta ou problema que o aluno deve resolver. A frase 'a...' no final do enunciado deixa o aluno sem saber o que se espera dele.
+         → Sugestão: Reformular o final do enunciado para incluir uma pergunta clara, como por exemplo: 'a... qual requisito específico?' ou 'a... qual é o principal objetivo?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O enunciado descreve requisitos para certificação ISO 27002:2005, focando em segurança da informação. As alternativas representam características que poderiam influenciar a gestão de segurança. A 'maturidade' se alinha com a ideia de um plano de segurança abrangente e bem estabelecido, indicando um nível avançado de desenvolvimento e implementação de práticas de segurança. As outras opções (idoneidade, competitividade, austeridade, flexibilidade) são menos diretamente relacionadas à segurança da informação em um contexto de certificação ISO. A pista G28b sugere que a repetição de termos do enunciado pode ser uma pista visual. A palavra 'assegurem' aparece em 'assegurem, entre outras premissas'.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem associar a ISO 27002 com a necessidade de superar a concorrência, confundindo gestão de qualidade com estratégia de mercado.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Poderiam interpretar erroneamente que a flexibilidade é um requisito chave, ignorando a ênfase em procedimentos e controles.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Austeridade pode ser confundida com economia de recursos, sem entender a relação com a segurança da informação.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Maturidade, embora desejável, não é um requisito específico para a certificação ISO 27002, podendo gerar confusão.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que a Norma ISO auxilia as empresas na gestão qualitativa de seus negócios, seguida por uma explicação sobre a necessidade de um plano de segurança para a ISO 27002:2005. Essa informação poderia ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase ('As Normas ISO são um conjunto de regras internacionais que auxiliam as empresas na gestão qualitativa de seus negócios.') e integrar a informação sobre o plano de segurança na primeira frase, por exemplo: 'Para uma empresa se enquadrar dentro da Norma ISO 27002:2005, é preciso um amplo plano de segurança das informações, que auxilia na gestão qualitativa dos negócios.'
+    [G15] O enunciado não explicita claramente qual é a pergunta ou problema que o aluno deve resolver. A frase 'a...' no final do enunciado deixa o aluno sem saber o que se espera dele.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o final do enunciado para incluir uma pergunta clara, como por exemplo: 'a... qual requisito específico?' ou 'a... qual é o principal objetivo?'
+    [G19] A resolução cega apontou E, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 04:51:15
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras do jogo para determinar o número máximo de letras na quinta palavra, considerando as restrições fornecidas. Não se trata de memorização direta, mas sim de manipulação das regras para chegar a uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado é excessivamente prolixo na descrição das regras do jogo. Há repetição de ideias e detalhes que poderiam ser condensados para melhorar a clareza.
+         → Sugestão: Reorganizar a descrição das regras, eliminando redundâncias e utilizando uma linguagem mais concisa. Por exemplo, a explicação sobre a ordem alfabética e as operações pode ser simplificada.
+    [G14] A complexidade das regras dificulta a compreensão do que o aluno deve fazer. A relação entre as regras e a pergunta final não é imediatamente óbvia.
+         → Sugestão: Reformular a pergunta para que a conexão com as regras do jogo seja mais clara. Poderia ser algo como: 'Considerando as regras do jogo descritas, determine o maior número possível de letras...'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Analisando o problema, a primeira palavra tem 4 letras. A quinta palavra deve ser obtida a partir da primeira por uma sequência de operações. As operações possíveis são: remover uma letra, adicionar uma letra, trocar uma letra. Cada operação deve ser distinta, exceto pela última. O número de letras pode aumentar ou diminuir em 1 a cada passo. Para maximizar o número de letras na quinta palavra, devemos adicionar uma letra a cada passo, sempre que possível. A primeira palavra tem 4 letras. A segunda pode ter 3, 4 ou 5 letras. A terceira pode ter 3, 4, 5 ou 6 letras. A quarta pode ter 3, 4, 5, 6 ou 7 letras. A quinta pode ter 3, 4, 5, 6, 7 ou 8 letras. A restrição de no máximo três palavras começando com a mesma letra limita a quantidade de adições. A restrição de cada palavra ter pelo menos 4 letras diferentes é crucial. Se a primeira palavra tiver 4 letras, a segunda pode ter no máximo 5 (adicionando uma letra). A terceira pode ter no máximo 6, a quarta no máximo 7 e a quinta no máximo 8. A opção E (8) parece ser a mais plausível, considerando as restrições.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar apenas no número de letras da primeira palavra, ignorando as restrições sobre as operações e o número máximo de palavras com a mesma letra inicial.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão entre o número máximo de letras que a quinta palavra pode ter e a quantidade de operações permitidas.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Alunos podem considerar que a quinta palavra pode ter um número de letras maior, sem levar em conta as restrições de operações e a necessidade de manter a ordem alfabética.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não compreender a relação entre o número de letras da primeira palavra e o limite máximo de letras da quinta palavra, extrapolando a lógica do problema.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado é excessivamente prolixo na descrição das regras do jogo. Há repetição de ideias e detalhes que poderiam ser condensados para melhorar a clareza.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reorganizar a descrição das regras, eliminando redundâncias e utilizando uma linguagem mais concisa. Por exemplo, a explicação sobre a ordem alfabética e as operações pode ser simplificada.
+    [G14] A complexidade das regras dificulta a compreensão do que o aluno deve fazer. A relação entre as regras e a pergunta final não é imediatamente óbvia.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para que a conexão com as regras do jogo seja mais clara. Poderia ser algo como: 'Considerando as regras do jogo descritas, determine o maior número possível de letras...'.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou E, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

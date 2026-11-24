@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 04:35:54
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para determinar qual combinação de tarefas pode ser submetida no sábado, demonstrando a capacidade de usar informações para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G11] Uso inconsistente de formatação. O termo 'ﬁnal de semana' está com um caractere estranho.
+         → Sugestão: Substituir 'ﬁnal de semana' por 'fim de semana'.
+    [G13] Repetição desnecessária da informação de que as tarefas devem ser enviadas pela internet. A informação já está implícita na descrição da competição.
+         → Sugestão: Remover a frase 'As tarefas devem ser enviadas para a SBC, pela internet...'
+    [G14] A pergunta 'Se João quiser submeter três tarefas no sábado, elas poderiam ser:' não está totalmente clara. Não está explícito se a pergunta busca uma única combinação possível ou se há múltiplas.
+         → Sugestão: Reformular a pergunta para maior clareza, por exemplo: 'Liste uma possível combinação de três tarefas que João poderia submeter no sábado, de acordo com as regras.' ou 'Quais tarefas João poderia submeter no sábado, considerando as regras?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das alternativas:
+
+A) A, B e D: Viola a regra 'A tarefa B deve ser enviada no domingo'.
+B) A, D e E: Viola a regra 'A tarefa B deve ser enviada no domingo'.
+C) A, D e C: Viola a regra 'A tarefa A não pode ser enviada no mesmo dia em que a tarefa C é enviada'.
+D) B, C e E: Viola a regra 'A tarefa B deve ser enviada no domingo' e 'A tarefa A não pode ser enviada no mesmo dia em que a tarefa C é enviada'.
+E) A, C e E: Viola a regra 'A tarefa A não pode ser enviada no mesmo dia em que a tarefa C é enviada' e 'A tarefa B deve ser enviada no domingo'.
+
+Nenhuma das alternativas satisfaz todas as regras. Portanto, a resposta é NENHUM.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a regra de que B deve ser enviado no domingo com a possibilidade de enviar B no sábado.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a restrição de A e C não serem enviados no mesmo dia e a necessidade de enviar três tarefas no sábado.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea da relação entre as tarefas A e D, ignorando a regra de que D deve ser enviado no mesmo dia que A.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que E pode ser enviado no sábado, sem considerar as restrições sobre A, B, C e D.
+  Violações (G21–G24, G27–G31):
+    [G22] As opções se sobrepõem, pois várias combinam tarefas que podem ou não ser enviadas juntas.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G11] Uso inconsistente de formatação. O termo 'ﬁnal de semana' está com um caractere estranho.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'ﬁnal de semana' por 'fim de semana'.
+    [G13] Repetição desnecessária da informação de que as tarefas devem ser enviadas pela internet. A informação já está implícita na descrição da competição.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'As tarefas devem ser enviadas para a SBC, pela internet...'
+    [G14] A pergunta 'Se João quiser submeter três tarefas no sábado, elas poderiam ser:' não está totalmente clara. Não está explícito se a pergunta busca uma única combinação possível ou se há múltiplas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para maior clareza, por exemplo: 'Liste uma possível combinação de três tarefas que João poderia submeter no sábado, de acordo com as regras.' ou 'Quais tarefas João poderia submeter no sábado, considerando as regras?'
+    [G22] As opções se sobrepõem, pois várias combinam tarefas que podem ou não ser enviadas juntas.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular as opções para que sejam mais distintas e mutuamente exclusivas.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

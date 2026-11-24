@@ -1,0 +1,72 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:27:16
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno compreenda as ideias de diferentes pensadores e estabeleça relações entre elas, identificando a evolução do pensamento econômico. Isso envolve a desconstrução das ideias apresentadas e a comparação entre elas para identificar a correta correspondência, ultrapassando a simples memorização ou compreensão individual.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta uma longa sequência de informações sobre a evolução do pensamento econômico, que poderia ser mais concisa. A repetição de autores e suas ideias, em formato de lista, torna a leitura mais pesada do que o necessário.
+         → Sugestão: Reorganizar a informação de forma mais sintética, agrupando ideias semelhantes ou eliminando detalhes menos relevantes para a compreensão da questão. Por exemplo, poderia ser resumido para: 'Ao longo da história, o pensamento econômico evoluiu, desde a valorização da acumulação de metais e do papel do Estado, passando pela defesa da terra e da agricultura, até a crítica do livre mercado e a busca por intervenção estatal em momentos de crise.'
+    [G16] O enunciado contém uma contextualização extensa sobre a evolução do pensamento econômico, que não contribui diretamente para a compreensão da tarefa a ser realizada. A descrição detalhada dos autores e suas ideias funciona como um 'window dressing', adicionando informações que não são essenciais para a resolução da questão.
+         → Sugestão: Remover a contextualização detalhada e apresentar apenas os pontos-chave da evolução do pensamento econômico, focando na relação entre os autores e suas concepções, sem a necessidade de descrever suas ideias em detalhes.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise do enunciado: O texto descreve a evolução do pensamento econômico, desde o mercantilismo até o keynesianismo. A tarefa é identificar a alternativa que corretamente relaciona os pensadores e suas concepções. 
+
+Análise das alternativas:
+
+A) Incorreta. Atribui 'livre-mercado' ao mercantilismo, o que é falso. Também atribui 'equilíbrio espontâneo' a Marx e rejeição à intervenção estatal a Keynes, o que não corresponde às suas ideias.
+B) Correta. Descreve corretamente o mercantilismo (acumulação de metais e fortalecimento do Estado), a fisiocracia (terra como fonte de riqueza), Adam Smith (livre-mercado), Marx (contradições do capitalismo) e Keynes (intervenção estatal em crises).
+C) Incorreta. Atribui 'crítica à expansão comercial' ao mercantilismo, o que é impreciso. Propõe 'controle estatal integral' a Smith e 'teoria da utilidade marginal' a Marx, o que é falso.
+D) Incorreta. Atribui 'igualdade social' e 'propriedade coletiva' ao mercantilismo, o que é uma distorção. Defende 'monopólios regulados' para Smith e 'harmonia entre classes' para Marx, o que é incorreto.
+E) Incorreta. Afirma que Smith, Marx e Keynes apenas 'adaptaram' o princípio da economia autossuficiente, o que ignora a complexidade de suas contribuições.
+
+Conclusão: A alternativa B é a única que apresenta uma descrição coerente e precisa da evolução do pensamento econômico descrita no texto.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre mercantilismo e liberalismo, associando o primeiro ao livre-mercado e o segundo à intervenção estatal.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Incompreensão da fisiocracia, associando-a ao controle estatal e à teoria da utilidade marginal, conceitos alheios à sua proposta.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Equívoco sobre o mercantilismo, atribuindo-lhe ideais de igualdade social e propriedade coletiva, que são característicos de outras correntes de pensamento.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Generalização excessiva, sugerindo que Smith, Marx e Keynes apenas adaptaram o princípio de economia autossuficiente, ignorando suas contribuições originais.
+  Violações (G21–G24, G27–G31):
+    [G22] Alternativas se sobrepõem, especialmente A e B, que abordam conceitos similares de acumulação e intervenção estatal.
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa E sendo consideravelmente mais longa que as demais.
+    [G30] Distrator D apresenta ideias desconectadas do contexto histórico e das concepções dos pensadores mencionados.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] O enunciado apresenta uma longa sequência de informações sobre a evolução do pensamento econômico, que poderia ser mais concisa. A repetição de autores e suas ideias, em formato de lista, torna a leitura mais pesada do que o necessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reorganizar a informação de forma mais sintética, agrupando ideias semelhantes ou eliminando detalhes menos relevantes para a compreensão da questão. Por exemplo, poderia ser resumido para: 'Ao longo da história, o pensamento econômico evoluiu, desde a valorização da acumulação de metais e do papel do Estado, passando pela defesa da terra e da agricultura, até a crítica do livre mercado e a busca por intervenção estatal em momentos de crise.'
+    [G16] O enunciado contém uma contextualização extensa sobre a evolução do pensamento econômico, que não contribui diretamente para a compreensão da tarefa a ser realizada. A descrição detalhada dos autores e suas ideias funciona como um 'window dressing', adicionando informações que não são essenciais para a resolução da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização detalhada e apresentar apenas os pontos-chave da evolução do pensamento econômico, focando na relação entre os autores e suas concepções, sem a necessidade de descrever suas ideias em detalhes.
+    [G22] Alternativas se sobrepõem, especialmente A e B, que abordam conceitos similares de acumulação e intervenção estatal.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior distinção conceitual entre elas.
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa E sendo consideravelmente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para promover maior equilíbrio e evitar viés na percepção do candidato.
+    [G30] Distrator D apresenta ideias desconectadas do contexto histórico e das concepções dos pensadores mencionados.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o distrator D para garantir que ele reflita um erro de compreensão plausível sobre as ideias econômicas.
+
+================================================================================

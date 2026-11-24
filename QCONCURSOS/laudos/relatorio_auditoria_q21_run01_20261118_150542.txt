@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 15:09:07
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda o conceito de prototipação em engenharia de software, distinguindo-o de outras opções que envolvem análise de custos, planejamento, testes ou feedback do cliente. A resposta correta demanda a interpretação do significado do processo de prototipação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é um termo solto sem explicitar a pergunta ou problema central, exigindo que o leitor consulte as alternativas para entender a tarefa.
+         → Sugestão: Reformule o enunciado para incluir uma pergunta direta, como: 'Muito utilizada pelos engenheiros de software, a prototipação é:'. 
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : A prototipação é um processo de criação de um modelo inicial de um software para validação de conceitos e requisitos. A alternativa E descreve precisamente essa ação: criar um modelo do software que será implementado. As demais alternativas abordam aspectos como análise de custos (A), planejamento (B), validação de requisitos do cliente (C) e testes (D), que são etapas distintas do processo de prototipação. A chave é a criação de um modelo funcional, mesmo que simplificado, para experimentação e feedback.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir prototipação com atividades de planejamento e análise de custos, associando-a a fases iniciais do projeto.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Pode levar à interpretação de que prototipação depende exclusivamente do tamanho da equipe de programadores, ignorando outros fatores.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Alunos podem associar prototipação à validação final do sistema com o cliente, confundindo com testes de aceitação.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Pode ser interpretada como uma etapa de testes, confundindo prototipação com validação de requisitos finais.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é um termo solto sem explicitar a pergunta ou problema central, exigindo que o leitor consulte as alternativas para entender a tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para incluir uma pergunta direta, como: 'Muito utilizada pelos engenheiros de software, a prototipação é:'. 
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho e a estrutura das alternativas para garantir maior comparabilidade.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

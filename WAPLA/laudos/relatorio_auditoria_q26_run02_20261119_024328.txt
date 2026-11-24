@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 02:47:05
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Avaliar
+  Justificativa   : O item exige que o candidato julgue a adequação da organização de um verbete de dicionário, considerando critérios lexicográficos e a relação entre lexicologia e lexicografia. Isso envolve analisar as opções, identificar a que melhor reflete a perspectiva do lexicógrafo e avaliar a validade de cada argumento, o que caracteriza o nível de Avaliar.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A informação de que o verbete de 'banco' em um dicionário apresenta várias acepções já é estabelecida na primeira frase e é reiterada ao longo do texto.
+         → Sugestão: Remover a repetição da informação sobre as acepções da palavra 'banco' na segunda frase. Por exemplo: 'Em um dicionário contemporâneo de língua portuguesa, a palavra 'banco' apresenta várias acepções: 'instituição financeira', 'assento longo' e 'faixa de areia'. A obra também registra a classe gramatical, exemplos de uso e remissões para unidades correlatas, como 'banqueta' e 'bancada'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O item aborda a relação entre lexicologia e lexicografia, especificamente a organização de verbetes em dicionários. A questão central é avaliar como a organização do verbete de 'banco' reflete critérios lexicográficos. A alternativa C parece ser a mais adequada, pois alinha-se com a descrição de como a lexicografia articula acepções, usos e relações paradigmáticas, enfatizando a importância dos critérios de seleção e representação. As outras alternativas apresentam interpretações equivocadas ou limitadas da relação entre as duas áreas do conhecimento. A alternativa A é eliminada por sugerir que cada ocorrência da palavra deve ser um verbete autônomo, o que é impraticável. A alternativa B é eliminada por restringir o dicionário à etimologia, ignorando o uso contemporâneo. A alternativa D é eliminada por descrever uma visão limitada da lexicologia. A alternativa E é eliminada por restringir o dicionário a sinônimos, ignorando a riqueza de significados de uma palavra.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar que a inclusão de todas as ocorrências da palavra é um critério de abrangência, sem considerar a seleção e organização lexicográfica.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a etimologia com a descrição do uso contemporâneo da palavra, ignorando a função do dicionário em refletir o uso linguístico.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem ter uma compreensão limitada do papel da lexicologia, associando-a apenas à morfologia e ignorando sua relação com a semântica e organização do verbete.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a função do dicionário se limita a fornecer sinônimos, sem reconhecer a importância de registrar diferentes acepções de uma palavra.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G13] O enunciado contém repetições desnecessárias. A informação de que o verbete de 'banco' em um dicionário apresenta várias acepções já é estabelecida na primeira frase e é reiterada ao longo do texto.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da informação sobre as acepções da palavra 'banco' na segunda frase. Por exemplo: 'Em um dicionário contemporâneo de língua portuguesa, a palavra 'banco' apresenta várias acepções: 'instituição financeira', 'assento longo' e 'faixa de areia'. A obra também registra a classe gramatical, exemplos de uso e remissões para unidades correlatas, como 'banqueta' e 'bancada'.
+
+================================================================================

@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 22:10:32
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Lembrar
+  Justificativa   : O item exige que o aluno recorde os três principais conceitos propostos por Chen, o que se enquadra na simples evocação de informações. Não há necessidade de análise, aplicação ou avaliação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é um pouco vago. Embora contenha um comando ('Quais foram os três principais conceitos...'), a introdução sobre o modelo MER e Peter Chen poderia ser mais concisa para focar diretamente na pergunta.
+         → Sugestão: Reformular o enunciado para iniciar diretamente com a pergunta: 'O modelo MER proposto por Peter Chen em 1976 identifica objetos, características e associações do mundo real. Quais foram os três principais conceitos propostos por Chen para essa identificação?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado busca identificar os três principais conceitos propostos por Chen para modelagem de dados. A alternativa C, 'Entidades, atributos e relacionamentos', corresponde diretamente aos elementos fundamentais da modelagem de dados proposta por Chen. As demais alternativas apresentam conceitos que, embora relacionados a modelagem de dados, não são os pilares da proposta de Chen: A (composição e agregação são conceitos de modelagem mais avançados), B (atores, casos de uso e relacionamentos são da UML), D (classes, objetos e herança são da programação orientada a objetos) e E (1FN, 2FN e 3FN são normalização de dados). A análise das pistas estruturais indica que a repetição de termos do enunciado na alternativa C pode servir como pista visual.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir composição e agregação com relacionamentos do MER, por não distinguirem os tipos de associação.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem associar termos de UML (atores, casos de uso) com os conceitos iniciais do MER, por ambos descreverem sistemas.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir conceitos de programação orientada a objetos (classes, objetos, herança) com os conceitos fundamentais do MER.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Estudantes podem relacionar as formas normais (1FN, 2FN, 3FN) com a modelagem conceitual inicial, sem entender a diferença de escopo.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam termos técnicos de diferentes áreas (banco de dados, UML, programação), gerando heterogeneidade.
+    [G30] As opções não refletem erros comuns de estudantes ao aprender sobre o modelo MER.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é um pouco vago. Embora contenha um comando ('Quais foram os três principais conceitos...'), a introdução sobre o modelo MER e Peter Chen poderia ser mais concisa para focar diretamente na pergunta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para iniciar diretamente com a pergunta: 'O modelo MER proposto por Peter Chen em 1976 identifica objetos, características e associações do mundo real. Quais foram os três principais conceitos propostos por Chen para essa identificação?'
+    [G23] As alternativas apresentam termos técnicos de diferentes áreas (banco de dados, UML, programação), gerando heterogeneidade.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a terminologia para manter a coerência entre as alternativas.
+    [G30] As opções não refletem erros comuns de estudantes ao aprender sobre o modelo MER.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Analisar os erros mais frequentes dos alunos e criar distratores que os abordem.
+
+================================================================================

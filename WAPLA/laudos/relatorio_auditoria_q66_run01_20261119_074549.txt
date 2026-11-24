@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:49:53
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda a atitude antiarte e o conceito de deslocamento de função e contexto, e então analise as alternativas para identificar aquela que melhor articula esses conceitos. Isso envolve a desestruturação das opções para identificar a que melhor se alinha com a descrição do artista.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa extensa sobre o artista e seu processo, que não contribui diretamente para a tarefa de avaliação. A descrição detalhada do contexto e das ações do artista é excessiva e desnecessária para a compreensão da questão.
+         → Sugestão: Remover a descrição detalhada do processo do artista, focando apenas nos elementos essenciais para a compreensão do conceito de atitude antiarte e deslocamento de contexto.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um artista que utiliza objetos industrializados encontrados em ambientes urbanos, intervindo minimamente neles (apenas seleção e reorganização) e deslocando-os para o contexto da exposição, buscando tensionar conceitos artísticos. A alternativa que melhor articula essa atitude antiarte é a A, que enfatiza o deslocamento de função como gesto central. As demais alternativas envolvem alterações significativas nos objetos (reprodução em bronze, pintura, integração em moldes), o que contradiz a descrição do artista. 
+
+Análise das alternativas:
+
+A) Satisfaz: Seleciona objetos, reorganiza e enfatiza o deslocamento de função, alinhado com o texto.
+B) Viola: Modifica os objetos (reprodução em bronze), alterando sua forma e material.
+C) Viola: Representa os objetos em sua função original, o oposto do deslocamento proposto.
+D) Viola: Reformar com pintura manual altera a aparência dos objetos.
+E) Viola: Integração em moldes e criação de figuras narrativas implica modificação significativa.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde a intervenção artística com transformação física do objeto, ignorando o foco no deslocamento de contexto.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpreta a arte como representação da realidade, não como descontextualização e questionamento.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Acredita que a arte envolve aprimoramento estético e retorno à estética artesanal, contrariando a atitude antiarte.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Entende a arte como narrativa e expressão pessoal, desviando do conceito de deslocamento e questionamento do objeto industrial.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (53 palavras) é significativamente mais longa que a alternativa E (27 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma narrativa extensa sobre o artista e seu processo, que não contribui diretamente para a tarefa de avaliação. A descrição detalhada do contexto e das ações do artista é excessiva e desnecessária para a compreensão da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada do processo do artista, focando apenas nos elementos essenciais para a compreensão do conceito de atitude antiarte e deslocamento de contexto.
+    [G24] A alternativa B (53 palavras) é significativamente mais longa que a alternativa E (27 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+
+================================================================================

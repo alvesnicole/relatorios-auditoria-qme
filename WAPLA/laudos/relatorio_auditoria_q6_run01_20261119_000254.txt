@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:06:27
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o estudante compreenda a Pop Art e a técnica do artista, identificando a interpretação crítica que melhor as caracteriza. Isso envolve analisar o texto descritivo e comparar as opções de resposta, identificando a que melhor reflete a estratégia artística descrita, o que demanda um nível de análise para além da simples compreensão.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização excessiva e narrativa desnecessária sobre o artista e o movimento Pop Art, que não contribuem diretamente para a avaliação da compreensão do aluno sobre a questão proposta. A descrição detalhada da estratégia do artista e a citação da análise do estudante são exemplos de window dressing.
+         → Sugestão: Remover a contextualização detalhada sobre o artista e a análise do estudante, focando diretamente na questão sobre a Pop Art e a técnica empregada.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O texto descreve a Pop Art como um movimento que utiliza imagens da publicidade, quadrinhos e embalagens industriais, repetindo-as mecanicamente para transformar o cotidiano em arte e criticar o consumo. A alternativa C alinha-se perfeitamente a essa descrição, mencionando a transformação de imagens e produtos da mídia, a apropriação de processos de repetição e a problematização do consumo de massa. As demais alternativas apresentam características que não correspondem ao movimento Pop Art: A (expressionismo e pintura gestual), B (rejeição do cotidiano), D (estruturas tridimensionais e contemplação) e E (temas mitológicos e acabamento artesanal). A alternativa C é a única que captura a essência da Pop Art e da técnica do artista descrito.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confunde Pop Art com Expressionismo, associando a pincelada gestual a uma crítica social, ignorando a apropriação da cultura de massa.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Demonstra incompreensão da Pop Art, que se apropriou de elementos do cotidiano, ao invés de rejeitá-los.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Associa a Pop Art a uma busca por contemplação e materiais industriais mínimos, desconsiderando a reprodução massiva e a crítica ao consumo.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Confunde Pop Art com um movimento que busca restaurar a tradição, quando a Pop Art se distancia da arte tradicional ao incorporar a cultura de massa.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (63 caracteres) é significativamente mais longa que a alternativa B (36 caracteres).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém contextualização excessiva e narrativa desnecessária sobre o artista e o movimento Pop Art, que não contribuem diretamente para a avaliação da compreensão do aluno sobre a questão proposta. A descrição detalhada da estratégia do artista e a citação da análise do estudante são exemplos de window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização detalhada sobre o artista e a análise do estudante, focando diretamente na questão sobre a Pop Art e a técnica empregada.
+    [G24] A alternativa A (63 caracteres) é significativamente mais longa que a alternativa B (36 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+
+================================================================================

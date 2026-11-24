@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:26:22
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre relações entre retas no espaço para interpretar uma situação geométrica específica, selecionando a alternativa que melhor descreve a relação entre as vigas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Para evitar erros de interpretação geométrica no projeto, a equipe precisa classificar corretamente essa relação entre as retas' é redundante, pois a necessidade de classificação já decorre do contexto do projeto.
+         → Sugestão: Remover a frase 'Para evitar erros de interpretação geométrica no projeto, a equipe precisa classificar corretamente essa relação entre as retas.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema descreve duas retas no espaço: r, que está em um plano frontal, e s, que é inclinada e não está nesse plano. As retas não se interceptam e não podem ser contidas em um mesmo plano. A alternativa D, 'Reversas, pois não se intersectam e não pertencem ao mesmo plano', descreve precisamente essa condição. Retas reversas são aquelas que não se interceptam e não são paralelas. As demais alternativas são eliminadas: A (paralelas implicaria em estarem no mesmo plano), B (concorrentes implicaria em um ponto de encontro), C (perpendiculares implicaria em um ângulo de 90 graus, mas não necessariamente na ausência de interseção), e E (coincidentes implicaria na mesma direção, o que não é o caso).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a relação entre retas que não se interceptam com serem coplanares, ignorando a possibilidade de serem reversas.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão entre projeções e a relação espacial real das retas, acreditando que a projeção implica um ponto de encontro.
+    [C] Distrator (Plausibilidade: 1/5)
+         → Interpretação errônea da perpendicularidade, associando a ausência de interseção a um ângulo de 90 graus.
+    [E] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a ausência de interseção implica a mesma direção, ignorando a diferença de planos.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (40 palavras) é significativamente mais curta que a alternativa E (33 palavras), mas a diferença não atinge o limite de 8 palavras.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Para evitar erros de interpretação geométrica no projeto, a equipe precisa classificar corretamente essa relação entre as retas' é redundante, pois a necessidade de classificação já decorre do contexto do projeto.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Para evitar erros de interpretação geométrica no projeto, a equipe precisa classificar corretamente essa relação entre as retas.'
+    [G24] A alternativa A (40 palavras) é significativamente mais curta que a alternativa E (33 palavras), mas a diferença não atinge o limite de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reavaliar a redação das alternativas para equilibrar o tamanho, sem alterar o conteúdo.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

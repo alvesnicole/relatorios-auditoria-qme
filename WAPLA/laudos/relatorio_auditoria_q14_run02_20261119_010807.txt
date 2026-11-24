@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 01:11:37
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda a dinâmica da obra de arte descrita e, em seguida, analise as alternativas para identificar a que melhor representa a relação entre ideia, execução e participação do público, inferindo a intenção dos artistas. Não se trata de simples memorização ou aplicação direta de um conceito.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa sobre a obra de arte e o museu, que não contribui diretamente para a compreensão da tarefa de avaliação. A descrição detalhada da exposição e do processo artístico funciona como um 'window dressing', adicionando informações desnecessárias.
+         → Sugestão: Remover a descrição detalhada da exposição e do museu, focando diretamente na relação entre ideia, execução e participação do público. Por exemplo: 'A obra consiste em instruções para os visitantes realizarem ações simples. Considerando essa abordagem, identifique a alternativa que apresenta uma conclusão adequada sobre a organização da relação entre ideia, execução e participação do público na obra.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve uma obra de arte que depende da interação do público e da documentação do processo, mais do que de um produto final. A alternativa A parece ser a mais adequada, pois enfatiza a participação do público na conclusão do sentido da obra através da execução das instruções. As demais alternativas apresentam interpretações que contradizem a descrição do enunciado. A alternativa B foca na aparência final, a C na separação entre artistas e público, a D limita a participação a um registro fotográfico e a E prioriza um acervo material, o que não condiz com a ênfase no processo.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde o foco da obra com a aparência final do espaço, ignorando a ênfase no processo e na participação do público.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpreta erroneamente a relação entre artistas e público, sugerindo que as instruções visam afastar o público da tomada de decisões.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Reduz a participação do público a um ato passivo de registro fotográfico, desconsiderando a importância da interação e do processo mental.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Assume que a obra depende de um acervo material, ignorando a natureza efêmera e processual da intervenção artística.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém uma contextualização extensa sobre a obra de arte e o museu, que não contribui diretamente para a compreensão da tarefa de avaliação. A descrição detalhada da exposição e do processo artístico funciona como um 'window dressing', adicionando informações desnecessárias.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da exposição e do museu, focando diretamente na relação entre ideia, execução e participação do público. Por exemplo: 'A obra consiste em instruções para os visitantes realizarem ações simples. Considerando essa abordagem, identifique a alternativa que apresenta uma conclusão adequada sobre a organização da relação entre ideia, execução e participação do público na obra.'
+
+================================================================================

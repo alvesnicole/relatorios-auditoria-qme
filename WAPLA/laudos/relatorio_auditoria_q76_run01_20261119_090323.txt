@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 09:07:59
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno compreenda a relação entre significado e sentido na Semântica, diferenciando-as e relacionando-as ao contexto. A escolha da alternativa correta demanda a análise das opções para identificar a que melhor descreve o objeto de estudo da Semântica, o que envolve a desconstrução das informações apresentadas e a identificação de padrões.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a aula de Semântica e a explicação da professora) que não contribui diretamente para a avaliação do conhecimento do aluno sobre o objeto de estudo da Semântica e a distinção entre significado e sentido. Essa contextualização é decorativa e desnecessária.
+         → Sugestão: Remover a contextualização da aula de Semântica e a explicação da professora, apresentando diretamente o problema: 'A Semântica estuda... Qual das alternativas melhor define o objeto de estudo da Semântica e a distinção entre significado e sentido?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado descreve a distinção entre sentido (interpretação em contexto) e significado (informação lexical). A alternativa correta deve refletir essa distinção e a importância do contexto na compreensão do significado das palavras. A alternativa C parece ser a única que aborda corretamente essa distinção, definindo significado como informação lexical estável e sentido como interpretação contextual. As demais alternativas apresentam equívocos sobre o objeto de estudo da Semântica ou confundem os conceitos de significado e sentido.
+
+Análise das alternativas:
+
+A) Incorreta: A Semântica não estuda *exclusivamente* regras gramaticais. Além disso, nega a importância do contexto.
+B) Incorreta: A Semântica não estuda sons da fala (fonética/fonologia). A definição de significado e sentido está errada.
+C) Correta: Define corretamente o significado como informação lexical e o sentido como interpretação contextual.
+D) Incorreta: A Semântica não estuda *apenas* a origem histórica das palavras (etimologia). A definição de sentido e significado está errada.
+E) Incorreta: A Semântica não estuda *apenas* o uso estilístico. Define significado e sentido de forma equivocada, ignorando o contexto.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre semântica e gramática, e a crença de que significado e sentido são sinônimos.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Conceito incorreto de semântica como estudo dos sons da fala e uma compreensão equivocada da relação entre significado e sentido.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Entendimento limitado da semântica, associando-a apenas à etimologia e ignorando a análise contextual do significado.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Visão restrita da semântica como estudo do uso estilístico e a crença de que o dicionário define completamente o significado, ignorando o contexto.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (61 caracteres) é significativamente mais curta que a alternativa C (78 caracteres).
+    [G30] A alternativa B apresenta um conceito de semântica distante do entendimento comum, sendo pouco relacionada a erros típicos de estudantes.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a aula de Semântica e a explicação da professora) que não contribui diretamente para a avaliação do conhecimento do aluno sobre o objeto de estudo da Semântica e a distinção entre significado e sentido. Essa contextualização é decorativa e desnecessária.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização da aula de Semântica e a explicação da professora, apresentando diretamente o problema: 'A Semântica estuda... Qual das alternativas melhor define o objeto de estudo da Semântica e a distinção entre significado e sentido?'
+    [G24] A alternativa A (61 caracteres) é significativamente mais curta que a alternativa C (78 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G30] A alternativa B apresenta um conceito de semântica distante do entendimento comum, sendo pouco relacionada a erros típicos de estudantes.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular a alternativa B para refletir concepções errôneas mais comuns sobre o objeto de estudo da semântica.
+
+================================================================================

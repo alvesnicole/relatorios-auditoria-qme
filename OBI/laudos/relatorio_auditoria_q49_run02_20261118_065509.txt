@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 06:59:19
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre restrições de capacidade e pesos para determinar o número mínimo de viagens necessárias. Não se trata de mera recordação ou compreensão, mas sim de aplicar regras a um cenário prático para resolver um problema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre o peso das arcas. A frase 'Cada uma das arcas pesa 80 quilos' é repetida para cada arca, tornando o enunciado prolixo.
+         → Sugestão: Remover as repetições do peso das arcas. Exemplo: 'Cada arca pesa 80 quilos.'
+    [G16] A descrição da sequência de valor das arcas (Diamantes > Esmeraldas > Ouro > Prata) é um detalhe narrativo desnecessário para a resolução do problema. Não contribui para a compreensão da tarefa.
+         → Sugestão: Remover a descrição do valor relativo das arcas. O enunciado pode focar apenas nas restrições e no problema a ser resolvido.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema envolve transportar 4 arcas, cada uma pesando 80kg, com um barquinho que suporta no máximo 200kg. A arca de Diamantes é a mais valiosa, seguida por Esmeraldas, Ouro e Prata. Para levar todas as arcas, o pirata precisa fazer múltiplas viagens. 
+
+Análise das alternativas:
+
+A) 1: Impossível, pois 4 arcas * 80kg/arca = 320kg, excedendo a capacidade do barquinho (200kg).
+B) 2: Poderia ser possível se o pirata levasse 2 arcas por viagem (160kg), mas não garante que a ordem de valor seja respeitada. Não há informação que permita essa otimização.
+C) 3: Poderia ser possível, mas não há garantia de que a ordem de valor seja respeitada.
+D) 4: Poderia ser possível, mas não há garantia de que a ordem de valor seja respeitada.
+E) 5: Se o pirata levar uma arca por viagem, ele fará 4 viagens para levar as arcas e 4 viagens para trazer o barco de volta, totalizando 8 viagens. No entanto, o enunciado diz que uma viagem compreende o trajeto navio-ilha-navio, o que implica que o pirata retorna para o navio após cada entrega. Portanto, ele precisa fazer 4 viagens para levar as arcas para a ilha. 
+
+Considerando que o pirata precisa levar todas as arcas para a ilha, a alternativa mais razoável é que ele faça 4 viagens, levando uma arca por viagem. A ordem de valor das arcas não influencia no número de viagens necessárias para transportá-las.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 1/5)
+         → Aluno ignora a restrição de peso do barquinho e assume que todas as arcas podem ser transportadas de uma só vez.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno compreende a restrição de peso, mas não considera a necessidade de viagens de volta para buscar as arcas restantes.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno considera a restrição de peso, mas não otimiza o número de viagens, podendo fazer escolhas subótimas.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode ter calculado o número total de arcas e, por simplicidade, assumido o número máximo de viagens.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'A' (13 palavras) é significativamente mais curta que a alternativa 'D' (21 palavras).
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] Repetição desnecessária da informação sobre o peso das arcas. A frase 'Cada uma das arcas pesa 80 quilos' é repetida para cada arca, tornando o enunciado prolixo.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover as repetições do peso das arcas. Exemplo: 'Cada arca pesa 80 quilos.'
+    [G16] A descrição da sequência de valor das arcas (Diamantes > Esmeraldas > Ouro > Prata) é um detalhe narrativo desnecessário para a resolução do problema. Não contribui para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição do valor relativo das arcas. O enunciado pode focar apenas nas restrições e no problema a ser resolvido.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'A' (13 palavras) é significativamente mais curta que a alternativa 'D' (21 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou D, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

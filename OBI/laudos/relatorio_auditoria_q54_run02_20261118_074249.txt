@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 07:47:56
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique informações sobre a ordem das ultrapassagens para determinar a ordem final de chegada dos carros, combinando dados fornecidos e seguindo uma sequência lógica. Não se trata de mera recordação ou compreensão, mas sim de aplicação de um processo para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que a ordem inicial dos carros é dada e, posteriormente, mencionada novamente ao descrever as ultrapassagens. Isso torna o enunciado mais longo do que o necessário.
+         → Sugestão: Remover a repetição da ordem inicial dos carros na descrição das ultrapassagens. A informação pode ser mantida apenas na primeira parte do enunciado.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Representação: Inicialmente, a ordem dos carros é 22, 16, 27, 31, 13. As ultrapassagens são: 27 ultrapassa 16; 13 ultrapassa 31; 16 ultrapassa 27; 16 ultrapassa 22; 27 ultrapassa 22. 
+
+Verificação das alternativas:
+
+A) 27, 16, 22, 13, 31: 27 ultrapassa 16 (ok), 13 ultrapassa 31 (ok), 16 ultrapassa 27 (ok), 16 ultrapassa 22 (ok), 27 ultrapassa 22 (ok). Parece válida.
+B) 22, 27, 16, 31, 13: 27 ultrapassa 16 (ok), 13 ultrapassa 31 (ok), 16 ultrapassa 27 (viola), 16 ultrapassa 22 (viola), 27 ultrapassa 22 (viola). Inválida.
+C) 22, 16, 27, 31, 13: 27 ultrapassa 16 (ok), 13 ultrapassa 31 (ok), 16 ultrapassa 27 (viola), 16 ultrapassa 22 (viola), 27 ultrapassa 22 (viola). Inválida.
+D) 16, 22, 27, 13, 31: 27 ultrapassa 16 (viola), 13 ultrapassa 31 (ok), 16 ultrapassa 27 (viola), 16 ultrapassa 22 (viola), 27 ultrapassa 22 (viola). Inválida.
+E) 16, 27, 22, 13, 31: 27 ultrapassa 16 (viola), 13 ultrapassa 31 (ok), 16 ultrapassa 27 (viola), 16 ultrapassa 22 (viola), 27 ultrapassa 22 (viola). Inválida.
+
+A alternativa A é a única que satisfaz todas as condições.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar a ordem como a ordem final, sem considerar as ultrapassagens posteriores.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode focar apenas na ordem inicial e não levar em conta as ultrapassagens.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode se confundir com a sequência de ultrapassagens e a ordem final.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode interpretar erroneamente a ordem das ultrapassagens e a posição final dos carros.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação de que a ordem inicial dos carros é dada e, posteriormente, mencionada novamente ao descrever as ultrapassagens. Isso torna o enunciado mais longo do que o necessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da ordem inicial dos carros na descrição das ultrapassagens. A informação pode ser mantida apenas na primeira parte do enunciado.
+    [G19] A resolução cega apontou A, mas o gabarito oficial é E; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

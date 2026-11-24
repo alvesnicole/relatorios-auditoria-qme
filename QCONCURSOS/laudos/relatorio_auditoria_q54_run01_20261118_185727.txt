@@ -1,0 +1,67 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 19:01:20
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda a função da memória cache em relação à CPU e à memória RAM, relacionando-a com a aceleração de tarefas. Não se trata apenas de lembrar o nome da memória, mas de entender seu papel e como ela se encaixa no contexto do sistema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da CPU e sua função é redundante.
+         → Sugestão: Remover a parte 'Ele nota que... para armazenar os dados e instruções que são requisitados com maior frequência pelo núcleo de processamento'.
+    [G16] O enunciado contém contextualização excessiva e narrativa desnecessária. A introdução com o engenheiro e a repartição não contribui para a avaliação do conhecimento.
+         → Sugestão: Remover a introdução com o engenheiro e a repartição. Começar diretamente com a descrição da memória de alta velocidade.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O enunciado descreve uma memória de alta velocidade, integrada ao processador, que armazena dados e instruções frequentemente acessados. Essa descrição se encaixa perfeitamente com a definição de memória cache. 
+
+A) Memória Flash: Usada para armazenamento não volátil, como em pendrives e SSDs, não se encaixa na descrição.
+B) Memória Virtual: É uma técnica para gerenciar a memória RAM, usando o disco rígido como extensão, não é uma memória física de alta velocidade.
+C) Memória ROM: Armazena dados e instruções permanentes, não é de alta velocidade e não atua como intermediária.
+D) Disco Rígido Externo: Dispositivo de armazenamento externo, não integrado ao processador.
+E) Memória Cache: É exatamente o que o enunciado descreve: memória de alta velocidade, integrada ao processador, para acesso rápido a dados e instruções.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir memória flash com memória de alta velocidade devido à sua utilização em dispositivos de armazenamento.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão entre memória virtual, que é um recurso do sistema operacional, e a memória física de alta velocidade dentro da CPU.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Memória ROM armazena dados permanentes, enquanto a memória descrita no enunciado é volátil e de acesso rápido.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Disco rígido externo é um dispositivo de armazenamento externo, não integrado à CPU e com velocidade significativamente menor.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de tecnicidade e formalidade na linguagem.
+    [G24] As alternativas apresentam variações no tamanho e complexidade das frases.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da CPU e sua função é redundante.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a parte 'Ele nota que... para armazenar os dados e instruções que são requisitados com maior frequência pelo núcleo de processamento'.
+    [G16] O enunciado contém contextualização excessiva e narrativa desnecessária. A introdução com o engenheiro e a repartição não contribui para a avaliação do conhecimento.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução com o engenheiro e a repartição. Começar diretamente com a descrição da memória de alta velocidade.
+    [G23] As alternativas apresentam diferentes níveis de tecnicidade e formalidade na linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para garantir uniformidade no estilo e vocabulário.
+    [G24] As alternativas apresentam variações no tamanho e complexidade das frases.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para que sejam mais semelhantes em extensão.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

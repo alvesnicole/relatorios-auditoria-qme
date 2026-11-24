@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:49:38
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato interprete informações sobre caminhos de arquivos e extensões, relacionando-as a conceitos específicos do Windows e de programas como Excel e PowerPoint. Não se trata de mera memorização, mas de compreender o significado dos elementos apresentados.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] O enunciado não explicita claramente qual ação o aluno deve realizar. A frase 'assinale a alternativa correta' é genérica e poderia ser mais específica (ex: 'qual a extensão do arquivo?').
+         → Sugestão: Substituir 'assinale a alternativa correta' por uma instrução mais direta, como 'qual a extensão do arquivo?' ou 'qual a função da extensão do arquivo?'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise do caminho do arquivo: C:\Documentos\Relatorios\Vendas.xlsx. O caminho indica uma hierarquia de pastas: Documentos (pasta raiz), Relatorios (subpasta de Documentos), e Vendas.xlsx (arquivo dentro de Relatorios). A extensão .xlsx identifica arquivos do Excel. 
+
+Verificação das alternativas:
+
+A) “Relatorios” é uma pasta dentro de “Documentos”, e .xlsx é uma extensão utilizada em pastas de trabalho do Excel. - CORRETA. Confere com a estrutura do caminho e a função da extensão.
+B) “Vendas.xlsx” é uma pasta dentro de “Relatorios”, e .xlsx identifica um conjunto de arquivos compactados. - INCORRETA. Vendas.xlsx é um arquivo, não uma pasta. .xlsx não é um formato compactado.
+C) “Documentos” é uma pasta dentro de “Relatorios”, e .xlsx é uma extensão utilizada em apresentações do PowerPoint. - INCORRETA. Documentos está no nível superior, não dentro de Relatorios. .xlsx é do Excel, não do PowerPoint.
+D) “Relatorios” é o nome do arquivo, e a alteração de sua extensão para .pdf, por renomeação, converte seu conteúdo para PDF. - INCORRETA. Relatorios é o nome de uma pasta, não de um arquivo. Alterar a extensão não converte o conteúdo.
+
+Conclusão: A alternativa A é a única que descreve corretamente a estrutura do caminho e a função da extensão.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre pastas e arquivos, e interpretação errônea da extensão .xlsx como um formato de arquivo compactado.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Inversão da hierarquia de pastas (Documentos dentro de Relatórios) e associação incorreta da extensão .xlsx com apresentações.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação equivocada de que a extensão de um arquivo define seu conteúdo e que a simples renomeação converte o formato.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam diferenças significativas no tamanho, o que pode influenciar a escolha do candidato.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G14] O enunciado não explicita claramente qual ação o aluno deve realizar. A frase 'assinale a alternativa correta' é genérica e poderia ser mais específica (ex: 'qual a extensão do arquivo?').
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'assinale a alternativa correta' por uma instrução mais direta, como 'qual a extensão do arquivo?' ou 'qual a função da extensão do arquivo?'.
+    [G24] As alternativas apresentam diferenças significativas no tamanho, o que pode influenciar a escolha do candidato.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para promover maior uniformidade e evitar viés na escolha.
+
+================================================================================

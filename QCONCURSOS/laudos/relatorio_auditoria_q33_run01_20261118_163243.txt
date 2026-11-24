@@ -1,0 +1,47 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 16:36:04
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre o comando 'nice' e seus parâmetros para resolver um problema prático: iniciar um script com a menor prioridade possível. Não se trata de mera recordação, mas de usar o conhecimento em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação sobre a variação do valor de 'niceness'. A frase 'que varia de -20 a 19' é redundante, pois a informação já é implícita no contexto da prioridade de execução de processos.
+         → Sugestão: Remover a frase 'que varia de -20 a 19'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado busca a alternativa que inicia um script com a menor prioridade possível de CPU, utilizando o comando `nice`. O valor de niceness varia de -20 a 19, sendo que valores mais altos indicam menor prioridade. Portanto, a alternativa correta deve usar o valor máximo permitido, que é 19. A opção A usa `nice -n 19`, a B usa `nice -n -20`, a C usa `renice` e a D usa `top`. `nice` é o comando correto para definir a prioridade de um novo processo. `renice` altera a prioridade de um processo já em execução. `top` é um monitor de processos. A opção B, com valor -20, define a maior prioridade, o oposto do que o enunciado pede. A opção A é a única que define a menor prioridade possível.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode confundir a atribuição de menor prioridade com um valor negativo, acreditando que -20 é o mínimo.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não distinguir entre 'nice' (para iniciar um processo) e 'renice' (para alterar a prioridade de um processo já em execução).
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode acreditar que o comando 'top' pode ser usado para definir a prioridade de um processo, demonstrando falta de compreensão sobre a função do comando.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações na estrutura gramatical e no uso de comandos do Linux.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetição desnecessária da informação sobre a variação do valor de 'niceness'. A frase 'que varia de -20 a 19' é redundante, pois a informação já é implícita no contexto da prioridade de execução de processos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'que varia de -20 a 19'.
+    [G23] As alternativas apresentam variações na estrutura gramatical e no uso de comandos do Linux.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das alternativas, utilizando frases completas e comandos consistentes.
+
+================================================================================

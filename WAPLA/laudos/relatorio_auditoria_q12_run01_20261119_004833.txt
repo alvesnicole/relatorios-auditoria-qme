@@ -1,0 +1,68 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:53:28
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique o conceito de interseção e união de conjuntos para identificar notas que aparecem em pelo menos duas avaliações. Embora envolva a compreensão dos conceitos de conjuntos, a principal demanda cognitiva é a aplicação desses conceitos para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] Contextualização extensa e desnecessária sobre a análise da equipe de pesquisa e a investigação de padrões de aprendizagem. A informação sobre a equipe e o objetivo da investigação não são essenciais para a compreensão do problema.
+         → Sugestão: Remover a parte 'Uma equipe de pesquisa em educação matemática analisou o desempenho de estudantes em três avaliações sucessivas. Para isso, organizou os resultados em três conjuntos, todos subconjuntos de $ℕ$: A representa as notas dos estudantes na primeira avaliação, B as notas da segunda e C as notas da terceira. Após tabular os dados, a equipe obteve: A = {4, 5, 6, 7}, B = {5, 7, 8} e C = {4, 6, 8, 9}. Os pesquisadores desejam identificar quais notas apareceram em pelo menos duas avaliações diferentes para investigar possíveis padrões de consolidação de aprendizagem entre as etapas do curso em que as provas foram aplicadas.' e iniciar diretamente com 'Com base nos conjuntos A, B e C...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema pede o conjunto de notas que aparecem em pelo menos duas avaliações. Isso significa que precisamos encontrar a interseção de pares de conjuntos e depois unir esses resultados. 
+
+A) Calcula (A ∩ B) ∪ (A ∩ C) ∪ (B ∩ C). A ∩ B = {5, 7}. A ∩ C = {4, 6}. B ∩ C = {}. Portanto, (A ∩ B) ∪ (A ∩ C) ∪ (B ∩ C) = {5, 7} ∪ {4, 6} ∪ {} = {4, 5, 6, 7}. Esta alternativa está correta.
+B) Calcula (A ∪ B) ∩ C. A ∪ B = {4, 5, 6, 7, 8}. (A ∪ B) ∩ C = {4, 6, 8}. Esta alternativa está incorreta.
+C) Calcula (A ∩ B) ∪ C. A ∩ B = {5, 7}. (A ∩ B) ∪ C = {5, 7} ∪ {4, 6, 8, 9} = {4, 5, 6, 7, 8, 9}. Esta alternativa está incorreta.
+D) Calcula A ∪ B ∪ C. A ∪ B ∪ C = {4, 5, 6, 7, 8, 9}. Esta alternativa está incorreta.
+E) Calcula (A ∩ B) ∩ C. A ∩ B = {5, 7}. (A ∩ B) ∩ C = {} (vazio). Esta alternativa está incorreta.
+
+A alternativa A é a única que calcula corretamente o conjunto das notas que aparecem em pelo menos duas avaliações.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre união e interseção de conjuntos, aplicando a operação errada para encontrar as notas comuns.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação equivocada da condição 'pelo menos duas avaliações', incluindo notas que aparecem apenas em uma avaliação.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Compreensão superficial do conceito de união de conjuntos, ignorando a restrição de 'pelo menos duas' avaliações.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Confusão entre interseção e conjunto vazio, demonstrando falta de entendimento sobre a operação de interseção.
+  Violações (G21–G24, G27–G31):
+    [G22] As opções se sobrepõem, pois compartilham elementos e conceitos relacionados à teoria dos conjuntos.
+    [G24] A opção B (41 palavras) é significativamente mais longa que a opção E (15 palavras).
+    [G30] A opção E, com o conjunto vazio, não reflete um erro típico de estudantes, mas sim uma interpretação extrema.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G16] Contextualização extensa e desnecessária sobre a análise da equipe de pesquisa e a investigação de padrões de aprendizagem. A informação sobre a equipe e o objetivo da investigação não são essenciais para a compreensão do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a parte 'Uma equipe de pesquisa em educação matemática analisou o desempenho de estudantes em três avaliações sucessivas. Para isso, organizou os resultados em três conjuntos, todos subconjuntos de $ℕ$: A representa as notas dos estudantes na primeira avaliação, B as notas da segunda e C as notas da terceira. Após tabular os dados, a equipe obteve: A = {4, 5, 6, 7}, B = {5, 7, 8} e C = {4, 6, 8, 9}. Os pesquisadores desejam identificar quais notas apareceram em pelo menos duas avaliações diferentes para investigar possíveis padrões de consolidação de aprendizagem entre as etapas do curso em que as provas foram aplicadas.' e iniciar diretamente com 'Com base nos conjuntos A, B e C...'
+    [G22] As opções se sobrepõem, pois compartilham elementos e conceitos relacionados à teoria dos conjuntos.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular as opções para que representem abordagens mais distintas e mutuamente exclusivas.
+    [G24] A opção B (41 palavras) é significativamente mais longa que a opção E (15 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G30] A opção E, com o conjunto vazio, não reflete um erro típico de estudantes, mas sim uma interpretação extrema.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores que representem erros mais comuns e plausíveis na aplicação da teoria dos conjuntos.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

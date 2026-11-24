@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 15:57:22
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda o funcionamento de um firewall e como sua configuração é realizada, indo além da simples memorização de fatos. A questão demanda a interpretação do conceito de configuração de firewall para identificar a alternativa correta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária ao mencionar 'rede e de seus servidores e estações de trabalho' após 'rede'.
+         → Sugestão: Remover a repetição: 'Um firewall, tanto físico quanto lógico, tem por finalidade evitar a invasão e a utilização de uma rede por softwares ou pessoas não autorizadas.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve a função de um firewall como evitar invasões e uso não autorizado de recursos de rede. A configuração de um firewall envolve a definição de regras para controlar o acesso. Analisando as alternativas:
+
+A) Parece a alternativa mais adequada, pois descreve a configuração de regras para controlar o acesso através de portas lógicas e protocolos TCP/IP e UDP, o que é consistente com a função de um firewall.
+B) Descreve uma estrutura de rede, mas não a configuração de um firewall.
+C) Refere-se a permissões de usuários, que são um aspecto da segurança, mas não a configuração do firewall em si.
+D) Trata de atualizações de segurança, que são importantes, mas não definem a configuração do firewall.
+E) Limita o acesso a URLs, que é uma função específica, mas não a configuração geral de um firewall.
+
+Portanto, a alternativa A é a que melhor descreve a configuração de um firewall.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode confundir a configuração de um firewall com a estrutura física da rede, associando-o a cabeamento e roteadores.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode acreditar que o firewall é configurado através de permissões de acesso dos usuários, confundindo com controle de acesso lógico.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode associar a segurança do firewall à atualização do sistema operacional, ignorando a lógica de regras de acesso.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode entender que o firewall funciona apenas bloqueando ou permitindo URLs, simplificando sua função de segurança.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de detalhe e complexidade, gerando heterogeneidade na estrutura.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição desnecessária ao mencionar 'rede e de seus servidores e estações de trabalho' após 'rede'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição: 'Um firewall, tanto físico quanto lógico, tem por finalidade evitar a invasão e a utilização de uma rede por softwares ou pessoas não autorizadas.'
+    [G23] As alternativas apresentam diferentes níveis de detalhe e complexidade, gerando heterogeneidade na estrutura.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para uniformizar o nível de detalhe e a complexidade da linguagem.
+
+================================================================================

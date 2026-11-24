@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 19:33:35
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de periféricos de entrada e saída, identificando qual alternativa se encaixa nessa classificação específica dentro do contexto de um laboratório de informática. Não se trata apenas de lembrar definições, mas de relacionar o conceito a exemplos práticos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A primeira frase já estabelece o contexto da classificação dos equipamentos, e a segunda frase repete a ideia de considerar a função do dispositivo durante a comunicação com o sistema.
+         → Sugestão: Combine as duas primeiras frases em uma só: 'Em um laboratório de informática escolar, os equipamentos ligados ao computador são classificados conforme o fluxo de dados que estabelecem com a unidade central de processamento, considerando a função que cada dispositivo desempenha durante a comunicação com o sistema.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado busca um dispositivo que seja classificado como periférico de entrada e saída. Analisando as alternativas:
+
+A) Teclado: Apenas entrada.
+B) Scanner: Apenas entrada.
+C) Monitor touchscreen: Recebe entrada (toque) e fornece saída (imagem). Esta alternativa parece ser a correta.
+D) Impressora: Apenas saída.
+
+Portanto, a alternativa C é a única que combina as duas funções de entrada e saída.
+
+Pistas estruturais:
+- G28d: A alternativa C é mais detalhada, especificando que o monitor é sensível ao toque, o que a diferencia das demais.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a função de entrada do teclado com a de saída, não distinguindo a direção do fluxo de dados.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Pode-se interpretar erroneamente o scanner como um dispositivo que apenas transforma documentos, ignorando sua função de entrada de dados.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Alunos podem não compreender a distinção entre a criação de documentos no computador e a reprodução física por uma impressora.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho, impactando a uniformidade visual e a facilidade de comparação.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A primeira frase já estabelece o contexto da classificação dos equipamentos, e a segunda frase repete a ideia de considerar a função do dispositivo durante a comunicação com o sistema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Combine as duas primeiras frases em uma só: 'Em um laboratório de informática escolar, os equipamentos ligados ao computador são classificados conforme o fluxo de dados que estabelecem com a unidade central de processamento, considerando a função que cada dispositivo desempenha durante a comunicação com o sistema.'
+    [G24] As alternativas apresentam variações no tamanho, impactando a uniformidade visual e a facilidade de comparação.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para garantir maior homogeneidade e clareza.
+
+================================================================================

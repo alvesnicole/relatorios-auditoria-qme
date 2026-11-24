@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:58:14
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda o contexto da Geografia Econômica e identifique a figura chave associada ao seu desenvolvimento, o que envolve interpretar informações e relacionar conceitos. Não se trata apenas de lembrar um nome, mas de entender sua importância dentro do campo.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da ideia central da Geografia econômica em duas frases consecutivas. A segunda frase ('Nesse contexto, pode-se afirmar que...') é redundante e pode ser eliminada.
+         → Sugestão: Remover a frase 'Nesse contexto, pode-se afirmar que...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve a Geografia Econômica como o estudo da organização espacial da produção, circulação e consumo. A questão busca um autor associado a essa perspectiva. 
+
+A) Alfred Weber: Sua análise da localização industrial é central para a Geografia Econômica, conectando-se diretamente ao tema da distribuição espacial das atividades econômicas. 
+B) Karl Marx: Embora suas teorias sejam relevantes para a análise do capitalismo, sua aplicação direta à definição da Geografia Econômica é menos específica do que a contribuição de Weber. 
+C) Isaac Newton: A lei da gravitação universal não se relaciona com a Geografia Econômica. 
+D) Ruy Barbosa: Sua obra se concentra na economia agrícola tropical e planejamento geográfico, mas não define a Geografia Econômica. 
+E) Mickey Mouse: É uma opção obviamente humorística e irrelevante.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem associar Marx à análise de produção, mas não compreendem a especificidade da Geografia econômica e sua relação com o território.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a aplicação de leis da física e a análise de fenômenos geográficos e econômicos, demonstrando falta de compreensão do objeto da Geografia econômica.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem reconhecer Ruy Barbosa como figura importante, mas não associam sua obra diretamente ao desenvolvimento da Geografia econômica.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Opção claramente absurda, testando a capacidade do aluno de identificar alternativas que não se encaixam no contexto da Geografia econômica.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da ideia central da Geografia econômica em duas frases consecutivas. A segunda frase ('Nesse contexto, pode-se afirmar que...') é redundante e pode ser eliminada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Nesse contexto, pode-se afirmar que...'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

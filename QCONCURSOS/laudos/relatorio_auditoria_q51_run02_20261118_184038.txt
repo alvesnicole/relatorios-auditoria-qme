@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 18:43:45
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Lembrar
+  Justificativa   : O item exige que o aluno recupere um fato específico sobre a hierarquia de memória de um computador. Não há necessidade de análise, aplicação ou avaliação para responder à pergunta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação de que o nível de memória cache está próximo do núcleo de processamento e possui menor capacidade e maior velocidade. Essa informação poderia ser integrada de forma mais concisa.
+         → Sugestão: Reformular o enunciado para eliminar a repetição, por exemplo: 'Na hierarquia de memória de um computador, o nível de memória cache, caracterizado pela proximidade com o núcleo de processamento, menor capacidade e maior velocidade de acesso, qual o nome desse nível?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve a hierarquia de memória de um computador, buscando o nível de cache mais próximo do núcleo, com menor capacidade e maior velocidade. Cache L1 é geralmente o mais próximo do núcleo, seguido por L2 e L3. RAM é memória principal, e HD/SSD são memórias secundárias. A descrição do enunciado se encaixa melhor com o Cache L1, que é o primeiro nível de cache acessado pelo processador.
+
+Verificação das alternativas:
+
+A) Cache L1: Atende a todos os critérios do enunciado (próximo do núcleo, menor capacidade, maior velocidade).
+B) Cache L2: Embora seja um nível de cache, está mais distante do núcleo que o L1.
+C) Cache L3: Ainda mais distante que o L2.
+D) Memória principal (RAM): Não é um cache, mas sim memória principal.
+E) Memória secundária (HD/SSD): Não é um cache, mas sim armazenamento secundário.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a hierarquia, pensando que L2 é o nível mais próximo do núcleo.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Confusão entre os níveis de cache, considerando L3 como o mais próximo do núcleo devido à sua função.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Desconhecimento da diferença entre cache e memória principal, associando ambos ao processamento.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Ignorância sobre a hierarquia de memória, sugerindo que HD/SSD são níveis de cache.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetição desnecessária da informação de que o nível de memória cache está próximo do núcleo de processamento e possui menor capacidade e maior velocidade. Essa informação poderia ser integrada de forma mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para eliminar a repetição, por exemplo: 'Na hierarquia de memória de um computador, o nível de memória cache, caracterizado pela proximidade com o núcleo de processamento, menor capacidade e maior velocidade de acesso, qual o nome desse nível?'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

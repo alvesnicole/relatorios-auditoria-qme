@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:22:28
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda a função de um parâmetro específico do comando `ifconfig` em um contexto Linux. Não se trata de mera memorização, mas de interpretar o significado e a função do argumento.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] Instruções ambíguas: não está claro o que o aluno deve fazer ou responder. O enunciado solicita 'o que faz' o argumento, mas não especifica se espera uma descrição da funcionalidade, um exemplo de uso, ou outro tipo de resposta.
+         → Sugestão: Reformular para: 'Descreva a função do argumento '-a' quando utilizado com o comando ifconfig em um terminal Linux.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O comando `ifconfig -a` no Linux é usado para exibir informações detalhadas sobre as interfaces de rede. A opção `-a` significa 'all' (todas), e faz com que o comando liste todas as interfaces, incluindo as que estão desativadas ou virtuais. Analisando as alternativas:
+
+A) Permite a definição de um endereço IP para uma interface de rede: Isso é feito com o comando `ifconfig <interface> <ip_address>`, não com `-a`.
+B) Permite definir a máscara de uma subrede: Similarmente, a máscara é definida com `ifconfig <interface> <ip_address> netmask <subnet_mask>`.
+C) Ativa uma interface de rede: O comando para ativar é `ifconfig <interface> up`.
+D) Desativa uma interface de rede: O comando para desativar é `ifconfig <interface> down`.
+E) Exibe informações sobre todas as interfaces de rede: Esta alternativa descreve precisamente a função do `ifconfig -a`.
+
+Portanto, a alternativa E é a única que corresponde à descrição do comando `ifconfig -a`.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a atribuição de IP com a função do comando, focando no resultado final, não no processo.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem associar o comando a configurações de rede, mas não entenderem a função específica do '-a'.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Confusão entre o comando e a ação de ativar uma interface, sem entender o papel do argumento.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação superficial do comando como uma ação de desativação, sem considerar o argumento.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G14] Instruções ambíguas: não está claro o que o aluno deve fazer ou responder. O enunciado solicita 'o que faz' o argumento, mas não especifica se espera uma descrição da funcionalidade, um exemplo de uso, ou outro tipo de resposta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular para: 'Descreva a função do argumento '-a' quando utilizado com o comando ifconfig em um terminal Linux.'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

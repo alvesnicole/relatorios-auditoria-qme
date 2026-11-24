@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:54:50
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : APLICAR
+  Justificativa   : O item exige que o aluno aplique o conceito de conectividade em um grafo para determinar o número mínimo de estradas necessárias para conectar as cidades, considerando o processo iterativo descrito. Não há necessidade de análise profunda ou avaliação crítica, mas sim de aplicar um raciocínio lógico para chegar à solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação sobre como cidades conectadas são definidas. A explicação 'Por exemplo, se houver uma estrada ligando a cidade A à cidade B e outra estrada ligando a cidade B à cidade C, então a cidade A está conectada à cidade C, pois é possível ir de A para C passando pela cidade B' é redundante e pode ser removida.
+         → Sugestão: Remover a frase 'Por exemplo, se houver uma estrada ligando a cidade A à cidade B e outra estrada ligando a cidade B à cidade C, então a cidade A está conectada à cidade C, pois é possível ir de A para C passando pela cidade B'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema envolve conectar 5 cidades com o mínimo de estradas, eliminando pares desconectados. Inicialmente, todas as cidades estão desconectadas, exigindo pelo menos 4 estradas para conectá-las todas (formando uma árvore). No entanto, o processo iterativo de sorteio e construção de estradas pode levar a um número maior de estradas se, por acaso, as cidades sorteadas já estiverem conectadas. Para garantir a conectividade, é necessário que todas as cidades estejam interligadas. Uma árvore com 5 nós tem 4 arestas. O plano do rei continua construindo estradas até que não haja mais pares desconectados. A alternativa mais plausível é a que representa o número mínimo de estradas para garantir a conectividade, que é 4. A alternativa E (10) parece excessiva, pois implicaria em muitas conexões redundantes. A alternativa A (3) é insuficiente para conectar 5 cidades. A alternativa B (4) parece ser a mais razoável, e a alternativa C (5) também é possível, mas menos provável. A alternativa D (8) é muito alta. A estratégia do rei é construir estradas até que todas as cidades estejam conectadas. O número mínimo de estradas para conectar 5 cidades é 4. No entanto, o processo de sorteio pode levar à construção de estradas redundantes. A alternativa mais plausível é 4, mas a alternativa 5 também é possível. A alternativa 8 é muito alta, e a alternativa 3 é muito baixa.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar que o número mínimo de estradas é igual ao número de cidades, sem considerar a necessidade de conectar todas as cidades.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Confundem o problema com a necessidade de conectar cada cidade diretamente a todas as outras, sem considerar a possibilidade de conexões indiretas.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Escolhem um número alto sem entender a lógica da construção das estradas, possivelmente influenciados pela ideia de que cada cidade precisa estar conectada.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Opção claramente exagerada, indicando falta de compreensão do problema e da estratégia de construção das estradas.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa 'E' sendo consideravelmente mais longa.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da explicação sobre como cidades conectadas são definidas. A explicação 'Por exemplo, se houver uma estrada ligando a cidade A à cidade B e outra estrada ligando a cidade B à cidade C, então a cidade A está conectada à cidade C, pois é possível ir de A para C passando pela cidade B' é redundante e pode ser removida.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Por exemplo, se houver uma estrada ligando a cidade A à cidade B e outra estrada ligando a cidade B à cidade C, então a cidade A está conectada à cidade C, pois é possível ir de A para C passando pela cidade B'.
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa 'E' sendo consideravelmente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés na escolha.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

@@ -1,0 +1,64 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 00:03:47
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique os dados fornecidos (capacidade do tanque, consumo por litro, distâncias entre os postos) para determinar a necessidade de abastecimento durante a viagem.  Não se trata apenas de lembrar informações, mas de usá-las para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre a localização dos postos de gasolina (quilômetros). A repetição da lista de quilômetros após a descrição geral torna o enunciado mais longo do que o necessário.
+         → Sugestão: Remover a lista de quilômetros e manter apenas a informação de que os postos estão localizados em distâncias específicas ao longo da estrada.
+    [G16] A descrição detalhada da estrada, dos postos de gasolina e da distância entre eles, embora necessária para o contexto do problema, pode ser considerada um excesso de contextualização que não contribui diretamente para a avaliação do conhecimento do aluno. A história sobre Alan e sua motocicleta também se enquadra nessa categoria.
+         → Sugestão: Simplificar a descrição do cenário, focando apenas nas informações essenciais para a resolução do problema. Eliminar a narrativa sobre Alan e sua motocicleta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema envolve calcular quantos postos Alan precisa abastecer para completar a viagem de 430 km, considerando que sua moto faz 24 km/litro e o tanque tem 8 litros de capacidade. Isso significa que ele pode percorrer 24 * 8 = 192 km sem reabastecer. 
+
+* **Alternativa A:** Implica que Alan precisa de pelo menos 3 reabastecimentos. Isso parece excessivo, pois a distância total é de 430 km e ele pode percorrer 192 km com um tanque. 
+* **Alternativa B:** Afirma que Alan certamente terá pane seca. Isso não é necessariamente verdade, pois ele pode planejar seus reabastecimentos. 
+* **Alternativa C:** Afirma que ele deve abastecer no posto C. Isso é arbitrário e não há razão para ele ser obrigatório. 
+* **Alternativa D:** Afirma que ele deve abastecer no posto D. Similar à alternativa C, não há justificativa para isso. 
+* **Alternativa E:** Implica que ele precisa abastecer em todos os postos, o que é desnecessário e caro, já que o combustível é mais barato nos postos de Abrigo e Feliciana.
+
+Para determinar quantos reabastecimentos são necessários, calculamos a distância total (430 km) dividida pela distância que ele pode percorrer com um tanque (192 km): 430 / 192 ≈ 2.24. Isso significa que ele precisa de pelo menos 3 reabastecimentos. Os postos estão localizados em 0, 33, 108, 171, 332 e 430 km. O primeiro reabastecimento pode ser no posto de 33 km, o segundo no de 108 km e o terceiro no de 171 km. Portanto, a alternativa A é a mais plausível, embora não seja uma certeza absoluta. No entanto, considerando a necessidade de pelo menos 3 reabastecimentos, a alternativa A é a mais razoável.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode não considerar a autonomia do tanque e a distância total, presumindo que múltiplos abastecimentos são necessários.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não calcular corretamente a autonomia da moto e a distância total, levando a uma conclusão precipitada sobre a pane seca.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar a informação sobre os postos mais baratos como uma obrigação de abastecer em um posto específico, ignorando a flexibilidade do planejamento.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não compreender a necessidade de abastecer apenas no posto D, interpretando que todos os postos restantes são obrigatórios.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (44 palavras) é significativamente mais longa que as demais (em torno de 20-25 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação sobre a localização dos postos de gasolina (quilômetros). A repetição da lista de quilômetros após a descrição geral torna o enunciado mais longo do que o necessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a lista de quilômetros e manter apenas a informação de que os postos estão localizados em distâncias específicas ao longo da estrada.
+    [G16] A descrição detalhada da estrada, dos postos de gasolina e da distância entre eles, embora necessária para o contexto do problema, pode ser considerada um excesso de contextualização que não contribui diretamente para a avaliação do conhecimento do aluno. A história sobre Alan e sua motocicleta também se enquadra nessa categoria.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a descrição do cenário, focando apenas nas informações essenciais para a resolução do problema. Eliminar a narrativa sobre Alan e sua motocicleta.
+    [G24] A alternativa A (44 palavras) é significativamente mais longa que as demais (em torno de 20-25 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G19] A resolução cega apontou A, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

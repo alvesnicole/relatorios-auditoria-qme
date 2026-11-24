@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:31:22
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as assertivas, identificando quais estão corretas e, implicitamente, compreendendo as diferenças entre os conceitos de rede. A identificação da resposta correta demanda a desconstrução das informações e a comparação entre elas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da ideia de que os pontos da rede são conhecidos em LAN. A informação é redundante e não agrega valor à compreensão.
+         → Sugestão: Remover a frase 'que pelo seu reduzido tamanho permite que todos os pontos sejam conhecidos' da descrição da LAN.
+    [G16] A descrição da WAN contém informações sobre a finalidade das máquinas na rede (executar programas do usuário). Essa informação é contextualização decorativa e não essencial para a avaliação do conhecimento sobre os tipos de rede.
+         → Sugestão: Remover a frase 'Ela contém um conjunto de máquinas cuja finalidade é executar os programas (ou seja, as aplicações) do usuário.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise das assertivas:
+
+I. LAN: A descrição está correta. Redes LAN são locais, rápidas e de extensão limitada, sem uso de telecomunicações e com pontos conhecidos.
+II. MAN: A descrição também está correta. MANs abrangem cidades, podem ter muitos usuários e os pontos não são necessariamente conhecidos.
+III. WAN: A descrição está parcialmente correta, mas a parte sobre 'conjunto de máquinas cuja finalidade é executar os programas do usuário' é imprecisa. WANs conectam redes, não executam aplicações diretamente.
+
+Análise das alternativas:
+
+A) Apenas I e II: Eliminar devido à imprecisão na III.
+B) Apenas I e III: Eliminar devido à imprecisão na III.
+C) Apenas II e III: Eliminar devido à correção da I.
+D) Todas estão corretas: Eliminar devido à imprecisão na III.
+
+Considerando a imprecisão na descrição da WAN, a alternativa que melhor se aproxima da verdade, apesar da falha, é a que considera as assertivas I e II corretas. A descrição da WAN é a que mais se distancia da realidade, mas as demais estão alinhadas com os conceitos.
+
+Flag G28a: A terminologia específica de cada tipo de rede (LAN, MAN, WAN) funciona como um determinante para avaliar a correção de cada assertiva.
+Flag G28b: Não há repetição de termos incomuns que sirva como pista visual.
+Flag G28c: Não há inconsistência gramatical relevante.
+Flag G28d: Não há uma alternativa significativamente mais longa ou detalhada.
+Flag G28e: Não há pares ou trincas de opções que se anulem.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a abrangência da LAN e MAN, considerando que ambas se aplicam a ambientes menores e conhecidos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Pode levar à crença de que a WAN é apenas um conjunto de máquinas executando aplicações, ignorando sua função de rede.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que MAN abrange uma grande área e WAN é uma rede local, invertendo os conceitos de escala.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da ideia de que os pontos da rede são conhecidos em LAN. A informação é redundante e não agrega valor à compreensão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'que pelo seu reduzido tamanho permite que todos os pontos sejam conhecidos' da descrição da LAN.
+    [G16] A descrição da WAN contém informações sobre a finalidade das máquinas na rede (executar programas do usuário). Essa informação é contextualização decorativa e não essencial para a avaliação do conhecimento sobre os tipos de rede.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Ela contém um conjunto de máquinas cuja finalidade é executar os programas (ou seja, as aplicações) do usuário.'
+    [G19] A resolução cega apontou A, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

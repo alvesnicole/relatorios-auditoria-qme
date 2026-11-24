@@ -1,0 +1,79 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 20:07:25
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda as características de arquiteturas CISC e RISC, microcódigo e pipeline, e como elas se relacionam com a otimização de desempenho em um contexto específico (aplicação com restrições de hardware). A escolha da resposta correta demanda a análise das opções e a identificação daquela que melhor descreve os conceitos, integrando-os ao cenário proposto.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é desfocado. Não é imediatamente claro qual é a pergunta central. A introdução sobre o IFPI e a aplicação educativa é contextualização que não contribui para a compreensão da tarefa.
+         → Sugestão: Reformule o enunciado para iniciar diretamente com a pergunta: 'Explique os conceitos de arquitetura, microcódigo e pipeline.'
+    [G16] A introdução sobre o IFPI e a aplicação educativa constitui window dressing, pois não é essencial para a compreensão da tarefa de avaliação.
+         → Sugestão: Remova a contextualização sobre o IFPI e a aplicação. Comece o enunciado diretamente com a pergunta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Análise cega do gabarito e pistas estruturais.
+
+O problema aborda a escolha entre arquiteturas CISC e RISC para uma aplicação educativa com restrições de hardware, focando em previsibilidade temporal e otimização do fluxo de processamento. As alternativas devem descrever corretamente os conceitos de arquitetura, microcódigo e pipeline.
+
+Análise das alternativas:
+
+A) RISC prioriza a previsibilidade temporal, o compilador expande operações complexas em instruções simples, facilitando o pipeline rígido. Parece plausível, pois RISC é conhecido pela simplicidade e otimização para pipeline.
+B) Barramentos de alta velocidade em CISC eliminam a necessidade de microcódigo. Improvável, pois microcódigo é inerente à complexidade das instruções CISC.
+C) Microcódigo em CISC aumenta a flexibilidade do software em detrimento da velocidade do pipeline. Coerente com a natureza do microcódigo e seu impacto no desempenho.
+D) CISC para desempenho máximo baseado na Lei de Pareto. Improvável, pois a Lei de Pareto não se aplica diretamente à arquitetura de computadores.
+E) Execução direta de instruções complexas sem microcódigo em RISC. Incorreto, pois RISC busca simplificar, não executar instruções complexas diretamente.
+
+A alternativa C parece a mais consistente com os princípios de arquitetura CISC e o uso de microcódigo para lidar com instruções complexas, sacrificando a velocidade do pipeline.
+
+Verificação das pistas estruturais:
+[G28a] Termos absolutos funcionam como pista para eliminar ou escolher opção? Sim. Termos como 'RISC', 'CISC', 'microcódigo' e 'pipeline' são cruciais para a avaliação.
+[G28b] Uma opção repete palavras incomuns/idênticas do enunciado como pista visual? Não detectada.
+[G28c] Inconsistência gramatical deixa apenas uma opção gramaticalmente correta? Não detectada.
+[G28d] Uma opção é significativamente mais longa, detalhada ou qualificada que as demais? Não detectada.
+[G28e] Pares ou trincas de opções se anulam e revelam a resposta? Não detectada.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a complexidade do barramento com a eliminação da necessidade de microcódigo, não compreendendo a função deste último.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Pode-se interpretar que a flexibilidade do software é um fator positivo, ignorando o impacto negativo na velocidade do pipeline.
+    [D] Distrator (Plausibilidade: 2/5)
+         → A Lei de Pareto é aplicada incorretamente, sugerindo que CISC é superior em todos os casos, o que não é verdade.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a execução direta de instruções complexas é uma característica universal das arquiteturas RISC, sem considerar nuances e evoluções.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de detalhe e complexidade, gerando heterogeneidade na estrutura.
+    [G30] As opções não abordam erros comuns de interpretação dos conceitos de arquitetura de computadores.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G15] O enunciado é desfocado. Não é imediatamente claro qual é a pergunta central. A introdução sobre o IFPI e a aplicação educativa é contextualização que não contribui para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para iniciar diretamente com a pergunta: 'Explique os conceitos de arquitetura, microcódigo e pipeline.'
+    [G16] A introdução sobre o IFPI e a aplicação educativa constitui window dressing, pois não é essencial para a compreensão da tarefa de avaliação.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remova a contextualização sobre o IFPI e a aplicação. Comece o enunciado diretamente com a pergunta.
+    [G23] As alternativas apresentam diferentes níveis de detalhe e complexidade, gerando heterogeneidade na estrutura.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para uniformizar o nível de detalhe e a complexidade da linguagem.
+    [G30] As opções não abordam erros comuns de interpretação dos conceitos de arquitetura de computadores.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Analisar os erros mais frequentes dos alunos sobre arquitetura e incorporar esses erros nas distratores.
+    [G19] A resolução cega apontou C, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

@@ -1,0 +1,71 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 00:25:44
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise um conjunto de restrições lógicas, deduza as implicações dessas restrições e identifique uma afirmação que seja necessariamente falsa. Isso envolve a desestruturação das informações fornecidas para identificar inconsistências, característico do nível de análise.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre os andares da empresa. A frase 'Uma empresa está instalada no primeiro, segundo, terceiro e quarto andares de um prédio de escritórios' é redundante, pois a informação é relevante apenas para o contexto, não para a resolução do problema.
+         → Sugestão: Remover a frase 'Uma empresa está instalada no primeiro, segundo, terceiro e quarto andares de um prédio de escritórios'.
+    [G17] A condição 'Se há analista alocada no terceiro andar, então tal analista tem o mesmo cargo que a analista do quarto andar' é formulada na forma de afirmação condicional, o que pode dificultar a compreensão. A ausência de destaque visual (negrito ou maiúsculas) para a palavra 'Se' pode aumentar a confusão.
+         → Sugestão: Reformular a condição para torná-la mais direta e clara, por exemplo: 'Se uma analista estiver alocada no terceiro andar, ela terá o mesmo cargo da analista alocada no quarto andar.' ou usar negrito/maiúsculas para destacar a palavra 'Se'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Representação: 
+- Andares: 1, 2, 3, 4
+- Analistas: Alice, Bia, Clara
+- Cargos: Sênior, Júnior
+
+Restrições:
+1. Nem todos os analistas têm o mesmo cargo (pelo menos um sênior e um júnior).
+2. Cada andar tem apenas uma analista.
+3. Alice está no 4º andar.
+4. Bia é sênior.
+5. Bia está acima de Clara.
+6. Se alguém está no 3º andar, essa pessoa é do mesmo cargo da pessoa do 4º andar (3º andar == Alice, sênior).
+
+Análise das Alternativas:
+
+A) Bia é alocada no segundo andar. Se Bia estivesse no 2º andar, Clara estaria no 1º andar (Bia acima de Clara). Alice está no 4º andar. Isso deixaria o 3º andar livre. Se o 3º andar estivesse ocupado, a pessoa seria sênior (Alice). Como o 3º andar está livre, a alternativa A é consistente.
+B) Bia é alocada no terceiro andar. Se Bia estivesse no 3º andar, Clara estaria no 1º ou 2º andar. Alice está no 4º andar. Se Bia estivesse no 3º andar, ela seria sênior (restrição 4). Se alguém estivesse no 3º andar, seria sênior (restrição 6). Isso é consistente.
+C) Clara é alocada no primeiro andar. Se Clara estivesse no 1º andar, Bia estaria no 2º, 3º ou 4º andar. Alice está no 4º andar. Se Bia estivesse no 3º andar, ela seria sênior (restrição 6). Se Bia estivesse no 2º andar, não há conflito. Se Bia estivesse no 4º andar, Alice estaria no 4º andar, o que é impossível. Portanto, Clara no 1º andar é consistente.
+D) Clara é alocada no segundo andar. Se Clara estivesse no 2º andar, Bia estaria no 3º ou 4º andar. Alice está no 4º andar. Se Bia estivesse no 3º andar, ela seria sênior (restrição 6). Se Bia estivesse no 3º andar, ela seria sênior. Isso é consistente.
+E) Clara é alocada no terceiro andar. Se Clara estivesse no 3º andar, Bia estaria no 4º andar. Alice está no 4º andar, o que é impossível. Portanto, a alternativa E é necessariamente falsa.
+
+Conclusão: A alternativa E é a única que viola as restrições.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a restrição de Bia estar acima de Clara como adjacência imediata, levando a essa opção.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na restrição de Bia estar acima de Clara e não considerar outras possibilidades de alocação.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não compreender a implicação da restrição de Bia estar acima de Clara, assumindo que Clara deve estar no primeiro andar.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não considerar a possibilidade de Clara estar em outros andares, devido à complexidade das restrições.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação sobre os andares da empresa. A frase 'Uma empresa está instalada no primeiro, segundo, terceiro e quarto andares de um prédio de escritórios' é redundante, pois a informação é relevante apenas para o contexto, não para a resolução do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Uma empresa está instalada no primeiro, segundo, terceiro e quarto andares de um prédio de escritórios'.
+    [G17] A condição 'Se há analista alocada no terceiro andar, então tal analista tem o mesmo cargo que a analista do quarto andar' é formulada na forma de afirmação condicional, o que pode dificultar a compreensão. A ausência de destaque visual (negrito ou maiúsculas) para a palavra 'Se' pode aumentar a confusão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a condição para torná-la mais direta e clara, por exemplo: 'Se uma analista estiver alocada no terceiro andar, ela terá o mesmo cargo da analista alocada no quarto andar.' ou usar negrito/maiúsculas para destacar a palavra 'Se'.
+
+================================================================================

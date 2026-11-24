@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 01:57:03
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento da rede de computadores para determinar a rota mais eficiente para a mensagem, considerando as restrições de direção dos cabos. Não se trata de mera recordação, mas de análise e aplicação de informações para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre a direção dos cabos. A frase 'Por um cabo ligando, por exemplo, o computador W ao computador X passam mensagens apenas do computador W para o computador X (e não do computador X para o computador X)' é redundante, pois a descrição dos cabos direcionados já estabelece essa característica.
+         → Sugestão: Remover a frase 'Por um cabo ligando, por exemplo, o computador W ao computador X passam mensagens apenas do computador W para o computador X (e não do computador X para o computador X)'.
+    [G13] Repetição da ideia de que uma mensagem pode ir de um computador para outro utilizando um cabo ou uma sequência de cabos. Essa informação é reiterada ao apresentar os exemplos.
+         → Sugestão: Remover a frase 'Por exemplo, na rede descrita, uma mensagem pode ir de W para X utilizando um único cabo; e uma mensagem pode ir de X para W utilizando dois cabos (passando pelo computador Z)'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema pede o menor número de cabos para ir de Y para X. Analisando as opções:
+
+A) Y -> X: Direto, 1 cabo. Possível.
+B) Y -> W -> ?: Y -> W, depois precisa ir de W para X, o que requer W -> X. Total de 2 cabos.
+C) Y -> Z -> ?: Y -> Z, depois precisa ir de Z para X, o que requer Z -> X. Não existe cabo Z -> X, então esta opção é inválida.
+D) Y -> W -> Z -> ?: Y -> W, depois W -> Z, depois Z -> X. Não existe cabo Z -> X, então esta opção é inválida.
+E) Y -> Z -> W -> ?: Y -> Z, depois Z -> W, depois W -> X. Total de 3 cabos.
+
+A opção A é a que usa o menor número de cabos (1).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na conectividade direta e ignorar a possibilidade de rotas alternativas, simplificando o caminho.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão sobre a direção dos cabos, levando a acreditar que Z é um ponto de passagem obrigatório.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação literal da rede, buscando um caminho complexo quando a solução é direta.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Dificuldade em compreender a direção dos cabos e a busca por um caminho que parece mais completo.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas, com a alternativa 'passando por W e depois por Z' sendo significativamente mais longa.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre a direção dos cabos. A frase 'Por um cabo ligando, por exemplo, o computador W ao computador X passam mensagens apenas do computador W para o computador X (e não do computador X para o computador X)' é redundante, pois a descrição dos cabos direcionados já estabelece essa característica.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Por um cabo ligando, por exemplo, o computador W ao computador X passam mensagens apenas do computador W para o computador X (e não do computador X para o computador X)'.
+    [G13] Repetição da ideia de que uma mensagem pode ir de um computador para outro utilizando um cabo ou uma sequência de cabos. Essa informação é reiterada ao apresentar os exemplos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Por exemplo, na rede descrita, uma mensagem pode ir de W para X utilizando um único cabo; e uma mensagem pode ir de X para W utilizando dois cabos (passando pelo computador Z)'.
+    [G24] Diferença no tamanho entre as alternativas, com a alternativa 'passando por W e depois por Z' sendo significativamente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés.
+
+================================================================================

@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 22:17:34
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre o operador LIKE em SQL para resolver um problema prático de filtragem de dados, combinando o entendimento da sintaxe com a aplicação a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária de informações. A explicação sobre o que são operadores e o que o LIKE faz em PostgreSQL é redundante, pois o contexto do item sugere que o aluno já possui esse conhecimento.
+         → Sugestão: Remover a primeira frase: 'Nos Sistemas Gerenciadores de Bancos de Dados (SGBD), os operadores são utilizados para auxiliar na filtragem dos resultados de busca. No PostgreSQL, o operador LIKE pode ser utilizado para selecionar todos os registros de uma coluna que atendam a um padrão específico.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado busca uma consulta SQL que selecione servidores do IFPI cujos nomes comecem com 'Ana Maria'. O operador LIKE é usado para correspondência de padrões. O caractere '%' representa zero ou mais caracteres. O caractere '_' representa um único caractere. A alternativa correta deve começar com 'Ana Maria' seguido de qualquer número de caracteres. 
+
+A) `SELECT * FROM servidores WHERE nome LIKE 'Ana Maria_';` - Incorreta. Procura nomes que comecem com 'Ana Maria' seguidos de um único caractere. 
+B) `SELECT * FROM servidores WHERE nome LIKE 'Ana Maria%';` - Correta. Procura nomes que comecem com 'Ana Maria' seguido de qualquer número de caracteres. 
+C) `SELECT * FROM servidores WHERE nome LIKE '_Ana Maria';` - Incorreta. Procura nomes que comecem com um único caractere seguido de 'Ana Maria'. 
+D) `SELECT * FROM servidores WHERE nome ILIKE '%Ana Maria';` - Incorreta. ILIKE é case-insensitive, mas o enunciado não especifica isso. Além disso, a busca deve começar com 'Ana Maria', não terminar. 
+E) `SELECT * FROM servidores WHERE nome LIKE '%Ana Maria%';` - Incorreta. Procura nomes que contenham 'Ana Maria' em qualquer posição, não necessariamente começando com ela.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode confundir o uso do curinga '_' para representar um único caractere após 'Ana Maria'.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar erroneamente o curinga '_' como representando o início do nome do servidor.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não compreender a diferença entre LIKE e ILIKE, ou o uso de ILIKE para ignorar maiúsculas/minúsculas.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não entender que o curinga '%' representa zero ou mais caracteres, e usar incorretamente em ambos os lados do padrão.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações na estrutura gramatical e no uso de maiúsculas/minúsculas.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetição desnecessária de informações. A explicação sobre o que são operadores e o que o LIKE faz em PostgreSQL é redundante, pois o contexto do item sugere que o aluno já possui esse conhecimento.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase: 'Nos Sistemas Gerenciadores de Bancos de Dados (SGBD), os operadores são utilizados para auxiliar na filtragem dos resultados de busca. No PostgreSQL, o operador LIKE pode ser utilizado para selecionar todos os registros de uma coluna que atendam a um padrão específico.'
+    [G23] As alternativas apresentam variações na estrutura gramatical e no uso de maiúsculas/minúsculas.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a formatação das alternativas para garantir maior uniformidade.
+
+================================================================================

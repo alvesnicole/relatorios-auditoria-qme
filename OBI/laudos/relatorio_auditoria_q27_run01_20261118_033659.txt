@@ -1,0 +1,73 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 03:41:32
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para determinar uma ordem possível para o próximo turno, considerando as restrições dadas. Não se trata de mera recordação ou compreensão, mas sim de manipulação das regras em um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre a ordem dos competidores na 'la'. A frase 'A ordem dos competidores na la é alterada ao nal de cada turno' repete a ideia já apresentada anteriormente.
+         → Sugestão: Remover a frase 'A ordem dos competidores na la é alterada ao nal de cada turno'.
+    [G16] O enunciado contém uma narrativa excessiva e desnecessária sobre a criação do 'Rali de Informática' e a inscrição dos competidores. Essa contextualização não contribui para a compreensão da tarefa.
+         → Sugestão: Remover a primeira frase: 'O professor de informática da escola inventou uma nova modalidade de competição, que ele denominou de Rali de Informática.' e a frase 'Beto, Chico, Davi e Enzo se inscreveram para participar do primeiro Rali de Informática da escola.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise cega do gabarito e pistas estruturais.
+
+Representação do problema:
+Ordem inicial: Beto, Chico, Davi, Enzo.
+Regras: X (3º -> frente do 2º), Y (3º -> frente do 1º), Z (último -> primeiro).
+
+Verificação das alternativas:
+
+A) Davi, Chico, Beto e Enzo: Impossível determinar a regra aplicada.
+B) Davi, Beto, Enzo e Chico: Impossível determinar a regra aplicada.
+C) Davi, Beto, Chico e Enzo: Impossível determinar a regra aplicada.
+D) Beto, Chico, Enzo e Davi: Impossível determinar a regra aplicada.
+E) Beto, Davi, Enzo e Chico: Impossível determinar a regra aplicada.
+
+Considerando que a ordem inicial é Beto, Chico, Davi, Enzo, e que a regra deve mover o competidor da terceira posição, a alternativa que pode ser plausível é a que mantém a ordem relativa de alguns elementos, mas com uma possível troca de posição devido à regra X ou Y. Nenhuma alternativa parece seguir uma regra de forma clara e consistente. Portanto, classifico como NENHUM.
+
+Análise das Pistas Estruturais:
+[G28a] Termos absolutos funcionam como pista para eliminar ou escolher opção? - False. Nenhum termo absoluto se destaca como pista.
+[G28b] Uma opção repete palavras incomuns/idênticas do enunciado como pista visual? - False. Não há repetição significativa de termos.
+[G28c] Inconsistência gramatical deixa apenas uma opção gramaticalmente correta? - False. Todas as opções são gramaticalmente corretas.
+[G28d] Uma opção é significativamente mais longa, detalhada ou qualificada que as demais? - False. As opções têm comprimentos semelhantes.
+[G28e] Pares ou trincas de opções se anulam e revelam a resposta? - False. Não há pares ou trincas que se anulem.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a ordem como uma sequência fixa, ignorando a influência das regras de movimentação.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre as regras de movimentação, levando a uma ordem resultante que não considera a aplicação correta da regra.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não compreender a dinâmica das regras e a forma como elas afetam a ordem dos competidores.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Interpretação superficial da questão, sem considerar as regras de movimentação e a lógica da competição.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre a ordem dos competidores na 'la'. A frase 'A ordem dos competidores na la é alterada ao nal de cada turno' repete a ideia já apresentada anteriormente.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'A ordem dos competidores na la é alterada ao nal de cada turno'.
+    [G16] O enunciado contém uma narrativa excessiva e desnecessária sobre a criação do 'Rali de Informática' e a inscrição dos competidores. Essa contextualização não contribui para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase: 'O professor de informática da escola inventou uma nova modalidade de competição, que ele denominou de Rali de Informática.' e a frase 'Beto, Chico, Davi e Enzo se inscreveram para participar do primeiro Rali de Informática da escola.'
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

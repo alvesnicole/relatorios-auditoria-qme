@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 21:23:43
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique a função `map` para converter um valor de um intervalo para outro, demonstrando a capacidade de usar uma regra específica em um contexto prático. Não envolve análise profunda ou criação, mas sim a aplicação de um conceito.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém uma repetição desnecessária da informação de que a função 'map' é utilizada para converter um valor de 0 a 100 em um ângulo para um servo motor. Essa informação já está implícita na chamada da função.
+         → Sugestão: Remover a frase 'por meio da função map' da primeira frase.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : A função `map` em Arduino realiza um mapeamento linear de um valor de entrada para um valor de saída. A fórmula geral é: `map(x, in_min, in_max, out_min, out_max) = out_min + (x - in_min) * (out_max - out_min) / (in_max - in_min)`. No caso, temos `x = 37`, `in_min = 0`, `in_max = 100`, `out_min = 0`, `out_max = 180`. Substituindo: `map(37, 0, 100, 0, 180) = 0 + (37 - 0) * (180 - 0) / (100 - 0) = 37 * 180 / 100 = 37 * 1.8 = 66.6`. A aritmética inteira pode causar arredondamentos, mas a alternativa mais próxima é 66 ou 67. A alternativa D (66.6) parece ser a mais precisa, considerando a função `map` e a aritmética de ponto flutuante. As outras alternativas estão muito distantes do resultado esperado.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão na aplicação da fórmula de interpolação linear, arredondando incorretamente o resultado.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Interpretação errônea da função map, considerando que o resultado deve ser um número inteiro, ignorando a aritmética inteira.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Erro de cálculo na conversão, aplicando a fórmula de interpolação linear de forma incorreta.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Desconhecimento completo da função map e da aritmética, gerando um valor completamente fora da escala esperada.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho, afetando a uniformidade visual.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém uma repetição desnecessária da informação de que a função 'map' é utilizada para converter um valor de 0 a 100 em um ângulo para um servo motor. Essa informação já está implícita na chamada da função.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'por meio da função map' da primeira frase.
+    [G24] As alternativas apresentam variações significativas no tamanho, afetando a uniformidade visual.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para garantir maior homogeneidade.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou D, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

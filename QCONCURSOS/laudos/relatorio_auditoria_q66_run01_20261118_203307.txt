@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 20:36:36
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato compreenda a finalidade do Business Intelligence (BI) em um contexto específico, analisando e interpretando as opções para identificar a resposta correta. Não se trata de mera memorização, mas de entender o papel do BI.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária do termo 'Business Intelligence (BI)' no enunciado. A primeira ocorrência é suficiente.
+         → Sugestão: Substituir as ocorrências subsequentes de 'Business Intelligence (BI)' por 'BI'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O enunciado descreve um painel de Business Intelligence (BI) para acompanhar a execução de programas públicos. A principal finalidade do BI, nesse contexto, é fornecer informações para a tomada de decisão. Analisando as alternativas:
+
+A) Elimina-se por sugerir substituição de procedimentos estatísticos, o que não é a finalidade principal do BI.
+B) Elimina-se por focar em modelos econométricos e explicação de fenômenos, o que é uma aplicação específica, mas não a finalidade geral do BI.
+C) Elimina-se por mencionar Sistemas de Informações Geográficas (SIG), que é uma ferramenta complementar, mas não a finalidade do BI.
+D) A alternativa D descreve a função central do BI: integrar, organizar e disponibilizar informações para apoiar a análise e a tomada de decisão. Essa alternativa alinha-se diretamente com a descrição do enunciado.
+
+Portanto, a alternativa D é a mais adequada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que BI substitui análises estatísticas, ignorando a complementaridade entre as ferramentas.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confundem BI com econometria, não compreendendo que BI é mais amplo e focado em visualização e tomada de decisão.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Associam BI exclusivamente à criação de mapas temáticos, limitando sua aplicação a análises espaciais.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho, o que pode influenciar a percepção do candidato.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária do termo 'Business Intelligence (BI)' no enunciado. A primeira ocorrência é suficiente.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir as ocorrências subsequentes de 'Business Intelligence (BI)' por 'BI'.
+    [G24] As alternativas apresentam variações no tamanho, o que pode influenciar a percepção do candidato.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho das alternativas para evitar viés na escolha.
+
+================================================================================

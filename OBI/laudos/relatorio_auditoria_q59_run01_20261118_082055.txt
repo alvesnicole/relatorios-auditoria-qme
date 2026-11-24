@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:26:15
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento das restrições de trânsito e calcule o menor custo, combinando informações do enunciado para resolver um problema prático. Não há necessidade de análise profunda ou avaliação crítica.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre o valor do pedágio (R$ 2,00).
+         → Sugestão: Remover a repetição da informação sobre o valor do pedágio, pois já é mencionado na primeira frase.
+    [G16] A descrição detalhada das estradas e pontes, embora necessária para o problema, pode ser considerada um excesso de contextualização que não contribui diretamente para a avaliação do conhecimento do aluno.
+         → Sugestão: Considerar a possibilidade de simplificar a descrição das estradas e pontes, mantendo apenas as informações essenciais para a resolução do problema. Por exemplo, mencionar apenas que existem pontes nas estradas Olaria-Matão e Olaria-Porto, sem detalhar as restrições de peso.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema exige encontrar o menor valor em pedágios para um caminhão de 18 toneladas sair de Lagoa e chegar a Queimada, considerando as restrições de peso nas pontes. As estradas são: Lagoa – Matão, Olaria – Porto, Nazaré – Olaria, Olaria – Matão, Matão – Porto, Queimada – Nazaré. O caminhão não pode usar a ponte Olaria – Porto (peso máximo 20 toneladas) e a ponte Olaria – Matão (peso máximo 15 toneladas). Portanto, o caminhão deve evitar essas estradas. Uma rota possível é Lagoa -> Matão -> Porto -> Queimada -> Nazaré -> Olaria -> Matão. Essa rota não é a mais curta. A rota mais curta é Lagoa -> Matão -> Porto -> Queimada -> Nazaré. O caminhão pode usar a rota Lagoa -> Matão -> Porto -> Queimada -> Nazaré. O custo seria 4 pedágios de R$ 2,00 cada, totalizando R$ 8,00. Outra rota possível é Lagoa -> Matão -> Nazaré -> Queimada. O custo seria 3 pedágios de R$ 2,00 cada, totalizando R$ 6,00. A rota Lagoa -> Matão -> Porto -> Queimada -> Nazaré envolve 4 pedágios, custando R$ 8,00. A rota Lagoa -> Matão -> Nazaré -> Queimada envolve 3 pedágios, custando R$ 6,00. A rota Lagoa -> Matão -> Porto -> Queimada -> Nazaré -> Olaria -> Matão não é a mais curta. A rota Lagoa -> Matão -> Nazaré -> Queimada é a mais curta e não viola nenhuma restrição. Portanto, o menor valor a ser pago é R$ 6,00.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode somar o valor de todas as pedágios sem considerar as restrições de peso nas pontes.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Aluno pode somar o valor de todas as pedágios sem considerar as restrições de peso nas pontes.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode calcular um caminho possível, mas não o mais curto, ou não considerar a restrição de peso.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode calcular um caminho possível, mas não o mais curto, ou não considerar a restrição de peso.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre o valor do pedágio (R$ 2,00).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da informação sobre o valor do pedágio, pois já é mencionado na primeira frase.
+    [G16] A descrição detalhada das estradas e pontes, embora necessária para o problema, pode ser considerada um excesso de contextualização que não contribui diretamente para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Considerar a possibilidade de simplificar a descrição das estradas e pontes, mantendo apenas as informações essenciais para a resolução do problema. Por exemplo, mencionar apenas que existem pontes nas estradas Olaria-Matão e Olaria-Porto, sem detalhar as restrições de peso.
+    [G19] A resolução cega apontou B, mas o gabarito oficial é E; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

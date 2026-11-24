@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 10:45:48
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento das conexões entre túneis e cômodos para determinar quais cômodos são visitados duas vezes, simulando um percurso. Isso envolve a aplicação de regras e informações fornecidas para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que cada túnel conecta dois cômodos diferentes. Essa informação já está implícita na definição de túnel.
+         → Sugestão: Remover a frase 'Cada tunel tem exatamente o mesmo comprimento e conecta exatamente dois cômodos diferentes'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O problema exige identificar quais cômodos são visitados duas vezes ao percorrer cada túnel uma vez. Cada túnel conecta dois cômodos, então cada cômodos conectado a um túnel é visitado pelo menos uma vez. Para visitar um túnel duas vezes, o cômodo deve estar conectado a dois túneis diferentes. 
+
+*   **Y conecta quarto e cozinha:** Isso significa que o quarto e a cozinha são visitados pelo menos uma vez.
+*   **T conecta quarto e banheiro:** Isso significa que o quarto e o banheiro são visitados pelo menos uma vez.
+*   **X conecta cozinha e banheiro:** Isso significa que a cozinha e o banheiro são visitados pelo menos uma vez.
+*   **Z conecta quarto e sala:** Isso significa que o quarto e a sala são visitados pelo menos uma vez.
+
+O quarto está conectado a Y, T e Z, portanto, o quarto é visitado três vezes. Para visitar cada túnel uma vez, o quarto deve ser visitado duas vezes (uma vez no início do túnel e outra no final). A cozinha está conectada a Y e X, portanto, a cozinha é visitada duas vezes. O banheiro está conectado a T e X, portanto, o banheiro é visitado duas vezes. A sala está conectada apenas a Z, portanto, a sala é visitada apenas uma vez.
+
+Analisando as alternativas:
+*   A) quarto: Correto, o quarto é visitado duas vezes.
+*   B) quarto, cozinha: Correto, tanto o quarto quanto a cozinha são visitados duas vezes.
+*   C) quarto, banheiro: Correto, tanto o quarto quanto o banheiro são visitados duas vezes.
+*   D) sala, quarto: Incorreto, a sala é visitada apenas uma vez.
+*   E) quarto, cozinha, banheiro: Incorreto, o banheiro é visitado duas vezes, não três.
+
+Como o enunciado pede uma lista *completa* dos cômodos visitados duas vezes, e o quarto, a cozinha e o banheiro são todos visitados duas vezes, a alternativa E é a mais completa e, portanto, a correta.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode focar na conexão quarto-cozinha, ignorando a necessidade de visitar todos os cômodos via túneis.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que o trajeto envolve apenas os cômodos conectados aos túneis mencionados.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode focar nos cômodos conectados diretamente, sem considerar a necessidade de percorrer todos os túneis.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode pensar que todos os cômodos devem ser visitados duas vezes, sem considerar a restrição de percorrer cada túnel uma vez.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação de que cada túnel conecta dois cômodos diferentes. Essa informação já está implícita na definição de túnel.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Cada tunel tem exatamente o mesmo comprimento e conecta exatamente dois cômodos diferentes'.
+    [G19] A resolução cega apontou E, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

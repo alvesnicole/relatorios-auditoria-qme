@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 03:10:39
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Lembrar
+  Justificativa   : O item exige que o aluno recorde a fórmula de Euler para poliedros convexos, que é um conhecimento factual. Não há necessidade de aplicar, analisar, avaliar ou criar.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da ideia de que a relação é usada como critério de consistência estrutural e de classificação, já introduzida na primeira frase.
+         → Sugestão: Remover a segunda frase: 'essa relação é usada como critério de consistência estrutural e de classificação.'
+    [G15] O enunciado não explicita qual é a relação de Euler que deve ser completada. Apenas menciona que ela existe.
+         → Sugestão: Reformular o enunciado para incluir a pergunta: 'Em um poliedro convexo, a relação de Euler é expressa por V - E + F = ...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado apresenta a relação de Euler para poliedros convexos, que é V - E + F = 2, onde V é o número de vértices, E o número de arestas e F o número de faces. A questão pede para completar a expressão V + F = ... .  Rearranjando a equação de Euler, temos V + F = E + 2. Portanto, a alternativa correta é a B. As demais alternativas não representam a relação de Euler corretamente.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a relação de Euler e a fórmula para o volume de um poliedro, aplicando 'A' onde deveria ser 'E'.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea da relação de Euler, somando 2E em vez de subtrair E.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Conhecimento da fórmula, mas aplicação incorreta em diferentes contextos de geometria espacial.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a relação de Euler e a fórmula para a área da superfície de um poliedro.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da ideia de que a relação é usada como critério de consistência estrutural e de classificação, já introduzida na primeira frase.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a segunda frase: 'essa relação é usada como critério de consistência estrutural e de classificação.'
+    [G15] O enunciado não explicita qual é a relação de Euler que deve ser completada. Apenas menciona que ela existe.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para incluir a pergunta: 'Em um poliedro convexo, a relação de Euler é expressa por V - E + F = ...'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

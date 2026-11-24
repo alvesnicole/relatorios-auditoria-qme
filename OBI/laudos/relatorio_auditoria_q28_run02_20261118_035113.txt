@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 03:56:00
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras e condições fornecidas para determinar qual das alternativas representa uma comitiva possível. É necessário analisar as restrições e combiná-las para verificar a validade de cada opção.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que os competidores serão selecionados entre os participantes das modalidades, já que isso é explicitado logo no início.
+         → Sugestão: Remover a frase 'Os cinco competidores da OBI serão selecionados entre três participantes...' e integrar essa informação à primeira frase.
+    [G17] Uso da negação 'não é selecionado' em várias condições. A falta de destaque visual (negrito ou maiúsculas) pode dificultar a compreensão.
+         → Sugestão: Substituir 'não é selecionado' por 'não será selecionado' e usar negrito ou maiúsculas para enfatizar a negação, por exemplo: 'Se K for selecionado, M não será selecionado.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Análise das alternativas:
+
+A) F, G, K, P, Q: Viola a regra 'Se K for selecionado, F não é selecionado'.
+B) G, H, K, L, M: Viola a regra 'Se K for selecionado, M não é selecionado'.
+C) G, H, K, L, R: Viola a regra 'Se K for selecionado, M não é selecionado'.
+D) H, K, M, P, R: Viola a regra 'Se K for selecionado, M não é selecionado'.
+E) H, L, M, P, Q: Atende a todas as regras. Inclui um competidor de cada nível (Júnior, 1 e 2). Se M é selecionado, P e R também são selecionados (satisfeito). Se K é selecionado, M não é selecionado (não viola, pois K não está selecionado). Se F é selecionado, K não é selecionado (não viola, pois F não está selecionado). Se mais de um competidor do Nível Júnior for selecionado, então no máximo um competidor do Nível 2 é selecionado (não viola, pois apenas um competidor do Nível Júnior foi selecionado).
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem ignorar a restrição de incluir pelo menos um competidor de cada nível, focando apenas na seleção de nomes.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente a relação entre a seleção de M e a impossibilidade de selecionar K, levando a uma combinação aparentemente válida.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não considerar a restrição de que, se mais de um competidor do Nível Júnior for selecionado, no máximo um competidor do Nível 2 pode ser selecionado.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem selecionar a alternativa sem considerar a restrição de que, se M for selecionado, P e R também devem ser selecionados.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (23 palavras) é significativamente maior que a alternativa E (15 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação de que os competidores serão selecionados entre os participantes das modalidades, já que isso é explicitado logo no início.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Os cinco competidores da OBI serão selecionados entre três participantes...' e integrar essa informação à primeira frase.
+    [G17] Uso da negação 'não é selecionado' em várias condições. A falta de destaque visual (negrito ou maiúsculas) pode dificultar a compreensão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'não é selecionado' por 'não será selecionado' e usar negrito ou maiúsculas para enfatizar a negação, por exemplo: 'Se K for selecionado, M não será selecionado.'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (23 palavras) é significativamente maior que a alternativa E (15 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G19] A resolução cega apontou E, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

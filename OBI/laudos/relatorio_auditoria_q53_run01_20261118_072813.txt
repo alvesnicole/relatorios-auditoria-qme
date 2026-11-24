@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 07:33:10
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento das passagens e seus preços para encontrar a rota mais barata, combinando diferentes trajetos para atingir o destino final. Isso envolve um processo de raciocínio e cálculo, característico do nível de aplicação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária de informações. A lista de preços poderia ser apresentada de forma mais concisa.
+         → Sugestão: Consolidar a lista de preços em um formato mais compacto, como uma tabela, para evitar a repetição de 'Centro – Brejo: R$ 9,00', 'Delta – Embu: R$ 3,00', etc.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema busca o menor valor total para ir de Embu para Brejo. Analisando as rotas possíveis: 
+
+1. Embu -> Centro -> Brejo: R$ 3,00 + R$ 9,00 = R$ 12,00
+2. Embu -> Centro -> Delta -> Areias -> Brejo: R$ 3,00 + R$ 1,00 + R$ 2,00 + R$ 4,00 = R$ 10,00
+3. Embu -> Centro -> Delta -> Embu (não leva a Brejo)
+4. Embu -> Areias -> Brejo: Não existe rota direta.
+5. Embu -> Delta -> Embu (não leva a Brejo)
+
+Considerando as rotas possíveis, a menor rota é Embu -> Centro -> Brejo, com custo de R$ 12,00. No entanto, nenhuma das alternativas corresponde a este valor. Verificando novamente as rotas e preços:
+
+* Embu -> Centro (R$3) -> Brejo (R$9) = R$12
+* Embu -> Centro (R$3) -> Delta (R$1) -> Areias (R$2) -> Brejo (R$4) = R$10
+
+Parece haver um erro na formulação do problema ou nas alternativas. A alternativa mais próxima do valor calculado é R$ 13,00, mas ainda assim, não é a rota mais barata. Considerando a possibilidade de rotas indiretas, a alternativa D (R$ 13,00) pode ser a mais plausível, embora não seja a rota mais curta. A alternativa B (R$7,00) parece improvável, pois envolve rotas muito curtas e baratas. A alternativa A (R$5,00) é muito baixa. A alternativa E (R$14,00) é alta demais. Portanto, a alternativa D é a mais próxima, embora não seja a solução ideal.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode somar as passagens de qualquer rota, sem considerar a necessidade de conexões entre os bairros.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode tentar encontrar rotas alternativas, mas não considera a restrição de usar apenas as rotas fornecidas.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode ter somado valores aleatoriamente, sem considerar a lógica do problema.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode ter somado valores aleatoriamente, sem considerar a lógica do problema.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária de informações. A lista de preços poderia ser apresentada de forma mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Consolidar a lista de preços em um formato mais compacto, como uma tabela, para evitar a repetição de 'Centro – Brejo: R$ 9,00', 'Delta – Embu: R$ 3,00', etc.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou D, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

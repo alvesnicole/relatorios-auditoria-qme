@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 05:43:40
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Avaliar
+  Justificativa   : O item exige que o estudante avalie a validade de uma afirmação à luz de uma definição, implicando um julgamento crítico e a capacidade de ponderar diferentes perspectivas sobre o conceito de Semântica. A escolha da resposta correta requer discernimento e não apenas a recuperação de informações.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a situação da aula de linguística, a fala da estudante e a reação do professor) que não contribui diretamente para a avaliação da compreensão da Semântica. Essa contextualização é desnecessária e distrai do foco principal da questão.
+         → Sugestão: Remover a contextualização narrativa e apresentar diretamente a afirmação da estudante e a pergunta sobre a avaliação da compreensão da Semântica.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A questão aborda a semântica e sua relação com o significado e sentido. A afirmação da estudante é que a semântica estuda apenas o sentido literal de palavras isoladas e que o significado de uma frase depende exclusivamente da gramática. A alternativa correta deve refutar essa afirmação, demonstrando que a semântica é mais ampla. 
+
+Análise das alternativas:
+
+A) Correta: A semântica estuda o significado em contexto, incluindo frases e textos, e não apenas o sentido literal de palavras isoladas.
+B) Incorreta: A semântica não trata apenas da estrutura gramatical. A sintaxe é responsável por isso.
+C) Incorreta: Sentido e significado não são sinônimos, e o significado não depende exclusivamente do léxico.
+D) Incorreta: A semântica não se limita ao estudo da evolução histórica das palavras.
+E) Incorreta: A semântica não se restringe a regras formais de combinação sonora.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre Semântica e Sintaxe, acreditando que a Semântica se limita à estrutura gramatical.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Equívoco sobre a relação entre sentido e significado, considerando-os sinônimos e dependentes apenas do léxico.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea do objeto de estudo da Semântica, associando-a à evolução histórica das palavras.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Conceito limitado da Semântica, restringindo-a ao estudo de regras fonéticas e ignorando a interpretação.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a situação da aula de linguística, a fala da estudante e a reação do professor) que não contribui diretamente para a avaliação da compreensão da Semântica. Essa contextualização é desnecessária e distrai do foco principal da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização narrativa e apresentar diretamente a afirmação da estudante e a pergunta sobre a avaliação da compreensão da Semântica.
+
+================================================================================

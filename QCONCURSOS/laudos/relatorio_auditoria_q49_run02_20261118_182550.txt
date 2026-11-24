@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 18:29:06
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda a distinção entre hardware e software em arquitetura de computadores, necessitando de interpretação das alternativas e identificação da correta diferenciação. Não se trata de mera memorização, mas de aplicar o conhecimento para discernir a função de cada um.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é vago e não explicita a tarefa a ser realizada. O leitor precisa das alternativas para entender o que se espera dele.
+         → Sugestão: Reformule o enunciado para que a tarefa seja clara sem a necessidade de consultar as alternativas. Exemplo: 'Qual das alternativas apresenta a principal diferença entre a função do hardware e do software em arquitetura de computadores?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema exige diferenciar a função de hardware e software. A alternativa B descreve corretamente o hardware como o executor de instruções fornecidas pelo software, enquanto o software fornece as instruções. As demais alternativas contêm imprecisões ou atribuem funções incorretamente. A alternativa A mistura hardware e software. A alternativa C atribui uma função exclusiva ao software que não é sua. A alternativa D descreve uma função de rede, não de hardware. A alternativa E inverte a função de hardware e software.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre armazenamento de dados e a função do hardware como camada física, ignorando a distinção entre hardware e sistema operacional.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Atribuição de uma função específica (gerenciamento de energia) exclusivamente ao software, desconsiderando o papel do hardware nesse processo.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Equívoco ao associar hardware a protocolos de rede, confundindo a função de comunicação com a estrutura física do computador.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Confusão entre software e hardware, atribuindo a função de execução de instruções lógicas ao software, quando essa é uma característica do hardware.
+  Violações (G21–G24, G27–G31):
+    [G23] Heterogeneidade na estrutura gramatical e no nível de detalhe entre as alternativas.
+    [G24] Discrepância no comprimento das alternativas, com algumas opções mais longas que outras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é vago e não explicita a tarefa a ser realizada. O leitor precisa das alternativas para entender o que se espera dele.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para que a tarefa seja clara sem a necessidade de consultar as alternativas. Exemplo: 'Qual das alternativas apresenta a principal diferença entre a função do hardware e do software em arquitetura de computadores?'
+    [G23] Heterogeneidade na estrutura gramatical e no nível de detalhe entre as alternativas.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior uniformidade na estrutura e no nível de detalhe.
+    [G24] Discrepância no comprimento das alternativas, com algumas opções mais longas que outras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para que sejam mais semelhantes em extensão.
+
+================================================================================

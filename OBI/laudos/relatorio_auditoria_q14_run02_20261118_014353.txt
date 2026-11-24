@@ -1,0 +1,73 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 01:49:01
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as condições dadas para determinar quais acompanhamentos não podem ser escolhidos quando C não é escolhido. É necessário desestruturar as regras e deduzir as implicações para identificar a resposta correta, o que caracteriza o nível de análise.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da lista de acompanhamentos na introdução e na referência às condições. A lista poderia ser mencionada apenas uma vez.
+         → Sugestão: Remover a repetição da lista de acompanhamentos na segunda frase. Ex: '...deve escolher no mínimo quatro deles para compor o seu prato, seguindo as seguintes condições:'
+    [G17] A frase 'Se C não é escolhido como acompanhamento então qual dos acompanhamentos também não pode ser escolhido?' utiliza a negativa. A ausência de destaque visual (negrito ou maiúsculas) pode dificultar a compreensão.
+         → Sugestão: Utilizar negrito ou maiúsculas na frase que contém a negativa: 'Se C não é escolhido como acompanhamento então qual dos acompanhamentos também não pode ser escolhido?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Analisando a premissa de que C não é escolhido, precisamos identificar qual acompanhamento *não pode* ser escolhido. Vamos analisar cada alternativa:
+
+A) A: Se A é escolhido, B não pode. Se C não é escolhido, essa regra não nos impede de escolher A.
+B) B: Se F e G são escolhidos, B também é. Se C não é escolhido, essa regra não nos impede de escolher B.
+C) E: Se D é escolhido, E também é. Se C não é escolhido, essa regra não nos impede de escolher E.
+D) F: Se ambos C e F são escolhidos, A também é. Como C não é escolhido, essa regra não se aplica diretamente, mas pode ter implicações indiretas.
+E) H: Se H é escolhido, C também é. Como C não é escolhido, H também não pode ser escolhido. Portanto, H não pode ser escolhido.
+
+Verificação adicional: Se H não é escolhido, a regra 'se H é escolhido então C também é escolhido' não impõe restrições. No entanto, a condição de que C não é escolhido implica que H também não pode ser escolhido, sob pena de violar a regra. Portanto, a resposta correta é H.
+
+Pistas Estruturais:
+- A repetição da palavra 'escolhido' em várias alternativas pode ser uma pista visual, mas não é determinante.
+- A alternativa E é a única que diretamente se relaciona com a condição de C não ser escolhido.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a restrição 'se A é escolhido então B não pode ser escolhido' como uma relação bidirecional.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre as condições e a necessidade de considerar todas as implicações das restrições.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Dificuldade em rastrear as dependências condicionais e como a negação de uma condição afeta outras.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação superficial da condição 'se D é escolhido então E também é escolhido'.
+    [F] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar nas relações entre F e G ou F e C, ignorando a condição inicial.
+    [H] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a condição 'se H é escolhido então C também é escolhido' e a negação de C.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'A' (21 palavras) é significativamente maior que a alternativa 'D' (11 palavras).
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.83/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da lista de acompanhamentos na introdução e na referência às condições. A lista poderia ser mencionada apenas uma vez.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da lista de acompanhamentos na segunda frase. Ex: '...deve escolher no mínimo quatro deles para compor o seu prato, seguindo as seguintes condições:'
+    [G17] A frase 'Se C não é escolhido como acompanhamento então qual dos acompanhamentos também não pode ser escolhido?' utiliza a negativa. A ausência de destaque visual (negrito ou maiúsculas) pode dificultar a compreensão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Utilizar negrito ou maiúsculas na frase que contém a negativa: 'Se C não é escolhido como acompanhamento então qual dos acompanhamentos também não pode ser escolhido?'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'A' (21 palavras) é significativamente maior que a alternativa 'D' (11 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior uniformidade e evitar viés.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.83/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

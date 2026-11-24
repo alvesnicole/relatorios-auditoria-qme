@@ -1,0 +1,50 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 16:29:33
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda a função do TLB dentro do contexto da gerência de memória e paginação, necessitando ir além da simples memorização de um fato. A escolha da resposta correta requer a interpretação do conceito e sua aplicação ao cenário descrito.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é um termo solto, não explicita a pergunta central, exigindo que o leitor consulte as alternativas para entender a tarefa.
+         → Sugestão: Reformular o enunciado para incluir a pergunta explicitamente, por exemplo: 'No contexto da gerência de memória e paginação, o Translation Lookaside Buffer (TLB) é um componente essencial para o desempenho do sistema. Descreva a função principal desse mecanismo.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado descreve o Translation Lookaside Buffer (TLB) no contexto de gerência de memória e paginação. A função principal do TLB é acelerar a tradução de endereços virtuais para físicos, evitando buscas frequentes na tabela de páginas. 
+
+A) Armazenamento temporário de dados e instruções é a função da memória cache, não do TLB.
+B) Esta alternativa descreve precisamente a função do TLB: armazenar mapeamentos recentes de endereços virtuais para físicos.
+C) Gerenciar a fila de prioridades é a função de um escalonador (scheduler), não do TLB.
+D) Tradução direta de endereços lógicos em endereços de disco é uma função da memória virtual, mas não do TLB, que lida com endereços físicos.
+
+Portanto, a alternativa B é a única que descreve corretamente a função do TLB.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão entre TLB e cache geral, ambos armazenam dados, mas o TLB é específico para mapeamento de endereços.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Associação incorreta de TLB com gerenciamento de prioridades de processos, que é função de outros componentes.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Confusão entre tradução de endereços virtuais e físicos, o TLB auxilia na tradução, mas não a executa diretamente para disco.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G15] O enunciado é um termo solto, não explicita a pergunta central, exigindo que o leitor consulte as alternativas para entender a tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para incluir a pergunta explicitamente, por exemplo: 'No contexto da gerência de memória e paginação, o Translation Lookaside Buffer (TLB) é um componente essencial para o desempenho do sistema. Descreva a função principal desse mecanismo.'
+
+================================================================================

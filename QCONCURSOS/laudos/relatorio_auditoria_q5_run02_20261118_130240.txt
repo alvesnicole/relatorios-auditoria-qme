@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:05:53
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda o contexto da evolução do armazenamento de dados e identifique qual opção não se encaixa no cenário de serviços de armazenamento em nuvem. A tarefa envolve interpretar informações e relacioná-las a um conceito específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetições desnecessárias ao descrever a evolução dos dispositivos de armazenamento, tornando-o prolixo.
+         → Sugestão: Remover a repetição de informações sobre a evolução dos dispositivos, focando diretamente na pergunta sobre armazenamento em nuvem.
+    [G16] A descrição da evolução dos dispositivos de armazenamento (disquetes, CDs, DVDs, pendrives, HDs, SSDs) funciona como contextualização decorativa sem valor avaliativo direto.
+         → Sugestão: Remover a contextualização sobre a evolução dos dispositivos de armazenamento, indo direto à pergunta sobre armazenamento em nuvem.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado descreve a evolução dos meios de armazenamento de dados, culminando no armazenamento em nuvem. A pergunta busca identificar qual alternativa NÃO representa um serviço de armazenamento em nuvem. 
+
+A) DropBox: Serviço de armazenamento em nuvem amplamente conhecido.
+B) X-BackDrive: Nome inventado, não corresponde a um serviço de armazenamento em nuvem existente.
+C) ADrive: Serviço de armazenamento em nuvem, embora menos popular atualmente.
+D) Google Drive: Serviço de armazenamento em nuvem oferecido pelo Google.
+
+Considerando que a alternativa B apresenta um nome fictício, ela se destaca como a opção que não representa um tipo de serviço de armazenamento na nuvem.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem não distinguir entre serviços específicos de armazenamento em nuvem, generalizando o conceito.
+    [C] Distrator (Plausibilidade: 3/5)
+         → O nome 'ADrive' pode soar familiar, levando à escolha por associação superficial com armazenamento online.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Google Drive é um serviço amplamente conhecido, mas alguns alunos podem não reconhecer que se trata de armazenamento em nuvem.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações no tamanho e complexidade da linguagem.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetições desnecessárias ao descrever a evolução dos dispositivos de armazenamento, tornando-o prolixo.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição de informações sobre a evolução dos dispositivos, focando diretamente na pergunta sobre armazenamento em nuvem.
+    [G16] A descrição da evolução dos dispositivos de armazenamento (disquetes, CDs, DVDs, pendrives, HDs, SSDs) funciona como contextualização decorativa sem valor avaliativo direto.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização sobre a evolução dos dispositivos de armazenamento, indo direto à pergunta sobre armazenamento em nuvem.
+    [G23] As alternativas apresentam variações no tamanho e complexidade da linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a extensão e a estrutura gramatical das alternativas para maior uniformidade.
+
+================================================================================

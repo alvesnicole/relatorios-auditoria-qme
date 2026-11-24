@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 23:51:51
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato avalie diferentes propostas (alternativas A a E) para solucionar um problema complexo, considerando múltiplos fatores (pressões de diferentes grupos, uso racional de recursos, impacto na saúde da população). A escolha da resposta correta demanda a desconstrução das opções e a identificação daquela que melhor se alinha aos princípios do SUS.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetições desnecessárias, como a menção reiterada da necessidade de organizar critérios, normas e procedimentos para a avaliação no SUS.
+         → Sugestão: Consolidar as informações sobre a necessidade de critérios, normas e procedimentos em uma única frase, evitando repetições ao longo do texto.
+    [G16] A descrição do cenário inicial, com detalhes sobre as pressões de diferentes grupos (equipe, controle social, área financeira), funciona como contextualização decorativa sem impacto direto na tarefa avaliativa.
+         → Sugestão: Remover ou resumir a descrição das pressões dos grupos, focando na necessidade de estruturar critérios para a avaliação.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado busca uma ação que alinhe a avaliação com o uso racional de recursos e a melhoria da saúde da população no SUS. A alternativa A parece ser a mais coerente, pois propõe uma combinação de análise de gastos por usuário com indicadores de desfechos em saúde, relacionando recursos a resultados. As demais alternativas apresentam falhas: B prioriza volume, C foca em cortes orçamentários, D depende de relatos qualitativos subjetivos e E cede a pressões externas, comprometendo a objetividade e a qualidade da avaliação. A alternativa A é a única que busca um equilíbrio entre eficiência financeira e impacto na saúde.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que o aumento do volume de atendimentos é o principal indicador de eficiência, ignorando a qualidade do cuidado e o impacto na saúde.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Foco excessivo em cortes orçamentários pode levar à negligência de aspectos importantes da saúde da população, como a qualidade do cuidado.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que relatos qualitativos são suficientes para orientar decisões de gestão, sem a necessidade de dados quantitativos e indicadores.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Priorizar a satisfação de grupos influentes pode comprometer a objetividade e a eficácia do processo avaliativo, levando a decisões enviesadas.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (63 caracteres) é significativamente mais curta que a alternativa A (88 caracteres).
+    [G30] A alternativa E não reflete um erro conceitual comum, mas sim uma postura inadequada de gestão.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado apresenta repetições desnecessárias, como a menção reiterada da necessidade de organizar critérios, normas e procedimentos para a avaliação no SUS.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Consolidar as informações sobre a necessidade de critérios, normas e procedimentos em uma única frase, evitando repetições ao longo do texto.
+    [G16] A descrição do cenário inicial, com detalhes sobre as pressões de diferentes grupos (equipe, controle social, área financeira), funciona como contextualização decorativa sem impacto direto na tarefa avaliativa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover ou resumir a descrição das pressões dos grupos, focando na necessidade de estruturar critérios para a avaliação.
+    [G24] A alternativa B (63 caracteres) é significativamente mais curta que a alternativa A (88 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho das alternativas para evitar que uma opção se destaque pela sua extensão.
+    [G30] A alternativa E não reflete um erro conceitual comum, mas sim uma postura inadequada de gestão.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Garantir que os distratores representem erros de raciocínio típicos dos alunos.
+
+================================================================================

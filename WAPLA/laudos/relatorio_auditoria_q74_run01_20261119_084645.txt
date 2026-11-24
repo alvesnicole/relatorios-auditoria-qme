@@ -1,0 +1,60 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:51:39
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno compare os resultados de dois experimentos, identifique as variáveis que influenciam a competição entre SN2 e E2 e interprete como o tipo de haleto de alquila afeta o mecanismo reacional. Isso envolve a desconstrução das informações fornecidas para deduzir a relação entre a estrutura do haleto e o comportamento do etóxido de sódio.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária de informações sobre os experimentos. A descrição do segundo experimento repete informações já apresentadas no primeiro, como a manutenção de NaOEt, solvente e temperatura.
+         → Sugestão: Consolidar a descrição dos experimentos, eliminando a repetição de informações. Por exemplo, mencionar que o segundo experimento é uma variação do primeiro, mantendo as condições constantes, e focar nas diferenças (substituição do brometo).
+    [G16] Contextualização excessiva e narrativa desnecessária. A descrição detalhada dos experimentos, embora informativa, não contribui diretamente para a avaliação da compreensão do conceito de competição entre SN2 e E2.
+         → Sugestão: Simplificar a descrição dos experimentos, focando nos resultados observados e na relação com os mecanismos SN2 e E2. Eliminar detalhes como a temperatura exata e a quantidade de reagentes, a menos que sejam essenciais para a compreensão do conceito.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise do problema: O texto descreve a competição entre SN2 e E2 em haletos de alquila com etóxido de sódio. O t-butil brometo (terciário) favorece E2 devido ao impedimento estérico, enquanto o brometo de etila (primário) favorece SN2. A alternativa correta deve refletir essa relação, explicando o papel do etóxido de sódio em cada caso. 
+
+Verificação das alternativas:
+
+A) Correta. Explica a mudança no papel do etóxido de sódio (base em E2, nucleófilo em SN2) devido ao impedimento estérico. Alinha-se com a descrição do problema.
+B) Incorreta. Sugere que as diferenças são devido à temperatura, o que não é o foco principal do texto.
+C) Incorreta. Afirma que o etóxido de sódio deixa de atuar como base, o que é impreciso. Ele atua como nucleófilo, mas a reação predominante muda.
+D) Incorreta. Menciona SN1, que não é relevante para a competição SN2/E2 descrita.
+E) Incorreta. Afirma que o etóxido tem maior facilidade de ataque nucleofílico em carbono terciário, o que é falso (o ataque é mais difícil devido ao impedimento).
+
+Pistas estruturais: A alternativa A utiliza termos-chave do enunciado (etóxido de sódio, SN2, E2, impedimento estérico), funcionando como uma pista visual. A alternativa A é mais completa e detalhada que as demais, explicando a mudança de função do etóxido de sódio.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a influência da temperatura e o papel dos reagentes na competição entre SN2 e E2. Aluno pode não compreender a especificidade do substrato.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação simplista do papel do etóxido, ignorando a natureza bifuncional da base/nucleófilo. Aluno pode não entender a dualidade da função do etóxido.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Confusão entre mecanismos SN1 e SN2. Aluno pode não dominar as diferenças entre os mecanismos de substituição.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Inversão da relação entre impedimento estérico e reatividade. Aluno pode não entender que o impedimento dificulta a substituição, favorecendo a eliminação.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária de informações sobre os experimentos. A descrição do segundo experimento repete informações já apresentadas no primeiro, como a manutenção de NaOEt, solvente e temperatura.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Consolidar a descrição dos experimentos, eliminando a repetição de informações. Por exemplo, mencionar que o segundo experimento é uma variação do primeiro, mantendo as condições constantes, e focar nas diferenças (substituição do brometo).
+    [G16] Contextualização excessiva e narrativa desnecessária. A descrição detalhada dos experimentos, embora informativa, não contribui diretamente para a avaliação da compreensão do conceito de competição entre SN2 e E2.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a descrição dos experimentos, focando nos resultados observados e na relação com os mecanismos SN2 e E2. Eliminar detalhes como a temperatura exata e a quantidade de reagentes, a menos que sejam essenciais para a compreensão do conceito.
+
+================================================================================

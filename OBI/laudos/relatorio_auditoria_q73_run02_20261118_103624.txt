@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 10:41:13
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um raciocínio lógico-matemático para determinar o número total de vales-pizza que o campeão ganha, considerando as regras do torneio e a dinâmica de transferência de vales entre os jogadores. Não se trata de mera memorização ou compreensão direta, mas sim de aplicar um processo para chegar a uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação 'campeão (ou a campeã)' ao final do enunciado e na pergunta.
+         → Sugestão: Remover a repetição, utilizando apenas 'campeão' ou 'a campeã' de forma consistente.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O problema envolve calcular o número total de vales-pizza que o campeão ganha em um torneio de xadrez. Inicialmente, cada jogador recebe 1 vale-pizza. Em cada partida, o vencedor ganha os vales do perdedor (que são 1) mais 2 vales adicionais. Portanto, o vencedor de cada partida ganha 3 vales-pizza. Como há 8 jogadores, haverá 7 partidas para determinar o campeão. O número total de vales-pizza que o campeão ganha é a soma dos vales ganhos em cada partida.  Portanto, o campeão ganha 7 * 3 = 21 vales-pizza. Adicionando o vale-pizza inicial, o campeão terá 21 + 1 = 22 vales-pizza. 
+
+Análise das alternativas:
+
+A) 10 - Incorreta. Muito baixa.
+B) 14 - Incorreta. Não corresponde ao cálculo.
+C) 16 - Incorreta. Não corresponde ao cálculo.
+D) 20 - Incorreta. Próximo, mas não correto.
+E) 22 - Correta. Corresponde ao cálculo de 21 vales ganhos nas partidas + 1 inicial.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que o número de vales-pizza inicia com 8 (um para cada jogador) e soma 2 por partida, sem considerar a eliminação.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Aluno pode somar o número de jogadores (8) com o número de vales-pizza iniciais (8), sem considerar a dinâmica de transferência e acúmulo.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode considerar apenas o número de partidas (7) e multiplicar por 2 (ganhos por partida), sem considerar o número inicial de vales-pizza.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode calcular o número total de vales-pizza como se cada jogador ganhasse 2 vales-pizza em cada partida, sem considerar a eliminação e a transferência.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G13] Repetição desnecessária da informação 'campeão (ou a campeã)' ao final do enunciado e na pergunta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição, utilizando apenas 'campeão' ou 'a campeã' de forma consistente.
+
+================================================================================

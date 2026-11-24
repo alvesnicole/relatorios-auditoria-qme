@@ -1,0 +1,48 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:29:34
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre relações entre retas no espaço para interpretar uma situação geométrica específica, selecionando a alternativa que melhor descreve a relação entre as vigas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Para evitar erros de interpretação geométrica no projeto' não agrega valor à compreensão da situação e pode ser removida.
+         → Sugestão: Remover a frase 'Para evitar erros de interpretação geométrica no projeto'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema descreve duas retas no espaço: r, que está em um plano frontal, e s, que é inclinada e não está nesse plano. As retas não se interceptam e não podem ser contidas em um mesmo plano. A alternativa D, 'Reversas, pois não se intersectam e não pertencem ao mesmo plano', descreve precisamente essa condição. Retas reversas são aquelas que não se interceptam e não são paralelas. As demais alternativas são eliminadas: A (paralelas implicaria em estarem no mesmo plano), B (concorrentes implicaria em um ponto de encontro), C (perpendiculares não implica na ausência de interseção), e E (coincidentes implicaria na mesma direção e, portanto, no mesmo plano).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a possibilidade de representação em projeções com a coplanaridade real das retas.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea da projeção espacial, acreditando que a ausência de interseção implica um ponto de encontro projetado.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a ausência de interseção e a perpendicularidade, sem considerar a relação espacial entre as retas.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Interpretação equivocada da relação entre retas no espaço, associando a ausência de interseção à coincidência de direção.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Para evitar erros de interpretação geométrica no projeto' não agrega valor à compreensão da situação e pode ser removida.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Para evitar erros de interpretação geométrica no projeto'.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

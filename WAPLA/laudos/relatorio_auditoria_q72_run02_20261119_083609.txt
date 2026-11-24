@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:39:17
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno interprete uma afirmação sobre a Semântica e identifique a alternativa que melhor expressa o objeto de estudo da área. Isso envolve compreender o significado da afirmação e relacioná-lo com as opções fornecidas, indo além da simples memorização de definições.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado, apesar de conter uma citação, não explicita diretamente a tarefa a ser realizada pelo aluno. É necessário inferir que a pergunta é sobre o objeto de estudo da Semântica.
+         → Sugestão: Reformular o enunciado para incluir um comando explícito, como: 'Com base nessa afirmação, identifique qual área da linguística é abordada.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado destaca a importância do contexto e da relação entre os termos para o significado das palavras, alinhando-se diretamente com a Semântica. A alternativa B é a única que abrange o significado, o sentido e o contexto de uso, elementos centrais do estudo semântico. As demais alternativas abordam aspectos gramaticais, históricos ou morfológicos que, embora relacionados à linguagem, não definem o objeto de estudo da Semântica como apresentado no enunciado. A alternativa B é a que melhor reflete a afirmação do professor.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir Semântica com a sintaxe, focando nas regras gramaticais em vez do significado.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Confusão entre Semântica e a etimologia ou fonética das palavras, áreas distintas da linguística.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem associar Semântica à morfologia, confundindo a análise do significado com a classificação das palavras.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Confundir Semântica com a sintaxe, especificamente a concordância, demonstrando falta de compreensão do escopo da Semântica.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (40 palavras) é significativamente mais curta que a alternativa B (32 palavras), mas a diferença não atinge o limite de 8 palavras.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado, apesar de conter uma citação, não explicita diretamente a tarefa a ser realizada pelo aluno. É necessário inferir que a pergunta é sobre o objeto de estudo da Semântica.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para incluir um comando explícito, como: 'Com base nessa afirmação, identifique qual área da linguística é abordada.'
+    [G24] A alternativa A (40 palavras) é significativamente mais curta que a alternativa B (32 palavras), mas a diferença não atinge o limite de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reavaliar a diferença de tamanho entre as alternativas e ajustar a redação para maior equilíbrio.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

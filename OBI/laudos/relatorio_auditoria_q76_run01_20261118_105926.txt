@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 11:04:15
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para determinar uma ordem de lançamento possível, combinando informações e testando diferentes sequências. Não se trata de mera recordação ou compreensão, mas sim de manipulação das condições para encontrar uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre os nomes dos satélites. A frase 'Os satélites têm nomes de afluentes do Rio Amazonas: Coari, Içá, Juruá, Purus e Tefé' poderia ser eliminada sem perda de informação, pois os nomes já são apresentados na lista de condições.
+         → Sugestão: Remover a frase 'Os satélites têm nomes de afluentes do Rio Amazonas: Coari, Içá, Juruá, Purus e Tefé'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : MULTIPLOS
+  Justificativa           : Análise das restrições:
+1. Tefé e Purus juntos: devem aparecer adjacentes.
+2. Coari com um satélite após: um satélite entre Coari e Tefé.
+3. Içá: 1º, 3º ou 5º lugar.
+
+Verificação das alternativas:
+* A) Juruá, Coari, Içá, Tefé, Purus: Tefé e Purus adjacentes (ok). Um satélite entre Coari e Tefé (ok). Içá no 3º lugar (ok).
+* B) Içá, Juruá, Coari, Tefé, Purus: Tefé e Purus adjacentes (ok). Um satélite entre Coari e Tefé (ok). Içá no 1º lugar (ok).
+* C) Tefé, Coari, Içá, Juruá, Purus: Tefé e Purus NÃO adjacentes (violação).
+* D) Purus, Tefé, Içá, Coari, Juruá: Tefé e Purus adjacentes (ok). Um satélite entre Coari e Tefé (violação, dois satélites).
+* E) Juruá, Içá, Coari, Tefé, Purus: Tefé e Purus adjacentes (ok). Um satélite entre Coari e Tefé (ok). Içá no 2º lugar (violação).
+
+Alternativas A e B satisfazem todas as restrições. Reavaliação não revela inconsistências adicionais.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar erroneamente a condição de ordem entre Coari e Tefé, lançando Coari antes de Içá.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão na ordem dos lançamentos, ignorando a restrição de que Tefé e Purus devem ser lançados juntos.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação equivocada da relação entre Coari e Tefé, não considerando a condição de um lançamento entre eles.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Erro na sequência dos lançamentos, não respeitando a condição de Içá ser o primeiro, terceiro ou quinto.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação sobre os nomes dos satélites. A frase 'Os satélites têm nomes de afluentes do Rio Amazonas: Coari, Içá, Juruá, Purus e Tefé' poderia ser eliminada sem perda de informação, pois os nomes já são apresentados na lista de condições.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Os satélites têm nomes de afluentes do Rio Amazonas: Coari, Içá, Juruá, Purus e Tefé'.
+    [G19] Mais de uma alternativa foi considerada defensável na resolução cega. A resolução cega apontou MULTIPLOS, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

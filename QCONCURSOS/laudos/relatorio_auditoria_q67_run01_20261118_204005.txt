@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 20:44:07
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre arquiteturas de sistemas ERP para resolver um problema prático apresentado, selecionando a opção que melhor atende às necessidades da agência reguladora. Não se trata de mera recordação ou análise profunda, mas sim de aplicação de um conceito em um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição de ideias. A primeira frase descreve a situação de registros dispersos e conciliações manuais, e a segunda frase menciona a necessidade de integrar processos e disponibilizar alterações. A segunda frase poderia ser mais concisa, evitando a repetição da ideia de integração.
+         → Sugestão: Reescrever a segunda frase para eliminar a redundância. Exemplo: 'A implantação de um Sistema Integrado de Gestão Empresarial (Enterprise Resource Planning – ERP) deve priorizar uma arquitetura que integre os processos institucionais e otimize a disponibilidade de informações aos setores envolvidos.'
+    [G16] A contextualização inicial sobre a agência reguladora e os problemas de registros dispersos, embora possa parecer relevante, não contribui diretamente para a avaliação do conhecimento do aluno sobre arquiteturas de ERP. É um excesso de informação que não é essencial para a compreensão da tarefa.
+         → Sugestão: Remover a contextualização inicial sobre a agência reguladora e os problemas de registros dispersos. O enunciado poderia começar diretamente com a necessidade de implantação do ERP e a seleção da arquitetura.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um problema de integração de dados e processos em uma agência reguladora, onde a dispersão de informações em sistemas separados causa ineficiência. A solução ideal é um sistema integrado que permita o acesso imediato aos dados por todos os setores. 
+
+A) Propõe um sistema com banco de dados centralizado e módulos integrados, o que atende à necessidade de acesso imediato aos dados. 
+B) Mantém a fragmentação, o que é o oposto do que o enunciado exige. 
+C) Centraliza documentos, mas não integra os dados, mantendo a digitação independente, o que não resolve o problema de conciliação. 
+D) Mantém a fragmentação e a conciliação manual, o que também não resolve o problema. 
+Portanto, a alternativa A é a única que propõe uma solução que se alinha com o problema descrito.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a consolidação de dados em um repositório analítico é suficiente para atender às necessidades de relatórios, ignorando a necessidade de integração em tempo real.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pode-se interpretar que centralizar documentos resolve a questão da integração, sem entender a necessidade de sincronização dos dados subjacentes.
+    [D] Distrator (Plausibilidade: 3/5)
+         → A transferência periódica de dados e a conciliação manual podem parecer uma solução aceitável, sem perceber a ineficiência e o risco de erros inerentes.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição de ideias. A primeira frase descreve a situação de registros dispersos e conciliações manuais, e a segunda frase menciona a necessidade de integrar processos e disponibilizar alterações. A segunda frase poderia ser mais concisa, evitando a repetição da ideia de integração.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever a segunda frase para eliminar a redundância. Exemplo: 'A implantação de um Sistema Integrado de Gestão Empresarial (Enterprise Resource Planning – ERP) deve priorizar uma arquitetura que integre os processos institucionais e otimize a disponibilidade de informações aos setores envolvidos.'
+    [G16] A contextualização inicial sobre a agência reguladora e os problemas de registros dispersos, embora possa parecer relevante, não contribui diretamente para a avaliação do conhecimento do aluno sobre arquiteturas de ERP. É um excesso de informação que não é essencial para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização inicial sobre a agência reguladora e os problemas de registros dispersos. O enunciado poderia começar diretamente com a necessidade de implantação do ERP e a seleção da arquitetura.
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para garantir maior uniformidade e clareza.
+
+================================================================================

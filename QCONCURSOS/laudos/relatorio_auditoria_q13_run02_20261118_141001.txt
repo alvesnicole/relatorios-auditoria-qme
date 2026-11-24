@@ -1,0 +1,50 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 14:13:13
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre os tipos de servidores de arquivos para identificar a alternativa que *não* se encaixa nessa categoria. Isso envolve analisar as características de cada servidor e compará-las com a definição de servidor de arquivos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da informação de que o NOS é uma família de programas executados em computadores interligados em rede, o que torna a leitura mais longa do que o necessário.
+         → Sugestão: Remover a frase 'O Sistema Operacional de Rede (NOS - Network Operating System) consiste em uma família de programas que são executados em computadores interligados através de meios diversos e dispostos em rede.'
+    [G17] A frase 'Assinale a alternativa que não representa um tipo de servidor de arquivos' utiliza a negativa sem destaque visual.
+         → Sugestão: Reformular a instrução para 'Assinale a alternativa que representa um tipo de servidor de arquivos'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado busca identificar a alternativa que NÃO representa um tipo de servidor de arquivos. Analisando as alternativas, a opção B descreve Servidores de Banco de Dados, que não se enquadram na definição de servidores de arquivos. As demais opções (A, C e D) descrevem tipos de servidores que distribuem arquivos, informações ou gerenciam impressoras, respectivamente, sendo, portanto, servidores de arquivos ou relacionados a eles. A opção B se destaca por descrever um sistema de gerenciamento de dados, diferente do foco em arquivos das outras opções.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a função de distribuição de arquivos com a função de servidor de arquivos, especialmente pela menção de sistemas 'diskless'.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem associar a administração lógica da rede com o gerenciamento de dados, confundindo o papel de um servidor de arquivos com um servidor de banco de dados.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não diferenciar a função de gerenciamento de impressoras da administração lógica da rede, considerando-a parte do NOS.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária da informação de que o NOS é uma família de programas executados em computadores interligados em rede, o que torna a leitura mais longa do que o necessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'O Sistema Operacional de Rede (NOS - Network Operating System) consiste em uma família de programas que são executados em computadores interligados através de meios diversos e dispostos em rede.'
+    [G17] A frase 'Assinale a alternativa que não representa um tipo de servidor de arquivos' utiliza a negativa sem destaque visual.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a instrução para 'Assinale a alternativa que representa um tipo de servidor de arquivos'.
+    [G19] A resolução cega apontou B, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

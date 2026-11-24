@@ -1,0 +1,55 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 07:07:51
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras de vizinhança para determinar quais casas devem ter cores diferentes, combinando informações e deduzindo relações. Não se trata de mera recordação, mas de usar as informações para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de vizinhança. A lista de vizinhos de W é repetida ao listar as relações de R, S, X e Y.
+         → Sugestão: Remover a repetição da lista de vizinhos de W ao listar as relações de R, S, X e Y. Por exemplo: 'R, S são vizinhas de Z. R, S, X e Y são vizinhas de W. X é vizinha de Y.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Análise do problema: O problema descreve um condomínio com seis casas e restrições sobre as cores das casas vizinhas. As vizinhanças são: R, S, X e Y são vizinhas de W; X é vizinha de Y; R e S são vizinhas de Z. O objetivo é identificar pares de casas que devem ter cores diferentes. 
+
+Verificação das alternativas:
+
+A) R e X: R é vizinha de Z e X é vizinha de Y. Não há restrição direta entre R e X, portanto, podem ter a mesma cor. 
+B) S e X: S é vizinha de Z e X é vizinha de Y. Não há restrição direta entre S e X, portanto, podem ter a mesma cor.
+C) S e Z: R e S são vizinhas de Z. Isso implica que S e Z são vizinhas, portanto, devem ter cores diferentes. 
+D) X e Z: X é vizinha de Y e R e S são vizinhas de Z. Não há restrição direta entre X e Z, portanto, podem ter a mesma cor.
+E) Y e Z: X é vizinha de Y e R e S são vizinhas de Z. Não há restrição direta entre Y e Z, portanto, podem ter a mesma cor.
+
+A única alternativa que satisfaz a condição de casas vizinhas terem cores diferentes é a alternativa C.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na relação de vizinhança direta, ignorando a restrição de cores diferentes para casas vizinhas.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre vizinhança direta e a necessidade de cores diferentes devido à conexão indireta via W.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da relação entre X e Z, sem considerar as restrições de cores.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem assumir que casas no final da sequência precisam ter cores diferentes, sem analisar as restrições.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G13] Repetição desnecessária da informação de vizinhança. A lista de vizinhos de W é repetida ao listar as relações de R, S, X e Y.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da lista de vizinhos de W ao listar as relações de R, S, X e Y. Por exemplo: 'R, S são vizinhas de Z. R, S, X e Y são vizinhas de W. X é vizinha de Y.'
+
+================================================================================

@@ -1,0 +1,86 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 05:32:15
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para determinar uma combinação possível de frutas e pessoas, testando cada alternativa para verificar a consistência com as restrições. Não há necessidade de análise profunda ou avaliação crítica, apenas aplicação das condições.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição da estrutura 'Se... então...' em várias condições, tornando o enunciado mais longo do que o necessário. Poderia ser reescrito de forma mais concisa.
+         → Sugestão: Reorganizar as condições em uma estrutura mais compacta, como uma tabela ou lista de regras simplificadas.
+    [G17] Uso de frases negativas ('não pode', 'não é comido') sem destaque visual (negrito ou maiúsculas).
+         → Sugestão: Utilizar negrito ou maiúsculas para destacar as restrições negativas, como 'Mario NÃO pode comer laranja' ou 'Abacaxi NÃO é comido...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : Análise cega do gabarito e pistas estruturais.
+
+Representação:
+Cada linha representa uma alternativa. As condições são verificadas individualmente.
+
+Verificação das Alternativas:
+
+A) Mario: banana, pera; Nei: caqui, romã; Olga: abacaxi, laranja
+1. Se Olga come abacaxi, Mario come caqui. (Olga come abacaxi, Mario não come caqui) - VIOLADA
+
+B) Mario: banana, romã; Nei: abacaxi, pera; Olga: caqui, laranja
+1. Se Olga come abacaxi, Mario come caqui. (Olga não come abacaxi, Mario não come caqui) - SATISFEITA
+2. Se Olga não come banana, então Nei come romã. (Olga come banana, Nei come romã) - SATISFEITA
+3. Mario não pode comer laranja. (Mario come romã) - SATISFEITA
+4. Abacaxi não é comido pela mesma pessoa que come banana, nem caqui é comido pela mesma pessoa que come pera, nem laranja é comida pela mesma pessoa que come romã. (abacaxi/Nei, banana/Mario, pera/Nei, laranja/Olga, romã/Mario) - SATISFEITA
+
+C) Mario: caqui, pera; Nei: abacaxi, laranja; Olga: banana, romã
+1. Se Olga come abacaxi, Mario come caqui. (Olga não come abacaxi, Mario come caqui) - SATISFEITA
+2. Se Olga não come banana, então Nei come romã. (Olga come banana, Nei não come romã) - VIOLADA
+
+D) Mario: caqui, romã; Nei: abacaxi, pera; Olga: banana, laranja
+1. Se Olga come abacaxi, Mario come caqui. (Olga não come abacaxi, Mario come caqui) - SATISFEITA
+2. Se Olga não come banana, então Nei come romã. (Olga come banana, Nei não come romã) - SATISFEITA
+3. Mario não pode comer laranja. (Mario come romã) - SATISFEITA
+4. Abacaxi não é comido pela mesma pessoa que come banana, nem caqui é comido pela mesma pessoa que come pera, nem laranja é comida pela mesma pessoa que come romã. (abacaxi/Nei, caqui/Mario, pera/Nei, laranja/Olga, romã/Mario) - SATISFEITA
+
+E) Mario: abacaxi, laranja; Nei: banana, caqui; Olga: pera, romã
+1. Se Olga come abacaxi, Mario come caqui. (Olga não come abacaxi, Mario não come caqui) - SATISFEITA
+2. Se Olga não come banana, então Nei come romã. (Olga não come banana, Nei não come romã) - VIOLADA
+
+Alternativa B e D satisfazem todas as condições. No entanto, a alternativa D parece mais consistente com a distribuição das frutas entre os amigos, evitando associações diretas que poderiam gerar conflitos nas restrições.
+
+Considerando a análise, a alternativa D é a mais defensável.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre as restrições de quem come abacaxi e laranja, levando a uma atribuição incorreta de frutas aos amigos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Ignora a restrição de que Mario não pode comer laranja, resultando em uma atribuição inválida de frutas.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Não considera a restrição de que abacaxi e banana não podem ser comidos pela mesma pessoa, gerando uma combinação inválida.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Desconsidera a restrição de que caqui e pera não podem ser comidos pela mesma pessoa, levando a uma atribuição inconsistente.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas, com a alternativa A sendo significativamente mais longa.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição da estrutura 'Se... então...' em várias condições, tornando o enunciado mais longo do que o necessário. Poderia ser reescrito de forma mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reorganizar as condições em uma estrutura mais compacta, como uma tabela ou lista de regras simplificadas.
+    [G17] Uso de frases negativas ('não pode', 'não é comido') sem destaque visual (negrito ou maiúsculas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Utilizar negrito ou maiúsculas para destacar as restrições negativas, como 'Mario NÃO pode comer laranja' ou 'Abacaxi NÃO é comido...'
+    [G24] Diferença no tamanho entre as alternativas, com a alternativa A sendo significativamente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar desorientação do candidato.
+
+================================================================================

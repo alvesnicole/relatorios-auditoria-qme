@@ -1,0 +1,80 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 01:33:39
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as restrições fornecidas para deduzir qual irmão não pode trabalhar na quarta-feira, envolvendo a desestruturação das regras e a identificação de casos impossíveis.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G17] A frase 'Qualquer um dos irmãos pode estar trabalhando na quarta-feira, exceto:' utiliza a negativa sem destaque visual (negrito ou maiúsculas).
+         → Sugestão: Reformular a frase para evitar a negativa, por exemplo: 'Quais irmãos podem estar trabalhando na quarta-feira?' ou 'Liste os irmãos que não podem trabalhar na quarta-feira.' Se a negativa for inevitável, utilize negrito ou maiúsculas: 'Qualquer um dos irmãos pode estar trabalhando na quarta-feira, EXCETO:'. 
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise cega do gabarito e pistas estruturais.
+
+Representação do problema:
+
+Dias da semana: Segunda, Terça, Quarta, Quinta, Sexta
+Irmãos: José, Karina, Laura, Maria, Nilo
+Restrições:
+1. Cada irmão trabalha pelo menos um dia.
+2. Nenhum irmão trabalha três dias consecutivos.
+3. Karina trabalha na segunda-feira.
+4. Maria trabalha na quinta e sexta-feira.
+5. José não trabalha nos mesmos dias que Karina.
+
+Pergunta: Quem NÃO pode trabalhar na quarta-feira?
+
+Verificação das alternativas:
+
+A) José: Se José trabalha na quarta-feira, ele não pode trabalhar na segunda (Karina) nem pode trabalhar em dias consecutivos. É possível, mas vamos verificar as outras opções.
+B) Karina: Karina trabalha na segunda-feira, portanto, não pode trabalhar na quarta-feira. Isso viola a restrição de que Karina trabalha na segunda.
+C) Laura: Laura pode trabalhar na quarta-feira, pois não há restrições específicas para ela.
+D) Maria: Maria trabalha na quinta e sexta-feira, portanto, pode trabalhar na quarta-feira.
+E) Nilo: Nilo pode trabalhar na quarta-feira, pois não há restrições específicas para ele.
+
+Análise das restrições:
+Karina deve trabalhar na segunda-feira, portanto, ela não pode trabalhar em nenhum outro dia. José não pode trabalhar nos mesmos dias que Karina. Maria deve trabalhar na quinta e sexta-feira.
+
+Considerando as restrições, a alternativa que viola a regra é a B, pois Karina deve trabalhar na segunda-feira.
+
+Pistas Estruturais:
+
+Análise inicial sugere que a restrição de Karina trabalhar na segunda-feira é crucial para eliminar opções.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar em restrições individuais (José não trabalha com Karina) sem considerar a necessidade de dois irmãos por dia.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a restrição de Karina (segunda-feira) e a possibilidade de outros irmãos trabalharem em qualquer dia.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial das restrições, sem considerar a combinação de horários e a necessidade de dois irmãos por dia.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Ignora completamente as restrições do problema, escolhendo uma opção aleatória.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G17] A frase 'Qualquer um dos irmãos pode estar trabalhando na quarta-feira, exceto:' utiliza a negativa sem destaque visual (negrito ou maiúsculas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a frase para evitar a negativa, por exemplo: 'Quais irmãos podem estar trabalhando na quarta-feira?' ou 'Liste os irmãos que não podem trabalhar na quarta-feira.' Se a negativa for inevitável, utilize negrito ou maiúsculas: 'Qualquer um dos irmãos pode estar trabalhando na quarta-feira, EXCETO:'. 
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou B, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

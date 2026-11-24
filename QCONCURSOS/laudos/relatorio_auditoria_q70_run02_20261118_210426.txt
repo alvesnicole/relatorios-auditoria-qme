@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 21:07:56
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique o conhecimento sobre a sequencia de blocos no mBlock para prever o comportamento do mBot, combinando informações sobre cores e sequenciamento. Não se trata de mera memorização, mas de inferir o resultado de uma ação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da sequência de blocos 'definir os LEDs' e 'esperar 1 segundo'. A descrição do que o mBot faz pode ser mais concisa.
+         → Sugestão: Simplificar a descrição da sequência de blocos, eliminando a repetição. Ex: 'O estudante programa o mBot para definir inicialmente os LEDs RGB à esquerda e à direita como vermelho, verde e azul, respectivamente, esperar um segundo e, em seguida, alterar as cores de cada LED individualmente.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise do problema: O problema descreve uma sequência de comandos para o mBot, envolvendo a definição de cores para dois LEDs RGB. A sequência inicial define ambos os LEDs como vermelho, depois espera um segundo, e então define o LED direito como apagado e o LED esquerdo como amarelo (vermelho e verde). A alternativa correta deve refletir essa sequência de eventos. 
+
+Verificação das alternativas:
+
+A) LED esquerdo verde, direito apagado: Incorreta. O LED esquerdo é definido como amarelo, não verde.
+B) LED esquerdo amarelo, direito apagado: Correta. Corresponde exatamente à sequência de comandos.
+C) LED esquerdo branco, direito apagado: Incorreta. O LED esquerdo é definido como amarelo, não branco.
+D) Ambos em amarelo: Incorreta. Apenas o LED esquerdo é definido como amarelo.
+E) Ambos apagados: Incorreta. O LED esquerdo é definido como amarelo.
+
+Conclusão: A alternativa B é a única que descreve corretamente o estado dos LEDs após a execução da sequência de comandos.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão sobre a função dos LEDs e a interpretação dos valores RGB, levando a acreditar que o LED esquerdo está verde e o direito apagado.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Interpretação incorreta dos valores RGB, pensando que vermelho 255, verde 255, azul 0 resulta em branco.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Entendimento superficial da combinação de cores, acreditando que a mistura de vermelho e verde resulta em amarelo em ambos os LEDs.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Ignora a sequência de comandos e assume que os LEDs estarão apagados por padrão.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho, com algumas sendo mais longas que outras, afetando a uniformidade.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da sequência de blocos 'definir os LEDs' e 'esperar 1 segundo'. A descrição do que o mBot faz pode ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a descrição da sequência de blocos, eliminando a repetição. Ex: 'O estudante programa o mBot para definir inicialmente os LEDs RGB à esquerda e à direita como vermelho, verde e azul, respectivamente, esperar um segundo e, em seguida, alterar as cores de cada LED individualmente.'
+    [G24] As alternativas apresentam variações no tamanho, com algumas sendo mais longas que outras, afetando a uniformidade.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para padronizar o tamanho e a complexidade das frases.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

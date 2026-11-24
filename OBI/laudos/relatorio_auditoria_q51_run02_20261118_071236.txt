@@ -1,0 +1,82 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 07:18:45
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para determinar qual alternativa de ingredientes é válida, combinando as restrições e verificando a consistência das opções. Não se trata de mera memorização ou compreensão, mas sim de aplicação de um conjunto de regras para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que os sanduíches são gostosos. Essa informação não contribui para a resolução do problema.
+         → Sugestão: Remover a frase 'Os sanduíches são muito gostosos'.
+    [G16] A menção à Dona Neide e a sanduicheria 'Submarino' adiciona um contexto narrativo desnecessário que não contribui para a compreensão do problema. É um exemplo de window dressing.
+         → Sugestão: Remover a referência à sanduicheria e à Dona Neide. O enunciado pode começar diretamente com a descrição dos ingredientes e restrições.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : MULTIPLOS
+  Justificativa           : Análise das alternativas:
+
+A) A, D, F, G, H: Se A, então não B. Se D, então E. Se F e G, então B. H implica C. A alternativa contém A, D, F, G, H. A implica não B (ok). D implica E (ok). F e G implicam B (violado, pois B está presente). H implica C (ok). Portanto, a alternativa A é inválida.
+
+B) B, C, D, G, H: Se A, então não B. Se D, então E. Se F e G, então B. Se H, então C. A alternativa contém B, C, D, G, H. A não está presente (ok). D implica E (ok). F e G implicam B (ok). H implica C (ok). Portanto, a alternativa B é válida.
+
+C) B, C, E, F, G: Se A, então não B. Se D, então E. Se F e G, então B. Se H, então C. A alternativa contém B, C, E, F, G. A não está presente (ok). D não está presente (ok). F e G implicam B (ok). H não está presente (ok). Portanto, a alternativa C é válida.
+
+D) A, C, D, E: Se A, então não B. Se D, então E. Se F e G, então B. Se H, então C. A alternativa contém A, C, D, E. A implica não B (ok). D implica E (ok). F e G não estão presentes (ok). H não está presente (ok). Portanto, a alternativa D é válida.
+
+E) B, F, G, H: Se A, então não B. Se D, então E. Se F e G, então B. Se H, então C. A alternativa contém B, F, G, H. A não está presente (ok). D não está presente (ok). F e G implicam B (ok). H implica C (ok). Portanto, a alternativa E é válida.
+
+Após a primeira verificação, as alternativas B, C, D e E parecem válidas. Uma segunda verificação é necessária para eliminar as alternativas múltiplas.
+
+Alternativa B: B, C, D, G, H. A não está presente. D implica E (E não está presente, ok). F e G implicam B (ok). H implica C (ok). Alternativa válida.
+
+Alternativa C: B, C, E, F, G. A não está presente. D não está presente. F e G implicam B (ok). H não está presente. Alternativa válida.
+
+Alternativa D: A, C, D, E. A implica não B (ok). D implica E (ok). F e G não estão presentes. H não está presente. Alternativa válida.
+
+Alternativa E: B, F, G, H. A não está presente. D não está presente. F e G implicam B (ok). H implica C (ok). Alternativa válida.
+
+Considerando que todas as alternativas parecem válidas, e não há informações adicionais para diferenciá-las, classifico como MULTIPLOS.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode ignorar a restrição entre A e B, acreditando que a escolha de A e F não implica necessariamente a escolha de B.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não considerar a restrição entre F e G, ou entre H e C, levando a uma combinação aparentemente válida.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não considerar a restrição entre F e G, ou entre H e C, levando a uma combinação aparentemente válida.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não considerar a restrição entre F e G, ou entre H e C, levando a uma combinação aparentemente válida.
+  Violações (G21–G24, G27–G31):
+    [G22] As alternativas apresentam conteúdo similar, envolvendo combinações de ingredientes.
+    [G30] As alternativas não refletem erros comuns de interpretação das restrições do problema.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] Repetição desnecessária da informação de que os sanduíches são gostosos. Essa informação não contribui para a resolução do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Os sanduíches são muito gostosos'.
+    [G16] A menção à Dona Neide e a sanduicheria 'Submarino' adiciona um contexto narrativo desnecessário que não contribui para a compreensão do problema. É um exemplo de window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a referência à sanduicheria e à Dona Neide. O enunciado pode começar diretamente com a descrição dos ingredientes e restrições.
+    [G22] As alternativas apresentam conteúdo similar, envolvendo combinações de ingredientes.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Diversificar as combinações de ingredientes nas alternativas para aumentar a discriminação.
+    [G30] As alternativas não refletem erros comuns de interpretação das restrições do problema.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores que incorporem erros típicos de aplicação das restrições.
+    [G19] Mais de uma alternativa foi considerada defensável na resolução cega. A resolução cega apontou MULTIPLOS, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

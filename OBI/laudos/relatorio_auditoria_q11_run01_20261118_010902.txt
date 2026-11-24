@@ -1,0 +1,76 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 01:14:28
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um conjunto de regras e condições para determinar qual opção de compra é válida. Não se trata de memorização direta, mas sim de aplicar as restrições para encontrar a solução correta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da palavra 'comprar' em várias condições. A frase pode ser mais concisa.
+         → Sugestão: Substituir repetições de 'comprar' por pronomes ou reformular as frases para evitar a repetição.
+    [G17] Uso da palavra 'só' na condição 'Lucas só pode comprar Cebola se comprar Alho'. A palavra 'só' pode gerar ambiguidade.
+         → Sugestão: Reformular a condição para 'Lucas pode comprar Cebola somente se comprar Alho' ou 'Lucas pode comprar Cebola apenas se comprar Alho'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : MULTIPLOS
+  Justificativa           : Análise das restrições:
+1. Lucas deve comprar Alface ou Couve, mas não ambos.
+2. A Maçã deve ser comprada.
+3. Se comprar Alface deve comprar também Tomate.
+4. Lucas deve comprar Banana ou Pêra, ou ambas.
+5. Lucas só pode comprar Cebola se comprar Alho.
+
+Verificação das alternativas:
+
+A) Alface - Banana - Pêra - Alho. Viola a regra 1 (Alface e Couve são mutuamente exclusivos). 
+B) Maçã - Alface - Alho - Cebola Banana - Couve. Viola a regra 1 (Alface e Couve são mutuamente exclusivos). 
+C) Banana - Cebola - Pêra - Couve - Maçã. Atende a todas as regras. Não há Alface, então a regra 3 não se aplica. Não há Tomate, mas isso não viola nenhuma regra. 
+D) Alface - Pêra - Alho - Tomate - Maçã. Atende a todas as regras. A regra 3 é satisfeita (Alface implica Tomate). 
+E) Alho - Cebola - Banana - Alface - Maçã. Viola a regra 1 (Alface e Couve são mutuamente exclusivos). 
+
+Após a primeira verificação, as alternativas C e D parecem válidas. Uma segunda verificação independente é necessária.
+
+Alternativa C: Banana - Cebola - Pêra - Couve - Maçã. Regra 1: satisfeita (não há Alface). Regra 2: satisfeita (Maçã). Regra 3: não se aplica. Regra 4: satisfeita (Banana e Pêra). Regra 5: satisfeita (Cebola implica Alho, mas não há Alho). 
+Alternativa D: Alface - Pêra - Alho - Tomate - Maçã. Regra 1: satisfeita (não há Couve). Regra 2: satisfeita (Maçã). Regra 3: satisfeita (Alface implica Tomate). Regra 4: satisfeita (Pêra). Regra 5: satisfeita (Alho implica Cebola, mas não há Cebola). 
+
+Ambas as alternativas C e D são válidas. Portanto, classifico como MULTIPLOS.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar 'ou' como 'um ou outro, mas não ambos', ignorando a restrição de que Alface e Couve são mutuamente exclusivos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a necessidade de comprar Maçã e a inclusão de Alho e Cebola, sem verificar a condição de dependência entre eles.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Ignora a restrição de que Cebola só pode ser comprada se Alho também for comprado, resultando em uma combinação inválida.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na presença de Banana e Maçã, esquecendo a necessidade de comprar Tomate ao comprar Alface.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (Maçã - Alface - Alho - Cebola Banana - Couve) é significativamente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da palavra 'comprar' em várias condições. A frase pode ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir repetições de 'comprar' por pronomes ou reformular as frases para evitar a repetição.
+    [G17] Uso da palavra 'só' na condição 'Lucas só pode comprar Cebola se comprar Alho'. A palavra 'só' pode gerar ambiguidade.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a condição para 'Lucas pode comprar Cebola somente se comprar Alho' ou 'Lucas pode comprar Cebola apenas se comprar Alho'.
+    [G24] A alternativa B (Maçã - Alface - Alho - Cebola Banana - Couve) é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés na escolha.
+    [G19] Mais de uma alternativa foi considerada defensável na resolução cega. A resolução cega apontou MULTIPLOS, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

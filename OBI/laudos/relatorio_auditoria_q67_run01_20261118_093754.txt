@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 09:41:08
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um conceito matemático (eliminação em torneios) para resolver um problema prático. Não envolve memorização direta, análise complexa, avaliação crítica ou criação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que 'Em cada partida participam dois jogadores'. Essa informação é implícita na definição de partida de tênis.
+         → Sugestão: Remover a frase 'Em cada partida participam dois jogadores'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema descreve um torneio de tênis do tipo eliminatório simples. Em cada partida, um jogador é eliminado. Para que reste apenas um vencedor (o campeão), é necessário eliminar 127 jogadores. Como cada partida elimina um jogador, o número total de partidas é igual ao número de jogadores eliminados, que é 127. 
+
+Alternativa A (32): Incorreta. 32 é um número pequeno demais para o número de partidas em um torneio com 128 tenistas.
+Alternativa B (64): Incorreta. 64 é metade do número de tenistas, e não representa o número de partidas necessárias para eliminar todos, exceto um.
+Alternativa C (65): Incorreta. Não há justificativa para esse número.
+Alternativa D (127): Correta. Representa o número de jogadores que precisam ser eliminados para sobrar um campeão.
+Alternativa E (128): Incorreta. Representa o número inicial de tenistas, não o número de partidas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 2/5)
+         → Confusão entre o número de rodadas e o número total de partidas. Aluno pode pensar que cada rodada corresponde a uma partida.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode ter interpretado erroneamente o enunciado, pensando que o número de tenistas é o número de partidas.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode ter somado o número de tenistas com 1, pensando que há uma partida extra.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Aluno pode ter interpretado o número de tenistas como o número de partidas, sem considerar a eliminação de jogadores a cada rodada.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação de que 'Em cada partida participam dois jogadores'. Essa informação é implícita na definição de partida de tênis.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Em cada partida participam dois jogadores'.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

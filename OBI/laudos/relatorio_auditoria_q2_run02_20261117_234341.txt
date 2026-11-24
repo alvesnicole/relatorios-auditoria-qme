@@ -1,0 +1,79 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 17/11/2026 às 23:48:41
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar qual par de provas pode ser agendado para o dia 1. É necessário analisar as condições e combiná-las para encontrar a resposta correta, demonstrando aplicação de regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre o período das provas (dias 1 a 5) e a quantidade de provas por dia (duas).
+         → Sugestão: Remover a repetição da informação sobre o período das provas e a quantidade de provas por dia. Exemplo: 'As provas ocorrerão entre os dias 1 e 5 do último mês de aulas, com duas provas agendadas para cada dia.' pode ser simplificado para 'As provas ocorrerão entre os dias 1 e 5 do último mês de aulas.'
+    [G17] Uso da palavra 'exceto' sem destaque visual (negrito ou maiúsculas).
+         → Sugestão: Destacar a palavra 'exceto' com negrito ou maiúsculas para enfatizar a exceção à regra. Exemplo: '...não podem ser agendadas para o mesmo dia, **exceto** para o dia 3...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : Análise cega do gabarito e pistas estruturais.
+
+Representação do problema:
+Restrições:
+1. Duas provas do mesmo professor não podem ser no mesmo dia, exceto no dia 3 (Rui).
+2. Vera sempre no dia 5.
+3. Sônia não pode com Rui.
+
+Alternativas:
+Verificação das alternativas:
+
+A) Duas provas do prof. Rui: Viola a restrição 1 (exceto no dia 3). Possível, mas requer análise mais profunda.
+B) Duas provas da profa. Sônia: Não viola nenhuma restrição aparente. Possível.
+C) Uma prova do prof. Rui e uma prova da profa. Sônia: Viola a restrição 3. Impossível.
+D) Uma prova do prof. Rui e uma prova do prof. Udo: Não viola nenhuma restrição aparente. Possível.
+E) Uma prova do prof. Udo e uma prova da profa. Vera: Viola a restrição 2 (Vera no dia 5). Impossível.
+
+Análise adicional:
+Considerando que o dia 3 é reservado para duas provas de Rui, a alternativa A se torna mais viável. A alternativa B não apresenta problemas aparentes. A alternativa C é eliminada pela restrição 3. A alternativa D é plausível. A alternativa E é eliminada pela restrição 2.
+
+Revisão da alternativa A: Se duas provas de Rui estiverem no dia 1, isso violaria a restrição de que apenas duas provas de Rui podem estar no dia 3. Portanto, a alternativa A é inviável.
+
+Revisão da alternativa B: Duas provas de Sônia no dia 1 não violam nenhuma restrição, mas é preciso verificar se isso é compatível com a distribuição das provas dos outros professores.
+
+Revisão da alternativa D: Uma prova de Rui e uma de Udo no dia 1 não violam nenhuma restrição.
+
+Considerando a necessidade de distribuir as provas dos professores, a alternativa D parece ser a mais consistente, pois não impõe restrições desnecessárias aos outros dias.
+
+Conclusão:
+A alternativa D parece ser a mais plausível, pois não viola nenhuma restrição e permite uma distribuição mais flexível das provas dos outros professores.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a restrição de provas do mesmo professor no mesmo dia como aplicável a todos os dias, ignorando a exceção para o dia 3.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na quantidade de provas de Sônia, sem considerar as restrições sobre o dia de Rui.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Alunos podem não considerar a restrição de que Sônia não pode ser agendada no mesmo dia de Rui.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não considerar a restrição de que Vera só pode ser agendada no dia 5.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação sobre o período das provas (dias 1 a 5) e a quantidade de provas por dia (duas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da informação sobre o período das provas e a quantidade de provas por dia. Exemplo: 'As provas ocorrerão entre os dias 1 e 5 do último mês de aulas, com duas provas agendadas para cada dia.' pode ser simplificado para 'As provas ocorrerão entre os dias 1 e 5 do último mês de aulas.'
+    [G17] Uso da palavra 'exceto' sem destaque visual (negrito ou maiúsculas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Destacar a palavra 'exceto' com negrito ou maiúsculas para enfatizar a exceção à regra. Exemplo: '...não podem ser agendadas para o mesmo dia, **exceto** para o dia 3...'
+
+================================================================================

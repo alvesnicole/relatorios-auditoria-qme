@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:45:52
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre as funcionalidades do Word para resolver um problema prático de revisão de documentos, selecionando o procedimento correto entre as opções fornecidas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém uma repetição desnecessária da ideia de 'identificar inserções e exclusões' ao mencionar 'decidir quais serão incorporadas ao texto final'.
+         → Sugestão: Remover a segunda menção à identificação de inserções e exclusões. Sugestão: 'Uma equipe precisa revisar um documento no Word, permitindo que o responsável identifique as inserções e exclusões realizadas.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema exige um procedimento para rastrear inserções e exclusões em um documento Word, permitindo que o responsável avalie as modificações. A alternativa A parece ser a mais adequada, pois o recurso 'Controlar Alterações' é especificamente projetado para esse fim, registrando as modificações e permitindo a aceitação ou rejeição delas. As outras alternativas não abordam diretamente a necessidade de rastrear inserções e exclusões. A alternativa B menciona comentários, mas não os associa diretamente ao controle de alterações. A alternativa C refere-se ao 'Pincel de Formatação', que é usado para aplicar formatação, não para rastrear conteúdo. A alternativa D usa 'Localizar', que é para encontrar texto, não para rastrear modificações.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode confundir comentários com o recurso de controle de alterações, ambos relacionados a modificações no documento.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não compreender a função específica do Pincel de Formatação, associando-o indevidamente ao controle de alterações.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Aluno pode acreditar que a ferramenta 'Localizar' registra automaticamente as alterações feitas no documento, demonstrando falta de conhecimento sobre suas funções.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+    [G30] A alternativa D não reflete um erro típico de estudantes sobre o controle de alterações.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém uma repetição desnecessária da ideia de 'identificar inserções e exclusões' ao mencionar 'decidir quais serão incorporadas ao texto final'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a segunda menção à identificação de inserções e exclusões. Sugestão: 'Uma equipe precisa revisar um documento no Word, permitindo que o responsável identifique as inserções e exclusões realizadas.'
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior uniformidade na estrutura e no nível de detalhe.
+    [G30] A alternativa D não reflete um erro típico de estudantes sobre o controle de alterações.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Substituir a alternativa D por uma opção que represente um erro comum de estudantes ao usar o Word.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.00/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

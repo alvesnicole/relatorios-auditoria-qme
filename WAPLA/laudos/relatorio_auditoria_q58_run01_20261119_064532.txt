@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 06:49:27
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda o conceito de TIR e custo de capital, e então analise as diferentes propostas para identificar a abordagem conceitualmente correta. Isso envolve a desconstrução das opções e a identificação da lógica por trás do cálculo da TIR em relação ao custo de capital.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da situação e a menção das propostas de métodos poderiam ser mais concisas.
+         → Sugestão: Consolidar a descrição da situação e as propostas de métodos em um parágrafo mais direto, eliminando redundâncias.
+    [G16] A descrição detalhada da reunião de análise e das propostas de métodos, embora contextualize o problema, não contribui diretamente para a avaliação do conhecimento do estudante. É um excesso de informação que pode distrair do foco principal.
+         → Sugestão: Remover ou resumir a descrição da reunião de análise, focando apenas nos elementos essenciais para a compreensão do problema e da pergunta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema busca a alternativa que corretamente aplica o conceito de Taxa Interna de Retorno (TIR) em comparação com o custo de capital. A TIR é a taxa de desconto que torna o Valor Presente Líquido (VPL) de um investimento igual a zero. A alternativa correta deve descrever um processo que calcula essa taxa e a compara com o custo de capital. 
+
+A) Descreve corretamente o cálculo da TIR e a comparação com o custo de capital. 
+B) Descreve o cálculo do VPL, mas não menciona o cálculo da TIR.
+C) A comparação com 14% não é a forma correta de usar o VPL para avaliar o projeto.
+ D) A taxa de rentabilidade inferior a 14% não implica necessariamente menor risco.
+E) A média aritmética dos fluxos de caixa não é a TIR.
+
+Portanto, a alternativa A é a única que descreve corretamente o procedimento de análise do projeto utilizando a TIR.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o cálculo do VPL como o único critério, ignorando a necessidade de comparar a taxa de retorno do projeto com o custo de capital.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação errônea da comparação entre o valor presente e o investimento inicial, focando em uma diferença percentual em vez de uma análise da taxa de retorno.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Confusão entre taxa interna de retorno e risco, acreditando que uma taxa menor indica menor risco, o que não é necessariamente verdadeiro.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não compreender a taxa interna de retorno e calcular uma média aritmética simplista dos fluxos de caixa.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (63 palavras) é significativamente mais longa que a alternativa E (35 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da situação e a menção das propostas de métodos poderiam ser mais concisas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Consolidar a descrição da situação e as propostas de métodos em um parágrafo mais direto, eliminando redundâncias.
+    [G16] A descrição detalhada da reunião de análise e das propostas de métodos, embora contextualize o problema, não contribui diretamente para a avaliação do conhecimento do estudante. É um excesso de informação que pode distrair do foco principal.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover ou resumir a descrição da reunião de análise, focando apenas nos elementos essenciais para a compreensão do problema e da pergunta.
+    [G24] A alternativa B (63 palavras) é significativamente mais longa que a alternativa E (35 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior equilíbrio e evitar viés na escolha.
+
+================================================================================

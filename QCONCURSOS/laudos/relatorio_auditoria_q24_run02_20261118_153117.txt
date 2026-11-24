@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 15:35:00
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda o conceito de 'time-sharing' e como ele se aplica ao escalonador do Linux, identificando a alternativa que melhor descreve sua função. Não se trata de mera memorização, mas de interpretação do conceito em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é desfocado. Não é claro qual é a pergunta ou problema central antes de ler a explicação sobre o escalonador do Linux.
+         → Sugestão: Reformule o enunciado para apresentar a pergunta diretamente. Exemplo: 'O escalonador do Linux utiliza a tecnologia time-sharing. Qual a função dessa tecnologia?'
+    [G13] O enunciado apresenta repetição desnecessária. A frase 'O Linux é um sistema operacional com base na plataforma Unix e se difundiu como uma alternativa aos sistemas operacionais proprietários, a um custo mais atraente' poderia ser eliminada sem prejuízo para a compreensão da questão.
+         → Sugestão: Remova a primeira frase do enunciado, mantendo apenas 'O escalonador do Linux utiliza a tecnologia time-sharing, que consiste em controlar e dividir a(o)'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O enunciado descreve o escalonador do Linux, que utiliza time-sharing. Time-sharing implica na divisão de recursos entre processos. Analisando as alternativas, a opção D descreve diretamente essa divisão do tempo do processador, o que é consistente com o conceito de time-sharing. As demais opções abordam aspectos que não são centrais para a definição de time-sharing: A (pedaços estanques de processamento) é muito genérica, B (memória para I/O) é um aspecto relacionado, mas não a essência do time-sharing, C (cache de memória) é um detalhe de implementação, e E (canais de tráfego interno) é irrelevante para o conceito.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o escalonamento com a alocação de recursos de processamento, pensando que o escalonador divide o tempo em blocos fixos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre escalonamento e gerenciamento de memória, associando erroneamente a divisão de tempo com a alocação de memória para I/O.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Entendimento superficial de cache, acreditando que o escalonador considera o cache ao distribuir processos.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Opção sem relação direta com o conceito de escalonamento, demonstrando falta de compreensão do processo.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G15] O enunciado é desfocado. Não é claro qual é a pergunta ou problema central antes de ler a explicação sobre o escalonador do Linux.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para apresentar a pergunta diretamente. Exemplo: 'O escalonador do Linux utiliza a tecnologia time-sharing. Qual a função dessa tecnologia?'
+    [G13] O enunciado apresenta repetição desnecessária. A frase 'O Linux é um sistema operacional com base na plataforma Unix e se difundiu como uma alternativa aos sistemas operacionais proprietários, a um custo mais atraente' poderia ser eliminada sem prejuízo para a compreensão da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remova a primeira frase do enunciado, mantendo apenas 'O escalonador do Linux utiliza a tecnologia time-sharing, que consiste em controlar e dividir a(o)'.
+    [G24] As alternativas apresentam variações significativas no tamanho e complexidade da fraseologia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar e padronizar o tamanho e a estrutura das alternativas para maior uniformidade.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

@@ -1,0 +1,64 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 01:24:16
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas para simular a sequência de operações no computador e prever o resultado exibido na tela. Não se trata de memorização direta, mas de aplicação de um conjunto de regras para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação da ação de cada tecla. A descrição de cada ação poderia ser mais concisa.
+         → Sugestão: Reescrever a seção de ações associadas a cada tecla de forma mais direta, por exemplo: 'A: NUM = 10; B: NUM = NUM - 1; C: NUM = NUM - 2; D: NUM = NUM + 1; E: Imprime o valor de NUM'.
+    [G16] A introdução com a história de Daniel e seu computador é um exemplo de window dressing, pois não contribui diretamente para a resolução do problema. É uma contextualização desnecessária.
+         → Sugestão: Remover a introdução sobre Daniel e seu computador, indo direto à descrição das ações das teclas e à pergunta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema exige encontrar a sequência de teclas que resulta na exibição da sequência numérica "10 9 8 7". Inicialmente, NUM = 0. A tecla 'A' define NUM = 10. A tecla 'B' subtrai 1, 'C' subtrai 2 e 'D' soma 1. A tecla 'E' imprime o valor atual de NUM. 
+
+Analisando as alternativas:
+
+A) E-B-E-B-E-B-E: NUM = 10, NUM = 9, NUM = 9, NUM = 8, NUM = 8, NUM = 7, NUM = 7. Não exibe 10 9 8 7.
+B) A-E-B-E-B-E-B-E: NUM = 10, imprime 10, NUM = 9, imprime 9, NUM = 8, imprime 8, NUM = 7, imprime 7. Esta alternativa corresponde à sequência desejada.
+C) A-E-B-E-B-E: NUM = 10, imprime 10, NUM = 9, imprime 9, NUM = 8, imprime 8. Não exibe 10 9 8 7.
+D) A-E-C-E-C-E: NUM = 10, imprime 10, NUM = 8, imprime 8, NUM = 6, imprime 6. Não exibe 10 9 8 7.
+E) A-E-D-E-D-E: NUM = 10, imprime 10, NUM = 11, imprime 11, NUM = 12, imprime 12. Não exibe 10 9 8 7.
+
+A alternativa B é a única que produz a sequência numérica correta.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar a sequência como uma inicialização e impressão, sem considerar a ordem completa das operações.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode focar na subtração, mas não considerar a ordem das operações e a necessidade de imprimir o resultado final.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode se confundir com a adição e a subtração, não compreendendo a sequência correta para obter o resultado desejado.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não entender a função de cada tecla e tentar adivinhar a sequência, sem aplicar o raciocínio lógico.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (26 palavras) é significativamente mais longa que a alternativa E (17 palavras), com uma diferença de 9 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da explicação da ação de cada tecla. A descrição de cada ação poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever a seção de ações associadas a cada tecla de forma mais direta, por exemplo: 'A: NUM = 10; B: NUM = NUM - 1; C: NUM = NUM - 2; D: NUM = NUM + 1; E: Imprime o valor de NUM'.
+    [G16] A introdução com a história de Daniel e seu computador é um exemplo de window dressing, pois não contribui diretamente para a resolução do problema. É uma contextualização desnecessária.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução sobre Daniel e seu computador, indo direto à descrição das ações das teclas e à pergunta.
+    [G24] A alternativa A (26 palavras) é significativamente mais longa que a alternativa E (17 palavras), com uma diferença de 9 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar pistas visuais.
+
+================================================================================

@@ -1,0 +1,66 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 00:09:04
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique os dados fornecidos (capacidade do tanque, consumo por litro, distâncias entre os postos) para determinar a necessidade de abastecimento durante a viagem.  Não se trata apenas de lembrar informações, mas de usá-las para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária de informações sobre os postos de gasolina. A informação de que há um posto em Abrigo e um em Feliciana já foi dada anteriormente.
+         → Sugestão: Remover a repetição da informação sobre os postos em Abrigo e Feliciana na segunda frase. Exemplo: 'Há outros quatro postos ao longo da estrada entre as duas cidades.' poderia ser 'Há quatro postos ao longo da estrada entre as duas cidades.'
+    [G16] O enunciado contém uma narrativa extensa sobre a estrada, os postos de gasolina e a preferência dos motoristas, que não contribui diretamente para a resolução do problema proposto. Essa contextualização é excessiva e desnecessária.
+         → Sugestão: Remover a descrição detalhada sobre os postos de gasolina e a preferência dos motoristas. O enunciado poderia começar diretamente com a informação sobre Alan e sua motocicleta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : A motocicleta de Alan tem um tanque de 8 litros e percorre 24 km por litro, portanto, a autonomia total é de 8 * 24 = 192 km. A distância total entre Abrigo e Feliciana é de 430 km. Os postos de combustível estão localizados nos km 33, 108, 171, 332. Alan já encheu o tanque em Abrigo (km 0). Para determinar quantas paradas são necessárias, precisamos calcular a distância percorrida entre cada posto e a autonomia restante do tanque. 
+
+*   **Km 33:** Alan pode chegar ao posto de 33 km sem problemas, pois 33 < 192.
+*   **Km 108:** Alan pode chegar ao posto de 108 km, pois 108 < 192.
+*   **Km 171:** Alan pode chegar ao posto de 171 km, pois 171 < 192.
+*   **Km 332:** Alan precisa abastecer antes de chegar ao posto de 332 km, pois a distância restante de 171 km até 332 km é de 161 km, e a autonomia restante é de 192 - 171 = 21 km. Portanto, ele precisa abastecer antes de 332 km.
+
+Analisando as alternativas:
+*   A) Alan deve abastecer em ao menos três outros postos: Improvável, pois ele pode ir até o posto de 171 km sem problemas.
+*   B) Alan certamente vai ter uma pane seca durante a viagem: Falso, pois ele pode planejar a viagem para evitar a pane seca.
+*   C) Alan deve abastecer obrigatoriamente no posto C: Não é obrigatório, ele pode ir até o posto de 171 km.
+*   D) Alan deve abastecer obrigatoriamente no posto D: O posto D está localizado no km 332. Alan precisa abastecer antes de chegar a este posto, pois sua autonomia é limitada. Portanto, ele deve abastecer no posto anterior (171 km).
+*   E) Alan deve abastecer em todos os outros postos: Improvável, pois ele não precisa abastecer em todos os postos.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode não considerar a distância total e a capacidade do tanque, presumindo que múltiplos abastecimentos são necessários para cobrir a distância.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não calcular corretamente a autonomia da motocicleta e subestimar a distância que pode percorrer com um tanque cheio.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar a informação sobre os postos mais baratos como uma obrigação de abastecer em um posto específico, sem considerar a autonomia.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não entender que o abastecimento é necessário com base na autonomia e distância, e não em uma regra geral de abastecer em todos os postos.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' é significativamente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária de informações sobre os postos de gasolina. A informação de que há um posto em Abrigo e um em Feliciana já foi dada anteriormente.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da informação sobre os postos em Abrigo e Feliciana na segunda frase. Exemplo: 'Há outros quatro postos ao longo da estrada entre as duas cidades.' poderia ser 'Há quatro postos ao longo da estrada entre as duas cidades.'
+    [G16] O enunciado contém uma narrativa extensa sobre a estrada, os postos de gasolina e a preferência dos motoristas, que não contribui diretamente para a resolução do problema proposto. Essa contextualização é excessiva e desnecessária.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada sobre os postos de gasolina e a preferência dos motoristas. O enunciado poderia começar diretamente com a informação sobre Alan e sua motocicleta.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés na escolha.
+
+================================================================================

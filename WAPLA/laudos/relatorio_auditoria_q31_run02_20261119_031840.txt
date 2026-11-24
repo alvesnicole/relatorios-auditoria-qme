@@ -1,0 +1,66 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 03:23:34
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre diferentes tipos de equações diferenciais (linear, separável, homogênea) para determinar a estratégia de resolução mais adequada. Isso envolve a identificação das características de cada modelo e a aplicação do conhecimento sobre métodos de resolução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da ideia de que os modelos são de primeira ordem, mencionada tanto na primeira frase quanto na descrição dos modelos.
+         → Sugestão: Remover a informação de que os modelos são de primeira ordem da primeira frase, pois já é explicitada na descrição dos modelos.
+    [G15] O enunciado não explicita claramente qual é a pergunta a ser respondida. Embora se possa inferir que se trata de identificar a estratégia de resolução, a formulação é indireta.
+         → Sugestão: Reformular o enunciado para que a pergunta seja mais direta, por exemplo: 'Qual das alternativas descreve corretamente a natureza dos modelos e a estratégia de resolução mais adequada para cada um?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise do item:
+
+O primeiro modelo, dy/dt = 3y - 6, é uma equação diferencial linear de primeira ordem. Equações lineares podem ser resolvidas usando métodos como fator integrante. O segundo modelo, dy/dt = (t^2 + 1)/y, é uma equação diferencial separável, pois pode ser reescrita como y dy = (t^2 + 1) dt.
+
+Análise das alternativas:
+
+A) Correta. Identifica corretamente o primeiro modelo como linear e passível de resolução por fator integrante, e o segundo como separável. A reformulação do segundo modelo como y dy = (t^2 + 1) dt é precisa.
+B) Incorreta. O primeiro modelo não é separável, mas linear. O segundo não é exato, mas separável.
+C) Incorreta. O primeiro modelo não é homogêneo, pois possui um termo constante (-6). O segundo não é linear, mas separável.
+D) Incorreta. O primeiro modelo não pode ser integrado diretamente, requerendo métodos específicos para equações lineares. O segundo é separável, mas não pode ser integrado diretamente sem substituições.
+E) Incorreta. O primeiro modelo é de primeira ordem. O segundo é separável, não exigindo métodos numéricos desde o início.
+
+Conclusão: A alternativa A descreve corretamente a natureza dos modelos e as estratégias de resolução apropriadas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre equações separáveis e exatas, e falta de compreensão da ordem das equações diferenciais.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da homogeneidade, focando apenas no grau do termo dependente e ignorando a estrutura da equação.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Conjectura de que equações de primeira ordem podem sempre ser integradas diretamente, sem considerar a complexidade da equação.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Dificuldade em identificar a ordem de uma equação diferencial e em reconhecer a necessidade de métodos numéricos em certos casos.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (28 palavras) é significativamente mais longa que a alternativa D (18 palavras), com uma diferença de 10 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetição desnecessária da ideia de que os modelos são de primeira ordem, mencionada tanto na primeira frase quanto na descrição dos modelos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a informação de que os modelos são de primeira ordem da primeira frase, pois já é explicitada na descrição dos modelos.
+    [G15] O enunciado não explicita claramente qual é a pergunta a ser respondida. Embora se possa inferir que se trata de identificar a estratégia de resolução, a formulação é indireta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para que a pergunta seja mais direta, por exemplo: 'Qual das alternativas descreve corretamente a natureza dos modelos e a estratégia de resolução mais adequada para cada um?'
+    [G24] A alternativa A (28 palavras) é significativamente mais longa que a alternativa D (18 palavras), com uma diferença de 10 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior equilíbrio e evitar disparidades na percepção do candidato.
+
+================================================================================

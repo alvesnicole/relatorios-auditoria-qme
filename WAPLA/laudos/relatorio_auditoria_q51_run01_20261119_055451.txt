@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 05:58:36
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que a pesquisadora avalie uma proposta à luz da geografia econômica, o que implica em desestruturar informações, identificar relações entre variáveis (produção, circulação, território) e inferir impactos. As alternativas oferecem diferentes abordagens, e a escolha correta requer uma análise crítica e ponderada.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa extensa e detalhada sobre a situação da pesquisadora e da prefeitura, que não contribui diretamente para a compreensão da tarefa de avaliação. Essa contextualização excessiva funciona como window dressing.
+         → Sugestão: Remover a contextualização inicial, focando diretamente na questão da conduta da pesquisadora à luz da Geografia econômica. Por exemplo: 'Considerando os dados de produção, circulação de mercadorias, uso do solo, emprego e redes de transporte, e a integração da região ao mercado nacional, qual a conduta que a pesquisadora deve adotar para avaliar a proposta da prefeitura à luz da Geografia econômica?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A questão pede a conduta que a pesquisadora deve adotar para avaliar a proposta da prefeitura à luz da Geografia econômica. A Geografia econômica estuda a organização do espaço em relação às atividades econômicas, considerando aspectos como localização, transporte, produção, distribuição e impactos territoriais. A alternativa A se alinha a essa perspectiva, pois propõe analisar a localização do polo logístico em relação a redes de transporte, fluxos produtivos e distribuição de atividades, justificando os impactos espaciais esperados. As demais alternativas apresentam abordagens simplistas ou equivocadas: B foca em aspectos financeiros isolados, C ignora a organização espacial, D prioriza a preservação ambiental de forma descontextualizada e E limita a análise a um único indicador. A alternativa A é a única que incorpora a complexidade da Geografia econômica, considerando a articulação entre atividades produtivas, organização espacial e relações entre campo, cidade e infraestrutura.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o impacto econômico imediato (arrecadação) com a sustentabilidade territorial a longo prazo, ignorando outros fatores.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar excessivamente em exportações, negligenciando a complexidade das relações locais e regionais.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem simplificar a questão, priorizando a preservação ambiental em detrimento da análise econômica e social do empreendimento.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que o volume de mercadorias é o único fator relevante, ignorando outros aspectos da geografia econômica.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (54 palavras) é significativamente mais curta que a alternativa A (36 palavras), mas a diferença não atinge o limite de 8 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma narrativa extensa e detalhada sobre a situação da pesquisadora e da prefeitura, que não contribui diretamente para a compreensão da tarefa de avaliação. Essa contextualização excessiva funciona como window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização inicial, focando diretamente na questão da conduta da pesquisadora à luz da Geografia econômica. Por exemplo: 'Considerando os dados de produção, circulação de mercadorias, uso do solo, emprego e redes de transporte, e a integração da região ao mercado nacional, qual a conduta que a pesquisadora deve adotar para avaliar a proposta da prefeitura à luz da Geografia econômica?'
+    [G24] A alternativa B (54 palavras) é significativamente mais curta que a alternativa A (36 palavras), mas a diferença não atinge o limite de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reavaliar a redação das alternativas para equilibrar o tamanho, sem comprometer a clareza.
+
+================================================================================

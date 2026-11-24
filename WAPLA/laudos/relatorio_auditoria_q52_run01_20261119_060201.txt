@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 06:05:48
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre os tempos verbais em inglês a um cenário específico, identificando a forma verbal correta para expressar uma ação em progresso. A escolha da resposta requer a compreensão das nuances entre os tempos verbais e sua aplicação em contexto.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado é prolixo, apresentando exemplos desnecessários que não contribuem diretamente para a compreensão da pergunta. A introdução poderia ser mais concisa.
+         → Sugestão: Remover a parte 'Em usos cotidianos do inglês... We are meeting the client tomorrow'.
+    [G15] O enunciado, apesar de apresentar exemplos, não deixa claro qual é a pergunta central de forma imediata. O aluno precisa ler todo o texto para entender o que se espera dele.
+         → Sugestão: Reformular o enunciado para que a pergunta seja mais direta, por exemplo: 'Qual é a forma verbal em inglês utilizada para expressar uma ação em progresso no momento da fala?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado busca a forma verbal em inglês para expressar uma ação em progresso no momento da fala. A descrição do contexto (usos cotidianos, hábito, ação em progresso, planejamento) e os exemplos fornecidos ('She usually works from home', 'He is studying now', 'We are meeting the client tomorrow') direcionam para a identificação da forma verbal correta para ações contínuas. A alternativa B descreve corretamente a formação do Present Continuous, que é a forma verbal utilizada para expressar ações em progresso. As demais alternativas apresentam informações incorretas ou não se aplicam ao contexto da pergunta. A alternativa A associa o Simple Present a adverbs of frequency, a alternativa C associa o Simple Present a planos futuros, a alternativa D associa o Present Continuous a hábitos e a alternativa E propõe o Simple Past, que não se encaixa na descrição da ação em progresso no momento da fala.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o uso do Simple Present com a expressão de hábitos, ignorando o contexto de ação em progresso.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pode levar à confusão entre o uso do Simple Present para expressar ações futuras e a ideia de planos definidos.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que o Present Continuous é restrito a hábitos, demonstrando falta de compreensão sobre sua função principal.
+    [E] Distrator (Plausibilidade: 1/5)
+         → O uso do Simple Past para descrever ações no momento da fala é gramaticalmente incorreto e demonstra um conhecimento superficial do tempo verbal.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (41 palavras) é significativamente mais longa que a alternativa D (23 palavras).
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado é prolixo, apresentando exemplos desnecessários que não contribuem diretamente para a compreensão da pergunta. A introdução poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a parte 'Em usos cotidianos do inglês... We are meeting the client tomorrow'.
+    [G15] O enunciado, apesar de apresentar exemplos, não deixa claro qual é a pergunta central de forma imediata. O aluno precisa ler todo o texto para entender o que se espera dele.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para que a pergunta seja mais direta, por exemplo: 'Qual é a forma verbal em inglês utilizada para expressar uma ação em progresso no momento da fala?'
+    [G24] A alternativa A (41 palavras) é significativamente mais longa que a alternativa D (23 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior equilíbrio e evitar pistas visuais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

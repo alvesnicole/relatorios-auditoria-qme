@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 10:20:04
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar uma ordem válida de corredores, combinando informações e testando alternativas. Não se trata de mera recordação ou compreensão, mas de aplicação de regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que cada corredor corre um trecho. A frase 'cada corredor vai correr exatamente um trecho da corrida' é redundante, pois já está implícito na natureza da corrida de revezamento.
+         → Sugestão: Remover a frase 'cada corredor vai correr exatamente um trecho da corrida'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : Análise das restrições:
+1. Maria deve ser a primeira ou a última corredora.
+2. Deve haver exatamente um corredor entre Nalvo e Queiroz.
+3. Nalvo deve correr após Lia mas antes de Queiroz.
+
+Verificação das alternativas:
+A) Lia, Maria, Nalvo, Olga, Queiroz, Pietra: Maria não é a primeira ou a última. Violação da regra 1.
+B) Lia, Nalvo, Queiroz, Pietra, Olga, Maria: Maria é a última. Nalvo e Queiroz estão adjacentes. Violação da regra 2.
+C) Maria, Nalvo, Lia, Queiroz, Olga, Pietra: Nalvo deve correr após Lia. Violação da regra 3.
+D) Maria, Lia, Olga, Nalvo, Pietra, Queiroz: Maria é a primeira. Nalvo e Queiroz estão separados por Pietra. Violação da regra 2.
+E) Lia, Queiroz, Pietra, Nalvo, Olga, Maria: Nalvo deve correr após Lia. Violação da regra 3.
+
+Após a primeira verificação, nenhuma alternativa satisfaz todas as regras. Reavaliação da alternativa D: Maria é a primeira. Nalvo e Queiroz estão separados por Pietra e Olga, o que não viola a regra 2. Nalvo corre após Lia. Portanto, a alternativa D é a única que satisfaz todas as condições.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a condição de ordem como uma sequência linear, ignorando a flexibilidade na posição de Maria.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a ordem relativa de Nalvo e Queiroz, colocando-os em sequência incorreta em relação a Lia.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação errônea da condição de Nalvo, colocando-o antes de Lia, o que viola uma restrição do problema.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem colocar Queiroz antes de Nalvo, ignorando a condição de que Nalvo deve correr antes de Queiroz.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G13] Repetição desnecessária da informação de que cada corredor corre um trecho. A frase 'cada corredor vai correr exatamente um trecho da corrida' é redundante, pois já está implícito na natureza da corrida de revezamento.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'cada corredor vai correr exatamente um trecho da corrida'.
+
+================================================================================

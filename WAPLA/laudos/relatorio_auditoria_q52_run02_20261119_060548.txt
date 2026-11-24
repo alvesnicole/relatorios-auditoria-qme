@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 06:09:19
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre os tempos verbais em inglês a um cenário específico, identificando a forma verbal mais adequada para expressar uma ação em progresso. A escolha da resposta correta depende da compreensão das nuances de cada tempo verbal e sua aplicação contextual.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado é prolixo, apresentando exemplos desnecessários que não contribuem diretamente para a compreensão da pergunta. A introdução poderia ser mais concisa.
+         → Sugestão: Remover a parte 'Em usos cotidianos do inglês... We are meeting the client tomorrow'. A pergunta pode ser feita diretamente após a frase 'Em inglês, a forma verbal mais adequada...'
+    [G15] O enunciado, apesar de apresentar exemplos, não deixa claro qual é o problema central a ser resolvido. O aluno precisa ler até o final para entender que se trata de identificar a forma verbal correta.
+         → Sugestão: Reformular o enunciado para que a pergunta seja explícita logo no início, por exemplo: 'Qual a forma verbal mais adequada em inglês para expressar uma ação em progresso no momento da fala?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado busca a forma verbal em inglês para expressar uma ação em progresso no momento da fala. A descrição do contexto (usos cotidianos, hábitos, ações em progresso, planejamento) serve para eliminar opções que se referem a outros tempos verbais ou usos específicos. A alternativa correta deve descrever o Present Continuous. 
+
+Análise das alternativas:
+
+A) Incorreta. O Simple Present é usado para hábitos, não para ações em progresso.
+B) Correta. O Present Continuous é a forma verbal adequada para expressar uma ação em progresso no momento da fala (verbo auxiliar + verbo principal com -ing).
+C) Incorreta. O Simple Present não é usado para planos futuros definidos; usa-se o Present Continuous para isso.
+D) Incorreta. O Present Continuous não é usado apenas para hábitos; é usado para ações em progresso.
+E) Incorreta. O Simple Past descreve ações que já ocorreram, não ações em progresso no momento da fala.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o uso do Simple Present com a expressão de hábitos, ignorando o contexto de ação em progresso.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pode levar à confusão entre o uso do Simple Present para expressar ações futuras e a ideia de hábitos.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que o Present Continuous é restrito a hábitos, demonstrando falta de compreensão sobre sua função principal.
+    [E] Distrator (Plausibilidade: 1/5)
+         → O uso do Simple Past para descrever uma ação no momento da fala é gramaticalmente incorreto e demonstra um conhecimento superficial do tempo verbal.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado é prolixo, apresentando exemplos desnecessários que não contribuem diretamente para a compreensão da pergunta. A introdução poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a parte 'Em usos cotidianos do inglês... We are meeting the client tomorrow'. A pergunta pode ser feita diretamente após a frase 'Em inglês, a forma verbal mais adequada...'
+    [G15] O enunciado, apesar de apresentar exemplos, não deixa claro qual é o problema central a ser resolvido. O aluno precisa ler até o final para entender que se trata de identificar a forma verbal correta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para que a pergunta seja explícita logo no início, por exemplo: 'Qual a forma verbal mais adequada em inglês para expressar uma ação em progresso no momento da fala?'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

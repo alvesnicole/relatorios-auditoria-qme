@@ -1,0 +1,64 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 00:53:26
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de capacidade de peso para determinar o número mínimo de viagens necessárias para transportar os objetos, combinando informações fornecidas no enunciado para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa desnecessária sobre o arqueólogo e a descoberta de Atlântida, que não contribui para a compreensão do problema. Essa contextualização decorativa não possui função avaliativa.
+         → Sugestão: Remover a introdução narrativa sobre o arqueólogo e Atlântida, indo direto para a descrição das barras de metal e das condições da bolsa.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O problema envolve transportar barras de metal com peso máximo de 5 quilos por viagem. Cada barra pesa 2 quilos. As barras são Platina, Ouro, Prata e Bronze, em ordem de valor. 
+
+Analisando as alternativas:
+
+A) 1: Impossível, pois há 4 barras e cada uma pesa 2 quilos, totalizando 8 quilos, excedendo a capacidade da bolsa (5 quilos).
+B) 2: Poderia ser possível se as barras fossem combinadas de forma a não exceder o limite de peso. Por exemplo, Platina + Ouro (4 quilos) e Prata + Bronze (4 quilos). No entanto, a questão especifica que as barras devem ser levadas inteiras.
+C) 3: Poderia ser possível, mas requer planejamento cuidadoso para não exceder o limite de peso em nenhuma viagem. Por exemplo, Platina (2 quilos) + Ouro (2 quilos) = 4 quilos; Prata (2 quilos) + Bronze (2 quilos) = 4 quilos; e uma terceira viagem para levar qualquer barra restante (não há). Isso não é possível.
+D) 4: Poderia ser possível, mas requer planejamento cuidadoso para não exceder o limite de peso em nenhuma viagem. Por exemplo, Platina (2 quilos) + Prata (2 quilos) = 4 quilos; Ouro (2 quilos) + Bronze (2 quilos) = 4 quilos; e uma terceira viagem para levar qualquer barra restante (não há). Isso não é possível.
+E) 5: É a alternativa mais provável, pois permite transportar as barras em viagens separadas, sem exceder o limite de peso. Platina (2 quilos), Ouro (2 quilos), Prata (2 quilos), Bronze (2 quilos). Cada barra é transportada em uma viagem separada.
+
+Considerando a restrição de que as barras devem ser transportadas inteiras, a alternativa E é a única viável.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 1/5)
+         → Alunos podem interpretar que uma única viagem é suficiente se ignorarem a restrição de peso da bolsa.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não considerar a necessidade de múltiplas viagens devido ao limite de peso da bolsa, focando apenas no número de barras.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Alunos podem subestimar o número de viagens necessárias, considerando que podem levar mais de uma barra por viagem, mas sem calcular o peso total.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem superestimar o número de viagens, sem considerar a otimização do transporte das barras.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa 'A' (1 palavra) é significativamente mais curta que as demais (entre 4 e 5 palavras).
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G16] O enunciado contém uma narrativa desnecessária sobre o arqueólogo e a descoberta de Atlântida, que não contribui para a compreensão do problema. Essa contextualização decorativa não possui função avaliativa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução narrativa sobre o arqueólogo e Atlântida, indo direto para a descrição das barras de metal e das condições da bolsa.
+    [G24] A alternativa 'A' (1 palavra) é significativamente mais curta que as demais (entre 4 e 5 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reescrever a alternativa 'A' para aumentar seu tamanho e complexidade, mantendo sua incorreção.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou E, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

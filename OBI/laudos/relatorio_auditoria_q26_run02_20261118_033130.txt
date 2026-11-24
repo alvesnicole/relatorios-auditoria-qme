@@ -1,0 +1,67 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 03:36:59
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as informações fornecidas (restrições sobre a posição dos alunos e as camisas que vestem) para deduzir a camisa que Jair deve necessariamente vestir. É necessário analisar as condições e combiná-las para chegar à resposta, o que envolve um processo de aplicação de regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária de informações. A condição de que o banco 1 é na frente e o banco 6 é na traseira é repetida ao longo do enunciado.
+         → Sugestão: Remover a repetição da informação sobre a posição dos bancos 1 e 6. Incorporar essa informação em uma única frase introdutória.
+    [G16] Contextualização decorativa. A descrição detalhada dos nomes dos alunos e dos times de futebol não contribui diretamente para a resolução do problema.
+         → Sugestão: Simplificar a apresentação dos nomes dos alunos e times, evitando detalhes desnecessários. Por exemplo, 'Seis alunos participam da competição, cada um vestindo a camisa de um time de futebol diferente.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Análise do problema:
+
+1. Alice no banco 4 implica que Bia está no banco 5 (Alice imediatamente à frente de Bia).
+2. Rui veste Flamengo e está à frente de Jair e Maria. Isso limita as posições de Rui.
+3. Bahia está no banco 6.
+4. Sport está imediatamente atrás de Cruzeiro, e há um banco entre Sport e Flamengo.
+5. Silvio está à frente de Rui.
+6. Maria está à frente de Bia.
+
+Considerando que Alice está no banco 4 e Bia no banco 5, Rui deve estar no banco 1 ou 2, pois deve estar à frente de Jair e Maria, que estão à frente de Bia. Se Rui estivesse no banco 3, Maria estaria no banco 3, o que é impossível, pois Maria deve estar à frente de Bia (banco 5). Se Rui estivesse no banco 1, Silvio estaria no banco 2. Se Rui estivesse no banco 2, Silvio estaria no banco 1, o que é impossível, pois o banco 1 é ocupado por Rui. Portanto, Rui está no banco 1, Silvio no banco 2, Maria no banco 3, Jair no banco 4 (ocupado por Alice), o que é impossível. Portanto, Alice não pode estar no banco 4.
+
+Revisando as restrições, se Alice está no banco 4, Bia no banco 5, Rui no banco 1, Silvio no banco 2, Maria no banco 3, Jair no banco 6, o que viola a restrição de que Bahia está no banco 6. Portanto, Alice não pode estar no banco 4.
+
+Se Alice está no banco 4, Bia no banco 5, Rui no banco 2, Silvio no banco 1, Maria no banco 3, Jair no banco 6, o que viola a restrição de que o banco 1 é ocupado por Silvio. Portanto, Alice não pode estar no banco 4.
+
+Se Alice está no banco 4, Bia no banco 5, Rui no banco 3, Silvio no banco 1 ou 2, Maria no banco 2 ou 1, Jair no banco 6, o que viola a restrição de que Rui está à frente de Jair e Maria. Portanto, Alice não pode estar no banco 4.
+
+Como Alice não pode estar no banco 4, a pergunta é inválida. No entanto, vamos assumir que a pergunta é válida e que Alice está no banco 4. Se Alice está no banco 4, Bia está no banco 5. Rui está à frente de Jair e Maria. Maria está à frente de Bia. Bahia está no banco 6. Sport está imediatamente atrás de Cruzeiro, e há um banco entre Sport e Flamengo. Silvio está à frente de Rui. Se Rui veste Flamengo, então Rui está à frente de Jair e Maria. Se Alice está no banco 4, Bia no banco 5, Rui no banco 1, Silvio no banco 2, Maria no banco 3, Jair no banco 6, então Bahia está no banco 6, o que é consistente. Sport está atrás de Cruzeiro, e há um banco entre Sport e Flamengo. Se Rui veste Flamengo, então Rui está no banco 1. Se Sport está à frente de Flamengo, então Sport está no banco 2, e Cruzeiro no banco 1, o que é impossível. Portanto, Flamengo está à frente de Sport. Se Flamengo está à frente de Sport, então Flamengo está no banco 1, e Sport está no banco 3, e Cruzeiro no banco 2. Se Rui veste Flamengo, então Rui está no banco 1. Se Alice está no banco 4, Bia no banco 5, Rui no banco 1, Silvio no banco 2, Maria no banco 3, Jair no banco 6, então a camisa de Jair é do Bahia.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a restrição de Alice no banco 1 com a possibilidade de Rui vestir a camisa do Corinthians, ignorando a ordem dos bancos.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Pode-se interpretar erroneamente que a camisa do Avaí pode ser usada por Jair, sem considerar as restrições de posicionamento e vestimentas.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não considerar a relação entre o banco de Rui e o de Jair, atribuindo a Jair a camisa do Cruzeiro sem analisar as restrições.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Pode-se ignorar a sequência Sport-Cruzeiro e a posição de Bia, atribuindo a camisa do Sport a Jair por eliminação simples.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária de informações. A condição de que o banco 1 é na frente e o banco 6 é na traseira é repetida ao longo do enunciado.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da informação sobre a posição dos bancos 1 e 6. Incorporar essa informação em uma única frase introdutória.
+    [G16] Contextualização decorativa. A descrição detalhada dos nomes dos alunos e dos times de futebol não contribui diretamente para a resolução do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a apresentação dos nomes dos alunos e times, evitando detalhes desnecessários. Por exemplo, 'Seis alunos participam da competição, cada um vestindo a camisa de um time de futebol diferente.'
+
+================================================================================

@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 21:30:55
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre fatiamento (slicing) em Python para prever o resultado de um trecho de código específico. Não se trata de memorização direta, mas sim de aplicar um conceito para resolver um problema prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] As instruções não estão claras sobre o que o aluno deve fazer. O enunciado apresenta um código e pede para 'assinale a alternativa que apresenta corretamente o resultado exibido pelo comando print', mas não explica se o aluno deve prever o resultado, executar o código e comparar, ou apenas analisar a sintaxe.
+         → Sugestão: Reformule a instrução para algo como: 'Analise o trecho de código Python e determine o resultado que será exibido pelo comando print. Em seguida, assinale a alternativa que corresponde a esse resultado.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O trecho de código Python `lista = [10, 20, 30, 40, 50]` define uma lista de inteiros. A linha `print(lista[3:1])` tenta imprimir uma fatia da lista. Em Python, a sintaxe de slicing é `lista[inicio:fim]`, onde `inicio` é inclusivo e `fim` é exclusivo. Portanto, `lista[3:1]` tenta extrair uma fatia da lista começando no índice 3 (o elemento 40) e terminando *antes* do índice 1. Como o índice de início é maior que o índice de fim em um slice, o resultado é uma lista vazia. A alternativa A, `[]`, representa corretamente uma lista vazia. As demais alternativas propõem fatias com elementos incorretos ou indicam um erro de execução que não ocorre.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a ordem dos elementos na fatia, pensando que o slicing [3:1] inverte a ordem dos índices.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão com a sintaxe de slicing, onde o segundo índice (1) é interpretado como o início da fatia, omitindo o índice 3.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea do slicing, acreditando que o resultado será uma lista com os elementos do índice 4 ao índice 1 (excluindo o 1).
+    [E] Distrator (Plausibilidade: 1/5)
+         → Entendimento superficial do slicing, levando a crer que a combinação de índices pode gerar um erro de execução, sem considerar o comportamento do Python.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho, embora não sejam discrepantes.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G14] As instruções não estão claras sobre o que o aluno deve fazer. O enunciado apresenta um código e pede para 'assinale a alternativa que apresenta corretamente o resultado exibido pelo comando print', mas não explica se o aluno deve prever o resultado, executar o código e comparar, ou apenas analisar a sintaxe.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule a instrução para algo como: 'Analise o trecho de código Python e determine o resultado que será exibido pelo comando print. Em seguida, assinale a alternativa que corresponde a esse resultado.'
+    [G24] As alternativas apresentam variações no tamanho, embora não sejam discrepantes.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho das alternativas para evitar distrações desnecessárias.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

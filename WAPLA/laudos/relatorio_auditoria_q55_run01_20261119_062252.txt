@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 06:26:18
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o estudante compreenda a discussão entre a professora e o aluno sobre a análise semântica e, em seguida, identifique a alternativa que melhor descreve o objeto de estudo da Semântica. Isso envolve a desconstrução das diferentes perspectivas e a identificação da relação entre o argumento da professora e o conceito de Semântica, demonstrando um nível de análise.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado apresenta uma narrativa desnecessária para contextualizar a situação, que não contribui diretamente para a avaliação do conhecimento do aluno sobre semântica. A descrição da aula e do diálogo entre a estudante e a professora é um exemplo de window dressing.
+         → Sugestão: Remover a descrição da aula e do diálogo, apresentando diretamente a questão: 'Qual alternativa expressa melhor o objeto de estudo da Semântica, considerando que a análise semântica considera as relações de sentido produzidas pelo uso das palavras em contextos específicos?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado descreve uma discussão sobre a análise do significado de palavras como 'casa', 'lar' e 'residência', contrastando a visão simplista de um estudante com a perspectiva da professora. A professora enfatiza a importância do contexto e das relações de sentido, o que aponta para o objeto de estudo da Semântica. A alternativa C é a que melhor se alinha com essa descrição, pois destaca o estudo do significado e do sentido, considerando o uso em contextos específicos e os efeitos de sentido produzidos. As demais alternativas abordam aspectos relacionados à linguística, mas não capturam a essência da Semântica conforme apresentada no enunciado.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a semântica se limita à definição literal das palavras, ignorando o contexto.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão entre semântica e sintaxe, acreditando que o significado depende apenas da ordem das palavras.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Pode levar à crença de que a semântica é apenas etimologia, desconsiderando o uso contemporâneo.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Ignora completamente a dimensão do significado, atribuindo-o exclusivamente à pronúncia.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (32 palavras) é significativamente mais curta que a alternativa C (28 palavras), mas a diferença não atinge o limite de 8 palavras.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G16] O enunciado apresenta uma narrativa desnecessária para contextualizar a situação, que não contribui diretamente para a avaliação do conhecimento do aluno sobre semântica. A descrição da aula e do diálogo entre a estudante e a professora é um exemplo de window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da aula e do diálogo, apresentando diretamente a questão: 'Qual alternativa expressa melhor o objeto de estudo da Semântica, considerando que a análise semântica considera as relações de sentido produzidas pelo uso das palavras em contextos específicos?'
+    [G24] A alternativa A (32 palavras) é significativamente mais curta que a alternativa C (28 palavras), mas a diferença não atinge o limite de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reavaliar a diferença de tamanho entre as alternativas e ajustar se necessário.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

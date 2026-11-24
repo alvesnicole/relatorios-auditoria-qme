@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:10:55
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o estudante compreenda a Pop Art e a técnica do artista, identificando a interpretação crítica que melhor as caracteriza. Isso envolve analisar o texto descritivo e comparar as opções de resposta, identificando a que melhor se alinha com a estratégia artística descrita, o que demanda um nível de análise e interpretação.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização excessiva e narrativa desnecessária sobre o artista e a Pop Art, que não contribuem diretamente para a avaliação da compreensão do estudante sobre o tema central da questão. A descrição detalhada do contexto poderia ser resumida.
+         → Sugestão: Remover a descrição detalhada do artista e da Pop Art, focando diretamente na afirmação do estudante e na pergunta sobre a interpretação crítica.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado descreve a Pop Art como um movimento que utiliza imagens da publicidade, quadrinhos e embalagens industriais, repetindo-as mecanicamente para transformar o cotidiano em arte. A alternativa que melhor caracteriza essa técnica é aquela que reconhece a apropriação de imagens da mídia e a utilização de processos de reprodução mecânica para criticar o consumo de massa. A alternativa C se alinha diretamente com essa descrição. As demais alternativas apresentam características que não correspondem ao movimento Pop Art, como a valorização da pincelada expressionista (A), a rejeição do cotidiano (B), a substituição por estruturas tridimensionais (D) ou a recuperação de temas mitológicos (E). 
+
+Pistas Estruturais:
+- G28b: A alternativa C repete a palavra "transformar" do enunciado, funcionando como um reforço visual.
+- G28d: A alternativa C é mais detalhada ao explicar a técnica e o propósito da Pop Art, o que a diferencia das demais.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confunde Pop Art com Expressionismo, associando a pincelada gestual e espontânea a uma crítica social, ignorando a apropriação da cultura de massa.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Demonstra incompreensão da Pop Art, que se apropriou de elementos do cotidiano e da cultura de massa, ao invés de rejeitá-los.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Associa a Pop Art a uma busca por contemplação e materiais industriais mínimos, desviando do foco na reprodução e apropriação da cultura de massa.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Confunde Pop Art com um movimento que busca restaurar a tradição e a aura da pintura, o oposto da apropriação da cultura de massa.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (67 palavras) é significativamente mais longa que a alternativa B (33 palavras), diferença de 34 palavras.
+    [G30] A alternativa B, ao rejeitar a cultura de massa, não reflete um erro comum de estudantes sobre a Pop Art.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G16] O enunciado contém contextualização excessiva e narrativa desnecessária sobre o artista e a Pop Art, que não contribuem diretamente para a avaliação da compreensão do estudante sobre o tema central da questão. A descrição detalhada do contexto poderia ser resumida.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada do artista e da Pop Art, focando diretamente na afirmação do estudante e na pergunta sobre a interpretação crítica.
+    [G24] A alternativa A (67 palavras) é significativamente mais longa que a alternativa B (33 palavras), diferença de 34 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G30] A alternativa B, ao rejeitar a cultura de massa, não reflete um erro comum de estudantes sobre a Pop Art.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a alternativa B para incorporar um erro mais típico sobre o tema.
+
+================================================================================

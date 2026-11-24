@@ -1,0 +1,79 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:51:07
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as assertivas, identifique inconsistências e compare informações para determinar qual alternativa não apresenta corretamente as definições sobre cabeamento estruturado e meios de transmissão de dados. Isso envolve desestruturar as informações e identificar relações entre elas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre o uso de cabos CAT 5e e CAT 6 para redes 100BASE-TX e 1000BASE-T nas assertivas I e II. A informação poderia ser consolidada.
+         → Sugestão: Consolidar as informações sobre as redes 100BASE-TX e 1000BASE-T em uma única frase, evitando a repetição nas assertivas I e II.
+    [G14] O enunciado é um pouco longo e poderia ser mais direto. A instrução 'Analise as assertivas e assinale a alternativa que não apresenta de forma correta as definições sobre o tema cabeamento estruturado e meios de transmissão de dados em rede de computadores' poderia ser mais concisa.
+         → Sugestão: Reformular a instrução para algo como: 'Identifique a assertiva que apresenta informações incorretas sobre cabeamento estruturado e meios de transmissão de dados.'
+    [G17] A assertiva III utiliza a frase 'sua adoção acabou sendo retardada', que é uma afirmação negativa. A falta de destaque visual (negrito ou maiúsculas) pode dificultar a identificação da negação.
+         → Sugestão: Utilizar negrito ou maiúsculas na frase 'sua adoção acabou sendo retardada' para destacar a negação.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das assertivas:
+
+I. A assertiva afirma que cabos CAT 5 são o mínimo para 100BASE-TX e 1000BASE-T, com frequências de até 100 MHz e alcance de 50 metros. CAT 5e suportaria até 1000 mbits. Essa afirmação é parcialmente incorreta. Cabos CAT 5 suportam 100BASE-TX, mas para 1000BASE-T (Gigabit Ethernet) é recomendado o CAT 5e ou superior. A frequência de 100 MHz é característica do CAT5, enquanto o CAT5e suporta até 100 MHz, e o CAT6 suporta 250 MHz. O alcance de 50 metros é uma simplificação, o alcance padrão é de 100 metros.
+
+II. A assertiva diz que cabos CAT 6 operam no padrão Gigabit Ethernet com alcance de 100m e banda passante de 250 MHz. Quando usados em redes de 10 Gigabit, o alcance é de 55m. Essa afirmação é geralmente correta, descrevendo as características do CAT 6.
+
+III. A assertiva afirma que CAT 6a foi originalmente desenvolvida para Gigabit Ethernet, mas sua adoção foi retardada devido ao CAT 5. A banda passante é de 500 MHz. Essa afirmação é imprecisa. CAT 6a foi desenvolvida para atender aos requisitos de 10 Gigabit Ethernet, oferecendo melhor desempenho em relação ao CAT 6, especialmente em ambientes com interferência. A afirmação sobre a adoção retardada e a comparação com o CAT 5 é confusa e incorreta.
+
+Análise das alternativas:
+
+A) Apenas I e II estão corretas: Incorreta, pois a assertiva I contém informações imprecisas.
+B) Apenas I e III estão corretas: Incorreta, pois ambas as assertivas I e III contêm informações imprecisas.
+C) Apenas II e III estão corretas: Incorreta, pois a assertiva III contém informações imprecisas.
+D) Todas estão corretas: Incorreta, pois as assertivas I e III contêm informações imprecisas.
+
+Conclusão: Nenhuma das alternativas apresenta todas as definições de forma correta. A assertiva I contém informações imprecisas sobre os requisitos de cabos para Gigabit Ethernet e frequências. A assertiva III contém informações imprecisas sobre o desenvolvimento e a adoção do CAT 6a.
+
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir as especificações dos cabos CAT 5 e CAT 5e, considerando ambos adequados para as mesmas aplicações, ignorando as diferenças de banda passante.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não compreender a relação entre o desenvolvimento do padrão Gigabit Ethernet e a adoção do CAT 6a, associando-a erroneamente ao CAT 5.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem interpretar erroneamente que todas as assertivas estão corretas, sem analisar criticamente as informações apresentadas.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações no nível de detalhe técnico e complexidade da linguagem.
+    [G30] As opções não refletem erros comuns de estudantes sobre cabeamento estruturado e transmissão de dados.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (6):
+    [G13] Repetição desnecessária da informação sobre o uso de cabos CAT 5e e CAT 6 para redes 100BASE-TX e 1000BASE-T nas assertivas I e II. A informação poderia ser consolidada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Consolidar as informações sobre as redes 100BASE-TX e 1000BASE-T em uma única frase, evitando a repetição nas assertivas I e II.
+    [G14] O enunciado é um pouco longo e poderia ser mais direto. A instrução 'Analise as assertivas e assinale a alternativa que não apresenta de forma correta as definições sobre o tema cabeamento estruturado e meios de transmissão de dados em rede de computadores' poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a instrução para algo como: 'Identifique a assertiva que apresenta informações incorretas sobre cabeamento estruturado e meios de transmissão de dados.'
+    [G17] A assertiva III utiliza a frase 'sua adoção acabou sendo retardada', que é uma afirmação negativa. A falta de destaque visual (negrito ou maiúsculas) pode dificultar a identificação da negação.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Utilizar negrito ou maiúsculas na frase 'sua adoção acabou sendo retardada' para destacar a negação.
+    [G23] As alternativas apresentam variações no nível de detalhe técnico e complexidade da linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a extensão e o nível de detalhe das alternativas para garantir maior uniformidade.
+    [G30] As opções não refletem erros comuns de estudantes sobre cabeamento estruturado e transmissão de dados.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar os distratores para que representem concepções errôneas mais frequentes entre os alunos.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

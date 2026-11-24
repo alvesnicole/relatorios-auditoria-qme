@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 16:09:41
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre o funcionamento de repetidores em uma situação prática, identificando a razão correta para sua utilização em uma rede física. A resposta correta não é uma simples memorização, mas sim a compreensão de como o repetidor resolve um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é desfocado. Não é claro qual é a pergunta que o técnico de redes deve responder. A frase 'Questionado sobre a inclusão em sua lista de um repetidor, respondeu corretamente que o uso deste equipamento era necessário porque' sugere que a pergunta é sobre o motivo da necessidade do repetidor, mas não é explicitamente formulada.
+         → Sugestão: Reformule o enunciado para incluir uma pergunta direta, como: 'Um técnico de redes incluiu um repetidor em sua lista de equipamentos. Qual a justificativa para essa inclusão?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O enunciado descreve uma situação em que um técnico de redes precisa justificar a inclusão de um repetidor em uma lista de equipamentos. Repetidores são usados para regenerar sinais em redes de comunicação, especialmente em distâncias maiores do que o cabo suporta. A alternativa E é a mais plausível, pois estabelece um limite de distância (180m) que pode exigir um repetidor para manter a integridade do sinal. As outras alternativas não justificam a necessidade de um repetidor. A) Redução de custo é um benefício secundário, não a razão principal. B) Subredes são um conceito de design, não uma necessidade imposta por limitações físicas. C) Ruído pode ser mitigado por outros meios, não necessariamente um repetidor. D) Propagação em tempo real é uma característica desejável, mas não exige um repetidor.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que repetidores reduzem custos, ignorando a complexidade da infraestrutura de rede.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a necessidade de subredes e a função de um repetidor, associando ambos à otimização.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Interpretação superficial do ruído como a única razão para a necessidade de um repetidor, sem considerar a distância.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem pensar que repetidores são necessários para propagar dados em tempo real, confundindo sua função.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de formalidade e detalhamento, gerando heterogeneidade na estrutura.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é desfocado. Não é claro qual é a pergunta que o técnico de redes deve responder. A frase 'Questionado sobre a inclusão em sua lista de um repetidor, respondeu corretamente que o uso deste equipamento era necessário porque' sugere que a pergunta é sobre o motivo da necessidade do repetidor, mas não é explicitamente formulada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para incluir uma pergunta direta, como: 'Um técnico de redes incluiu um repetidor em sua lista de equipamentos. Qual a justificativa para essa inclusão?'
+    [G23] As alternativas apresentam diferentes níveis de formalidade e detalhamento, gerando heterogeneidade na estrutura.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para uniformizar o estilo e a complexidade da linguagem.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 06:34:12
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento de coordenadas cilíndricas para reescrever uma integral tripla, transformando uma integral definida em um novo sistema de coordenadas. Isso envolve a compreensão do processo de transformação e a aplicação das fórmulas apropriadas, demonstrando habilidade de aplicar um conceito em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da ideia de que o engenheiro está explorando a simetria do sólido ao reescrever a integral em coordenadas cilíndricas. Essa informação é redundante, pois a mudança para coordenadas cilíndricas já implica a exploração da simetria.
+         → Sugestão: Remover a frase: 'Para explorar a simetria do sólido, ele decide reescrever a integral tripla em coordenadas cilíndricas.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O sólido é limitado por $x^2 + y^2 = 4$, que é um cilindro de raio 2, e pelos planos $z=0$ e $z=3$. Em coordenadas cilíndricas, $x = r	ext{cos}(	heta)$, $y = r	ext{sen}(	heta)$ e $z = z$. A equação $x^2 + y^2 = 4$ se torna $r^2 = 4$, então $r = 2$. A integral tripla deve ter os limites de integração para $r$ de 0 a 2, para $z$ de 0 a 3 e para $	heta$ de 0 a $2	ext{π}$. A densidade é dada por $ho(x,y,z) = x^2 + y^2$, que em coordenadas cilíndricas é $ho(r,	heta,z) = r^2$. Portanto, a integral tripla é $\int_0^{2	ext{π}} \int_0^2 \int_0^3 r^2 dz dr d	heta$.
+
+Análise das alternativas:
+
+A) $∫_0^{2π}∫_0^2∫_0^3 r^2 dz dr dθ$ - Correta. Os limites de integração para $	heta$, $r$ e $z$ estão corretos.
+B) $∫_0^{2π}∫_0^2∫_0^3 r^3 dz dr dθ$ - Incorreta. A densidade é $r^2$, não $r^3$.
+C) $∫_0^{2π}∫_0^4∫_0^3 r dz dr dθ$ - Incorreta. O limite de integração para $r$ é de 0 a 2, não de 0 a 4.
+D) $∫_0^{π}∫_0^2∫_0^3 r^2 dz dr dθ$ - Incorreta. O limite de integração para $	heta$ é de 0 a $2	ext{π}$, não de 0 a $	ext{π}$.
+E) $∫_0^{2π}∫_0^2∫_0^3 r^2 dr dz dθ$ - Incorreta. A ordem de integração está incorreta. Deve ser $dz dr d	heta$.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão entre o raio (r) e o raio ao quadrado (r²), aplicando diretamente na integral.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Erro na conversão dos limites de integração para coordenadas cilíndricas, utilizando o raio ao invés do raio ao quadrado.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Confusão na ordem de integração e na aplicação dos limites, trocando a ordem de dz, dr e dθ.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Inversão da ordem de integração e confusão na aplicação dos limites, resultando em uma integral incorreta.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetição desnecessária da ideia de que o engenheiro está explorando a simetria do sólido ao reescrever a integral em coordenadas cilíndricas. Essa informação é redundante, pois a mudança para coordenadas cilíndricas já implica a exploração da simetria.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase: 'Para explorar a simetria do sólido, ele decide reescrever a integral tripla em coordenadas cilíndricas.'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou A, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

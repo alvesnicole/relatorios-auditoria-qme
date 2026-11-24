@@ -1,0 +1,60 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 05:37:57
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras do jogo para determinar qual valor de 'x' maximiza a vantagem de Eduardo sobre Maria. Isso envolve simular o jogo para diferentes valores de 'x' e comparar os resultados, demonstrando a aplicação de um processo algorítmico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação do procedimento. A descrição do passo 2 é redundante, pois já foi introduzida no passo 1.
+         → Sugestão: Remover a repetição da explicação do procedimento no passo 2. Simplificar a descrição para 'Repita o procedimento até que x seja menor ou igual a zero.'
+    [G16] A introdução com a história de Maria e Eduardo é um window dressing, pois não contribui diretamente para a compreensão do problema ou para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a introdução com a história de Maria e Eduardo e apresentar o problema diretamente, por exemplo: 'Dado um número inteiro positivo x, um jogo é realizado...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema busca a configuração inicial de 'x' que maximiza a diferença entre os doces de Maria e Eduardo. A estratégia de Eduardo é maximizada quando 'x' é par, pois ele recebe um doce a cada divisão por 2. A estratégia de Maria é maximizada quando 'x' é ímpar, pois ela recebe um doce a cada subtração de 1. Para maximizar a vantagem de Eduardo, devemos escolher um 'x' que resulte em mais divisões por 2 do que subtrações de 1. 
+
+A) x = 32: Eduardo ganha doces em cada divisão por 2 (5 vezes). Maria não ganha nenhum doce.
+B) x = 9: Eduardo ganha doces em 3 divisões (9/2 = 4.5 -> 4, 4/2 = 2, 2/2 = 1). Maria ganha 2 doces (9-8=1, 8-7=0). Eduardo ganha 3 doces, Maria ganha 2.
+C) x = 51: Eduardo ganha doces em 2 divisões (51/2 = 25.5 -> 25, 25/2 = 12.5 -> 12). Maria ganha 3 doces (51-50=1, 50-49=1, 49-48=1). Eduardo ganha 2 doces, Maria ganha 3.
+D) x = 17: Eduardo ganha doces em 4 divisões (17/2 = 8.5 -> 8, 8/2 = 4, 4/2 = 2, 2/2 = 1). Maria ganha 1 doce (17-16=1). Eduardo ganha 4 doces, Maria ganha 1.
+E) x = 20: Eduardo ganha doces em 4 divisões (20/2 = 10, 10/2 = 5, 5/2 = 2.5 -> 2, 2/2 = 1). Maria não ganha nenhum doce.
+
+A alternativa D (17) parece ser a que maximiza a vantagem de Eduardo, pois ele ganha 4 doces enquanto Maria ganha apenas 1. A alternativa A (32) também é boa, mas a diferença é menor. A alternativa B e C favorecem Maria. A alternativa E também é boa, mas a diferença é menor que a alternativa D.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na divisão por 2 como fator determinante, ignorando a subtração de 1 quando x é ímpar, levando a uma vantagem menor para Eduardo.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pode-se interpretar que números maiores sempre levam a mais doces para Eduardo, sem considerar a dinâmica de divisão e subtração.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem se concentrar apenas na magnitude do número, sem analisar o processo iterativo e como ele afeta a distribuição dos doces.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Pode-se considerar que um número par é sempre melhor, sem analisar a interação entre a paridade e a subtração.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da explicação do procedimento. A descrição do passo 2 é redundante, pois já foi introduzida no passo 1.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da explicação do procedimento no passo 2. Simplificar a descrição para 'Repita o procedimento até que x seja menor ou igual a zero.'
+    [G16] A introdução com a história de Maria e Eduardo é um window dressing, pois não contribui diretamente para a compreensão do problema ou para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução com a história de Maria e Eduardo e apresentar o problema diretamente, por exemplo: 'Dado um número inteiro positivo x, um jogo é realizado...'
+    [G19] A resolução cega apontou D, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

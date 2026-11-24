@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:43:33
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise um cenário clínico complexo, considerando múltiplos fatores (sinais vitais, exames laboratoriais, histórico do paciente) para identificar a causa mais provável do quadro, diferenciando entre hipóteses e eliminando alternativas menos plausíveis. A escolha da resposta correta demanda a integração de conhecimentos de fisiopatologia, farmacologia e semiologia.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa extensa e detalhada do caso clínico, que pode ser considerada window dressing, pois não contribui diretamente para a avaliação do conhecimento do aluno sobre o tema central. A descrição detalhada da evolução do paciente, embora possa ser relevante em um contexto clínico real, é desnecessária para a compreensão da questão e para a identificação da resposta correta.
+         → Sugestão: Remover detalhes descritivos excessivos, focando nos sinais e sintomas mais relevantes para a questão. Por exemplo, eliminar informações sobre a antibioticoterapia de amplo espectro ou a nutrição parenteral, a menos que sejam diretamente relevantes para a resposta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um paciente com sinais de sepse, como febre, calafrios, hipotensão, taquicardia, leucocitose e marcadores inflamatórios elevados, em um contexto de internação prolongada com dispositivos invasivos. A alternativa A é a única que considera a possibilidade de sepse com disfunção de múltiplos órgãos, o que é consistente com a gravidade do quadro clínico. As demais alternativas apresentam explicações alternativas que não consideram a combinação de sinais e o risco de sepse. A alternativa B ignora o envolvimento disseminado, a C atribui a causa a antibióticos sem infecção, a D desconsidera o foco infeccioso e a E limita a infecção ao intestino sem repercussão sistêmica. Portanto, a alternativa A é a mais adequada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode focar na localização da infecção, ignorando a possibilidade de disseminação sistêmica e a gravidade da sepse.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode associar antibioticoterapia a efeitos colaterais, minimizando a importância da infecção ativa.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode atribuir a hipotensão e taquicardia apenas ao estresse cirúrgico, negligenciando o impacto da sepse.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode interpretar erroneamente a microbiota intestinal como causa exclusiva dos sintomas, sem considerar a resposta sistêmica.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém uma narrativa extensa e detalhada do caso clínico, que pode ser considerada window dressing, pois não contribui diretamente para a avaliação do conhecimento do aluno sobre o tema central. A descrição detalhada da evolução do paciente, embora possa ser relevante em um contexto clínico real, é desnecessária para a compreensão da questão e para a identificação da resposta correta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover detalhes descritivos excessivos, focando nos sinais e sintomas mais relevantes para a questão. Por exemplo, eliminar informações sobre a antibioticoterapia de amplo espectro ou a nutrição parenteral, a menos que sejam diretamente relevantes para a resposta.
+
+================================================================================

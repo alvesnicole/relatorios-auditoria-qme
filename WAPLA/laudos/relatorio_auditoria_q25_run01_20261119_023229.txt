@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 02:35:59
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o estudante desconstrua a situação clínica, identifique a relação entre múltiplos fatores (uso de antibióticos, cateter, diabetes, etc.) e compreenda como eles interagem para favorecer a transformação da flora normal em agentes oportunistas. Isso envolve a análise de variáveis e a dedução de relações de causa e efeito, característico do nível de análise.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa (histórico do paciente) que não contribui diretamente para a avaliação do conhecimento do estudante sobre o tema central (transformação de microrganismos da flora normal em agentes oportunistas).
+         → Sugestão: Remover detalhes desnecessários do histórico do paciente, focando na apresentação direta dos fatores que contribuem para a transição da flora normal para agentes oportunistas.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um caso de infecção hospitalar em um paciente com múltiplos fatores de risco. A alternativa correta deve abordar a interação desses fatores, especialmente o desequilíbrio da flora normal induzido pela antibioticoterapia de amplo espectro e a consequente oportunidade para microrganismos oportunistas. A alternativa A parece ser a mais completa, pois relaciona o uso de antibióticos, a presença de dispositivos invasivos (cateter e sonda), a ruptura de barreiras e o controle glicêmico inadequado. As demais alternativas negligenciam algum desses aspectos ou atribuem importância excessiva a fatores isolados (idade, diabetes, sonda vesical). A alternativa B minimiza o desequilíbrio da flora, a C minimiza o papel da flora cutânea e a D atribui peso excessivo à sonda vesical. A E ignora a importância dos antibióticos e dispositivos invasivos.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem superestimar o impacto da idade e subestimar o papel da flora normal no desenvolvimento de infecções.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que o diabetes afeta primariamente a cicatrização e a defesa local, ignorando a complexidade da interação microflora-hospedeiro.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem simplificar demais a contribuição de cada dispositivo invasivo e interpretar erroneamente o papel dos antibióticos.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem focar apenas nos sinais locais da infecção, negligenciando os fatores sistêmicos que a favorecem.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém uma contextualização narrativa extensa (histórico do paciente) que não contribui diretamente para a avaliação do conhecimento do estudante sobre o tema central (transformação de microrganismos da flora normal em agentes oportunistas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover detalhes desnecessários do histórico do paciente, focando na apresentação direta dos fatores que contribuem para a transição da flora normal para agentes oportunistas.
+
+================================================================================

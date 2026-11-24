@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 09:13:32
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique as regras fornecidas para determinar uma ordem possível de apresentação dos estudantes, combinando as restrições para encontrar uma solução que satisfaça todas as condições. Não se trata de mera recordação ou compreensão, mas sim de manipulação das informações para gerar uma resposta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que cada estudante se apresenta sozinho no palco e um de cada vez. Essa informação é implícita nas demais condições.
+         → Sugestão: Remover a frase 'No show, cada estudante vai se apresentar sozinho no palco, um em seguida do outro.' pois a sequência já é estabelecida pelas demais condições.
+    [G13] Repetição da informação de que nenhum outro estudante além dos seis vai se apresentar no Show de Talentos. Essa informação é implícita nas demais condições.
+         → Sugestão: Remover a frase 'e nenhum outro estudante além dos seis vai se apresentar no Show de Talentos.' pois a limitação já é estabelecida pelas demais condições.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das restrições:
+1. Pipa, Quico e Rui devem se apresentar um imediatamente após o outro: Esta regra impõe um bloco de três estudantes em sequência.
+2. Teco e Ula devem se apresentar antes de Rui: Esta regra estabelece uma ordem parcial entre esses três estudantes.
+3. Sara deve ser a primeira ou a última a se apresentar: Esta regra restringe a posição de Sara.
+4. Exatamente um estudante deve se apresentar entre Pipa e Ula: Esta regra impõe uma distância específica entre Pipa e Ula.
+
+Verificação das alternativas:
+Alternativa A: Sara, Teco, Ula, Rui, Pipa, Quico. Viola a regra 1 (Pipa e Quico não estão imediatamente após Rui). Viola a regra 4 (não há exatamente um estudante entre Pipa e Ula).
+Alternativa B: Sara, Pipa, Quico, Rui, Teco, Ula. Viola a regra 2 (Teco deve estar antes de Rui).
+Alternativa C: Teco, Sara, Pipa, Rui, Quico, Ula. Viola a regra 2 (Ula deve estar antes de Rui).
+Alternativa D: Ula, Rui, Teco, Quico, Pipa, Sara. Viola a regra 2 (Teco deve estar antes de Rui). Viola a regra 4 (não há exatamente um estudante entre Pipa e Ula).
+Alternativa E: Teco, Pipa, Quico, Ula, Rui, Sara. Viola a regra 2 (Ula deve estar antes de Rui). Viola a regra 4 (não há exatamente um estudante entre Pipa e Ula).
+
+Nenhuma das alternativas satisfaz todas as restrições. Portanto, a resposta é NENHUM.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar erroneamente a condição de que Pipa e Quico devem estar juntos, mas não necessariamente em sequência com Sara.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na ordem de Teco e Ula antes de Rui, negligenciando a condição de Sara como primeira ou última.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem interpretar a condição de Sara como primeira ou última de forma equivocada, colocando-a no meio da sequência.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na ordem de Pipa e Quico, mas negligenciar a condição de que Sara deve ser a primeira ou a última.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa B (51 palavras) é significativamente mais longa que a alternativa D (33 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação de que cada estudante se apresenta sozinho no palco e um de cada vez. Essa informação é implícita nas demais condições.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'No show, cada estudante vai se apresentar sozinho no palco, um em seguida do outro.' pois a sequência já é estabelecida pelas demais condições.
+    [G13] Repetição da informação de que nenhum outro estudante além dos seis vai se apresentar no Show de Talentos. Essa informação é implícita nas demais condições.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'e nenhum outro estudante além dos seis vai se apresentar no Show de Talentos.' pois a limitação já é estabelecida pelas demais condições.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa B (51 palavras) é significativamente mais longa que a alternativa D (33 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade, evitando opções excessivamente longas.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

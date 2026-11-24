@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 21:20:08
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique a função `map` para converter um valor de um intervalo para outro, demonstrando a capacidade de usar uma regra específica em um contexto prático. Não envolve análise profunda ou criação, mas sim a aplicação direta de um conceito.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém uma repetição desnecessária da informação de que a função 'map' é utilizada para converter um valor de 0 a 100 em um ângulo para um servo motor. Essa informação já é implícita na descrição do problema.
+         → Sugestão: Remover a frase 'por meio da função map' da primeira frase do enunciado.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : A função `map` em Arduino realiza um mapeamento linear de um valor de entrada para um intervalo de saída. A fórmula geral é: `map(x, in_min, in_max, out_min, out_max) = out_min + (x - in_min) * (out_max - out_min) / (in_max - in_min)`. No caso, temos `x = 37`, `in_min = 0`, `in_max = 100`, `out_min = 0`, `out_max = 180`. Substituindo: `map(37, 0, 100, 0, 180) = 0 + (37 - 0) * (180 - 0) / (100 - 0) = 37 * 180 / 100 = 37 * 1.8 = 66.6`.  A aritmética inteira pode causar arredondamentos, mas a alternativa mais próxima é 66.6.
+
+Análise das alternativas:
+
+A) 20:  Calculando, 20 não corresponde ao mapeamento.
+B) 66: Calculando, 66 não corresponde ao mapeamento.
+C) 67: Calculando, 67 não corresponde ao mapeamento.
+D) 66.6: Corresponde ao cálculo do mapeamento.
+E) 6660:  Valor extremamente alto e obviamente incorreto.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão na aplicação da fórmula de interpolação linear, possivelmente dividindo incorretamente.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Arredondamento incorreto do resultado da interpolação linear, ignorando a aritmética inteira.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Interpretação errônea da função map como uma divisão em vez de uma interpolação linear.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Erro grosseiro na aplicação da função map, multiplicando os valores em vez de interpolar.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho, impactando a uniformidade visual.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém uma repetição desnecessária da informação de que a função 'map' é utilizada para converter um valor de 0 a 100 em um ângulo para um servo motor. Essa informação já é implícita na descrição do problema.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'por meio da função map' da primeira frase do enunciado.
+    [G24] As alternativas apresentam variações significativas no tamanho, impactando a uniformidade visual.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para garantir maior homogeneidade.
+    [G19] A resolução cega apontou D, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

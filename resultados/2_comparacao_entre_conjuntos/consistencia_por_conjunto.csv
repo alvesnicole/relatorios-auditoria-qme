@@ -1,0 +1,16 @@
+conjunto,metrica,valor,ic95_inf,ic95_sup
+OBI,κ diretrizes,0.835,0.7943,0.8722
+OBI,κ resposta cega,0.4864,0.3586,0.6137
+OBI,κ confere gabarito,0.4301,0.2318,0.6183
+OBI,κ nível de Bloom,1.0,1.0,1.0
+OBI,Jaccard médio,0.7654,0.7121,0.8167
+QCONCURSOS,κ diretrizes,0.8527,0.8136,0.8882
+QCONCURSOS,κ resposta cega,0.8894,0.8074,0.9671
+QCONCURSOS,κ confere gabarito,0.8437,0.6718,0.9672
+QCONCURSOS,κ nível de Bloom,0.9815,0.9402,1.0
+QCONCURSOS,Jaccard médio,0.7874,0.7359,0.836
+WAPLA,κ diretrizes,0.8568,0.8192,0.8937
+WAPLA,κ resposta cega,0.9184,0.8235,1.0
+WAPLA,κ confere gabarito,0.5556,0.0,1.0
+WAPLA,κ nível de Bloom,0.978,0.9277,1.0
+WAPLA,Jaccard médio,0.7964,0.7458,0.8452

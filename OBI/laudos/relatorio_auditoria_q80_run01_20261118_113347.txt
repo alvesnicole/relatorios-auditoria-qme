@@ -1,0 +1,68 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 11:40:53
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de 'tríade' para identificar quais números pares se encaixam nessa definição, demonstrando a habilidade de aplicar regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da definição de 'tríade' ao apresentar exemplos. A explicação pode ser mais concisa.
+         → Sugestão: Remover a repetição da definição após a apresentação dos exemplos. Exemplo: '...Por exemplo, 123 e 567 são tríades.' (Remover a segunda parte da definição).
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema pede o número de tríades pares. Uma tríade é definida como um número de três dígitos, com dígitos de 1 a 9, em ordem crescente. Para que uma tríade seja par, o último dígito deve ser par. Os dígitos pares possíveis são 2, 4, 6 e 8. Para cada um desses dígitos, precisamos encontrar as combinações possíveis para os dois primeiros dígitos, que devem ser menores que o último dígito e em ordem crescente. 
+
+Se o último dígito for 2, os dois primeiros dígitos podem ser 1 e 2 (122). 
+Se o último dígito for 4, os dois primeiros dígitos podem ser 1, 2, 3 (124, 134, 234). 
+Se o último dígito for 6, os dois primeiros dígitos podem ser 1, 2, 3, 4, 5 (126, 136, 146, 156, 236, 246, 256, 346, 356, 456). 
+Se o último dígito for 8, os dois primeiros dígitos podem ser 1, 2, 3, 4, 5, 6, 7 (128, 138, 148, 158, 168, 178, 238, 248, 258, 268, 278, 348, 358, 368, 378, 458, 468, 478, 568, 578, 678). 
+
+Total de tríades pares: 1 + 3 + 10 + 21 = 35. No entanto, as alternativas fornecidas não incluem esse valor. Revisando a análise, o enunciado diz que os dígitos são sequenciais, então a tríade 122 não é válida, pois 2 não é sequencial a 1. A tríade 134 também não é válida. A tríade 126 não é válida. A tríade 128 não é válida. 
+
+Considerando a restrição de dígitos sequenciais, as tríades pares possíveis são: 
+- Último dígito 2: 122 (inválido) 
+- Último dígito 4: 124, 234 (inválido) 
+- Último dígito 6: 126, 136, 146, 236, 246, 346 (inválido) 
+- Último dígito 8: 128, 138, 148, 158, 168, 178, 238, 248, 258, 268, 278, 348, 358, 368, 378, 458, 468, 478, 568, 578, 678 (inválido) 
+
+As tríades pares válidas são aquelas em que os dígitos são sequenciais e o último dígito é par. As tríades válidas são: 124, 234, 126, 136, 146, 236, 246, 346, 128, 138, 148, 158, 168, 178, 238, 248, 258, 268, 278, 348, 358, 368, 378, 458, 468, 478, 568, 578, 678. 
+
+Analisando as opções, a alternativa D (4) parece ser a mais plausível, considerando que a contagem pode estar errada devido à interpretação da sequencialidade. A alternativa C (3) também é possível. A alternativa E (5) é improvável. A alternativa A (1) e B (2) são muito baixas. 
+
+Revisando a definição de tríades, os dígitos devem ser sequenciais em ordem crescente. Portanto, 124 é uma tríade válida, 234 é uma tríade válida, 126 não é, 136 não é, 146 não é, 236 não é, 246 não é, 346 não é. 128 não é, 138 não é, 148 não é, 158 não é, 168 não é, 178 não é, 238 não é, 248 não é, 258 não é, 268 não é, 278 não é, 348 não é, 358 não é, 368 não é, 378 não é, 458 não é, 468 não é, 478 não é, 568 não é, 578 não é, 678 não é. Portanto, apenas 124 e 234 são tríades pares válidas. 
+
+Considerando a interpretação mais rigorosa da sequencialidade, existem apenas duas tríades pares válidas: 124 e 234.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 2/5)
+         → Aluno pode interpretar que a tríade deve ter apenas um número par, ignorando a restrição de dígitos sequenciais.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode focar apenas no requisito de ser par, sem considerar a sequência crescente dos dígitos.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode entender que a tríade deve terminar em um número par, mas não considerar a sequência crescente dos dígitos.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode pensar que qualquer tríade com um número par é válida, sem considerar a sequência crescente dos dígitos.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da definição de 'tríade' ao apresentar exemplos. A explicação pode ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da definição após a apresentação dos exemplos. Exemplo: '...Por exemplo, 123 e 567 são tríades.' (Remover a segunda parte da definição).
+    [G19] A resolução cega apontou B, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

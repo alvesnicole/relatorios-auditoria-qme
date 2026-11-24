@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 16:06:00
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre topologias de rede para determinar a mais adequada a uma situação específica (interligação de filiais com fibra ótica). Não se trata de mera recordação, mas de análise e aplicação de conceitos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado é prolixo, com repetição desnecessária da ideia de instalação de rede. A solicitação da diretoria e a pergunta sobre a topologia são redundantes.
+         → Sugestão: Reformular o enunciado para: 'Uma empresa deseja interligar suas filiais utilizando fibra ótica. Qual a topologia de rede mais adequada?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O problema busca a topologia de rede mais adequada para interligar filiais utilizando fibra ótica. A fibra ótica é ideal para longas distâncias e alta velocidade, o que sugere uma topologia que minimize a distância entre os nós e permita escalabilidade. 
+
+A) Anel: Topologia simples, mas com falha em um nó interrompe a rede. Não é ideal para filiais interligadas.
+B) Barra: Similar ao anel, com pontos de falha únicos. Não é escalável.
+C) Árvore: Hierárquica, mas com pontos de falha únicos (nós pai). Não é ideal para alta disponibilidade.
+D) Estrela: Centralizada, fácil de gerenciar, mas a falha do nó central derruba toda a rede. Adequada para redes menores, mas não para filiais interligadas.
+E) Vetorial: Não é uma topologia de rede padrão.
+
+A topologia de árvore seria a mais adequada, pois permite a expansão da rede e a conexão de múltiplos pontos, minimizando o impacto de falhas em um único nó. A topologia em estrela, embora comum, apresenta um ponto único de falha que comprometeria toda a rede. A topologia em anel e barra são inadequadas devido à sua vulnerabilidade a falhas. A topologia vetorial não é reconhecida.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a topologia de barra com uma opção viável para interligar filiais, ignorando a limitação de distância e a escalabilidade.
+    [C] Distrator (Plausibilidade: 4/5)
+         → A topologia em árvore pode parecer adequada devido à sua estrutura hierárquica, mas não é ideal para comunicação entre filiais distribuídas.
+    [D] Distrator (Plausibilidade: 4/5)
+         → A topologia em estrela é comum, mas a fibra ótica implica uma necessidade de maior alcance e largura de banda, tornando-a menos eficiente.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem escolher essa opção por desconhecimento dos termos técnicos, sem entender a aplicação de topologias de rede.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho e complexidade da fraseologia.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado é prolixo, com repetição desnecessária da ideia de instalação de rede. A solicitação da diretoria e a pergunta sobre a topologia são redundantes.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para: 'Uma empresa deseja interligar suas filiais utilizando fibra ótica. Qual a topologia de rede mais adequada?'
+    [G24] As alternativas apresentam variações no tamanho e complexidade da fraseologia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho e a estrutura das alternativas para garantir maior uniformidade.
+    [G19] A resolução cega apontou C, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

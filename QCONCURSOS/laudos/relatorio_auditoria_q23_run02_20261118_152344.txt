@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 15:27:13
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre comandos do Shell do Linux para resolver um problema prático, identificando qual comando obteria as informações necessárias. Não se trata de mera recordação, mas de usar o conhecimento em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da informação de que o técnico precisa solucionar um problema. A frase 'para solucionar o problema' é redundante.
+         → Sugestão: Remover a repetição: 'O técnico de uma empresa de tecnologia foi enviado a um cliente para resolver um problema ocorrido em um servidor Linux. Entretanto, não havia com o cliente informações sobre a distribuição do Linux, a versão do kernel e a arquitetura do servidor no qual ele foi instalado, informações necessárias para o técnico solucionar o problema.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O problema exige um comando que forneça informações sobre a distribuição Linux, versão do kernel e arquitetura do servidor. O comando `uname -a` é amplamente conhecido por exibir informações do sistema, incluindo o kernel e a arquitetura. As outras opções não se encaixam na descrição do problema: `info -i` é usado para informações de man pages, `lin -a` não é um comando válido, `mkdir -a` cria diretórios, e `rename -i` renomeia arquivos com confirmação.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode confundir 'info' com um comando para exibir informações do sistema, mas não sabe que ele é usado para documentação.
+    [B] Distrator (Plausibilidade: 1/5)
+         → Combinação aleatória de letras que não corresponde a nenhum comando Linux válido, tornando-a obviamente incorreta.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Aluno pode associar 'mkdir' à criação de diretórios, mas não entende que não é usado para obter informações do sistema.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Combinação aleatória de letras que não corresponde a nenhum comando Linux válido, tornando-a obviamente incorreta.
+  Violações (G21–G24, G27–G31):
+    [G30] As alternativas B e D não refletem erros típicos de estudantes ao tentar resolver o problema.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (1.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária da informação de que o técnico precisa solucionar um problema. A frase 'para solucionar o problema' é redundante.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição: 'O técnico de uma empresa de tecnologia foi enviado a um cliente para resolver um problema ocorrido em um servidor Linux. Entretanto, não havia com o cliente informações sobre a distribuição do Linux, a versão do kernel e a arquitetura do servidor no qual ele foi instalado, informações necessárias para o técnico solucionar o problema.'
+    [G30] As alternativas B e D não refletem erros típicos de estudantes ao tentar resolver o problema.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores que representem comandos Linux que poderiam ser confundidos com o comando correto, refletindo erros de interpretação mais comuns.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (1.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

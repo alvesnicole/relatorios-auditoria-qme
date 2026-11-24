@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 05:13:01
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conceito de fotorrealismo e sua relação com a gestualidade abstrata para identificar um procedimento de trabalho coerente com as orientações da curadoria. Não se trata de mera recordação de informações, mas sim de aplicação de um conhecimento em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização extensa e detalhada sobre a exposição, a curadoria e as orientações à artista, que não contribuem diretamente para a avaliação do conhecimento do aluno. Essa contextualização funciona como um 'window dressing', adicionando detalhes desnecessários à tarefa.
+         → Sugestão: Remover a descrição detalhada da exposição e da curadoria, focando apenas nos requisitos essenciais para a compreensão da tarefa e na relação entre fotografia e pintura.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve uma exposição que busca explorar a relação entre pintura e fotografia, com ênfase na representação de cenas urbanas banais, alta nitidez, pintura bidimensional e verossimilhança. A artista deve adotar um procedimento coerente com o fotorrealismo, em contraste com a gestualidade abstrata. A alternativa A descreve um processo que se alinha com essa descrição: fotografar, projetar, pintar com detalhes e ajustar para verossimilhança, mantendo a superfície pictórica contínua. As demais alternativas violam as restrições do enunciado: B introduz colagem e gestualidade expressiva, C prioriza a gestualidade e abandona a verossimilhança, D usa bancos de imagens e objetos tridimensionais, E abandona a representação figurativa. A alternativa A é a única que incorpora a fotografia como referência detalhada para a construção de imagens verossímeis, em contraste com a gestualidade subjetiva, e adere às restrições de pintura bidimensional e superfície pictórica contínua.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a referência fotográfica e a incorporação de elementos digitais e gestuais, desviando do fotorrealismo.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Interpretação equivocada da ênfase na precisão fotográfica, priorizando a gestualidade e a expressividade do ato de pintar.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Desvio do foco na pintura bidimensional e na superfície pictórica contínua, introduzindo elementos tridimensionais e colagens.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da busca por verossimilhança, priorizando a neutralidade visual em vez da representação detalhada da realidade.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas. A alternativa A (20 palavras) é significativamente maior que a alternativa C (15 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém contextualização extensa e detalhada sobre a exposição, a curadoria e as orientações à artista, que não contribuem diretamente para a avaliação do conhecimento do aluno. Essa contextualização funciona como um 'window dressing', adicionando detalhes desnecessários à tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da exposição e da curadoria, focando apenas nos requisitos essenciais para a compreensão da tarefa e na relação entre fotografia e pintura.
+    [G24] Diferença no tamanho entre as alternativas. A alternativa A (20 palavras) é significativamente maior que a alternativa C (15 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar disparidades.
+
+================================================================================

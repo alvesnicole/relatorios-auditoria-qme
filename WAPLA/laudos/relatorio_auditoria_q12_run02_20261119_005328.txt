@@ -1,0 +1,70 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:57:49
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique o conceito de interseção e união de conjuntos para identificar as notas que aparecem em pelo menos duas avaliações. Embora envolva a compreensão dos conceitos de conjuntos, a principal demanda é a aplicação desses conceitos para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] Contextualização excessiva e detalhamento desnecessário da situação de pesquisa. A descrição da equipe de pesquisa, a análise de desempenho e a organização dos resultados em conjuntos são informações que não contribuem diretamente para a compreensão da tarefa.
+         → Sugestão: Remover a contextualização sobre a equipe de pesquisa e a metodologia utilizada. O enunciado pode começar diretamente com a informação sobre os conjuntos A, B e C e a pergunta a ser respondida.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema pede o conjunto de notas que aparecem em pelo menos duas avaliações. Isso significa que precisamos encontrar a interseção de pares de conjuntos e depois unir esses resultados. 
+
+A) Calcula a união das interseções de A e B, A e C, e B e C. A interseção de A e B é {5, 7}. A interseção de A e C é {4, 6}. A interseção de B e C é {}. A união desses conjuntos é {4, 5, 6, 7}, que difere do conjunto proposto na alternativa. Portanto, a alternativa A está incorreta.
+B) Calcula a interseção de (A ∪ B) e C. A união de A e B é {4, 5, 6, 7, 8}. A interseção desse conjunto com C é {4, 6, 8}. Esta alternativa parece plausível.
+C) Calcula a união de (A ∩ B) e C. A interseção de A e B é {5, 7}. A união desse conjunto com C é {4, 5, 6, 7, 8, 9}, que difere do conjunto proposto na alternativa. Portanto, a alternativa C está incorreta.
+D) Calcula a união de A, B e C. O conjunto resultante é {4, 5, 6, 7, 8, 9}, que difere do conjunto proposto na alternativa. Portanto, a alternativa D está incorreta.
+E) Calcula a interseção de (A ∩ B) e C. A interseção de A e B é {5, 7}. A interseção desse conjunto com C é o conjunto vazio. Portanto, a alternativa E está incorreta.
+
+A alternativa B parece ser a única que produz um conjunto consistente com a descrição do problema.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre união e interseção de conjuntos, aplicando a operação errada para encontrar as notas comuns.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação equivocada da operação de interseção, incluindo elementos que não pertencem a ambas as avaliações.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a união de todos os conjuntos e o conjunto de elementos que aparecem em pelo menos duas avaliações.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Interpretação literal da interseção dupla, levando a um conjunto vazio, sem considerar o contexto do problema.
+  Violações (G21–G24, G27–G31):
+    [G22] As opções se sobrepõem, pois compartilham elementos e conceitos relacionados à teoria dos conjuntos.
+    [G24] A opção D é significativamente mais longa que as demais, com uma diferença de mais de 8 palavras.
+    [G30] A opção E, com o conjunto vazio, não reflete um erro típico de estudante, mas sim uma interpretação extrema.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (6):
+    [G16] Contextualização excessiva e detalhamento desnecessário da situação de pesquisa. A descrição da equipe de pesquisa, a análise de desempenho e a organização dos resultados em conjuntos são informações que não contribuem diretamente para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização sobre a equipe de pesquisa e a metodologia utilizada. O enunciado pode começar diretamente com a informação sobre os conjuntos A, B e C e a pergunta a ser respondida.
+    [G22] As opções se sobrepõem, pois compartilham elementos e conceitos relacionados à teoria dos conjuntos.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular as opções para que sejam mais distintas em termos de conteúdo e resultado.
+    [G24] A opção D é significativamente mais longa que as demais, com uma diferença de mais de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G30] A opção E, com o conjunto vazio, não reflete um erro típico de estudante, mas sim uma interpretação extrema.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores que representem erros mais comuns e plausíveis na aplicação da teoria dos conjuntos.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou B, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

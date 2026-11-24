@@ -1,0 +1,68 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 06:04:26
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar uma ordem de apresentação válida. Isso envolve a interpretação das regras e a aplicação sequencial delas para testar as alternativas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que os alunos se apresentarão uma única vez em um dos turnos.
+         → Sugestão: Remover a frase 'Cada aluno se apresentará uma única vez, em um dos sete turnos do Show'.
+    [G16] A frase 'Vale tudo: música, drama, malabarismo,...' é um floreio narrativo sem função avaliativa.
+         → Sugestão: Remover a frase 'Vale tudo: música, drama, malabarismo,...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise das alternativas:
+
+A) F,B,C,G,A,D,E: A deve estar no turno 3 ou 5. A está no turno 5. F não pode estar nos turnos 4 ou 6. F está no turno 1. B deve estar no turno após C. B está no turno 2, C no turno 3. Valida até o momento.
+B) F,D,E,G,A,C,B: A deve estar no turno 3 ou 5. A está no turno 5. F não pode estar nos turnos 4 ou 6. F está no turno 1. B deve estar no turno após C. B está no turno 7, C no turno 6. Valida até o momento.
+C) F,D,A,E,C,B,G: A deve estar no turno 3 ou 5. A está no turno 3. F não pode estar nos turnos 4 ou 6. F está no turno 1. B deve estar no turno após C. B está no turno 6, C no turno 5. Valida até o momento.
+D) C,B,A,G,E,F,D: A deve estar no turno 3 ou 5. A está no turno 3. F não pode estar nos turnos 4 ou 6. F está no turno 6. VIOLADA. Eliminar.
+E) C,B,F,A,G,E,D: A deve estar no turno 3 ou 5. A está no turno 4. VIOLADA. Eliminar.
+
+Verificação adicional da alternativa C: Se E estiver no turno 4, F deve estar no turno 5. E está no turno 6. VIOLADA. Eliminar.
+
+Verificação adicional da alternativa A: Se D estiver no turno 1, C deve estar no turno 2. D está no turno 6. Regra não se aplica. Se E estiver no turno 4, F deve estar no turno 5. E está no turno 7. Regra não se aplica.
+
+Verificação adicional da alternativa B: Se D estiver no turno 1, C deve estar no turno 2. D está no turno 2. Regra não se aplica. Se E estiver no turno 4, F deve estar no turno 5. E está no turno 7. Regra não se aplica.
+
+Considerando as verificações adicionais, a alternativa B parece ser a única que atende a todas as restrições.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Aluno pode interpretar a ordem como uma sequência fixa, ignorando as restrições de turnos para A e F.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode focar na restrição de B ser imediatamente após C, mas não considerar a restrição de A.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não entender a relação entre a posição de D e a posição de C, levando a uma ordem inválida.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Aluno pode não considerar a restrição de F, resultando em uma ordem que não atende a todas as condições.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' é significativamente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação de que os alunos se apresentarão uma única vez em um dos turnos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Cada aluno se apresentará uma única vez, em um dos sete turnos do Show'.
+    [G16] A frase 'Vale tudo: música, drama, malabarismo,...' é um floreio narrativo sem função avaliativa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Vale tudo: música, drama, malabarismo,...'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés.
+
+================================================================================

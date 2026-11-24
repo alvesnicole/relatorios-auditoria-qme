@@ -1,0 +1,51 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 20:54:31
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento de SQL para resolver um problema prático, selecionando a consulta correta para atender a uma necessidade específica. Não envolve análise profunda ou criação, mas sim a aplicação de um conceito conhecido.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação de que o técnico precisa consultar chamados abertos, já que a pergunta solicita um comando SQL para essa finalidade.
+         → Sugestão: Remover a frase 'Um técnico precisa consultar os chamados abertos' e manter apenas 'Um banco de dados possui uma tabela denominada chamados... Qual comando SQL atende corretamente a essa necessidade?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema exige uma consulta aos chamados abertos sem modificar os dados. A alternativa A seleciona os campos id, usuario e status dos chamados com status 'Aberto', o que atende ao requisito. A alternativa B tenta atualizar o status dos chamados, o que não é permitido. A alternativa C exclui os chamados abertos, o que também não é permitido. A alternativa D seleciona os chamados com status diferente de 'Aberto', o que não atende ao requisito. Portanto, a alternativa A é a única que realiza a consulta desejada sem modificações.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre UPDATE (modificar) e SELECT (consultar), acreditando que a consulta precisa alterar o status.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação errônea do enunciado, pensando que o objetivo é remover os chamados abertos, ao invés de apenas consultá-los.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Entendimento superficial do operador 'WHERE', utilizando 'WHERE status <> 'Aberto'' para selecionar o oposto do que é desejado.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferenças na estrutura gramatical e no tipo de ação SQL (consulta vs. modificação).
+    [G30] As distratores não refletem erros típicos de estudantes iniciantes em SQL.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetição desnecessária da informação de que o técnico precisa consultar chamados abertos, já que a pergunta solicita um comando SQL para essa finalidade.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Um técnico precisa consultar os chamados abertos' e manter apenas 'Um banco de dados possui uma tabela denominada chamados... Qual comando SQL atende corretamente a essa necessidade?'
+    [G23] As alternativas apresentam diferenças na estrutura gramatical e no tipo de ação SQL (consulta vs. modificação).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das alternativas, utilizando a mesma forma verbal e tipo de comando SQL.
+    [G30] As distratores não refletem erros típicos de estudantes iniciantes em SQL.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores que abordem erros comuns, como confusão entre operadores, funções e cláusulas.
+
+================================================================================

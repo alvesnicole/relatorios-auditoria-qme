@@ -1,0 +1,48 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 09:22:55
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre o Jacobiano em coordenadas esféricas para determinar o elemento de volume, demonstrando a capacidade de usar um conceito específico em um contexto prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de simplificação da descrição da região e do integrando, utilizando termos semelhantes ('simplificar significativamente a descrição').
+         → Sugestão: Remover a segunda ocorrência de 'simplificar a descrição', tornando o enunciado mais conciso. Exemplo: 'Ao calcular integrais triplas em domínios com simetria esférica ou cilíndrica, a mudança de coordenadas pode simplificar a descrição da região e do integrando. Nessa transformação, a correção da medida de volume depende de um fator geométrico associado ao Jacobiano.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O elemento de volume em coordenadas esféricas é dado por $dV = r^2 sin(	heta) dr d	heta dho$. O Jacobiano da transformação é o determinante da matriz Jacobiana, que neste caso é $J = r^2 sin(	heta)$. Portanto, a alternativa A é a única que apresenta o elemento de volume correto e o Jacobiano correspondente.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre o Jacobiano em coordenadas esféricas e a relação entre ρ e sin φ, ignorando o fator de escala correto.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação simplificada do Jacobiano, acreditando que a independência do ângulo polar implica em um elemento de volume simplificado.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Entendimento superficial do papel do Jacobiano, focando apenas no fator angular e ignorando a dependência de ρ e φ.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Erro grosseiro na aplicação do Jacobiano, substituindo sin φ por cos φ, demonstrando falta de familiaridade com a transformação.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de simplificação da descrição da região e do integrando, utilizando termos semelhantes ('simplificar significativamente a descrição').
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a segunda ocorrência de 'simplificar a descrição', tornando o enunciado mais conciso. Exemplo: 'Ao calcular integrais triplas em domínios com simetria esférica ou cilíndrica, a mudança de coordenadas pode simplificar a descrição da região e do integrando. Nessa transformação, a correção da medida de volume depende de um fator geométrico associado ao Jacobiano.'
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

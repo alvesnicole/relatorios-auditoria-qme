@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 02:11:44
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : ANÁLISE
+  Justificativa   : O item exige que o candidato analise as condições fornecidas, deduza as implicações lógicas de cada uma e determine qual candidato é incompatível com a presença de outro, demonstrando raciocínio lógico e capacidade de inferência.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da condição 'Se R está no grupo então H também deve estar.' e 'Se T está no grupo então H não pode estar.' Poderiam ser combinadas para evitar a redundância.
+         → Sugestão: Reescrever as condições para evitar a repetição, por exemplo: 'Se R está no grupo, H deve estar. Se T está no grupo, H não pode estar.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema exige identificar qual candidato não pode estar no grupo se R estiver presente. A premissa chave é 'Se R está no grupo então H também deve estar'. Portanto, se R está no grupo, H deve estar. Analisando as alternativas:
+
+A) H: Se R está, H deve estar. Portanto, H *pode* estar no grupo, eliminando essa opção.
+B) I: Não há restrição direta sobre I em relação a R. I *pode* estar no grupo.
+C) S: Não há restrição direta sobre S em relação a R. S *pode* estar no grupo.
+D) T: Se T está no grupo, H não pode estar. Como R está no grupo, H deve estar. Isso cria uma contradição, indicando que T não pode estar no grupo.
+E) U: Não há restrição direta sobre U em relação a R. U *pode* estar no grupo.
+
+Concluímos que T não pode estar no grupo se R estiver.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na presença de H em várias condições, esquecendo que 'se R está, H também' pode ser satisfeito sem H estar presente em outros cenários.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a necessidade de R para H estar presente e a possibilidade de H estar presente independentemente de R.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da condição 'Se T está no grupo então H não pode estar', ignorando a implicação de que R pode estar sem T.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Considerar U como uma opção aleatória sem analisar sua relação com as condições do problema.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas: A (33 caracteres) e E (23 caracteres) apresentam uma diferença de 10 caracteres, o que não atende ao critério de diferença mínima de 8 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da condição 'Se R está no grupo então H também deve estar.' e 'Se T está no grupo então H não pode estar.' Poderiam ser combinadas para evitar a redundância.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever as condições para evitar a repetição, por exemplo: 'Se R está no grupo, H deve estar. Se T está no grupo, H não pode estar.'
+    [G24] Diferença de tamanho entre as alternativas: A (33 caracteres) e E (23 caracteres) apresentam uma diferença de 10 caracteres, o que não atende ao critério de diferença mínima de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade, evitando disparidades significativas no número de palavras.
+    [G19] A resolução cega apontou D, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

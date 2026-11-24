@@ -1,0 +1,60 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 01:15:57
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre o uso de podcasts em um contexto específico (curso híbrido) para avaliar a coerência de diferentes propostas, considerando objetivos pedagógicos e características dos alunos. A escolha da alternativa correta envolve a aplicação de princípios de design instrucional e metodologias ativas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da situação da professora e dos alunos é extensa e poderia ser mais concisa.
+         → Sugestão: Revisar o enunciado para eliminar repetições e focar nos pontos essenciais da situação, como os objetivos da professora e os desafios dos alunos.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A professora busca integrar o podcast para desenvolver compreensão oral, ampliar vocabulário, promover autonomia e estimular a produção de conteúdo. A alternativa A se alinha a esses objetivos, propondo uma sequência didática que envolve escuta ativa, anotação, discussão em grupo e produção de áudio pelos alunos, promovendo a aprendizagem ativa e a interação. As demais alternativas apresentam abordagens menos coerentes com os objetivos da professora, como tradução excessiva (B), transcrição integral (C), atividades passivas e individuais (D) e avaliação focada apenas na pronúncia (E). A alternativa A é a única que combina elementos de compreensão, produção e interação, alinhando-se com uma proposta de curso híbrido e aprendizagem ativa.
+
+Análise das Pistas Estruturais:
+[G28a] Não identificada. Não há termos absolutos que direcionem para uma única alternativa.
+[G28b] Não identificada. Não há repetição significativa de termos do enunciado nas alternativas.
+[G28c] Não identificada. Todas as alternativas apresentam gramática correta.
+[G28d] A alternativa A é mais detalhada que as demais, descrevendo um processo mais completo e interativo. Isso pode ser interpretado como uma pista.
+[G28e] Não identificada. Não há pares de alternativas que se anulem.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode acreditar que a tradução literal e repetitiva é a melhor forma de garantir a compreensão do conteúdo autêntico.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que a transcrição integral é a atividade mais relevante para o desenvolvimento da compreensão oral, ignorando a interação e a discussão.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode acreditar que a escuta passiva e individualizada é suficiente para desenvolver a compreensão oral e o vocabulário.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode entender que a avaliação da pronúncia isolada é suficiente para o desenvolvimento da fluência e da reflexão sobre a aprendizagem.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (107 palavras) é significativamente mais longa que a alternativa C (56 palavras), D (63 palavras) e E (61 palavras).
+    [G30] A alternativa E não aborda diretamente os objetivos de compreensão oral, vocabulário e autonomia, focando apenas na pronúncia.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da situação da professora e dos alunos é extensa e poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Revisar o enunciado para eliminar repetições e focar nos pontos essenciais da situação, como os objetivos da professora e os desafios dos alunos.
+    [G24] A alternativa B (107 palavras) é significativamente mais longa que a alternativa C (56 palavras), D (63 palavras) e E (61 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar que o tamanho influencie a escolha.
+    [G30] A alternativa E não aborda diretamente os objetivos de compreensão oral, vocabulário e autonomia, focando apenas na pronúncia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular a alternativa para que esteja mais alinhada com os objetivos da professora e com a aprendizagem ativa.
+
+================================================================================

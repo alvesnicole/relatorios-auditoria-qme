@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 14:27:58
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda o conceito de VPN e, em seguida, analise as afirmações para identificar a que melhor descreve os aspectos de segurança, considerando a utilização de canais públicos e a necessidade de criptografia. Não se trata apenas de lembrar definições, mas de avaliar criticamente as opções.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é desfocado. Não é claro qual é a pergunta ou problema central. A frase 'Com relação à segurança dos dados que trafegam por meio da VPN, afirma-se que' sugere que a pergunta está nas alternativas.
+         → Sugestão: Reformule o enunciado para explicitar a pergunta. Exemplo: 'Qual das seguintes afirmações descreve corretamente a segurança dos dados que trafegam por meio de uma VPN?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : A questão aborda a segurança de dados em VPNs. A VPN utiliza meios públicos, o que implica riscos inerentes. A alternativa B parece a mais plausível, pois destaca a vulnerabilidade à interceptação de dados sem criptografia. As demais alternativas apresentam informações imprecisas ou contraditórias: A sugere perda de dados devido à qualidade da comunicação (o problema é a falta de privacidade, não a qualidade), C afirma que usa protocolo padrão da Internet (o que não garante segurança), D atribui segurança à Internet (que não é inerentemente segura), e E generaliza sobre VPNs comerciais (a segurança depende da implementação, não apenas do tipo de VPN). A flag G28b é acionada pela repetição do termo 'VPN' na questão e na alternativa B, funcionando como um reforço visual.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a qualidade da rede pública impacta diretamente a segurança da VPN, ignorando a criptografia.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confundem VPN com uma rede segura por padrão, sem considerar a necessidade de configuração e criptografia.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Entendem que a segurança da Internet é suficiente para proteger dados, sem considerar a necessidade de VPN para privacidade.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Acreditam que VPNs comerciais garantem segurança absoluta, ignorando a importância de configurações adequadas e riscos potenciais.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações no nível de formalidade e complexidade da linguagem.
+    [G30] As alternativas não abordam erros comuns ou equívocos típicos dos estudantes sobre VPN.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é desfocado. Não é claro qual é a pergunta ou problema central. A frase 'Com relação à segurança dos dados que trafegam por meio da VPN, afirma-se que' sugere que a pergunta está nas alternativas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para explicitar a pergunta. Exemplo: 'Qual das seguintes afirmações descreve corretamente a segurança dos dados que trafegam por meio de uma VPN?'
+    [G23] As alternativas apresentam variações no nível de formalidade e complexidade da linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a linguagem e o estilo das alternativas para garantir maior uniformidade.
+    [G30] As alternativas não abordam erros comuns ou equívocos típicos dos estudantes sobre VPN.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar as alternativas para incluir concepções errôneas frequentes sobre VPN.
+
+================================================================================

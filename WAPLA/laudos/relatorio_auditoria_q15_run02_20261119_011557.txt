@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 01:19:24
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre o uso de podcasts em um contexto específico (curso híbrido) e avalie qual alternativa é mais coerente com os objetivos da professora, considerando a situação-problema apresentada. A escolha da alternativa correta envolve a aplicação de princípios pedagógicos e a compreensão de como o podcast pode ser integrado de forma ativa no processo de aprendizagem.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição do contexto da professora e seus objetivos é extensa e poderia ser mais concisa.
+         → Sugestão: Revisar o enunciado para eliminar repetições e focar nos pontos essenciais da situação da professora. Por exemplo, a informação de que a professora deseja integrar o podcast para desenvolver compreensão oral, ampliar o repertório lexical e promover a autonomia já está implícita no objetivo de usar materiais autênticos.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A professora busca integrar o podcast para desenvolver compreensão oral, ampliar vocabulário, promover autonomia e estimular a produção de conteúdo. A alternativa A se alinha a esses objetivos, pois propõe atividades que envolvem escuta ativa, anotação, discussão em grupo e produção de áudio pelos alunos, promovendo a aprendizagem ativa e a interação. As demais alternativas apresentam abordagens que limitam a participação dos alunos, priorizam a tradução, a transcrição passiva ou a avaliação da pronúncia sem feedback, o que não condiz com os objetivos da professora.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a tradução literal e repetitiva é a melhor forma de compreender um podcast, ignorando a importância da compreensão contextual e da interação.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem interpretar que a transcrição integral é a atividade mais relevante para o desenvolvimento da compreensão oral, negligenciando a importância da interação e da produção oral.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem pensar que a escuta passiva e individual de materiais padronizados é suficiente para desenvolver a compreensão oral e a autonomia.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Estudantes podem acreditar que a avaliação da pronúncia isolada, sem feedback contínuo, é uma forma eficaz de melhorar a fluência e a autoconfiança.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (115 palavras) é significativamente mais longa que a alternativa C (57 palavras), violando a regra de diferença de pelo menos 8 palavras e mais que o dobro do tamanho.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição do contexto da professora e seus objetivos é extensa e poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Revisar o enunciado para eliminar repetições e focar nos pontos essenciais da situação da professora. Por exemplo, a informação de que a professora deseja integrar o podcast para desenvolver compreensão oral, ampliar o repertório lexical e promover a autonomia já está implícita no objetivo de usar materiais autênticos.
+    [G24] A alternativa A (115 palavras) é significativamente mais longa que a alternativa C (57 palavras), violando a regra de diferença de pelo menos 8 palavras e mais que o dobro do tamanho.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior equilíbrio, simplificando a alternativa A ou expandindo as demais.
+
+================================================================================

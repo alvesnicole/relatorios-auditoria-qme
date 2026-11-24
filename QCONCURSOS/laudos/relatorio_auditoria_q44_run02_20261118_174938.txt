@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:52:53
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato interprete informações sobre caminhos de arquivos e extensões, relacionando-as a conceitos específicos do Windows e do Excel/PowerPoint. Não se trata de mera memorização, mas de compreender o significado dos elementos apresentados.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] O enunciado não explicita claramente qual ação o aluno deve realizar. A frase 'assinale a alternativa correta' é genérica e poderia ser mais específica.
+         → Sugestão: Substituir 'assinale a alternativa correta' por 'qual a característica do arquivo indicada no caminho fornecido?' ou similar, para deixar a tarefa mais clara.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise do caminho do arquivo: C:\Documentos\Relatorios\Vendas.xlsx. O caminho indica uma hierarquia de pastas: Documentos (pasta raiz), Relatorios (subpasta de Documentos), e Vendas.xlsx (arquivo dentro de Relatorios). A extensão .xlsx identifica arquivos do Excel. 
+
+Verificação das alternativas:
+
+A) Correta: 'Relatorios' é uma pasta dentro de 'Documentos' (correto, conforme o caminho). '.xlsx' é a extensão de arquivos do Excel (correto). 
+B) Incorreta: 'Vendas.xlsx' não é uma pasta, mas um arquivo. '.xlsx' não identifica arquivos compactados (é um formato de planilha). 
+C) Incorreta: 'Documentos' não está dentro de 'Relatorios', mas o contrário. '.xlsx' não é usado em apresentações do PowerPoint (é usado em Excel). 
+D) Incorreta: 'Relatorios' é uma pasta, não um arquivo. Alterar a extensão para .pdf não converte o conteúdo, apenas muda o tipo de arquivo.
+
+Conclusão: A alternativa A é a única que descreve corretamente o caminho e a extensão do arquivo.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir pastas com arquivos e não reconhecer a função de extensão .xlsx.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão entre os programas Excel e PowerPoint e suas respectivas extensões de arquivo.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não entender a diferença entre nome de arquivo e extensão, e a impossibilidade de alterar a extensão para converter o formato.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam pequenas diferenças de tamanho, mas não são discrepantes.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G14] O enunciado não explicita claramente qual ação o aluno deve realizar. A frase 'assinale a alternativa correta' é genérica e poderia ser mais específica.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'assinale a alternativa correta' por 'qual a característica do arquivo indicada no caminho fornecido?' ou similar, para deixar a tarefa mais clara.
+    [G24] As alternativas apresentam pequenas diferenças de tamanho, mas não são discrepantes.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho das alternativas para maior uniformidade.
+
+================================================================================

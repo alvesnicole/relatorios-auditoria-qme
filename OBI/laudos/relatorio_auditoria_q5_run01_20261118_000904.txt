@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 00:14:33
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar o horário de partida do ônibus E. É necessário analisar as informações e combiná-las para chegar à resposta correta, o que envolve um processo de aplicação de regras.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre os horários de partida (6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00) após a apresentação das restrições.
+         → Sugestão: Remover a lista de horários após a frase 'sábado, nos seguintes horários: 6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : Representação: 
+- Horários: 6:00, 7:00, 8:00, 9:00, 10:00, 11:00, 12:00
+- Ônibus: A, B, C, D, E, F, G
+Restrições:
+1. A sai às 6:00.
+2. E sai após C e B (E > C, E > B).
+3. D, F e G saem em horários consecutivos (D < F, F < G).
+4. G sai às 9:00.
+
+Análise das Alternativas:
+- Se G sai às 9:00, então D e F saem às 8:00 e 7:00, respectivamente (D < F < G).
+- Como E > C e E > B, e os horários disponíveis são 10:00, 11:00 e 12:00, E deve sair em um desses horários.
+- A alternativa D (11:00) é a única que satisfaz todas as condições, pois garante que E saia após C e B, e que D, F e G saiam em horários consecutivos.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que o horário do ônibus A é irrelevante para determinar o horário do ônibus E, ignorando a relação entre os horários.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode pensar que o horário do ônibus E é determinado apenas pelo horário do ônibus A, sem considerar as restrições sobre B e C.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode não compreender a relação de ordem entre os ônibus C, B e E, levando a uma escolha plausível mas incorreta.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode focar na sequência D, F, G e não considerar a relação entre os ônibus C, B e E, resultando em uma opção plausível.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' (12:00) é significativamente mais curta que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre os horários de partida (6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00) após a apresentação das restrições.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a lista de horários após a frase 'sábado, nos seguintes horários: 6:00, 7:00, 8:00, 9:00, 10:00, 11:00 e 12:00'.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' (12:00) é significativamente mais curta que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho das alternativas, evitando opções excessivamente curtas.
+    [G19] A resolução cega apontou D, mas o gabarito oficial é E; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

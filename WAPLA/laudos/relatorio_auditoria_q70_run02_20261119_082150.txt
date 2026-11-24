@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:25:27
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno interprete uma descrição de uma obra de arte contemporânea e, considerando o contexto histórico, escolha a alternativa que melhor justifica a proposta poética. Isso envolve a análise das características da obra e sua relação com os movimentos artísticos do século XX.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa e descritiva da instalação artística que não contribui diretamente para a avaliação do conhecimento do aluno. A descrição detalhada da obra e do ambiente pode ser considerada window dressing.
+         → Sugestão: Remover a descrição detalhada da instalação, focando apenas nos elementos essenciais para a compreensão da pergunta. Por exemplo: 'Uma instalação artística consiste em lâmpadas, placas industriais, caixas de papelão e instruções impressas. O visitante é convidado a interpretar a obra.' 
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : A obra descrita enfatiza a experiência do visitante e a importância dos materiais como suporte para essa experiência, mais do que a beleza intrínseca dos objetos. Isso se alinha com a arte conceitual e minimalista da segunda metade do século XX, que prioriza a ideia e o processo sobre o objeto físico. A alternativa C, 'Privilegia a ideia sobre o objeto', captura essa essência. As outras alternativas são incompatíveis: A (forma pura) remete ao modernismo; B (técnica manual) à arte tradicional; D (imitação da pintura clássica) a uma abordagem representacional; E (beleza decorativa) a uma função estética que não se encaixa na descrição da instalação.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem associar arte contemporânea a uma ênfase na forma, ignorando a importância do conceito e da experiência.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confundir arte contemporânea com técnicas artesanais tradicionais, desconsiderando a desmaterialização e o foco na ideia.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar erroneamente a obra como uma referência à pintura clássica, não compreendendo a ruptura com a tradição.
+    [E] Distrator (Plausibilidade: 1/5)
+         → A opção é claramente incompatível com o contexto da obra, que prioriza a experiência sobre a estética decorativa.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (22 palavras) é significativamente mais curta que a alternativa D (28 palavras).
+    [G30] A alternativa B não reflete um erro comum de interpretação sobre arte contemporânea.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G16] O enunciado contém uma contextualização extensa e descritiva da instalação artística que não contribui diretamente para a avaliação do conhecimento do aluno. A descrição detalhada da obra e do ambiente pode ser considerada window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da instalação, focando apenas nos elementos essenciais para a compreensão da pergunta. Por exemplo: 'Uma instalação artística consiste em lâmpadas, placas industriais, caixas de papelão e instruções impressas. O visitante é convidado a interpretar a obra.' 
+    [G24] A alternativa A (22 palavras) é significativamente mais curta que a alternativa D (28 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G30] A alternativa B não reflete um erro comum de interpretação sobre arte contemporânea.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a alternativa B para que reflita um equívoco mais comum entre estudantes.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

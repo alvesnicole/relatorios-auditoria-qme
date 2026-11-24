@@ -1,0 +1,64 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:56:28
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno compare os resultados de dois experimentos, identifique as variáveis que influenciam a competição entre SN2 e E2, e interprete como o tipo de haleto de alquila afeta o mecanismo reacional. Isso envolve a desconstrução das informações fornecidas para deduzir a relação entre a estrutura do haleto e o papel do etóxido de sódio.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição de informações. A explicação sobre o mecanismo SN2 e E2 é repetida ao descrever os experimentos com t-butil brometo e brometo de etila.
+         → Sugestão: Consolidar as explicações sobre os mecanismos SN2 e E2 em um único parágrafo introdutório, evitando a repetição ao descrever os experimentos.
+    [G16] A descrição detalhada dos experimentos, com volumes equimolares e temperaturas específicas, pode ser considerada window dressing, pois não contribui diretamente para a avaliação do conhecimento sobre a competição entre SN2 e E2.
+         → Sugestão: Simplificar a descrição dos experimentos, focando nos aspectos essenciais para a compreensão da competição entre SN2 e E2, sem detalhes desnecessários sobre volumes e temperaturas.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise do problema: O texto descreve a competição entre SN2 e E2 em haletos de alquila com etóxido de sódio. O t-butil brometo (terciário) favorece E2 devido ao impedimento estérico, enquanto o brometo de etila (primário) favorece SN2 devido à facilidade de ataque nucleofílico. A alternativa correta deve refletir essa relação. 
+
+Verificação das alternativas:
+
+A) Correta. Explica a diferença no comportamento do etóxido de sódio (atuando como base em E2 e nucleófilo em SN2) com base no impedimento estérico. Alinha-se com os dados experimentais.
+B) Incorreta. Ignora a diferença no mecanismo e atribui as diferenças à temperatura, o que não é suportado pelo texto.
+C) Incorreta. Afirma que o etóxido deixa de atuar como base, o que não é verdade; ele atua como nucleófilo em SN2.
+D) Incorreta. Propõe um mecanismo SN1, que não é relevante para a reação descrita (SN2 e E2 são bimoleculares).
+E) Incorreta. Atribui o aumento da formação de alqueno ao ataque nucleofílico facilitado, o que é o oposto do que ocorre.
+
+Pistas estruturais: A alternativa A utiliza termos-chave do enunciado (etóxido de sódio, SN2, E2, impedimento estérico), reforçando a conexão com o contexto do problema (G28b).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a influência da temperatura e o papel dos reagentes na competição entre SN2 e E2. Aluno pode não compreender a especificidade do substrato.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação simplificada do papel do etóxido, ignorando a natureza anfotérica da base/nucleófilo. Aluno pode não entender a dualidade da função do etóxido.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Confusão entre os mecanismos SN1 e SN2. Aluno pode não dominar as diferenças entre os mecanismos de substituição.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Inversão da relação entre impedimento estérico e reatividade. Aluno pode não compreender a influência do impedimento estérico na escolha do mecanismo.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas. A alternativa A (mais longa) tem quase o dobro de palavras da alternativa D (mais curta).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição de informações. A explicação sobre o mecanismo SN2 e E2 é repetida ao descrever os experimentos com t-butil brometo e brometo de etila.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Consolidar as explicações sobre os mecanismos SN2 e E2 em um único parágrafo introdutório, evitando a repetição ao descrever os experimentos.
+    [G16] A descrição detalhada dos experimentos, com volumes equimolares e temperaturas específicas, pode ser considerada window dressing, pois não contribui diretamente para a avaliação do conhecimento sobre a competição entre SN2 e E2.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a descrição dos experimentos, focando nos aspectos essenciais para a compreensão da competição entre SN2 e E2, sem detalhes desnecessários sobre volumes e temperaturas.
+    [G24] Diferença significativa no tamanho entre as alternativas. A alternativa A (mais longa) tem quase o dobro de palavras da alternativa D (mais curta).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior uniformidade e evitar viés na escolha.
+
+================================================================================

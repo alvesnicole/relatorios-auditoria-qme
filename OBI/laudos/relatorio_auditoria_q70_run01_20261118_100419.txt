@@ -1,0 +1,84 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 10:10:08
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um conjunto de regras e restrições para determinar uma ordem específica de eventos (a ordem dos pastéis). Não se trata de mera recordação ou compreensão, mas sim de combinar informações e aplicar lógica para encontrar uma solução que satisfaça todas as condições.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado é excessivamente prolixo e repetitivo. A descrição das condições para os recheios é longa e poderia ser mais concisa.
+         → Sugestão: Reorganizar as condições em uma lista mais direta e eliminar repetições. Por exemplo, combinar as condições sobre queijo e tomate em uma única afirmação.
+    [G14] A instrução 'Qual das seguintes alternativas é uma ordem correta dos pastéis que são fritos, do primeiro ao terceiro?' é vaga. Não está claro se a ordem é estritamente sequencial ou se há alguma flexibilidade.
+         → Sugestão: Reformular a instrução para deixar claro se a ordem é estritamente sequencial ou se há alguma flexibilidade. Exemplo: 'Qual das seguintes sequências de pastéis fritos, do primeiro ao terceiro, satisfaz todas as condições?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Análise das alternativas:
+
+A) Carne e azeitona; queijo e tomate; palmito e bacon
+- Regra 1 (Azeitona não pode ser usada junto com palmito): Violada (azeitona e palmito no mesmo pastel).
+- Regra 2 (Queijo e tomate devem ser usados no mesmo pastel): Satisfeita.
+- Regra 3 (Carne deve ser usada no segundo pastel se queijo é usado no primeiro): Violada (carne no primeiro pastel).
+- Regra 4 (Palmito deve ser usado em algum pastel frito após o pastel com carne): Satisfeita.
+
+B) Carne e bacon; queijo e tomate; azeitona e palmito
+- Regra 1 (Azeitona não pode ser usada junto com palmito): Violada (azeitona e palmito no mesmo pastel).
+- Regra 2 (Queijo e tomate devem ser usados no mesmo pastel): Satisfeita.
+- Regra 3 (Carne deve ser usada no segundo pastel se queijo é usado no primeiro): Violada (carne no primeiro pastel).
+- Regra 4 (Palmito deve ser usado em algum pastel frito após o pastel com carne): Violada (palmito antes da carne).
+
+C) Queijo e tomate; carne e palmito; bacon e azeitona
+- Regra 1 (Azeitona não pode ser usada junto com palmito): Satisfeita.
+- Regra 2 (Queijo e tomate devem ser usados no mesmo pastel): Satisfeita.
+- Regra 3 (Carne deve ser usada no segundo pastel se queijo é usado no primeiro): Satisfeita.
+- Regra 4 (Palmito deve ser usado em algum pastel frito após o pastel com carne): Satisfeita.
+
+D) Carne e tomate; palmito e azeitona; queijo e bacon
+- Regra 1 (Azeitona não pode ser usada junto com palmito): Violada (palmito e azeitona no mesmo pastel).
+- Regra 2 (Queijo e tomate devem ser usados no mesmo pastel): Violada (queijo e tomate em pastéis separados).
+- Regra 3 (Carne deve ser usada no segundo pastel se queijo é usado no primeiro): Não se aplica (queijo no terceiro pastel).
+- Regra 4 (Palmito deve ser usado em algum pastel frito após o pastel com carne): Satisfeita.
+
+E) Palmito e bacon; queijo e tomate; azeitona e carne
+- Regra 1 (Azeitona não pode ser usada junto com palmito): Satisfeita.
+- Regra 2 (Queijo e tomate devem ser usados no mesmo pastel): Satisfeita.
+- Regra 3 (Carne deve ser usada no segundo pastel se queijo é usado no primeiro): Violada (carne no terceiro pastel).
+- Regra 4 (Palmito deve ser usado em algum pastel frito após o pastel com carne): Violada (palmito antes da carne).
+
+A alternativa C é a única que satisfaz todas as condições.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar que a ordem dos ingredientes não é tão restritiva, focando apenas na presença de carne e queijo/tomate.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confusão na ordem das restrições, especialmente a relação entre carne e palmito, levando a uma sequência aparentemente possível.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial das condições, ignorando a dependência entre o uso de queijo e carne.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem focar apenas na presença de queijo e tomate juntos, sem considerar as outras restrições de ordem.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado é excessivamente prolixo e repetitivo. A descrição das condições para os recheios é longa e poderia ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reorganizar as condições em uma lista mais direta e eliminar repetições. Por exemplo, combinar as condições sobre queijo e tomate em uma única afirmação.
+    [G14] A instrução 'Qual das seguintes alternativas é uma ordem correta dos pastéis que são fritos, do primeiro ao terceiro?' é vaga. Não está claro se a ordem é estritamente sequencial ou se há alguma flexibilidade.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a instrução para deixar claro se a ordem é estritamente sequencial ou se há alguma flexibilidade. Exemplo: 'Qual das seguintes sequências de pastéis fritos, do primeiro ao terceiro, satisfaz todas as condições?'
+    [G19] A resolução cega apontou C, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

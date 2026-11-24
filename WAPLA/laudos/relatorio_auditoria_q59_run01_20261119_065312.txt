@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 06:56:46
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Avaliar
+  Justificativa   : O item exige que o candidato avalie diferentes ações propostas para melhorar a qualidade dos dados e o processo de produção da informação, considerando as inconsistências identificadas. A escolha da alternativa correta envolve julgar a eficácia de cada ação para resolver o problema apresentado, o que caracteriza o nível de Avaliar.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição de ideias, como a menção da necessidade de avaliar a qualidade dos dados e definir estratégias para qualificar o processo de produção da informação, o que pode ser considerado prolixo.
+         → Sugestão: Consolidar as ideias sobre a avaliação da qualidade dos dados e qualificação do processo, eliminando a redundância. Exemplo: 'Antes de utilizar essas informações na tomada de decisão, o coordenador precisa avaliar e qualificar os dados gerados...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema central é a baixa qualidade dos dados do sistema de regulação de consultas, evidenciada por inconsistências nos relatórios, datas fora de ordem, múltiplas solicitações e planilhas divergentes. A coordenação precisa corrigir isso antes de usar os dados para alocação de cotas e metas. A alternativa A propõe uma revisão colaborativa das regras de registro, confrontando fontes de dados e ajustando procedimentos, o que é a ação mais adequada para qualificar a produção da informação e garantir a confiabilidade dos relatórios. As demais alternativas são inadequadas: B propõe apenas detalhamento sem correção da origem do problema; C suspende o sistema sem uma solução; D foca em prazos sem abordar a qualidade; E delega a responsabilidade para prestadores sem controle da qualidade dos dados.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que manter a rotina atual e adicionar campos é uma solução rápida, ignorando a necessidade de correção dos dados subjacentes.
+    [C] Distrator (Plausibilidade: 3/5)
+         → A suspensão do sistema e o uso de listas manuais podem parecer uma solução temporária, mas ignoram a necessidade de corrigir o sistema e a padronização dos dados.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Priorizar a rapidez na atualização das filas em detrimento da qualidade dos dados demonstra uma compreensão superficial da importância da informação confiável.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Delegar a responsabilidade aos prestadores pode parecer uma forma de aliviar a carga, mas não garante a qualidade dos dados e a padronização do processo.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (100 palavras) é significativamente mais longa que a alternativa D (47 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição de ideias, como a menção da necessidade de avaliar a qualidade dos dados e definir estratégias para qualificar o processo de produção da informação, o que pode ser considerado prolixo.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Consolidar as ideias sobre a avaliação da qualidade dos dados e qualificação do processo, eliminando a redundância. Exemplo: 'Antes de utilizar essas informações na tomada de decisão, o coordenador precisa avaliar e qualificar os dados gerados...'
+    [G24] A alternativa B (100 palavras) é significativamente mais longa que a alternativa D (47 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior equilíbrio e evitar que a extensão influencie a escolha do candidato.
+
+================================================================================

@@ -1,0 +1,50 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:47:01
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise um cenário clínico complexo, considerando múltiplos fatores e suas inter-relações para chegar a uma conclusão diagnóstica. É necessário desestruturar as informações apresentadas e identificar a alternativa que melhor explica o quadro do paciente, descartando outras possibilidades.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição de informações e detalhes excessivos que poderiam ser condensados para melhorar a clareza e concisão. A descrição da evolução do paciente é longa e detalhada, o que pode distrair o aluno do ponto central da questão.
+         → Sugestão: Revisar o enunciado para eliminar repetições e detalhes desnecessários. Por exemplo, a descrição dos sinais de hipoperfusão periférica poderia ser simplificada.
+    [G16] A extensa descrição do cenário clínico, embora funcional para contextualizar, pode ser considerada window dressing, pois a narrativa detalhada não é essencial para a compreensão da questão e pode desviar a atenção do aluno do problema central.
+         → Sugestão: Avaliar a possibilidade de resumir a descrição do cenário, mantendo apenas os elementos essenciais para a compreensão do problema.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um paciente com sinais de sepse, como febre, calafrios, hipotensão, taquicardia, leucocitose e marcadores inflamatórios elevados, após um procedimento cirúrgico complexo com uso de dispositivos invasivos. A alternativa A é a mais adequada porque reconhece a possibilidade de sepse com repercussão hemodinâmica e risco de disfunção de múltiplos órgãos, o que é consistente com a apresentação clínica do paciente. As outras alternativas apresentam explicações alternativas que não consideram a gravidade da situação ou minimizam o risco de sepse. A alternativa B ignora o envolvimento disseminado, a C atribui os sinais a um efeito esperado de antibióticos, a D desconsidera o foco infeccioso e a E limita a infecção ao intestino. Não foram identificadas pistas estruturais fortes que favoreçam ou eliminem alternativas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Aluno pode focar na localização da infecção, ignorando a possibilidade de disseminação sistêmica e a gravidade da sepse.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Aluno pode associar antibioticoterapia a efeitos colaterais, minimizando a importância da infecção ativa.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode atribuir a hipotensão e taquicardia apenas ao estresse cirúrgico, negligenciando o potencial impacto da sepse.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode interpretar erroneamente a microbiota intestinal como causa exclusiva dos sintomas, sem considerar a resposta sistêmica.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição de informações e detalhes excessivos que poderiam ser condensados para melhorar a clareza e concisão. A descrição da evolução do paciente é longa e detalhada, o que pode distrair o aluno do ponto central da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Revisar o enunciado para eliminar repetições e detalhes desnecessários. Por exemplo, a descrição dos sinais de hipoperfusão periférica poderia ser simplificada.
+    [G16] A extensa descrição do cenário clínico, embora funcional para contextualizar, pode ser considerada window dressing, pois a narrativa detalhada não é essencial para a compreensão da questão e pode desviar a atenção do aluno do problema central.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Avaliar a possibilidade de resumir a descrição do cenário, mantendo apenas os elementos essenciais para a compreensão do problema.
+
+================================================================================

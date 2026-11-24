@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 06:19:19
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar a posição da disciplina E, combinando informações e seguindo uma ordem lógica. Não se trata de mera recordação, mas de aplicação de regras a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G11] O enunciado apresenta erros de digitação: 'ﬁ' em vez de 'fi'.
+         → Sugestão: Substituir todas as ocorrências de 'ﬁ' por 'fi'.
+    [G13] Repetição desnecessária da informação sobre a duração dos exames (50 minutos) e a alocação de hora em hora. Essa informação é redundante.
+         → Sugestão: Remover a frase 'Cada exame vai durar 50 minutos, de forma que eles podem ser alocados de hora em hora.'
+    [G14] A pergunta 'Se o exame da disciplina G for às 9:00, o exame da disciplina E deve ser:' não está totalmente clara. Poderia ser mais direta.
+         → Sugestão: Reformular a pergunta para algo como: 'Considerando que o exame da disciplina G seja às 9:00, em qual horário o exame da disciplina E deve ocorrer?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Representação: As disciplinas são alocadas em horários fixos. A disciplina A é fixa às 6:00. E deve ocorrer após B e C. D, F e G devem ocorrer em horários consecutivos, nessa ordem. Se G for às 9:00, então F é às 8:00 e D é às 7:00. Como E deve ser após C e B, e G está às 9:00, E não pode estar às 7:00 ou 8:00, pois C e B devem precedê-la.  Se E estivesse às 10:00, C e B deveriam estar antes, o que é possível. Se E estivesse às 12:00, C e B também poderiam estar antes. Verificação das alternativas: A) 7:00 - Impossível, pois D está às 7:00. B) 8:00 - Impossível, pois F está às 8:00. C) 10:00 - Possível. D) 11:00 - Possível. E) 12:00 - Possível.  Análise mais aprofundada: Se E fosse às 11:00, C e B poderiam estar às 6:00 e 7:00, respectivamente, mas A já está às 6:00. Se E fosse às 12:00, C e B poderiam estar às 7:00 e 8:00, respectivamente. Portanto, a alternativa C é a mais consistente.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que a restrição de A às 6:00 implica que E deve ser logo após, sem considerar as outras restrições.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que E deve ser logo após C e B, sem considerar a ordem de D, F e G.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não compreender a relação de ordem entre E, C e B, e escolher um horário aleatório.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode não considerar a restrição de horários consecutivos para D, F e G, e escolher um horário que parece plausível.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' é significativamente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G11] O enunciado apresenta erros de digitação: 'ﬁ' em vez de 'fi'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir todas as ocorrências de 'ﬁ' por 'fi'.
+    [G13] Repetição desnecessária da informação sobre a duração dos exames (50 minutos) e a alocação de hora em hora. Essa informação é redundante.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Cada exame vai durar 50 minutos, de forma que eles podem ser alocados de hora em hora.'
+    [G14] A pergunta 'Se o exame da disciplina G for às 9:00, o exame da disciplina E deve ser:' não está totalmente clara. Poderia ser mais direta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para algo como: 'Considerando que o exame da disciplina G seja às 9:00, em qual horário o exame da disciplina E deve ocorrer?'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa 'E' é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade.
+    [G19] A resolução cega apontou C, mas o gabarito oficial é E; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

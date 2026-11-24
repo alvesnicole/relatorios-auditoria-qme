@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 22:00:12
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre recursão e erros de execução para identificar o erro específico provocado pela falta de caso-base. Não se trata de mera recordação, mas sim de conectar um cenário a um conceito.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da ideia de que a função recursiva está chamando a si mesma indefinidamente. A segunda parte da frase 'passando a chamar a si mesma indefinidamente' é redundante.
+         → Sugestão: Remover a segunda parte da frase: 'Durante a execução de um programa, uma função recursiva foi escrita sem um caso-base que interrompesse as chamadas, chamando a si mesma indefinidamente.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O enunciado descreve uma função recursiva sem caso-base, levando a chamadas infinitas. Isso resulta em um estouro de pilha, pois a pilha de chamadas cresce indefinidamente. 
+
+A) Divisão por zero: Erro comum, mas não se relaciona com recursão sem caso-base.
+B) Vazamento de memória: Pode ocorrer em recursão, mas não é a causa primária do problema descrito.
+C) Laço infinito: Termo genérico, mas o contexto é recursão, tornando 'Estouro de pilha' mais específico.
+D) Erro de sintaxe: Problema de código, não de execução.
+E) Estouro de pilha: Corretamente descreve a situação de chamadas recursivas sem fim.
+
+Análise das pistas estruturais:
+- G28a: Não há termos absolutos que direcionem para uma resposta específica.
+- G28b: A repetição de 'função recursiva' não é uma pista forte.
+- G28c: Todas as alternativas são gramaticalmente corretas.
+- G28d: Nenhuma alternativa se destaca significativamente em tamanho ou detalhe.
+- G28e: Não há pares de opções que se anulem.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode confundir a falta de memória alocada com divisão por zero, ambos levando a erros de execução.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Aluno pode associar a recursão sem fim com um problema de gerenciamento de memória, embora não seja a causa direta.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode entender que a recursão sem fim leva a um loop contínuo, mas não identifica o erro específico de 'estouro de pilha'.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Erro de sintaxe é um problema de formatação do código, não de lógica de execução, sendo facilmente eliminável.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de tecnicidade e formalidade na linguagem.
+    [G30] A alternativa D não reflete um erro comum em funções recursivas.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém repetição desnecessária da ideia de que a função recursiva está chamando a si mesma indefinidamente. A segunda parte da frase 'passando a chamar a si mesma indefinidamente' é redundante.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a segunda parte da frase: 'Durante a execução de um programa, uma função recursiva foi escrita sem um caso-base que interrompesse as chamadas, chamando a si mesma indefinidamente.'
+    [G23] As alternativas apresentam diferentes níveis de tecnicidade e formalidade na linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a linguagem das alternativas para manter a uniformidade e clareza.
+    [G30] A alternativa D não reflete um erro comum em funções recursivas.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Substituir a alternativa D por um erro de execução mais plausível em contextos de recursão.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

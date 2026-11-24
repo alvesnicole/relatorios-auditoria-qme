@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 16:23:07
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o candidato compreenda a função da máscara de sub-rede em uma rede TCP/IP, indo além da simples memorização de fatos. É necessário interpretar o conceito para identificar a resposta correta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é desfocado. Não é imediatamente claro qual é a pergunta que está sendo feita sobre a máscara de sub-rede. A função da máscara não é explicitada como uma pergunta direta.
+         → Sugestão: Reformule o enunciado para que a pergunta seja mais direta, por exemplo: 'Em uma rede TCP/IP, qual a função da máscara de sub-rede?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado descreve a estrutura de um endereço IP em uma rede TCP/IP e pergunta sobre a função da máscara de sub-rede. A máscara de sub-rede é essencial para dividir o endereço IP em duas partes: a parte que identifica a rede e a parte que identifica o host dentro dessa rede. Isso permite que os roteadores determinem se um pacote deve ser enviado para a rede local ou para outra rede. A alternativa C descreve precisamente essa função. As outras alternativas são incorretas: A fala de endereçamento único (o que é garantido pelo sistema de alocação de IPs, não pela máscara), B mistura conceitos de acesso à Internet e Intranet, D fala de monitoramento (que não é função da máscara) e E se refere a endereços privados, que são um aspecto separado.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode confundir o endereço IP com a função de navegação na internet, sem entender a necessidade de roteamento.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Aluno pode acreditar que o endereço IP serve para acessar tanto a internet quanto a intranet simultaneamente, sem entender a segmentação de redes.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Aluno demonstra falta de conhecimento sobre a função da máscara de sub-rede, atribuindo-lhe uma função inexistente.
+    [E] Distrator (Plausibilidade: 4/5)
+         → Aluno pode associar o endereço IP a questões de segurança, sem entender a função principal da máscara de sub-rede.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações significativas no tamanho, impactando a uniformidade visual.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é desfocado. Não é imediatamente claro qual é a pergunta que está sendo feita sobre a máscara de sub-rede. A função da máscara não é explicitada como uma pergunta direta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para que a pergunta seja mais direta, por exemplo: 'Em uma rede TCP/IP, qual a função da máscara de sub-rede?'
+    [G24] As alternativas apresentam variações significativas no tamanho, impactando a uniformidade visual.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para garantir maior homogeneidade.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 10:36:24
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um raciocínio lógico-matemático para determinar o número total de vales-pizza que o campeão ganha, considerando as regras do torneio e a dinâmica de transferência de vales entre os jogadores. Não se trata de mera memorização ou compreensão direta, mas sim de aplicar um processo para chegar a uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação 'campeão (ou a campeã)' na pergunta final.
+         → Sugestão: Remover a repetição. Exemplo: 'Qual o número total de vales-pizza que o campeão do torneio ganha?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O problema envolve calcular o número total de vales-pizza que o campeão ganha em um torneio de xadrez. Inicialmente, cada jogador recebe 1 vale-pizza. Em cada partida, o vencedor ganha os vales do perdedor (que é eliminado) mais 2 vales adicionais. Portanto, em cada partida, o número total de vales aumenta em (vales do perdedor) + 2. Como há 8 jogadores, haverá 7 partidas para determinar o campeão. Em cada partida, um jogador é eliminado, e o vencedor ganha os vales do perdedor mais 2.  
+
+Partida 1: Vencedor ganha 1 + 2 = 3 vales. Total: 1 + 3 = 4
+Partida 2: Vencedor ganha 1 + 2 = 3 vales. Total: 4 + 3 = 7
+Partida 3: Vencedor ganha 1 + 2 = 3 vales. Total: 7 + 3 = 10
+Partida 4: Vencedor ganha 1 + 2 = 3 vales. Total: 10 + 3 = 13
+Partida 5: Vencedor ganha 1 + 2 = 3 vales. Total: 13 + 3 = 16
+Partida 6: Vencedor ganha 1 + 2 = 3 vales. Total: 16 + 3 = 19
+Partida 7: Vencedor ganha 1 + 2 = 3 vales. Total: 19 + 3 = 22
+
+Alternativa A (10): Incorreta. O número de vales é maior que 10.
+Alternativa B (14): Incorreta. O número de vales é maior que 14.
+Alternativa C (16): Incorreta. O número de vales é maior que 16.
+Alternativa D (20): Incorreta. O número de vales é maior que 20.
+Alternativa E (22): Correta. O número total de vales que o campeão ganha é 22.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que o número de vales-pizza inicia com 8 e adiciona 2 por partida, sem considerar a eliminação de jogadores.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Aluno pode calcular o número total de jogos (7) e multiplicar por 2, sem considerar que o vencedor acumula os vales do perdedor.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Aluno pode considerar apenas o número de vales-pizza ganhos por partida (2) e multiplicar pelo número de jogos (7), sem considerar o vale inicial.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Aluno pode somar o número de jogadores (8) com o número de vales-pizza ganhos por partida (2) multiplicado pelo número de jogos (7).
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G13] Repetição desnecessária da informação 'campeão (ou a campeã)' na pergunta final.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição. Exemplo: 'Qual o número total de vales-pizza que o campeão do torneio ganha?'
+
+================================================================================

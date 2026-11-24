@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 03:59:03
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise diferentes propostas didáticas, considerando a perspectiva de lexicogrammar e a BNCC, para identificar a mais adequada. Isso envolve a desconstrução das opções e a avaliação de como cada uma se alinha com os princípios de intencionalidade discursiva e investigação de estruturas linguísticas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização extensa sobre a discussão da equipe pedagógica e a elaboração da sequência didática, que não contribui diretamente para a avaliação do conhecimento do aluno sobre o tema proposto.
+         → Sugestão: Remover a descrição da discussão da equipe pedagógica e da elaboração da sequência didática, focando diretamente na pergunta sobre a proposta didática mais adequada.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O item busca a alternativa que melhor se alinha com a perspectiva de lexicogrammar e a BNCC, valorizando a intencionalidade discursiva e a investigação de estruturas linguísticas em inglês. A lexicogrammar enfatiza a relação entre léxico, gramática e sentido. A BNCC, por sua vez, propõe uma abordagem comunicativa e contextualizada para o ensino de línguas. 
+
+Análise das alternativas:
+
+A) Eliminar: Propõe memorização e reprodução, o que é contrário à abordagem lexicogramática e à BNCC.
+B) Eliminar: Foco exclusivo na forma, sem relação com o uso comunicativo, também diverge da proposta.
+C) Considerar: Alinha-se com a lexicogrammar (análise de escolhas lexicais e gramaticais) e com a BNCC (gêneros textuais autênticos, sentidos, intenções e posições sociais).
+D) Eliminar: Separação artificial entre vocabulário e sintaxe, o que não reflete a abordagem integrada da lexicogrammar.
+E) Eliminar: A reflexão sobre estruturas linguísticas é importante para a compreensão e o uso adequado da língua, não deve ser evitada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que o aprendizado de gramática se dá por memorização e repetição, ignorando a função comunicativa.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Acredita-se que o domínio da gramática precede o uso comunicativo, desconsiderando a importância do contexto.
+    [D] Distrator (Plausibilidade: 3/5)
+         → A separação entre vocabulário e sintaxe pode levar a uma compreensão fragmentada da língua.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Existe a crença de que a gramática impede a fluência, o que ignora a importância da reflexão para a produção textual.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém contextualização extensa sobre a discussão da equipe pedagógica e a elaboração da sequência didática, que não contribui diretamente para a avaliação do conhecimento do aluno sobre o tema proposto.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da discussão da equipe pedagógica e da elaboração da sequência didática, focando diretamente na pergunta sobre a proposta didática mais adequada.
+
+================================================================================

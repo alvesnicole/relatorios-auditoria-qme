@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 19:27:28
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre componentes de hardware para determinar qual deles é mais adequado para um cenário específico de processamento computacional. Não se trata de mera recordação, mas de conectar características técnicas a uma necessidade prática.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação sobre as atividades do setor especializado (edição de imagens, modelagem 3D e renderização).
+         → Sugestão: Remover a repetição da lista de atividades. Exemplo: 'Na Secretaria de Planejamento e Obras do Estado, a equipe de Tecnologia da Informação (TI) está encarregada de adquirir novas estações de trabalho para um setor especializado em edição de imagens, modelagem tridimensional (3D) e renderização de projetos de engenharia e arquitetura. Essas atividades exigem elevado desempenho computacional, com elevado volume de cálculos que podem ser realizados simultaneamente.' -> 'Na Secretaria de Planejamento e Obras do Estado, a equipe de Tecnologia da Informação (TI) está encarregada de adquirir novas estações de trabalho para um setor especializado que realiza atividades como edição de imagens, modelagem tridimensional (3D) e renderização de projetos de engenharia e arquitetura.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve um cenário de edição de imagens, modelagem 3D e renderização, atividades que exigem alto poder de processamento e cálculos simultâneos. A alternativa que melhor se adequa a essa necessidade é a GPU, pois é projetada especificamente para processamento gráfico e cálculos paralelos. A CPU é de propósito geral, a RAM é para armazenamento temporário, o SSD é para armazenamento persistente e o chipset gerencia a comunicação entre componentes, não sendo o principal fator para o desempenho computacional descrito. 
+
+Verificação das alternativas:
+
+A) GPU: Satisfaz a descrição do problema. Processamento de dados relacionados a imagens e manipulação.
+B) CPU: Não é o componente principal para o tipo de processamento descrito.
+C) RAM: Importante, mas não o componente que impulsiona o desempenho para renderização.
+D) SSD: Importante para velocidade, mas não para o tipo de processamento.
+E) Chipset: Gerencia a comunicação, não realiza o processamento.
+
+Considerando a natureza intensiva em gráficos e cálculos do trabalho, a GPU é a escolha mais apropriada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a CPU como responsável por todas as tarefas, ignorando a especialização da GPU para processamento gráfico.
+    [C] Distrator (Plausibilidade: 3/5)
+         → A RAM é importante, mas o aluno pode superestimar sua relevância em relação à GPU para tarefas de renderização intensiva.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na velocidade de leitura/gravação, sem entender a arquitetura da GPU como fator determinante para o processamento gráfico.
+    [E] Distrator (Plausibilidade: 2/5)
+         → O chipset é um componente de suporte, e o aluno pode não compreender sua função limitada em relação ao processamento gráfico.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam variações no tamanho, impactando a uniformidade visual e a facilidade de comparação.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado contém repetição desnecessária da informação sobre as atividades do setor especializado (edição de imagens, modelagem 3D e renderização).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da lista de atividades. Exemplo: 'Na Secretaria de Planejamento e Obras do Estado, a equipe de Tecnologia da Informação (TI) está encarregada de adquirir novas estações de trabalho para um setor especializado em edição de imagens, modelagem tridimensional (3D) e renderização de projetos de engenharia e arquitetura. Essas atividades exigem elevado desempenho computacional, com elevado volume de cálculos que podem ser realizados simultaneamente.' -> 'Na Secretaria de Planejamento e Obras do Estado, a equipe de Tecnologia da Informação (TI) está encarregada de adquirir novas estações de trabalho para um setor especializado que realiza atividades como edição de imagens, modelagem tridimensional (3D) e renderização de projetos de engenharia e arquitetura.'
+    [G24] As alternativas apresentam variações no tamanho, impactando a uniformidade visual e a facilidade de comparação.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para padronizar o comprimento e a complexidade sintática.
+
+================================================================================

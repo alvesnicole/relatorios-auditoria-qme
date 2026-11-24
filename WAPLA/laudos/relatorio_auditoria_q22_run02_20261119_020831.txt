@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 02:12:12
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as alternativas de decisão curatorial, compreendendo as nuances de cada uma e avaliando qual delas melhor reforça o caráter crítico da Pop Art em relação à cultura de massa. A escolha da resposta correta demanda a desconstrução das opções e a identificação daquela que melhor se alinha com os princípios do movimento.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a situação da curadora e sua equipe) que não contribui diretamente para a avaliação do conhecimento do aluno sobre Pop Art. A narrativa é um 'window dressing' que poderia ser condensada ou eliminada.
+         → Sugestão: Remover a descrição da situação da curadora e da equipe, focando diretamente na questão da Pop Art e na decisão curatorial a ser tomada. Exemplo: 'Considerando os conceitos fundamentais da Pop Art, uma curadora precisa decidir como equilibrar o brilho sedutor das imagens com o comentário crítico sobre a sociedade de consumo em uma exposição. Identifique a alternativa que apresenta uma decisão curatorial que reforça de modo mais consistente o caráter crítico do movimento em relação à cultura de massa.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A questão pede uma decisão curatorial que reforce o caráter crítico da Pop Art em relação à cultura de massa. A Pop Art, embora utilize imagens da cultura de consumo, frequentemente o faz para criticar ou comentar sobre ela. A alternativa A parece ser a que melhor se alinha com essa intenção, ao propor uma justaposição de imagens sedutoras com contextos banais, incentivando a reflexão sobre o excesso e seus efeitos. As demais alternativas ou exaltam o consumo (B), reproduzem o ambiente comercial (C), simplificam a análise (D) ou se afastam do tema central (E). A alternativa A promove uma análise crítica, o que é consistente com a Pop Art.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confunde a Pop Art com uma celebração da cultura de consumo, ignorando seu aspecto crítico e a análise da sociedade.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpreta a Pop Art como mera reprodução do ambiente comercial, sem considerar a desconstrução e a crítica presentes no movimento.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Acredita que a separação temática facilita a compreensão, mas ignora a necessidade de justaposição e diálogo crítico entre os elementos da Pop Art.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Entende que a abstração elimina a referência à cultura de massa, desconsiderando que a Pop Art utiliza imagens reconhecíveis para fins críticos.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (mais longa) tem 46 palavras, enquanto a alternativa E (mais curta) tem 22 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização narrativa extensa (a situação da curadora e sua equipe) que não contribui diretamente para a avaliação do conhecimento do aluno sobre Pop Art. A narrativa é um 'window dressing' que poderia ser condensada ou eliminada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da situação da curadora e da equipe, focando diretamente na questão da Pop Art e na decisão curatorial a ser tomada. Exemplo: 'Considerando os conceitos fundamentais da Pop Art, uma curadora precisa decidir como equilibrar o brilho sedutor das imagens com o comentário crítico sobre a sociedade de consumo em uma exposição. Identifique a alternativa que apresenta uma decisão curatorial que reforça de modo mais consistente o caráter crítico do movimento em relação à cultura de massa.'
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (mais longa) tem 46 palavras, enquanto a alternativa E (mais curta) tem 22 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar disparidades significativas.
+
+================================================================================

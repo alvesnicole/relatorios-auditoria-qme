@@ -1,0 +1,69 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:51:06
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique os postulados e conceitos primitivos da geometria espacial para determinar uma afirmação válida, o que envolve a aplicação de conhecimento em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Considerando os elementos primitivos e os postulados da Geometria Espacial' repete a ideia já introduzida na primeira frase.
+         → Sugestão: Remover a frase 'Considerando os elementos primitivos e os postulados da Geometria Espacial'.
+    [G16] A introdução da situação com o professor e os alunos, embora comum em questões, adiciona um contexto desnecessário que não contribui para a avaliação do conhecimento do aluno. É um floreio narrativo que não tem função avaliativa direta.
+         → Sugestão: Remover a introdução sobre o professor e os alunos, indo direto à descrição da situação: 'Dados três pontos distintos A, B e C não pertencentes à mesma reta...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve uma situação em geometria espacial onde três pontos distintos não são colineares. A questão busca uma afirmação que seja necessariamente válida com base nos postulados e conceitos primitivos, sem demonstrações. 
+
+A) Incorreta: Três pontos não colineares determinam um plano, mas não necessariamente *exatamente* um. 
+B) Incorreta: Embora possa haver uma reta, a afirmação é mais forte do que o que pode ser inferido dos postulados. 
+C) Incorreta: Dois pontos determinam uma reta, não um plano. 
+D) Incorreta: A colinearidade é uma condição especial que não afeta a determinação de um plano por três pontos. 
+E) Incorreta: Não há postulado que limite o número de planos que podem ser determinados por três pontos não colineares. 
+
+A alternativa correta é a A, pois três pontos não colineares determinam um único plano. A geometria espacial postula a existência de pontos, retas e planos, e a relação entre eles. Três pontos não colineares definem um plano único.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre reta e plano, acreditando que três pontos sempre determinam ambos.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea de que dois pontos determinam um plano, ignorando a necessidade de colinearidade para definir uma reta.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Entendimento superficial de que qualquer conjunto de três pontos define um plano, sem considerar a colinearidade.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Falta de compreensão dos postulados da geometria, levando à crença de que há infinitos planos possíveis sem restrição.
+  Violações (G21–G24, G27–G31):
+    [G22] As alternativas B e D apresentam conceitos relacionados à determinação de planos e retas, gerando alguma sobreposição.
+    [G30] A alternativa E, embora incorreta, não reflete um erro conceitual comum de estudantes sobre geometria espacial.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Considerando os elementos primitivos e os postulados da Geometria Espacial' repete a ideia já introduzida na primeira frase.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Considerando os elementos primitivos e os postulados da Geometria Espacial'.
+    [G16] A introdução da situação com o professor e os alunos, embora comum em questões, adiciona um contexto desnecessário que não contribui para a avaliação do conhecimento do aluno. É um floreio narrativo que não tem função avaliativa direta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução sobre o professor e os alunos, indo direto à descrição da situação: 'Dados três pontos distintos A, B e C não pertencentes à mesma reta...'
+    [G22] As alternativas B e D apresentam conceitos relacionados à determinação de planos e retas, gerando alguma sobreposição.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior distinção entre os conceitos.
+    [G30] A alternativa E, embora incorreta, não reflete um erro conceitual comum de estudantes sobre geometria espacial.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reformular a alternativa para abordar um equívoco mais frequente.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

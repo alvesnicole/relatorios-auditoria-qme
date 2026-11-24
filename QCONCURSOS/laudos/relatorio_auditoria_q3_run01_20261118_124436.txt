@@ -1,0 +1,52 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 12:48:18
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato identifique a alternativa que *não* corresponde a uma boa prática, implicando uma análise crítica das opções e uma compreensão das relações entre os cuidados preventivos e o bom funcionamento do computador. A distração está na opção D, que apresenta uma informação incorreta sobre a aplicação de pasta térmica.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da ideia de que a manutenção física é importante para o bom desempenho do computador, e que a falta de prevenção pode danificar os equipamentos. Essas informações poderiam ser condensadas.
+         → Sugestão: Combine as duas primeiras frases em uma única, mais concisa. Exemplo: 'A manutenção física é essencial para o bom desempenho do computador, e a falta de prevenção pode danificar os equipamentos.'
+    [G17] O enunciado utiliza a negação ('não corresponde') sem destaque visual (negrito ou maiúsculas).
+         → Sugestão: Destaque a palavra 'não' com negrito ou letras maiúsculas: 'Assinale a alternativa que *não* corresponde a uma boa prática...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O enunciado busca identificar a alternativa que NÃO corresponde a uma boa prática de cuidados preventivos com o computador. As demais alternativas descrevem práticas recomendadas. A alternativa D apresenta uma informação incorreta sobre a aplicação de pasta térmica: a quantidade excessiva não é benéfica e pode até prejudicar o funcionamento do sistema de resfriamento. As demais alternativas descrevem práticas adequadas: evitar impactos, remover poeira, limpar coolers e manter a pasta térmica em bom estado.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que impactos físicos são a principal causa de danos, ignorando outros fatores como superaquecimento.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não entender a importância da poeira no funcionamento interno do computador, considerando-a um detalhe irrelevante.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Alunos podem ter conhecimento superficial sobre a função dos coolers, associando-os apenas à refrigeração, sem entender a importância da verificação da eficiência.
+  Violações (G21–G24, G27–G31):
+    [G24] As alternativas apresentam diferenças significativas no tamanho e complexidade da linguagem.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetição desnecessária da ideia de que a manutenção física é importante para o bom desempenho do computador, e que a falta de prevenção pode danificar os equipamentos. Essas informações poderiam ser condensadas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Combine as duas primeiras frases em uma única, mais concisa. Exemplo: 'A manutenção física é essencial para o bom desempenho do computador, e a falta de prevenção pode danificar os equipamentos.'
+    [G17] O enunciado utiliza a negação ('não corresponde') sem destaque visual (negrito ou maiúsculas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Destaque a palavra 'não' com negrito ou letras maiúsculas: 'Assinale a alternativa que *não* corresponde a uma boa prática...'
+    [G24] As alternativas apresentam diferenças significativas no tamanho e complexidade da linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho e a estrutura das alternativas para garantir maior uniformidade.
+
+================================================================================

@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 03:03:51
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Avaliar
+  Justificativa   : O item exige que o candidato avalie diferentes propostas de ação da curadora, considerando as tensões e dinâmicas sociais descritas, para identificar a conduta mais coerente. Isso envolve julgar a validade e a adequação de cada alternativa em relação ao contexto apresentado.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa e narrativa que não contribui diretamente para a avaliação do conhecimento do aluno. A descrição detalhada do cenário, embora possa ser interessante, não é essencial para a compreensão da tarefa.
+         → Sugestão: Remover detalhes descritivos excessivos, focando na apresentação concisa do problema central: a necessidade de a curadora definir critérios que equilibrem reconhecimento profissional, participação de coletivos e preservação do anonimato.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O problema central é encontrar uma solução que equilibre a valorização do reconhecimento profissional com a preservação da dinâmica colaborativa e do anonimato dos grupos locais. A alternativa C parece ser a mais coerente, pois propõe um processo de cocriação que permite aos coletivos locais definir a autoria das obras e negociar a ocupação do espaço, respeitando as dinâmicas urbanas existentes. As demais alternativas apresentam problemas: A impõe uma hierarquia entre artistas consagrados e coletivos locais; B restringe a intervenção a áreas de maior visibilidade institucional, marginalizando as áreas periféricas; D substitui intervenções anônimas por murais autorizados, eliminando o anonimato; E impõe critérios homogêneos de participação que podem não ser adequados à diversidade de práticas artísticas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a necessidade de controle e hierarquia como essencial para o sucesso do projeto, priorizando artistas consagrados.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a concentração em áreas de maior visibilidade institucional é a forma mais eficaz de promover a arte urbana, ignorando a importância das periferias.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem entender que a substituição de intervenções anônimas por murais autorizados é uma forma de organização e registro, desconsiderando o valor do anonimato.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a formalização e a contabilização do trabalho artístico são as únicas formas de garantir a legitimidade e a participação equitativa, ignorando a dinâmica colaborativa.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (63 caracteres) é significativamente mais longa que a alternativa D (46 caracteres).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa e narrativa que não contribui diretamente para a avaliação do conhecimento do aluno. A descrição detalhada do cenário, embora possa ser interessante, não é essencial para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover detalhes descritivos excessivos, focando na apresentação concisa do problema central: a necessidade de a curadora definir critérios que equilibrem reconhecimento profissional, participação de coletivos e preservação do anonimato.
+    [G24] A alternativa A (63 caracteres) é significativamente mais longa que a alternativa D (46 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+
+================================================================================

@@ -1,0 +1,66 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:07:26
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as condições apresentadas e deduza qual alternativa é consistente com todas elas, o que envolve a identificação de relações lógicas e a avaliação de possibilidades. Não se trata apenas de aplicar uma regra, mas de desestruturar as informações para encontrar uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre a visita ao Parque Ecológico e a preparação da merenda. A primeira frase contém informações que são reiteradas na segunda.
+         → Sugestão: Combine as duas primeiras frases em uma só: 'A professora de Ciências vai levar a turma para uma visita ao Parque Ecológico, e a Diretora quer preparar uma merenda especial para os alunos.'
+    [G16] A introdução com a professora, diretora, visita e merenda funciona como um contexto desnecessário para o problema central. Não contribui para a resolução do problema e pode distrair o aluno.
+         → Sugestão: Remova a introdução e comece diretamente com a descrição das condições sobre as frutas e merendas.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema envolve a distribuição de frutas em três tipos de merenda, com restrições sobre quais frutas podem estar juntas e a presença de uma fruta em todas as merendas. A análise das alternativas é feita verificando se as restrições do enunciado são satisfeitas. 
+
+A) Uva está presente em todas as merendas que contêm caju e em todas as merendas que contêm figo. Se uva está em todas as merendas com caju, então caju e uva estão juntas. Se uva está em todas as merendas com figo, então figo e uva estão juntas. Isso pode ser consistente com as regras, pois não viola nenhuma restrição diretamente. 
+B) Caju está presente em todas as merendas que contêm figo, e figo está presente em todas as merendas que contêm caju. Isso implica que caju e figo sempre estão juntas, o que pode ser consistente com as regras. 
+C) Figo está presente em todas as merendas que contêm maçã e em todas as merendas que contêm caju. Isso implica que figo, maçã e caju estão sempre juntas, o que pode ser consistente com as regras. 
+D) Todas as merendas contêm uva. Se todas as merendas contêm uva, então a condição de que exatamente uma variedade de fruta está em todas as merendas é satisfeita. No entanto, a restrição de que pêra não pode estar no mesmo tipo de merenda que uva seria violada, pois todas as merendas teriam uva e, portanto, não poderiam ter pêra. 
+E) Todas as merendas contêm banana. Se todas as merendas contêm banana, então a restrição de que se banana está em um tipo de merenda, então maçã não está nesse tipo de merenda seria violada, pois todas as merendas teriam banana e, portanto, não poderiam ter maçã. 
+Após análise cuidadosa, a alternativa A parece ser a mais plausível, pois não viola nenhuma das restrições do enunciado.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a condição de inclusão como uma regra rígida, ignorando a possibilidade de outras combinações de frutas.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a presença de um tipo de fruta em todas as merendas que contêm outro e a necessidade de cada tipo de merenda ter três variedades.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Interpretação literal da condição de que cada variedade de fruta deve estar em pelo menos um tipo de merenda, levando à conclusão de que uva deve estar em todas.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Confusão entre a condição de que cada tipo de merenda tem três variedades e a necessidade de que todas as merendas contenham banana.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa A sendo consideravelmente mais longa.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] Repetição desnecessária da informação sobre a visita ao Parque Ecológico e a preparação da merenda. A primeira frase contém informações que são reiteradas na segunda.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Combine as duas primeiras frases em uma só: 'A professora de Ciências vai levar a turma para uma visita ao Parque Ecológico, e a Diretora quer preparar uma merenda especial para os alunos.'
+    [G16] A introdução com a professora, diretora, visita e merenda funciona como um contexto desnecessário para o problema central. Não contribui para a resolução do problema e pode distrair o aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remova a introdução e comece diretamente com a descrição das condições sobre as frutas e merendas.
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa A sendo consideravelmente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés na escolha.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+    [G19] A resolução cega apontou A, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

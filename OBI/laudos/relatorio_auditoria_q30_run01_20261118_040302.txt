@@ -1,0 +1,60 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 04:06:50
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno siga uma sequência de passos para determinar o resultado final, aplicando as instruções fornecidas em um cenário específico. Não se trata de mera recordação ou compreensão, mas sim de manipulação de informações para chegar a uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre a ação dos alunos. A frase 'Depois disso, outro aluno entrou na sala, apagou o número da lousa A e em seu lugar escreveu um número igual ao número atualmente escrito na lousa B' pode ser simplificada.
+         → Sugestão: Substituir a frase por: 'Em seguida, outro aluno apagou o número da lousa A e o substituiu pelo número da lousa B.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O problema descreve uma sequência de substituições de números em duas lousas. Inicialmente, a lousa A tem 7 e a lousa B tem 13. O primeiro aluno substitui o número na lousa B pelo número da lousa A (7). O segundo aluno substitui o número na lousa A pelo número da lousa B (7). Portanto, a lousa A terá o valor 7 e a lousa B terá o valor 7.
+
+Análise das alternativas:
+
+A) 13 na lousa A e 7 na lousa B - Incorreta. A lousa A não terá 13.
+B) 7 na lousa A e 13 na lousa B - Incorreta. A lousa B não terá 13.
+C) 7 na lousa A e 7 na lousa B - Correta. Condiz com a sequência de substituições.
+D) 13 na lousa A e 13 na lousa B - Incorreta. Nenhuma das lousas terá 13.
+E) 20 na lousa A e 6 na lousa B - Incorreta. Os números são completamente diferentes dos esperados.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Aluno pode interpretar que a troca de números é uma operação única e não sequencial, levando a uma inversão direta dos valores.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Aluno pode não compreender a ordem das operações, pensando que a lousa A é alterada primeiro e depois a lousa B.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode se confundir com a repetição da ação de troca, assumindo que o número da lousa B é copiado para a lousa A e vice-versa, resultando em ambos os números iguais.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Aluno pode realizar cálculos incorretos ou não seguir a sequência de operações descrita no enunciado.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa 'E' (20 na lousa A e 6 na lousa B) é significativamente mais longa que as demais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre a ação dos alunos. A frase 'Depois disso, outro aluno entrou na sala, apagou o número da lousa A e em seu lugar escreveu um número igual ao número atualmente escrito na lousa B' pode ser simplificada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir a frase por: 'Em seguida, outro aluno apagou o número da lousa A e o substituiu pelo número da lousa B.'
+    [G24] A alternativa 'E' (20 na lousa A e 6 na lousa B) é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar viés devido ao comprimento.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

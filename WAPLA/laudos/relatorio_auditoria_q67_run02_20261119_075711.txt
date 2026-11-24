@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:02:01
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento de integrais triplas em coordenadas cilíndricas para calcular o volume de um sólido, combinando a compreensão do sólido geométrico com a habilidade de transformar a descrição geométrica em uma integral. Não há análise profunda ou avaliação crítica envolvida.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre as equações de transformação para coordenadas cilíndricas (x=r cos θ, y=r sin θ).
+         → Sugestão: Remover a informação 'x=r cos θ, y=r sin θ' do enunciado, pois é conhecimento prévio esperado do estudante.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O sólido S é delimitado por um cilindro, um plano e um paraboloide. A integral tripla deve integrar em coordenadas cilíndricas, onde x = r cos θ, y = r sin θ e dV = r dz dr dθ. O cilindro x² + y² = 4 implica r² = 4, então r = 2. O plano z = 0 é o limite inferior para z. O paraboloide z = 4 - x² - y² implica z = 4 - r². Portanto, os limites de integração são: 0 ≤ θ ≤ 2π, 0 ≤ r ≤ 2, e 0 ≤ z ≤ 4 - r². A integral correta deve refletir esses limites. 
+
+A) ∫₀²π∫₀²∫₀^(4-r²) r dz dr dθ: Esta integral tem os limites corretos para θ, r e z. 
+B) ∫₀²π∫₀⁴∫₀^(2-r²) r dz dr dθ: O limite superior para r está incorreto (deve ser 2, não 4). 
+C) ∫₀^π∫₀²∫₀^(4-r²) r dz dr dθ: O limite inferior para θ está incorreto (deve ser 0, não π). 
+D) ∫₀²π∫₀²∫₀^(4-r) r dz dr dθ: O limite superior para z está incorreto (deve ser 4-r², não 4-r). 
+E) ∫₀²π∫₀²∫_(4-r²)^0 r dz dr dθ: A ordem de integração para z está invertida (deve ser de 0 a 4-r²).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre os limites de integração em coordenadas cilíndricas, especialmente no raio (r) e na altura (z).
+    [C] Distrator (Plausibilidade: 3/5)
+         → Erro na aplicação dos limites de integração em coordenadas cilíndricas, trocando a ordem de integração ou usando limites incorretos.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Substituição incorreta da variável 'r' no limite de integração da coordenada z, confundindo com o raio do cilindro.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Inversão completa dos limites de integração da coordenada z, demonstrando falta de compreensão da geometria do sólido.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa A sendo consideravelmente mais longa que as demais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação sobre as equações de transformação para coordenadas cilíndricas (x=r cos θ, y=r sin θ).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a informação 'x=r cos θ, y=r sin θ' do enunciado, pois é conhecimento prévio esperado do estudante.
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa A sendo consideravelmente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para promover maior uniformidade no tamanho e complexidade.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

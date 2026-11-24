@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 08:46:45
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique conceitos de geometria espacial (planos, retas, interseções, paralelismo) para analisar uma situação específica e determinar as relações entre as figuras geométricas descritas. Não se trata de mera recordação de definições, mas sim de usar o conhecimento para interpretar um cenário e escolher a alternativa correta.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que as placas não se intersectam e permanecem à mesma distância, o que poderia ser expresso de forma mais concisa.
+         → Sugestão: Remover a frase 'Para manter o desenho previsto, as placas devem ser colocadas de modo que não se intersectem e permaneçam à mesma distância em toda a sua extensão.' e manter apenas 'As placas devem ser colocadas de modo a não se intersectarem e permanecerem à mesma distância em toda a sua extensão.'
+    [G16] A descrição do cenário (placas de vidro, hall, barra metálica) pode ser considerada contextualização decorativa, pois não contribui diretamente para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a contextualização do problema, focando diretamente na relação geométrica entre as figuras.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve uma configuração geométrica específica: duas placas de vidro planas que não se intersectam, mantendo a mesma distância, e uma barra metálica que atravessa uma placa em um único ponto, sem cortar a outra. A condição chave é que as placas não se intersectam e permanecem à mesma distância, o que implica que os planos que elas definem são paralelos. A barra metálica, ao atravessar uma placa em um único ponto e não cortar a outra, deve ser secante a um plano e paralela ao outro. Portanto, a alternativa A é a mais consistente com a descrição do problema.
+
+Análise das alternativas:
+
+A) Correta: Planos paralelos (condição de não interseção e distância constante), barra secante a um plano e paralela ao outro.
+B) Incorreta: Planos concorrentes implicam em interseção, o que é proibido.
+C) Incorreta: Planos coincidentes implicam que a barra pertenceria a ambos, o que é proibido.
+D) Incorreta: Planos reversos não são paralelos e a barra não seria perpendicular a ambos.
+E) Incorreta: Barra secante a ambos os planos em pontos distintos é inconsistente com a descrição.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir planos concorrentes com a barra secante, não considerando a restrição de distância constante entre as placas.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Interpretação literal da frase 'à mesma distância', levando à conclusão de que as placas devem ser coincidentes.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Confusão entre perpendicularidade e a necessidade de a barra atravessar as placas em um único ponto.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente a secância da barra em ambos os planos, ignorando a restrição de distância constante.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] O enunciado apresenta repetição desnecessária da ideia de que as placas não se intersectam e permanecem à mesma distância, o que poderia ser expresso de forma mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Para manter o desenho previsto, as placas devem ser colocadas de modo que não se intersectem e permaneçam à mesma distância em toda a sua extensão.' e manter apenas 'As placas devem ser colocadas de modo a não se intersectarem e permanecerem à mesma distância em toda a sua extensão.'
+    [G16] A descrição do cenário (placas de vidro, hall, barra metálica) pode ser considerada contextualização decorativa, pois não contribui diretamente para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização do problema, focando diretamente na relação geométrica entre as figuras.
+
+================================================================================

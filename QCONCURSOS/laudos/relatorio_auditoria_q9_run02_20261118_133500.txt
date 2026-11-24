@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:38:11
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno identifique a alternativa incorreta, o que implica em analisar cada uma das opções e compará-las para determinar qual diverge do conhecimento sobre protocolos de internet. Essa análise envolve a desconstrução do conhecimento para identificar a falha.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G17] O enunciado utiliza a forma negativa ('incorreta') sem destaque visual (negrito ou maiúsculas).
+         → Sugestão: Substituir 'incorreta' por 'INCORRETA' ou '**incorreta**'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Análise das alternativas:
+
+A) Correta. Descreve corretamente a função do TCP/IP e do TCP na divisão de dados.
+B) Correta. Descreve corretamente a função do FTP.
+C) Incorreta. SSL (Secure Sockets Layer) é um protocolo de segurança, mas a descrição de 'Camada de portas de segurança' está errada. O correto seria Camada de Soquetes Seguros (Secure Socket Layer).
+D) Correta. Descreve corretamente a função do IMAP.
+
+A alternativa C apresenta um erro na descrição do SSL, especificamente na nomenclatura 'Camada de portas de segurança'.
+
+Pistas Estruturais:
+A alternativa C se destaca por usar uma terminologia imprecisa ('Camada de portas de segurança'), o que pode indicar que é a incorreta.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a função do TCP com a divisão de dados, sem entender que essa é uma função do protocolo em si, não apenas do TCP.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem não diferenciar a função do protocolo FTP, associando-o apenas à leitura, envio e recebimento de arquivos.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não compreender a diferença entre acesso remoto e local, confundindo a manipulação de caixas postais com a organização local.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G17] O enunciado utiliza a forma negativa ('incorreta') sem destaque visual (negrito ou maiúsculas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'incorreta' por 'INCORRETA' ou '**incorreta**'.
+
+================================================================================

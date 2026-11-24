@@ -1,0 +1,65 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 09:34:30
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique os postulados da geometria espacial para avaliar a validade de diferentes propostas, o que envolve a compreensão dos conceitos e sua aplicação em um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A primeira frase descreve uma atividade de modelagem espacial e a segunda repete a ideia de discussão e propostas sobre o plano.
+         → Sugestão: Combine as duas primeiras frases em uma única, mais concisa. Exemplo: 'Em uma atividade de modelagem espacial, uma equipe discute como representar um plano que contenha uma reta r e um ponto P fora de r.'
+    [G15] O enunciado não explicita claramente a pergunta ou problema central. O leitor precisa inferir que a questão é qual proposta está corretamente justificada com base nos postulados da geometria espacial.
+         → Sugestão: Adicione uma frase que deixe explícito o que se espera do aluno. Exemplo: 'Qual das seguintes propostas sobre a determinação do plano está corretamente justificada com base nos postulados da Geometria Espacial?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema envolve determinar qual alternativa corretamente justifica a possibilidade de planos contendo uma reta e um ponto fora dela. A alternativa correta deve estar alinhada com os postulados da geometria espacial, que estabelecem que uma reta e um ponto não pertencente a ela determinam um plano único. 
+
+Análise das alternativas:
+
+A) Correta: Uma reta e um ponto fora dela determinam um plano único, conforme o postulado da geometria espacial.
+B) Incorreta: Infinitos planos não são determinados por uma reta e um ponto fora dela.
+C) Incorreta: É possível que uma reta e um ponto fora dela pertençam a um plano.
+D) Incorreta: Dois pontos distintos de uma reta e um ponto P podem determinar um plano, mas esse plano pode não conter toda a reta.
+E) Incorreta: Três pontos não colineares determinam um plano, mas a condição do problema é uma reta e um ponto fora dela.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre rotação do plano e a existência de múltiplos planos que contêm a reta e o ponto.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Incompreensão da relação entre uma reta e um plano, acreditando que uma reta não pode pertencer a um plano.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação equivocada da condição para determinar um plano, focando em pontos da reta e ignorando a necessidade de todos os pontos da reta pertencerem ao plano.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Confusão entre o postulado de que três pontos não colineares determinam um plano e a condição específica do problema.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa B sendo consideravelmente mais longa.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém repetições desnecessárias. A primeira frase descreve uma atividade de modelagem espacial e a segunda repete a ideia de discussão e propostas sobre o plano.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Combine as duas primeiras frases em uma única, mais concisa. Exemplo: 'Em uma atividade de modelagem espacial, uma equipe discute como representar um plano que contenha uma reta r e um ponto P fora de r.'
+    [G15] O enunciado não explicita claramente a pergunta ou problema central. O leitor precisa inferir que a questão é qual proposta está corretamente justificada com base nos postulados da geometria espacial.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Adicione uma frase que deixe explícito o que se espera do aluno. Exemplo: 'Qual das seguintes propostas sobre a determinação do plano está corretamente justificada com base nos postulados da Geometria Espacial?'
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa B sendo consideravelmente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés na escolha.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

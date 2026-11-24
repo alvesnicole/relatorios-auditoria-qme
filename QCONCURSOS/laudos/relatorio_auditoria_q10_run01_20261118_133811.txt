@@ -1,0 +1,78 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:44:34
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as assertivas, identifique inconsistências e compare informações para determinar qual alternativa não apresenta corretamente as definições sobre cabeamento estruturado e meios de transmissão de dados. Isso envolve a desconstrução das informações e a identificação de relações entre elas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A frase 'suportando frequências de até 100 MHz, com alcance de até 50 metros' em relação ao CAT 5 é redundante, pois a banda passante e o alcance já são mencionados em outras partes da descrição.
+         → Sugestão: Remover a informação redundante sobre frequência e alcance do CAT 5 na primeira assertiva.
+    [G13] O enunciado apresenta repetição desnecessária de informações. A frase 'adequados para as redes 100BASETX e 1000BASE-T' é redundante, pois a compatibilidade com as redes já foi mencionada anteriormente.
+         → Sugestão: Remover a informação redundante sobre a compatibilidade das redes na segunda assertiva.
+    [G13] O enunciado apresenta repetição desnecessária de informações. A frase 'já que, embora os cabos categoria 6 ofereçam uma qualidade superior, o alcance continua sendo de apenas 100 metros' é redundante, pois a qualidade superior já foi mencionada e o alcance já foi estabelecido.
+         → Sugestão: Remover a informação redundante sobre a qualidade superior e o alcance do cabo CAT 6 na terceira assertiva.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise das assertivas:
+
+I. A assertiva afirma que cabos CAT 5 são o mínimo para 100BASE-TX e 1000BASE-T, com frequências de até 100 MHz e alcance de 50 metros. CAT 5e suporta até 1000 mbits com banda passante de 100 MHz. Essa afirmação é parcialmente incorreta, pois CAT 5 suporta 100BASE-TX, mas para 1000BASE-T é recomendado CAT 5e ou superior. O alcance de 50 metros também é uma simplificação, sendo o padrão 100 metros.
+
+II. A assertiva diz que cabos CAT 6 operam no padrão Gigabit Ethernet com alcance de 100m e banda passante de 250 MHz. Quando usados em redes de 10 Gigabit, o alcance é de 55m. Essa afirmação parece correta.
+
+III. A assertiva afirma que CAT 6a foi originalmente desenvolvida para Gigabit Ethernet, mas sua adoção foi retardada devido ao CAT 5, e a banda passante é de 500 MHz. Essa afirmação é incorreta, pois CAT 6a foi desenvolvida para atender às necessidades de 10 Gigabit Ethernet e possui uma banda passante maior que 500 MHz.
+
+Análise das alternativas:
+
+A) Apenas I e II estão corretas. - Incorreta, pois a assertiva I contém imprecisões.
+B) Apenas I e III estão corretas. - Incorreta, pois a assertiva III contém imprecisões.
+C) Apenas II e III estão corretas. - Incorreta, pois a assertiva III contém imprecisões.
+D) Todas estão corretas. - Incorreta, pois as assertivas I e III contêm imprecisões.
+
+Considerando as imprecisões nas assertivas, a alternativa que não apresenta de forma correta as definições é a que contém as maiores falhas. A assertiva III apresenta a maior quantidade de informações incorretas, sendo a mais discrepante.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir os requisitos mínimos de cabos CAT 5 para diferentes versões do padrão Gigabit Ethernet, não compreendendo as nuances de velocidade e frequência.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Pode levar à confusão sobre a evolução dos padrões de cabos, acreditando que o CAT 5 foi desenvolvido após o CAT 6a.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não compreender a necessidade de analisar criticamente as assertivas, assumindo que todas as informações apresentadas são válidas.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações no nível de detalhe técnico e complexidade da linguagem.
+    [G24] As alternativas apresentam diferenças significativas no tamanho e extensão.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (6):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A frase 'suportando frequências de até 100 MHz, com alcance de até 50 metros' em relação ao CAT 5 é redundante, pois a banda passante e o alcance já são mencionados em outras partes da descrição.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a informação redundante sobre frequência e alcance do CAT 5 na primeira assertiva.
+    [G13] O enunciado apresenta repetição desnecessária de informações. A frase 'adequados para as redes 100BASETX e 1000BASE-T' é redundante, pois a compatibilidade com as redes já foi mencionada anteriormente.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a informação redundante sobre a compatibilidade das redes na segunda assertiva.
+    [G13] O enunciado apresenta repetição desnecessária de informações. A frase 'já que, embora os cabos categoria 6 ofereçam uma qualidade superior, o alcance continua sendo de apenas 100 metros' é redundante, pois a qualidade superior já foi mencionada e o alcance já foi estabelecido.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a informação redundante sobre a qualidade superior e o alcance do cabo CAT 6 na terceira assertiva.
+    [G23] As alternativas apresentam variações no nível de detalhe técnico e complexidade da linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a extensão e o nível de detalhe técnico das alternativas para garantir maior uniformidade.
+    [G24] As alternativas apresentam diferenças significativas no tamanho e extensão.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar e ajustar o tamanho das alternativas para garantir maior equilíbrio e uniformidade.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 21:12:09
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato compreenda um cenário complexo envolvendo inteligência artificial e discriminação, e então analise as possíveis causas do problema, considerando princípios éticos. A escolha da resposta correta demanda a desconstrução das alternativas e a identificação da relação entre dados históricos, variáveis correlacionadas e o aprendizado do sistema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da informação de que o sistema foi treinado com dados da própria empresa. Essa informação poderia ser inferida e eliminada para maior concisão.
+         → Sugestão: Remover a frase 'O sistema foi treinado com o histórico das decisões de contratação da própria empresa nos últimos dez anos.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema central é que, mesmo removendo o atributo 'sexo' explicitamente, o sistema de IA pode inferir essa informação a partir de outras variáveis correlacionadas presentes nos dados históricos. Isso ocorre porque características e comportamentos podem estar associados a grupos demográficos, e o algoritmo aprende a reproduzir esses padrões. A alternativa D é a única que reconhece essa capacidade de inferência e a consequente reprodução de vieses históricos. As outras alternativas apresentam interpretações equivocadas do funcionamento da IA e da ética em seu uso. A alternativa A é incorreta porque a remoção do atributo não garante neutralidade. A alternativa B sugere uma solução simplista que nem sempre é viável. A alternativa C nega a possibilidade de vieses em sistemas de IA. A alternativa E foca em privacidade, que não é o problema central aqui, mas sim a discriminação resultante da inferência de atributos protegidos.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a remoção de um atributo garante neutralidade, ignorando a possibilidade de correlação com outros fatores.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem pensar que a mudança do algoritmo é uma solução simples para viés, sem considerar a complexidade da identificação e correção do viés.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Alunos podem ter uma visão simplista da IA, acreditando que ela é puramente objetiva e isenta de valores, ignorando a influência dos dados de treinamento.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem focar na privacidade como o principal problema, desviando a atenção da discriminação e do impacto nos candidatos.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+    [G30] As opções não refletem erros típicos de estudantes sobre o tema de viés em IA.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetição desnecessária da informação de que o sistema foi treinado com dados da própria empresa. Essa informação poderia ser inferida e eliminada para maior concisão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'O sistema foi treinado com o histórico das decisões de contratação da própria empresa nos últimos dez anos.'
+    [G23] As alternativas apresentam heterogeneidade na estrutura gramatical e no nível de detalhe.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior uniformidade na linguagem e no escopo.
+    [G30] As opções não refletem erros típicos de estudantes sobre o tema de viés em IA.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Analisar os erros comuns dos alunos sobre o tema e criar distratores que os abordem diretamente.
+
+================================================================================

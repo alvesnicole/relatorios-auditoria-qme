@@ -1,0 +1,56 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:58:23
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : APLICAR
+  Justificativa   : O item exige que o aluno aplique o conceito de conectividade em um grafo para determinar o número mínimo de estradas necessárias para conectar as cidades, considerando o processo iterativo descrito. Não há necessidade de análise profunda ou avaliação crítica, mas sim de aplicar um raciocínio lógico para chegar à solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação sobre como estradas conectam cidades. A frase 'Por exemplo, se houver uma estrada ligando a cidade A à cidade B e outra estrada ligando a cidade B à cidade C, então a cidade A está conectada à cidade C, pois é possível ir de A para C passando pela cidade B' é redundante e pode ser removida.
+         → Sugestão: Remover a frase 'Por exemplo, se houver uma estrada ligando a cidade A à cidade B e outra estrada ligando a cidade B à cidade C, então a cidade A está conectada à cidade C, pois é possível ir de A para C passando pela cidade B'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema envolve conectar 5 cidades com o mínimo de estradas, eliminando pares desconectados. Inicialmente, as 5 cidades estão desconectadas, exigindo pelo menos 4 estradas para conectá-las todas (formando uma árvore). No entanto, o processo iterativo de sorteio e construção de estradas pode levar a um número maior de estradas, mas o objetivo é minimizar. Se construirmos 4 estradas, podemos ter um grafo conexo. Se construirmos 3 estradas, é impossível conectar todas as 5 cidades. A opção E (10) é obviamente excessiva. A opção D (8) também parece alta. A opção C (5) é possível, mas não necessariamente o mínimo. A opção B (4) é o mínimo necessário para conectar 5 cidades, formando uma árvore. A opção A (3) é impossível, pois não conectaria todas as cidades. Portanto, a resposta mais plausível é 4. 
+
+Verificação das alternativas:
+
+A) 3: Impossível conectar 5 cidades com 3 estradas.
+B) 4: Possível conectar 5 cidades com 4 estradas (árvore).
+C) 5: Possível, mas não o mínimo.
+D) 8: Provavelmente excessivo.
+E) 10: Definitivamente excessivo.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar que o número mínimo de estradas é igual ao número de cidades, sem considerar a necessidade de conectar todas as cidades.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Alunos podem pensar que cada cidade precisa de uma estrada para cada outra, levando a um cálculo incorreto do número mínimo de conexões.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem aplicar uma regra geral de conectividade sem entender a lógica do algoritmo de construção das estradas.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Alunos podem fazer um cálculo arbitrário sem considerar o processo iterativo de construção das estradas.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da explicação sobre como estradas conectam cidades. A frase 'Por exemplo, se houver uma estrada ligando a cidade A à cidade B e outra estrada ligando a cidade B à cidade C, então a cidade A está conectada à cidade C, pois é possível ir de A para C passando pela cidade B' é redundante e pode ser removida.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Por exemplo, se houver uma estrada ligando a cidade A à cidade B e outra estrada ligando a cidade B à cidade C, então a cidade A está conectada à cidade C, pois é possível ir de A para C passando pela cidade B'.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

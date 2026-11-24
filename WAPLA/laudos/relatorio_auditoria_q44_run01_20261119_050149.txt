@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 05:05:18
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique os conceitos da Pop Art a uma situação específica (o projeto curatorial do coletivo de artistas). Não se trata apenas de lembrar ou compreender a Pop Art, mas de usar esse conhecimento para orientar uma ação prática.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa e narrativa que não contribui diretamente para a avaliação do conhecimento do aluno sobre Pop Art. A descrição detalhada do coletivo de artistas e seus debates pode ser considerada window dressing.
+         → Sugestão: Remover a descrição detalhada do coletivo de artistas e seus debates, focando diretamente na apresentação do cenário e na pergunta sobre a ação alinhada aos conceitos da Pop Art.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A Pop Art, surgida na década de 1950, caracterizou-se pela apropriação de imagens da cultura de massa, como anúncios, embalagens e celebridades, para fins artísticos. A opção A alinha-se a esse conceito ao propor a recombinação desses elementos em colagens e painéis, intensificando o visual publicitário e explorando a ironia e o fascínio em relação à cultura de consumo. As demais opções divergem: B propõe uma abordagem documental e discreta, C rejeita a cultura de massa, D foca no desenvolvimento técnico e E evita o uso de imagens publicitárias, o que não condiz com a Pop Art.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a Pop Art com uma abordagem documental, focando na representação fiel da realidade consumista em vez da apropriação e transformação.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente a Pop Art como um movimento que rejeita a cultura de massa, buscando a expressão individual em oposição à produção industrial.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem associar a Pop Art a uma análise técnica e histórica dos materiais, negligenciando o aspecto crítico e estético da apropriação cultural.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a Pop Art exige uma postura de distanciamento absoluto da cultura de consumo, evitando qualquer representação visual de seus elementos.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas. A alternativa A é consideravelmente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa e narrativa que não contribui diretamente para a avaliação do conhecimento do aluno sobre Pop Art. A descrição detalhada do coletivo de artistas e seus debates pode ser considerada window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada do coletivo de artistas e seus debates, focando diretamente na apresentação do cenário e na pergunta sobre a ação alinhada aos conceitos da Pop Art.
+    [G24] Diferença significativa no tamanho entre as alternativas. A alternativa A é consideravelmente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés na escolha.
+
+================================================================================

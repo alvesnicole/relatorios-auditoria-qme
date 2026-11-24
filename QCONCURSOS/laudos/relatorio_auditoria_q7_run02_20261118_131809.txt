@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:22:47
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as descrições das camadas do modelo OSI e identifique a alternativa que não se encaixa corretamente, demandando a compreensão das funções de cada camada e a capacidade de identificar inconsistências ou informações incorretas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A frase 'Este modelo divide as redes de computadores em 7 camadas' é redundante, pois já foi mencionado que o Modelo OSI é dividido em camadas.
+         → Sugestão: Remover a frase 'Este modelo divide as redes de computadores em 7 camadas'.
+    [G16] A contextualização sobre Ethernet é desnecessária para a compreensão da pergunta. A informação sobre o modelo ser usado em redes Ethernet não contribui para a avaliação do conhecimento sobre as camadas do Modelo OSI.
+         → Sugestão: Remover a menção a 'rede local (Ethernet)'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise do Modelo OSI: O objetivo é identificar a alternativa que NÃO descreve corretamente uma camada do modelo. 
+
+A) Camada de Rede: A descrição está incorreta ao afirmar que converte endereços lógicos em físicos. Essa é a função da Camada de Enlace. A Camada de Rede lida com endereçamento lógico (IP) e roteamento.
+B) Apresentação: A descrição está correta. A camada de Apresentação formata e traduz dados.
+C) Camada de Sessão: A descrição está incorreta. A camada de Sessão gerencia o diálogo entre aplicações, não garante a entrega sem erros. Essa é a função da camada de Transporte.
+D) Camada de Enlace: A descrição está correta. A camada de Enlace empacota dados em quadros e verifica a integridade.
+
+Portanto, a alternativa A é a que contém a informação incorreta.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o endereçamento físico e lógico, e a função de roteamento como parte da camada de rede.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não distinguir a camada de Apresentação como uma tradutora entre a Aplicação e a rede.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não compreender a função específica da camada de Enlace na fragmentação de dados em quadros.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A frase 'Este modelo divide as redes de computadores em 7 camadas' é redundante, pois já foi mencionado que o Modelo OSI é dividido em camadas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Este modelo divide as redes de computadores em 7 camadas'.
+    [G16] A contextualização sobre Ethernet é desnecessária para a compreensão da pergunta. A informação sobre o modelo ser usado em redes Ethernet não contribui para a avaliação do conhecimento sobre as camadas do Modelo OSI.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a menção a 'rede local (Ethernet)'.
+    [G19] A resolução cega apontou A, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

@@ -1,0 +1,83 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 17/11/2026 às 23:38:07
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique um conjunto de regras e restrições para determinar qual das opções de atribuição de funcionários é válida. É necessário analisar cada alternativa à luz das condições fornecidas, demonstrando a capacidade de aplicar o conhecimento em um cenário prático.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que cada funcionário deve trabalhar em um único projeto. Essa informação é implícita na atribuição a projetos.
+         → Sugestão: Remover a frase 'Cada funcionário deve trabalhar em um único projeto.'
+    [G16] A descrição detalhada das habilidades de cada funcionário (engenheira sênior/júnior, fala inglês/não fala inglês) é excessiva e não essencial para a compreensão do problema.  É um detalhe contextual que não contribui para a avaliação do conhecimento do aluno.
+         → Sugestão: Simplificar a descrição dos funcionários, removendo detalhes como a habilidade em inglês e a classificação como sênior ou júnior.  Manter apenas o nome dos funcionários.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : Análise das alternativas:
+
+A) Projeto 1: Denise e Felipe; Projeto 2: Eduardo e Bia; Projeto 3: Alice e Clara
+Regra 1 (Sênior por projeto): Projeto 1: Não (Felipe não é sênior). Violação.
+Regra 2 (Inglês por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim.
+Regra 3 (Denise): Denise está no Projeto 1. Válido.
+
+B) Projeto 1: Denise e Bia; Projeto 2: Eduardo e Felipe; Projeto 3: Alice e Clara
+Regra 1 (Sênior por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim. Válido.
+Regra 2 (Inglês por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim. Válido.
+Regra 3 (Denise): Denise está no Projeto 1. Válido.
+
+C) Projeto 1: Eduardo e Clara; Projeto 2: Denise e Bia; Projeto 3: Alice e Felipe
+Regra 1 (Sênior por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim. Válido.
+Regra 2 (Inglês por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim. Válido.
+Regra 3 (Denise): Denise está no Projeto 2. Válido.
+
+D) Projeto 1: Eduardo e Clara; Projeto 2: Alice e Bia; Projeto 3: Denise e Felipe
+Regra 1 (Sênior por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim. Válido.
+Regra 2 (Inglês por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim. Válido.
+Regra 3 (Denise): Denise está no Projeto 3. Violação.
+
+E) Projeto 1: Alice e Felipe; Projeto 2: Denise e Eduardo; Projeto 3: Bia e Clara
+Regra 1 (Sênior por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim. Válido.
+Regra 2 (Inglês por projeto): Projeto 1: Sim; Projeto 2: Sim; Projeto 3: Sim. Válido.
+Regra 3 (Denise): Denise está no Projeto 2. Válido.
+
+Alternativa B atende a todas as restrições.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na presença de Denise e Felipe, ignorando a necessidade de engenheiras sênior e falantes de inglês em cada projeto.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente a restrição de Denise, alocando-a em um projeto que não atende à condição.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem se concentrar em alocar Alice e Bia juntas, negligenciando a necessidade de um falante de inglês em cada projeto.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não considerar a necessidade de pelo menos uma engenheira sênior em cada projeto, alocando Bia e Clara apenas no Projeto 3.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (51 palavras) é significativamente maior que a alternativa E (33 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação de que cada funcionário deve trabalhar em um único projeto. Essa informação é implícita na atribuição a projetos.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Cada funcionário deve trabalhar em um único projeto.'
+    [G16] A descrição detalhada das habilidades de cada funcionário (engenheira sênior/júnior, fala inglês/não fala inglês) é excessiva e não essencial para a compreensão do problema.  É um detalhe contextual que não contribui para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar a descrição dos funcionários, removendo detalhes como a habilidade em inglês e a classificação como sênior ou júnior.  Manter apenas o nome dos funcionários.
+    [G24] Diferença de tamanho entre as alternativas. A alternativa A (51 palavras) é significativamente maior que a alternativa E (33 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade, evitando distrações baseadas no comprimento.
+    [G19] A resolução cega apontou B, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 01:23:28
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique os princípios pedagógicos da EJA para selecionar a alternativa mais adequada, considerando a articulação entre conteúdos, objetivos formativos e as experiências dos educandos. Não se trata de mera recordação de informações, mas sim de aplicação de conhecimento em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da situação e o objetivo da professora são reiterados.
+         → Sugestão: Remover a segunda parte da primeira frase ('Ao discutir o ensino de Língua Portuguesa, Matemática, Ciências e Estudos Sociais, ela precisa decidir como articular os conteúdos da Base Nacional Comum e da Parte Diversificada, sem perder de vista os objetivos da etapa e as características do grupo.') e condensar a informação no início do enunciado.
+    [G16] O enunciado contém contextualização excessiva e narrativa desnecessária que não contribui diretamente para a avaliação do conhecimento do estudante.
+         → Sugestão: Remover a descrição da turma de EJA, da professora e do planejamento didático. O foco deve ser a pergunta e o problema a ser resolvido.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O item busca a melhor abordagem pedagógica para a EJA, considerando a articulação entre a Base Nacional Comum e a Parte Diversificada, alinhada aos objetivos da etapa e às experiências dos alunos. A alternativa A parece ser a mais adequada, pois enfatiza a articulação dos conteúdos com as experiências dos alunos para criar objetivos de aprendizagem significativos. As demais alternativas apresentam falhas: B elimina a Parte Diversificada, C ignora conteúdos sistematizados, D propõe um currículo inflexível e E sugere a substituição do currículo por atividades aleatórias. A alternativa A é a única que promove uma abordagem centrada no aluno e alinhada com os princípios da EJA.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a Base Nacional Comum é suficiente e a Parte Diversificada é dispensável para uniformizar o currículo.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem pensar que o ensino deve se limitar aos interesses imediatos, ignorando a importância de conteúdos sistematizados.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a EJA deve seguir o modelo do ensino regular, sem considerar as especificidades do público e do contexto.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Alunos podem não compreender a necessidade de objetivos de aprendizagem na EJA, considerando que apenas atividades de convivência são suficientes.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (44 palavras) é significativamente mais curta que a alternativa A (33 palavras), mas a diferença não atinge o limite de 8 palavras.
+    [G30] A alternativa E parece arbitrária, pois a ideia de substituir conteúdos curriculares por atividades aleatórias é extrema e pouco relacionada a erros comuns.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da situação e o objetivo da professora são reiterados.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a segunda parte da primeira frase ('Ao discutir o ensino de Língua Portuguesa, Matemática, Ciências e Estudos Sociais, ela precisa decidir como articular os conteúdos da Base Nacional Comum e da Parte Diversificada, sem perder de vista os objetivos da etapa e as características do grupo.') e condensar a informação no início do enunciado.
+    [G16] O enunciado contém contextualização excessiva e narrativa desnecessária que não contribui diretamente para a avaliação do conhecimento do estudante.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da turma de EJA, da professora e do planejamento didático. O foco deve ser a pergunta e o problema a ser resolvido.
+    [G24] A alternativa B (44 palavras) é significativamente mais curta que a alternativa A (33 palavras), mas a diferença não atinge o limite de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Reavaliar a redação das alternativas para equilibrar o tamanho, sem comprometer o conteúdo.
+    [G30] A alternativa E parece arbitrária, pois a ideia de substituir conteúdos curriculares por atividades aleatórias é extrema e pouco relacionada a erros comuns.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a alternativa E para torná-la mais plausível, conectando-a a possíveis equívocos sobre a EJA.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

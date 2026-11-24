@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:36:00
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre phishing e segurança da informação a uma situação prática, escolhendo a conduta mais adequada com base em informações fornecidas. Não se trata de mera recordação ou compreensão, mas de tomar uma decisão informada.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado, embora contenha uma situação, não explicita diretamente a pergunta que se espera do aluno. É necessário inferir qual a ação mais adequada, o que pode gerar interpretações diversas.
+         → Sugestão: Reformular o enunciado para incluir explicitamente a pergunta, por exemplo: 'Diante do cenário descrito, qual a ação mais apropriada que o usuário deve tomar?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema descreve um cenário de phishing, onde um usuário recebe um e-mail fraudulento solicitando informações de login. A conduta mais adequada é evitar fornecer informações confidenciais e verificar a solicitação por um canal oficial. 
+
+Análise das alternativas:
+
+A) Incorreta: E-mails não são seguros para transmitir senhas. 
+B) Correta: Alerta para não fornecer informações por link suspeito, confirmação por canal oficial e comunicação do incidente.
+C) Incorreta: HTTPS garante a criptografia da conexão, mas não a autenticidade do site. 
+D) Incorreta: Logotipos podem ser facilmente falsificados.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Acredita que o e-mail é seguro devido ao formato, ignorando a importância do domínio do remetente.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Confia em HTTPS como garantia de autenticidade, sem considerar que golpistas podem usar certificados válidos.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Assume que o logotipo garante a autenticidade, ignorando que golpistas podem falsificar elementos visuais.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações no tamanho e complexidade da fraseologia.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G15] O enunciado, embora contenha uma situação, não explicita diretamente a pergunta que se espera do aluno. É necessário inferir qual a ação mais adequada, o que pode gerar interpretações diversas.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para incluir explicitamente a pergunta, por exemplo: 'Diante do cenário descrito, qual a ação mais apropriada que o usuário deve tomar?'
+    [G23] As alternativas apresentam variações no tamanho e complexidade da fraseologia.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a extensão e a estrutura gramatical das alternativas para maior uniformidade.
+
+================================================================================

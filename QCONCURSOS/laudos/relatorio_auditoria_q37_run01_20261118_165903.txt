@@ -1,0 +1,47 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:02:12
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda as características e o funcionamento do algoritmo AES, diferenciando-o de outras abordagens de criptografia. A seleção da alternativa correta demanda a interpretação de informações sobre o algoritmo.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é um termo solto, não explicita a pergunta ou problema central. É necessário que o aluno consulte as alternativas para entender o que se espera dele.
+         → Sugestão: Reformular o enunciado para incluir uma pergunta direta, como: 'Qual das seguintes afirmações descreve corretamente o funcionamento do algoritmo AES?'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O item pergunta sobre o funcionamento do AES. A alternativa A menciona chaves de 128, 192 e 256 bits, o que é consistente com o AES. A alternativa B menciona uma chave de 64 bits, o que é incorreto, pois o AES usa chaves maiores. A alternativa C menciona uma rede de Feistel, que é usada no DES, não no AES. A alternativa D menciona fatoração de números primos, que é relevante para a criptografia assimétrica (como RSA), não para o AES, que é simétrico. Portanto, a alternativa A é a mais consistente com o conhecimento sobre o AES.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir a chave de 64 bits do DES com a do AES, ignorando a flexibilidade do AES em relação ao tamanho da chave.
+    [C] Distrator (Plausibilidade: 4/5)
+         → A confusão entre AES e DES pode levar à crença de que o AES utiliza a rede de Feistel, um conceito chave do DES.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos com conhecimento superficial podem associar criptografia assimétrica à fatoração de números primos, sem entender a natureza do AES como algoritmo simétrico.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de complexidade e detalhamento, gerando heterogeneidade na estrutura.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G15] O enunciado é um termo solto, não explicita a pergunta ou problema central. É necessário que o aluno consulte as alternativas para entender o que se espera dele.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular o enunciado para incluir uma pergunta direta, como: 'Qual das seguintes afirmações descreve corretamente o funcionamento do algoritmo AES?'
+    [G23] As alternativas apresentam diferentes níveis de complexidade e detalhamento, gerando heterogeneidade na estrutura.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para uniformizar o nível de detalhamento e a complexidade sintática.
+
+================================================================================

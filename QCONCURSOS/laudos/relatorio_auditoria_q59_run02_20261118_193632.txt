@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 19:39:28
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda o conceito de barramento em um contexto de hardware de computador e, em seguida, identifique a opção que *não* se encaixa nessa definição. Isso envolve um nível de compreensão e discriminação, indo além da simples memorização.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G17] A negação 'NÃO' está presente no enunciado sem destaque visual (negrito ou maiúsculas).
+         → Sugestão: Substituir 'NÃO representa um barramento' por 'representa um barramento' e ajustar a formulação da pergunta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O enunciado busca identificar qual alternativa NÃO representa um barramento em um computador. Barramentos são linhas de comunicação entre dispositivos. PCI, SATA e PCI Express são exemplos de barramentos. USB é um protocolo de comunicação, mas não um barramento propriamente dito. UDP é um protocolo de transporte de dados na camada de rede, não um barramento. Portanto, a alternativa que não representa um barramento é a D. UDP.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir PCI com um barramento de comunicação, ignorando que é uma interface de expansão.
+    [B] Distrator (Plausibilidade: 3/5)
+         → USB é frequentemente usado para comunicação, levando à crença errônea de que é um barramento interno.
+    [C] Distrator (Plausibilidade: 3/5)
+         → SATA é conhecido por conectar dispositivos, mas a falta de clareza sobre sua função interna pode levar à confusão.
+    [E] Distrator (Plausibilidade: 3/5)
+         → PCI Express é uma evolução do PCI, levando à suposição de que ambos são barramentos internos.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações no nível de formalidade e detalhe, afetando a homogeneidade do texto.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G17] A negação 'NÃO' está presente no enunciado sem destaque visual (negrito ou maiúsculas).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'NÃO representa um barramento' por 'representa um barramento' e ajustar a formulação da pergunta.
+    [G23] As alternativas apresentam variações no nível de formalidade e detalhe, afetando a homogeneidade do texto.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para garantir um estilo consistente e equivalente.
+
+================================================================================

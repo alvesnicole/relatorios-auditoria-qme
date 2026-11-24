@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 02:48:50
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique um conceito matemático (divisão) para resolver um problema contextualizado, envolvendo a interpretação de dados e a aplicação de uma regra para encontrar uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre o sorteio de números entre 1 e 20. A frase 'No último dia de aulas do ano, são sorteados quatro números entre 1 e 20' é redundante, pois já foi mencionado anteriormente.
+         → Sugestão: Remover a frase 'No último dia de aulas do ano, são sorteados quatro números entre 1 e 20'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O problema envolve calcular o número de apostadores que acertaram os quatro números sorteados, dado o valor que cada um recebeu e o valor total do prêmio. Cada vencedor recebeu R$ 1.200,00 e o prêmio total foi de R$ 4.800,00. Para encontrar o número de vencedores, dividimos o valor total do prêmio pelo valor recebido por cada vencedor: 4800 / 1200 = 4. Portanto, 4 apostadores acertaram os quatro números.
+
+Verificação das alternativas:
+
+A) 1: 1 * 1200 = 1200 (não é 4800)
+B) 2: 2 * 1200 = 2400 (não é 4800)
+C) 3: 3 * 1200 = 3600 (não é 4800)
+D) 4: 4 * 1200 = 4800 (correto)
+E) 5: 5 * 1200 = 6000 (não é 4800)
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar que o número de vencedores é igual ao valor do prêmio individual, ignorando o valor total da aposta.
+    [B] Distrator (Plausibilidade: 2/5)
+         → Confusão entre o número de vencedores e o número total de apostadores, sem considerar o valor do prêmio individual.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem tentar adivinhar o número de vencedores com base em um raciocínio intuitivo, sem aplicar a relação entre prêmio total e prêmio individual.
+    [E] Distrator (Plausibilidade: 4/5)
+         → Alunos podem arredondar o valor do prêmio individual para facilitar o cálculo, levando a uma estimativa incorreta do número de vencedores.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa 'E' (5) é mais longa que as demais, com uma diferença de 3 palavras em relação à mais curta (A).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação sobre o sorteio de números entre 1 e 20. A frase 'No último dia de aulas do ano, são sorteados quatro números entre 1 e 20' é redundante, pois já foi mencionado anteriormente.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'No último dia de aulas do ano, são sorteados quatro números entre 1 e 20'.
+    [G24] A alternativa 'E' (5) é mais longa que as demais, com uma diferença de 3 palavras em relação à mais curta (A).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para garantir maior uniformidade e evitar pistas visuais.
+
+================================================================================

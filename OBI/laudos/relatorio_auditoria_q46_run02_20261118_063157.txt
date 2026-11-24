@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 06:35:34
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conceito de que em um torneio eliminatório, o número de jogos é sempre um a menos que o número de participantes. Não envolve memorização direta, análise complexa ou avaliação crítica, mas sim a aplicação de um princípio para resolver um problema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que o torneio é feito em turnos eliminatórios, seguida de explicação detalhada do processo de sorteio e eliminação. Essa repetição pode ser simplificada.
+         → Sugestão: Remover a frase 'Mais precisamente, em cada turno um sorteio será feito entre os participantes que ainda não tenham sido eliminados para determinar quem joga contra quem. Em cada partida o perdedor é eliminado, e o processo se repete até que haja apenas um jogador não eliminado, que será declarado campeão (ou campeã) do torneio.' e substituir por algo como: 'O torneio será disputado em jogos eliminatórios até que reste apenas um campeão.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema descreve um torneio de tênis de mesa eliminatório. Para que reste apenas um campeão, é necessário eliminar 36 jogadores. Cada jogo resulta na eliminação de um jogador. Portanto, o número de jogos jogados é igual ao número de jogadores eliminados, que é 37 - 1 = 36. No entanto, a alternativa B (36) parece incorreta, pois o enunciado diz que o torneio é feito em turnos de jogos eliminatórios, e em cada turno há um sorteio. Isso implica que o número de jogos deve ser igual ao número de participantes menos 1. Portanto, o número de jogos é 37 - 1 = 36. A alternativa C (37) é incorreta, pois não há como eliminar 37 jogadores com 37 jogos, pois cada jogo elimina um jogador. A alternativa D (38) é incorreta, pois não há justificativa para um número de jogos maior que o número de participantes menos 1. A alternativa E (74) é obviamente incorreta. A alternativa A (18) é muito baixa para o número de jogos necessários para eliminar 36 jogadores. Portanto, a alternativa correta é 36.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão entre o número de participantes e o número de jogos necessários para eliminar todos, ignorando a estrutura eliminatória.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Interpretação literal do número de participantes como o número de jogos, sem considerar a eliminação progressiva.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Confusão entre o número de participantes e o número de jogos, considerando que cada participante joga uma vez.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Duplicação do número de participantes, presumindo que cada partida envolve dois jogos.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas. A alternativa E é significativamente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação de que o torneio é feito em turnos eliminatórios, seguida de explicação detalhada do processo de sorteio e eliminação. Essa repetição pode ser simplificada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Mais precisamente, em cada turno um sorteio será feito entre os participantes que ainda não tenham sido eliminados para determinar quem joga contra quem. Em cada partida o perdedor é eliminado, e o processo se repete até que haja apenas um jogador não eliminado, que será declarado campeão (ou campeã) do torneio.' e substituir por algo como: 'O torneio será disputado em jogos eliminatórios até que reste apenas um campeão.'
+    [G24] Diferença no tamanho entre as alternativas. A alternativa E é significativamente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a redação das alternativas para uniformizar o tamanho, evitando frases excessivamente longas.
+
+================================================================================

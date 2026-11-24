@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:57:11
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento de integrais triplas em coordenadas cilíndricas para calcular o volume de um sólido, combinando a compreensão da geometria do sólido com a habilidade de configurar a integral correta. Não há necessidade de análise profunda ou criação de novas soluções.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre as equações de transformação para coordenadas cilíndricas (x=r cos θ, y=r sin θ).
+         → Sugestão: Remover a informação 'x=r cos θ, y=r sin θ' do enunciado, pois é conhecimento prévio esperado do estudante.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O sólido S é delimitado por um cilindro, um plano e um paraboloide. A integral tripla deve cobrir o volume do sólido. Em coordenadas cilíndricas, x = r cos θ, y = r sin θ, e dV = r dz dr dθ. O cilindro x² + y² = 4 implica r² = 4, então r = 2. O plano z = 0 é o limite inferior para z. O paraboloide z = 4 - x² - y² implica z = 4 - r². Portanto, os limites de integração são: 0 ≤ θ ≤ 2π, 0 ≤ r ≤ 2, e 0 ≤ z ≤ 4 - r². A integral correta deve refletir esses limites. 
+
+A) ∫₀²π∫₀²∫₀^(4-r²) r dz dr dθ: Esta integral tem os limites corretos para θ, r e z. 
+B) ∫₀²π∫₀⁴∫₀^(2-r²) r dz dr dθ: O limite superior para r é incorreto (deve ser 2, não 4). 
+C) ∫₀^π∫₀²∫₀^(4-r²) r dz dr dθ: O limite inferior para θ é incorreto (deve ser 0, não π). 
+D) ∫₀²π∫₀²∫₀^(4-r) r dz dr dθ: O limite superior para z está incorreto (deve ser 4-r², não 4-r). 
+E) ∫₀²π∫₀²∫_(4-r²)^0 r dz dr dθ: A ordem de integração para z está invertida (deve ser de 0 a 4-r²).
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre os limites de integração em coordenadas cilíndricas, especialmente no raio.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Erro na aplicação dos limites de integração em coordenadas cilíndricas, trocando a ordem de integração e os limites.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Substituição incorreta da variável 'r' no limite de integração superior, confundindo com o raio do cilindro.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Inversão dos limites de integração em 'z', indicando uma completa falta de compreensão da geometria do sólido.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da informação sobre as equações de transformação para coordenadas cilíndricas (x=r cos θ, y=r sin θ).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a informação 'x=r cos θ, y=r sin θ' do enunciado, pois é conhecimento prévio esperado do estudante.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

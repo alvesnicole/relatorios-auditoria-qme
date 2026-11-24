@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 16:48:49
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as afirmações, identifique a relação entre elas e determine qual combinação é a correta, o que envolve a capacidade de desestruturar e comparar informações para chegar a uma conclusão.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da expressão 'ataques na camada de...' em afirmações consecutivas. A estrutura 'ataques na camada de X, como o ataque Y' é redundante.
+         → Sugestão: Reescrever as afirmações para evitar a repetição da frase 'ataques na camada de...'. Por exemplo: 'Ataques volumétricos buscam congestionar...' e 'Ataques na camada de transporte, como o SYN Flood, focam em...'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : Análise das afirmações:
+
+I. Correta. Ataques volumétricos, como o uso de amplificação de DNS, visam sobrecarregar a largura de banda da rede, inundando-a com tráfego. Essa descrição está precisa.
+II. Correta. Ataques SYN Flood exploram o handshake TCP, esgotando os recursos dos dispositivos de rede. A afirmação descreve corretamente o mecanismo.
+III. Correta. Ataques HTTP Flood mimetizam o comportamento de usuários legítimos, tornando-os mais difíceis de detectar. A descrição é precisa.
+
+Considerando que todas as afirmações estão corretas, a alternativa D é a mais provável.
+
+Pistas Estruturais:
+
+G28a: Não há termos absolutos evidentes que eliminem ou confirmem uma opção.
+
+G28b: Não há repetição incomum de palavras que sirva como pista visual.
+
+G28c: Não há inconsistências gramaticais que ajudem a identificar a alternativa correta.
+
+G28d: A alternativa D é ligeiramente mais longa, mas a diferença não é significativa o suficiente para ser uma pista determinante.
+
+G28e: Não há pares ou trincas de opções que se anulem e revelem a resposta.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que ataques volumétricos são a única forma de DDoS, ignorando outras camadas de ataque.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir ataques na camada de transporte com ataques na camada de aplicação, não compreendendo a diferença na complexidade de detecção.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que ataques volumétricos e na camada de aplicação são igualmente difíceis de detectar, sem considerar a sutileza dos ataques na camada de aplicação.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G13] Repetição desnecessária da expressão 'ataques na camada de...' em afirmações consecutivas. A estrutura 'ataques na camada de X, como o ataque Y' é redundante.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever as afirmações para evitar a repetição da frase 'ataques na camada de...'. Por exemplo: 'Ataques volumétricos buscam congestionar...' e 'Ataques na camada de transporte, como o SYN Flood, focam em...'.
+
+================================================================================

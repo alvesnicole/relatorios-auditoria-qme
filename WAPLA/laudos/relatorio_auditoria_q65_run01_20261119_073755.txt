@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:41:57
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre avaliação fisioterapêutica em um cenário clínico complexo, selecionando a conduta avaliativa mais adequada para orientar o planejamento terapêutico. A escolha da alternativa correta demanda a compreensão do quadro clínico e a aplicação de princípios de avaliação e tratamento de pacientes queimados.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição detalhada do quadro clínico da paciente é extensa e, em parte, repetitiva, especialmente ao mencionar a dor constante e o prurido já referidos na anamnese.
+         → Sugestão: Remover informações redundantes na descrição do quadro clínico, focando nos aspectos mais relevantes para a avaliação e planejamento terapêutico. Por exemplo, a menção à dor constante pode ser simplificada para 'dor'. 
+    [G16] O enunciado contém um excesso de detalhes contextuais (histórico da paciente, internação, enxertias, infecções) que não são essenciais para a compreensão da tarefa avaliativa. Essa contextualização decorativa dificulta o foco no problema central.
+         → Sugestão: Reduzir a quantidade de detalhes contextuais, mantendo apenas as informações mínimas necessárias para situar o leitor no cenário clínico. O foco deve ser na avaliação e nas condutas a serem priorizadas.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O item exige a priorização de uma conduta avaliativa que sustente a indicação de terapia compressiva e outras intervenções para controle da cicatrização e retrações em paciente queimado. A alternativa A é a mais adequada, pois enfatiza a mensuração sistemática e padronizada das cicatrizes, o que é crucial para monitorar a evolução e ajustar o tratamento. As demais alternativas apresentam falhas: B foca em força muscular sem padronização; C adia a avaliação detalhada das cicatrizes; D baseia-se apenas no relato subjetivo da paciente; E infere a retração cicatricial por análise postural sem medições específicas. A padronização e documentação fotográfica são essenciais para avaliar a progressão da cicatrização e a eficácia das intervenções compressivas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → O aluno pode acreditar que a avaliação da força muscular é primordial, negligenciando a importância da avaliação detalhada das cicatrizes para o planejamento terapêutico.
+    [C] Distrator (Plausibilidade: 3/5)
+         → O aluno pode priorizar a avaliação da sensibilidade, ignorando a necessidade de mensuração das cicatrizes para orientar a terapia compressiva e prevenir deformidades.
+    [D] Distrator (Plausibilidade: 3/5)
+         → O aluno pode superestimar a importância da percepção subjetiva da dor e prurido, negligenciando a necessidade de dados objetivos para a indicação da terapia compressiva.
+    [E] Distrator (Plausibilidade: 2/5)
+         → O aluno pode focar na análise postural global, ignorando a necessidade de medições específicas das cicatrizes para orientar o tratamento.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (104 palavras) é significativamente mais longa que a alternativa E (47 palavras), violando a regra de diferença de pelo menos 8 palavras e mais que o dobro do tamanho.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição detalhada do quadro clínico da paciente é extensa e, em parte, repetitiva, especialmente ao mencionar a dor constante e o prurido já referidos na anamnese.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover informações redundantes na descrição do quadro clínico, focando nos aspectos mais relevantes para a avaliação e planejamento terapêutico. Por exemplo, a menção à dor constante pode ser simplificada para 'dor'. 
+    [G16] O enunciado contém um excesso de detalhes contextuais (histórico da paciente, internação, enxertias, infecções) que não são essenciais para a compreensão da tarefa avaliativa. Essa contextualização decorativa dificulta o foco no problema central.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reduzir a quantidade de detalhes contextuais, mantendo apenas as informações mínimas necessárias para situar o leitor no cenário clínico. O foco deve ser na avaliação e nas condutas a serem priorizadas.
+    [G24] A alternativa B (104 palavras) é significativamente mais longa que a alternativa E (47 palavras), violando a regra de diferença de pelo menos 8 palavras e mais que o dobro do tamanho.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas, buscando maior equilíbrio na extensão das opções.
+
+================================================================================

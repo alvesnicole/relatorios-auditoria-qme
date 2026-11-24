@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 06:42:15
+  Gabarito : E
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre posições relativas de retas no espaço para interpretar uma situação prática (a maquete do centro de exposições) e resolver um problema (a instalação de cabos de sustentação). A identificação correta da classificação das retas requer a aplicação de conceitos geométricos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Para evitar um erro de interpretação geométrica, precisa identificar corretamente a posição relativa entre elas antes de indicar onde poderiam ser instalados cabos de sustentação' é redundante e pode ser removida sem alterar o significado principal.
+         → Sugestão: Remover a frase 'Para evitar um erro de interpretação geométrica, precisa identificar corretamente a posição relativa entre elas antes de indicar onde poderiam ser instalados cabos de sustentação'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : O enunciado descreve duas retas no espaço que não se interceptam e não pertencem ao mesmo plano. Isso caracteriza as retas como reversas. 
+
+A) Incorreta: Retas concorrentes se interceptam. 
+B) Incorreta: Retas paralelas pertencem ao mesmo plano. 
+C) Incorreta: Perpendicularidade implica interseção. 
+D) Incorreta: Retas coincidentes são a mesma reta, apenas expressa de forma diferente. 
+E) Correta: Retas reversas não se interceptam e não estão no mesmo plano.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confunde a possibilidade de interseção futura com a definição de retas concorrentes, ignorando a condição de não interceptação.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Interpreta erroneamente a condição de não interceptação como indicativa de paralelismo, ignorando a ausência de um plano comum.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Associa a ausência de interseção a um ângulo de 90°, demonstrando falta de compreensão da relação entre perpendicularidade e interseção.
+    [D] Distrator (Plausibilidade: 1/5)
+         → Acredita que a ausência de um ponto em comum no espaço tridimensional implica que as retas são coincidentes, demonstrando um entendimento superficial do conceito de coincidência.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (51 palavras) é significativamente mais longa que a alternativa C (30 palavras).
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetições desnecessárias. A frase 'Para evitar um erro de interpretação geométrica, precisa identificar corretamente a posição relativa entre elas antes de indicar onde poderiam ser instalados cabos de sustentação' é redundante e pode ser removida sem alterar o significado principal.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Para evitar um erro de interpretação geométrica, precisa identificar corretamente a posição relativa entre elas antes de indicar onde poderiam ser instalados cabos de sustentação'.
+    [G24] A alternativa A (51 palavras) é significativamente mais longa que a alternativa C (30 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

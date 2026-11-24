@@ -1,0 +1,68 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 00:35:14
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as condições apresentadas para determinar qual afirmação é necessariamente verdadeira, considerando as restrições sobre o plantio de hortaliças. É necessário avaliar as implicações das regras para eliminar opções e identificar a resposta correta, o que envolve um processo de análise e inferência.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação sobre os canteiros serem utilizados no primeiro e segundo ano. A informação é redundante e não contribui para a compreensão da questão.
+         → Sugestão: Remover a frase 'Exatamente os mesmos canteiros que forem utilizados no primeiro ano serão também utilizados no segundo ano'.
+    [G16] A descrição da horta e das escolhas de Maria (quantidade de canteiros, tipos de hortaliças) funciona como um cenário narrativo que não é essencial para a resolução da questão. É um exemplo de window dressing.
+         → Sugestão: Remover a descrição da horta e das escolhas de Maria, focando apenas nas condições e na pergunta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O problema exige determinar qual afirmação é verdadeira quando o nabo não é plantado. A condição chave é que, se nabo é plantado, no ano seguinte deve haver uma verdura. Portanto, se nabo NÃO é plantado, essa restrição não se aplica. Analisando as alternativas:
+
+A) Impossível determinar se alface ou repolho serão plantados. Poderiam ser ambos, nenhum ou apenas um.
+B) É possível que beterraba e cenoura não sejam plantadas. A condição exige apenas *um* legume, podendo ser nabo (que não está presente neste cenário).
+C) Não há garantia de que alface e repolho sejam plantados. Poderia haver apenas um ou nenhum.
+D) Nabo não está sendo plantado, então essa opção é falsa.
+E) Não há garantia de que apenas uma hortaliça seja plantada. Poderiam ser várias.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a restrição de não plantar a mesma hortaliça em canteiros consecutivos como uma exigência de plantar alface ou repolho, mas não ambos, ignorando outras possibilidades.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na variedade de hortaliças e assumir que, para cumprir as condições, alface e repolho devem ser plantados, ignorando a flexibilidade na escolha.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem associar a restrição de não plantar nabo com a obrigatoriedade de plantar nabo em algum momento, levando a uma combinação incorreta de hortaliças.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Alunos podem simplificar demais as condições, acreditando que apenas uma hortaliça pode ser plantada em cada canteiro a cada ano, ignorando a possibilidade de múltiplos canteiros.
+  Violações (G21–G24, G27–G31):
+    [G22] As alternativas A e B não são mutuamente exclusivas, pois podem coexistir em um cenário válido.
+    [G24] A alternativa A (41 palavras) é significativamente mais longa que a alternativa E (25 palavras).
+    [G30] A alternativa D parece arbitrária, sem uma ligação clara com os erros comuns dos alunos ao interpretar o problema.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (5):
+    [G13] Repetição desnecessária da informação sobre os canteiros serem utilizados no primeiro e segundo ano. A informação é redundante e não contribui para a compreensão da questão.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Exatamente os mesmos canteiros que forem utilizados no primeiro ano serão também utilizados no segundo ano'.
+    [G16] A descrição da horta e das escolhas de Maria (quantidade de canteiros, tipos de hortaliças) funciona como um cenário narrativo que não é essencial para a resolução da questão. É um exemplo de window dressing.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da horta e das escolhas de Maria, focando apenas nas condições e na pergunta.
+    [G22] As alternativas A e B não são mutuamente exclusivas, pois podem coexistir em um cenário válido.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir exclusividade.
+    [G24] A alternativa A (41 palavras) é significativamente mais longa que a alternativa E (25 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a extensão das alternativas para promover maior equilíbrio.
+    [G30] A alternativa D parece arbitrária, sem uma ligação clara com os erros comuns dos alunos ao interpretar o problema.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a alternativa D para que reflita um erro de raciocínio mais comum.
+
+================================================================================

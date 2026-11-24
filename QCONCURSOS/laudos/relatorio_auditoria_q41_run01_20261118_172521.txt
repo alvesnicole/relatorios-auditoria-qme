@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 17:29:03
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre comandos Linux para resolver um problema prático específico: listar arquivos e permissões no diretório home. A escolha da resposta correta requer a compreensão do significado do comando `ls -l ~`.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] O enunciado não especifica qual diretório 'home' deve ser listado (do usuário atual? de um usuário específico?).
+         → Sugestão: Especificar o diretório 'home' a ser listado, por exemplo: 'Informe o comando Linux para listar os arquivos e permissões do diretório home do usuário atual.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O comando Linux para listar arquivos e permissões no diretório home é `ls -l ~`. O comando `pwd` (print working directory) exibe o diretório atual, não lista arquivos. A opção `~` representa o diretório home do usuário. A opção `-l` em `ls` fornece detalhes como permissões, número de links, proprietário, grupo, tamanho, data de modificação e nome do arquivo. 
+
+A) `pwd /home` lista o diretório /home, não o diretório home do usuário.
+B) `ls -l ~` lista arquivos e permissões no diretório home do usuário.
+C) `pwd -la ~` combina `pwd` com opções de `ls`, o que não é um comando válido.
+D) `ls -la` lista arquivos e permissões no diretório atual, não no diretório home.
+E) `pwd *` tenta listar o diretório atual com arquivos como argumentos, o que não é válido.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão entre comando para mudar de diretório e listar arquivos. Aluno pode acreditar que 'pwd' é usado para navegar.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Entendimento superficial do comando 'pwd'. Aluno pode tentar combinar 'pwd' com opções de listagem, sem compreender a função de cada um.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Aluno pode saber que 'ls' lista arquivos, mas não entender o significado de '-la' ou a necessidade de especificar o diretório home.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Aluno pode não entender o propósito do comando e tentar usar um curinga sem saber o que ele faz, gerando um resultado inesperado.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam diferentes níveis de detalhe e complexidade na sintaxe dos comandos.
+    [G30] As distratores não refletem erros comuns de estudantes ao lidar com comandos Linux.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G14] O enunciado não especifica qual diretório 'home' deve ser listado (do usuário atual? de um usuário específico?).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Especificar o diretório 'home' a ser listado, por exemplo: 'Informe o comando Linux para listar os arquivos e permissões do diretório home do usuário atual.'
+    [G23] As alternativas apresentam diferentes níveis de detalhe e complexidade na sintaxe dos comandos.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura das opções, utilizando a mesma sintaxe e nível de detalhe.
+    [G30] As distratores não refletem erros comuns de estudantes ao lidar com comandos Linux.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores baseados em erros típicos, como confusão entre comandos ou uso incorreto de opções.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

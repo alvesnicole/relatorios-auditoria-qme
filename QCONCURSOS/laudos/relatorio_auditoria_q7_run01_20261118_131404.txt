@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:18:09
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato analise as descrições das camadas do modelo OSI e identifique a alternativa que não se encaixa corretamente, demandando a compreensão das funções de cada camada e a capacidade de identificar inconsistências ou informações incorretas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária ao explicar o Modelo OSI e sua função, além de reiterar a ideia de comunicação 'end-to-end'.
+         → Sugestão: Remover a repetição de informações sobre a função do Modelo OSI e a comunicação 'end-to-end'. Sugestão: 'O Modelo OSI (acrônimo do inglês Open System Interconnection) é um modelo de rede de computador de referência da ISO, dividido em camadas de funções com o objetivo de ser um padrão para protocolos de comunicação entre sistemas em uma rede local (Ethernet). Este modelo divide as redes de computadores em 7 camadas.'
+    [G17] A frase 'Assinale a alternativa que não está corretamente definida como uma das camadas' utiliza a negativa sem destaque visual.
+         → Sugestão: Reformular a instrução para evitar a negativa, por exemplo: 'Assinale a alternativa que apresenta uma definição INCORRETA de uma das camadas do Modelo OSI.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise do Modelo OSI: O objetivo é identificar a alternativa que NÃO descreve corretamente uma camada do modelo. 
+
+A) Camada de Rede: A descrição está incorreta ao afirmar que converte endereços lógicos em físicos. Essa é a função da Camada de Enlace. A Camada de Rede lida com endereçamento lógico (IP) e roteamento.
+B) Apresentação: A descrição está correta. A camada de apresentação é responsável pela tradução de dados.
+C) Camada de Sessão: A descrição está incorreta. A camada de sessão é responsável por estabelecer, gerenciar e encerrar conexões entre aplicações, não pela integridade dos dados.
+D) Camada de Enlace: A descrição está correta, descrevendo o empacotamento em quadros e a verificação de integridade.
+
+Portanto, a alternativa A e C contêm informações incorretas sobre as funções das camadas do modelo OSI.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir o endereçamento físico e lógico, e a função de roteamento como parte da camada de rede.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre a camada de apresentação e a camada de aplicação, não compreendendo a tradução de dados.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não diferenciar a função de empacotamento e verificação de integridade da camada de enlace.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária ao explicar o Modelo OSI e sua função, além de reiterar a ideia de comunicação 'end-to-end'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição de informações sobre a função do Modelo OSI e a comunicação 'end-to-end'. Sugestão: 'O Modelo OSI (acrônimo do inglês Open System Interconnection) é um modelo de rede de computador de referência da ISO, dividido em camadas de funções com o objetivo de ser um padrão para protocolos de comunicação entre sistemas em uma rede local (Ethernet). Este modelo divide as redes de computadores em 7 camadas.'
+    [G17] A frase 'Assinale a alternativa que não está corretamente definida como uma das camadas' utiliza a negativa sem destaque visual.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a instrução para evitar a negativa, por exemplo: 'Assinale a alternativa que apresenta uma definição INCORRETA de uma das camadas do Modelo OSI.'
+    [G19] A resolução cega apontou A, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

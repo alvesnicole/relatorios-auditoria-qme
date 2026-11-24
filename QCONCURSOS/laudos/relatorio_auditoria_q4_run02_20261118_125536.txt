@@ -1,0 +1,64 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 12:59:19
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre manutenção de computadores para identificar a alternativa que *não* representa um cuidado adequado. Isso envolve analisar cada opção e relacioná-la com o contexto prático de manutenção de um computador, demonstrando a capacidade de aplicar o conhecimento para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G12] Incorreção gramatical: Concordância verbal inadequada ('o mesmo não deixe de funcionar').
+         → Sugestão: Substituir 'o mesmo não deixe de funcionar' por 'ele não deixe de funcionar' ou 'ele não pare de funcionar'.
+    [G13] Enunciado prolixo: A primeira frase contém informações redundantes e pode ser simplificada.
+         → Sugestão: Reformular a primeira frase para algo como: 'O computador é um importante aliado dos profissionais em qualquer organização, sendo essencial mantê-lo em dia com as manutenções.'
+    [G17] Presença de negativa sem destaque visual: A frase 'que não representa um cuidado a ser observado' utiliza a negativa sem destaque.
+         → Sugestão: Utilizar maiúsculas ou negrito para destacar a palavra 'NÃO': 'Assinale a alternativa que NÃO representa um cuidado a ser observado...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O enunciado busca identificar a alternativa que NÃO representa um cuidado para manter o computador funcionando. Analisando as alternativas:
+
+A) Fragmentação de disco: É uma prática recomendada para otimizar o desempenho do disco rígido.
+B) Verificação e remoção de vírus: Essencial para a segurança e bom funcionamento do sistema.
+C) Atualização de drivers: Garante a compatibilidade e o desempenho adequado dos dispositivos.
+D) Limpeza de arquivos temporários: Libera espaço e pode melhorar a velocidade do sistema.
+
+A alternativa D é a que se distancia dos cuidados necessários, pois a limpeza de arquivos temporários é uma prática que pode ser realizada, mas não é tão crucial quanto as demais. A afirmação de que a limpeza 'pode ser feita manualmente' sugere que não é uma necessidade imperativa, ao contrário das demais opções que são práticas de manutenção preventiva e contínua.
+
+As demais alternativas representam cuidados essenciais para a manutenção do computador.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a necessidade de antivírus com manutenção de hardware, ignorando a natureza digital da ameaça.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Estudantes podem não compreender a relação direta entre a atualização de software e a necessidade de drivers compatíveis.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem não entender a função dos arquivos temporários e seu impacto no desempenho do computador.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G12] Incorreção gramatical: Concordância verbal inadequada ('o mesmo não deixe de funcionar').
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir 'o mesmo não deixe de funcionar' por 'ele não deixe de funcionar' ou 'ele não pare de funcionar'.
+    [G13] Enunciado prolixo: A primeira frase contém informações redundantes e pode ser simplificada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a primeira frase para algo como: 'O computador é um importante aliado dos profissionais em qualquer organização, sendo essencial mantê-lo em dia com as manutenções.'
+    [G17] Presença de negativa sem destaque visual: A frase 'que não representa um cuidado a ser observado' utiliza a negativa sem destaque.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Utilizar maiúsculas ou negrito para destacar a palavra 'NÃO': 'Assinale a alternativa que NÃO representa um cuidado a ser observado...'
+    [G19] A resolução cega apontou D, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

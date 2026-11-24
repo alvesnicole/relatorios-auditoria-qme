@@ -1,0 +1,61 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 07:11:50
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : APLICAR
+  Justificativa   : O item exige que o aluno aplique o conhecimento sobre coordenadas esféricas para completar uma integral tripla, demonstrando a capacidade de transformar uma integral de um sistema de coordenadas para outro. Não se trata de mera memorização, mas sim de aplicação de um conceito.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G14] O enunciado não explicita claramente o que se espera do aluno. A frase 'O fator que completa corretamente a expressão é' não deixa claro se o aluno deve identificar, calcular ou fornecer o fator.
+         → Sugestão: Reformular a pergunta para algo como: 'Determine o fator que completa corretamente a expressão:' ou 'Qual o fator que completa corretamente a expressão:'
+    [G11] A notação matemática na expressão da integral tripla está incompleta, com a falta de elementos na expressão '⋯'.
+         → Sugestão: Completar a expressão da integral tripla para garantir a clareza e legibilidade.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado fornece a forma geral da integral tripla em coordenadas esféricas: ∭_R f(x,y,z) dxdydz=∭_{R'} f(ρ sen φ cos θ,ρ sen φ sen θ,ρ cos φ) ... .  Precisamos encontrar o elemento de volume em coordenadas esféricas, que é dado por dxdydz = ρ² sen φ dρ dφ dθ.  Portanto, o fator que completa a expressão é ρ² sen φ dρ dφ dθ.
+
+Análise das alternativas:
+
+A) ρ² sen φ dρ dφ dθ: Corresponde ao elemento de volume correto em coordenadas esféricas.
+B) ρ sen φ dρ dφ dθ: Incorreto, pois não considera o fator ρ².
+C) ρ² cos φ dρ dφ dθ: Incorreto, pois o fator cos φ está incorreto.
+D) ρ dρ dφ dθ: Incorreto, pois não considera os fatores ρ² e sen φ.
+E) sen φ dρ dφ dθ: Incorreto, pois não considera o fator ρ².
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir o elemento de volume em coordenadas esféricas, esquecendo o fator sen φ.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Confusão entre as variáveis de integração e seus respectivos coeficientes, ignorando a relação correta entre ρ, φ e θ.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Alunos podem simplificar demais a expressão, omitindo o fator sen φ, que é crucial para a transformação.
+    [E] Distrator (Plausibilidade: 1/5)
+         → Opção claramente incorreta, sem relação direta com a transformação de coordenadas esféricas.
+  Violações (G21–G24, G27–G31):
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G14] O enunciado não explicita claramente o que se espera do aluno. A frase 'O fator que completa corretamente a expressão é' não deixa claro se o aluno deve identificar, calcular ou fornecer o fator.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para algo como: 'Determine o fator que completa corretamente a expressão:' ou 'Qual o fator que completa corretamente a expressão:'
+    [G11] A notação matemática na expressão da integral tripla está incompleta, com a falta de elementos na expressão '⋯'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Completar a expressão da integral tripla para garantir a clareza e legibilidade.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

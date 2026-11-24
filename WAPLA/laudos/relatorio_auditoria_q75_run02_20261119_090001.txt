@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 09:03:23
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o candidato avalie diferentes propostas de ação, considerando múltiplos fatores (interesses divergentes, objetivos do coletivo, potencial crítico do grafite) e identifique a opção mais coerente, o que envolve a desconstrução das alternativas e a análise de suas implicações. Não se trata apenas de compreender o cenário, mas de julgar a viabilidade e a adequação de cada solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma narrativa extensa sobre a situação do coletivo de arte urbana, que não contribui diretamente para a compreensão da tarefa de avaliação. A contextualização é excessiva e desnecessária.
+         → Sugestão: Remover a descrição detalhada da situação, focando apenas nos elementos essenciais para apresentar o problema e a pergunta.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O coletivo busca equilibrar a expressão artística com as demandas do território, promovendo diálogo e reflexão. A alternativa A parece ser a mais coerente, pois propõe um processo colaborativo que envolve todos os stakeholders, buscando um mural com elementos críticos sem comprometer o apoio logístico. As demais alternativas apresentam falhas: B prioriza visibilidade institucional em detrimento da crítica; C ignora a mediação e a participação dos moradores; D dilui a crítica em um mural comemorativo; E fragmenta o processo, impedindo a articulação dos conflitos. A alternativa A é a única que demonstra um esforço genuíno para conciliar os interesses divergentes e manter o potencial crítico do grafite.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a priorização da visibilidade institucional e patrocínio é um meio legítimo de fortalecer vínculos comunitários, ignorando o potencial crítico do grafite.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente a autonomia da cena de rua como sinônimo de ausência de mediação e diálogo com a comunidade, desconsiderando a importância da colaboração.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem acreditar que a concessão parcial e a diluição da crítica são estratégias eficazes para garantir apoio logístico, sem considerar a perda do potencial contestatório.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem entender a segmentação do muro como uma forma de acomodar diferentes perspectivas, sem reconhecer a necessidade de um processo articulado de escuta e elaboração conjunta.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (115 palavras) é significativamente mais longa que a alternativa E (68 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma narrativa extensa sobre a situação do coletivo de arte urbana, que não contribui diretamente para a compreensão da tarefa de avaliação. A contextualização é excessiva e desnecessária.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da situação, focando apenas nos elementos essenciais para apresentar o problema e a pergunta.
+    [G24] A alternativa B (115 palavras) é significativamente mais longa que a alternativa E (68 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar viés na escolha.
+
+================================================================================

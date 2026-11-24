@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:13:22
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno utilize as informações fornecidas para deduzir a ordem de preferência dos nomes, aplicando um processo lógico para determinar qual foi o mais votado. Não se trata de mera recordação, mas de manipulação de dados para chegar a uma conclusão.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da palavra 'votos' em várias frases. A repetição torna o enunciado mais longo do que o necessário.
+         → Sugestão: Substituir algumas ocorrências de 'votos' por pronomes ou sinônimos, como 'preferências' ou 'escolhas'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : Representação: Samba > Pong, Samba > Kola, Zip > Samba, Metro < Kola.  Análise das alternativas: A) Kola: Viola a Metro < Kola. B) Metro: Viola a Metro < Kola. C) Zip: Consistente com Zip > Samba. D) Samba: Consistente com Samba > Pong, Samba > Kola, Zip > Samba. E) Pong: Viola a Samba > Pong. Portanto, a alternativa C (Zip) é a mais votada.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar a informação de que Samba teve mais votos que Kola como indicativo de que Kola é o mais votado, ignorando a relação com Zip.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem focar na relação de Metro com Kola e ignorar a hierarquia entre Samba, Pong e Zip.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente que Samba ser o segundo mais votado significa que é o mais votado, sem considerar a relação com Zip.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem ignorar as relações entre os nomes e escolher Pong aleatoriamente, sem considerar as informações fornecidas.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G13] Repetição desnecessária da palavra 'votos' em várias frases. A repetição torna o enunciado mais longo do que o necessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Substituir algumas ocorrências de 'votos' por pronomes ou sinônimos, como 'preferências' ou 'escolhas'.
+
+================================================================================

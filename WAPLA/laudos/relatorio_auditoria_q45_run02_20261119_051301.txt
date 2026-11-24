@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 05:16:24
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conceito de fotorrealismo e sua relação com a gestualidade abstrata para identificar um procedimento de trabalho coerente com as orientações da curadoria. Não se trata apenas de relembrar definições, mas de aplicar o conhecimento a uma situação prática.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém contextualização extensa sobre a exposição e as orientações da curadoria, que não são essenciais para a compreensão da tarefa. Essa contextualização funciona como window dressing, pois não contribui diretamente para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a descrição detalhada da exposição e da curadoria, focando apenas nos aspectos relevantes para a definição do procedimento de trabalho do artista.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O enunciado descreve uma exposição que busca explorar a relação entre pintura e fotografia, com ênfase na representação de cenas urbanas banais, alta nitidez e verossimilhança, evitando a subjetividade da abstração. A alternativa A se alinha a esse objetivo, descrevendo um processo que envolve a fotografia como referência detalhada e a reprodução manual de reflexos e brilhos para alcançar a verossimilhança. As demais alternativas divergem desse enfoque: B introduz elementos de colagem e gestualidade expressiva, C prioriza a gestualidade e a marca do artista, D combina pintura, colagem e objetos tridimensionais, e E busca a neutralidade visual em oposição à representação detalhada. A alternativa A é a única que incorpora a fotografia como base para uma pintura fotorrealista, em diálogo crítico com a abstração.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a referência fotográfica e a incorporação de elementos digitais e gestuais, desviando do fotorrealismo.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Interpretação equivocada da ênfase na precisão fotográfica, priorizando a gestualidade e a expressividade do ato de pintar.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Desvio da bidimensionalidade e da superfície pictórica contínua, introduzindo elementos tridimensionais e colagens, o que não condiz com a proposta.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da relação entre fotografia e pintura, focando na neutralidade visual em vez da verossimilhança e do diálogo crítico.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa A sendo consideravelmente mais longa que as demais.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém contextualização extensa sobre a exposição e as orientações da curadoria, que não são essenciais para a compreensão da tarefa. Essa contextualização funciona como window dressing, pois não contribui diretamente para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da exposição e da curadoria, focando apenas nos aspectos relevantes para a definição do procedimento de trabalho do artista.
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa A sendo consideravelmente mais longa que as demais.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar disparidades na complexidade.
+
+================================================================================

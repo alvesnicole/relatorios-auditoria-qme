@@ -1,0 +1,62 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 00:44:49
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as regras fornecidas (ordem de entrada, restrições de saída, precedência de Kiko em relação a Lia) para determinar uma ordem de saída possível, dado uma ordem de entrada específica. Não se trata de mera recordação ou compreensão, mas sim de manipulação das informações para gerar uma solução.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que os suspeitos entram e saem da casa 'exatamente uma vez'.
+         → Sugestão: Remover a frase 'a cada dia, os suspeitos entram e posteriormente saem da casa exatamente uma vez'.
+    [G16] O enunciado contém uma contextualização narrativa desnecessária, que não contribui para a avaliação do conhecimento do aluno.
+         → Sugestão: Remover a introdução sobre a polícia desconfiar da casa e a operação de vigilância. O enunciado pode começar diretamente com as restrições.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise do problema: O enunciado estabelece restrições sobre a ordem de entrada e saída dos suspeitos. A regra crucial é que Kiko sempre precede Lia, tanto na entrada quanto na saída. A ordem de entrada é fixa: Mel, Juca, Kiko, Lia. Devemos encontrar uma ordem de saída que respeite todas as restrições. 
+
+Verificação das alternativas:
+
+A) Juca, Kiko, Lia, Mel: Viola a regra de Kiko precede Lia.
+B) Juca, Kiko, Mel, Lia: Viola a regra de Kiko precede Lia.
+C) Kiko, Juca, Lia, Mel: Viola a regra de Kiko precede Lia.
+D) Lia, Mel, Juca, Kiko: Viola a regra de Kiko precede Lia e a regra de que ninguém sai na mesma posição que entrou.
+E) Mel, Kiko, Lia, Juca: Respeita a regra de Kiko precede Lia. Mel sai na posição que entrou, Juca sai na posição que entrou, Kiko sai na posição que entrou e Lia sai na posição que entrou. Todos os suspeitos saem na mesma posição que entraram, o que viola a regra de que ninguém sai na mesma posição que entrou. Portanto, esta alternativa é inválida.
+
+Após uma segunda verificação, percebe-se que nenhuma alternativa satisfaz todas as condições. A restrição de que ninguém sai na mesma posição que entrou é fundamental e não é satisfeita por nenhuma das opções.
+  Confere com o oficial   : Não
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a ordem de entrada com a ordem de saída, especialmente se não internalizaram a restrição de que a ordem de entrada é um ponto de partida, não uma imposição.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pode levar à interpretação errônea de que a ordem de entrada influencia diretamente a ordem de saída, ignorando as restrições do problema.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não compreender a restrição de que um suspeito nunca sai da casa com outro, levando a sequências impossíveis.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Pode haver confusão sobre a relação entre a ordem de entrada e a ordem de saída, levando a uma sequência que não respeita as restrições.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação de que os suspeitos entram e saem da casa 'exatamente uma vez'.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'a cada dia, os suspeitos entram e posteriormente saem da casa exatamente uma vez'.
+    [G16] O enunciado contém uma contextualização narrativa desnecessária, que não contribui para a avaliação do conhecimento do aluno.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução sobre a polícia desconfiar da casa e a operação de vigilância. O enunciado pode começar diretamente com as restrições.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é A; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

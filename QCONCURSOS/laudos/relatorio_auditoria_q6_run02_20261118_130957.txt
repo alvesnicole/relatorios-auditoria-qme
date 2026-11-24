@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 13:14:04
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda os diferentes tipos de RAID e identifique qual não se encaixa no contexto, o que envolve a interpretação das características de cada um e a comparação entre eles.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária de informações. A explicação do que é RAID já é redundante após a definição inicial.
+         → Sugestão: Remover a frase 'RAID é a abreviação para Redundant Array of Independent Disks, ou em tradução livre, Conjunto Redundante de Discos Independentes.' e iniciar o enunciado com 'Essa tecnologia é baseada em montar arranjos...'
+    [G16] A contextualização sobre 'tempo de resposta do sistema, custo de implementação e aplicação' soa como um detalhe desnecessário para o propósito da questão, que é identificar um tipo de RAID inválido.
+         → Sugestão: Remover a frase 'Variáveis importantes como tempo de resposta do sistema, custo de implementação e aplicação, são apenas alguns dos pontos a serem analisados antes da escolha do “melhor RAID”.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : B
+  Justificativa           : O enunciado descreve RAID como uma tecnologia que combina múltiplos discos para melhorar segurança e performance. A questão pede para identificar a alternativa que NÃO representa um tipo de RAID válido. 
+
+A) RAID 1 (Espelhamento): É um tipo de RAID válido.
+B) RAID 8 (híbrido): Embora existam variações, RAID 8 não é um nível RAID padrão amplamente reconhecido. É uma opção menos comum e pode ser considerada inválida no contexto do conhecimento geral sobre RAID.
+C) RAID 5 (Paridade): É um tipo de RAID válido.
+D) RAID 0 (Striping): É um tipo de RAID válido.
+
+Considerando a falta de reconhecimento generalizado do RAID 8, esta é a alternativa mais provável de ser a incorreta.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Alunos podem confundir RAID 1 com uma solução de backup, ignorando que é um espelhamento de dados.
+    [C] Distrator (Plausibilidade: 4/5)
+         → A confusão surge da familiaridade com o termo 'paridade' em outros contextos de segurança de dados, extrapolando para o RAID 5.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não compreender a fundo o conceito de striping e associá-lo a outros métodos de armazenamento.
+  Violações (G21–G24, G27–G31):
+    [G23] As alternativas apresentam variações no estilo de escrita e nível de detalhe, gerando heterogeneidade.
+    [G30] As opções não refletem erros comuns de estudantes sobre RAID, sendo mais arbitrárias.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém repetição desnecessária de informações. A explicação do que é RAID já é redundante após a definição inicial.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'RAID é a abreviação para Redundant Array of Independent Disks, ou em tradução livre, Conjunto Redundante de Discos Independentes.' e iniciar o enunciado com 'Essa tecnologia é baseada em montar arranjos...'
+    [G16] A contextualização sobre 'tempo de resposta do sistema, custo de implementação e aplicação' soa como um detalhe desnecessário para o propósito da questão, que é identificar um tipo de RAID inválido.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Variáveis importantes como tempo de resposta do sistema, custo de implementação e aplicação, são apenas alguns dos pontos a serem analisados antes da escolha do “melhor RAID”.'
+    [G23] As alternativas apresentam variações no estilo de escrita e nível de detalhe, gerando heterogeneidade.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura e o vocabulário das alternativas para maior uniformidade.
+    [G30] As opções não refletem erros comuns de estudantes sobre RAID, sendo mais arbitrárias.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Criar distratores baseados em equívocos frequentes sobre os diferentes níveis de RAID.
+
+================================================================================

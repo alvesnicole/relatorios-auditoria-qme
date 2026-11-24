@@ -1,0 +1,60 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 20:30:02
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda conceitos relacionados ao desenvolvimento de software, identificando a afirmação correta dentre as opções apresentadas. Embora envolva algum conhecimento prévio, a resolução demanda interpretação e compreensão do significado das alternativas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetição desnecessária da ideia de que para criar software é necessário escrever programas. A primeira frase e a segunda frase dizem essencialmente a mesma coisa.
+         → Sugestão: Remover a primeira frase ou reescrever para evitar a redundância. Exemplo: 'Sobre o desenvolvimento de software:
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Análise do enunciado: O enunciado aborda o desenvolvimento de software e pede para identificar a afirmação correta sobre o tema. As alternativas apresentam conceitos relacionados a etapas de desenvolvimento, algoritmos, pseudocódigo e tipos de dados. 
+
+Verificação das alternativas:
+
+A) Análise, algoritmo e codificação são etapas para o desenvolvimento de um programa. - Correta. Essas são etapas fundamentais no desenvolvimento de software.
+B) Algoritmo é uma pausa de instruções ou operações cuja execução resolve um problema computacional. - Incorreta. Algoritmo é uma sequência, não uma pausa.
+C) Um pseudocódigo é uma descrição narrativa dos passos a serem seguidos para a construção de um programa. - Incorreta. Pseudocódigo é uma representação semovante, não narrativa.
+D) Variáveis são dados imutáveis armazenados no computador para serem utilizados no processamento. - Incorreta. Variáveis são mutáveis.
+
+Considerando a análise, a alternativa A é a única que descreve corretamente um aspecto do desenvolvimento de software.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre algoritmo como sequência de passos e uma pausa no processo, ignorando a função de resolução de problemas.
+    [C] Distrator (Plausibilidade: 4/5)
+         → Interpretação superficial de pseudocódigo como mera descrição narrativa, sem entender sua função de planejamento do código.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Confusão entre variáveis e constantes, não compreendendo a mutabilidade versus imutabilidade dos dados.
+  Violações (G21–G24, G27–G31):
+    [G23] Heterogeneidade na estrutura das frases entre as alternativas, algumas mais complexas que outras.
+    [G24] Diferenças no tamanho das alternativas podem influenciar a escolha do candidato.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado contém repetição desnecessária da ideia de que para criar software é necessário escrever programas. A primeira frase e a segunda frase dizem essencialmente a mesma coisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a primeira frase ou reescrever para evitar a redundância. Exemplo: 'Sobre o desenvolvimento de software:
+    [G23] Heterogeneidade na estrutura das frases entre as alternativas, algumas mais complexas que outras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar a formulação das alternativas para garantir maior uniformidade na estrutura sintática.
+    [G24] Diferenças no tamanho das alternativas podem influenciar a escolha do candidato.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Ajustar o tamanho das alternativas para que sejam mais semelhantes em extensão.
+
+================================================================================

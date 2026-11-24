@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:32:43
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique a relação de Euler para determinar o número de faces do poliedro, dado o número de vértices e arestas. Embora a relação de Euler seja um conceito a ser compreendido, a resolução do problema envolve a aplicação direta dessa relação em um contexto específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado é prolixo, contendo informações detalhadas sobre o contexto da aula e a análise do estudante, que não são essenciais para a compreensão da pergunta.
+         → Sugestão: Remover a parte 'Em uma aula de Geometria Espacial, um estudante analisa um poliedro convexo que possui 8 vértices e 12 arestas, verificando também a consistência entre suas faces, vértices e arestas por meio de uma relação clássica da geometria dos poliedros.' e substituir por algo como 'Um poliedro convexo possui...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema envolve a aplicação da relação de Euler para poliedros convexos. A relação de Euler é dada por V - A + F = 2, onde V é o número de vértices, A é o número de arestas e F é o número de faces. No problema, V = 8 e A = 12. Substituindo esses valores na relação de Euler, temos 8 - 12 + F = 2, o que implica F = 6. Portanto, a alternativa A é a única que apresenta um resultado consistente com a relação de Euler.
+
+Análise das alternativas:
+B: Não há justificativa para a afirmação de que poliedros com 8 vértices e 12 arestas possuem duas faces a menos que vértices.
+C: Essa afirmação é falsa, pois o número de faces nem sempre coincide com o número de vértices.
+D: A relação de Euler não implica que o número de faces seja a soma de vértices e arestas menos dois. Essa é uma interpretação incorreta da fórmula.
+E: Essa afirmação é falsa, pois o número de faces geralmente não é igual ao número de arestas.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre o número de vértices e o número de faces, levando a uma relação arbitrária entre eles.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea de que o número de faces sempre corresponde ao número de vértices em qualquer poliedro convexo.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Entendimento superficial da relação de Euler, aplicando-a de forma incorreta para calcular o número de faces.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Generalização incorreta da relação entre arestas e faces, acreditando que é uma propriedade universal de todos os poliedros.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa D sendo consideravelmente mais longa.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado é prolixo, contendo informações detalhadas sobre o contexto da aula e a análise do estudante, que não são essenciais para a compreensão da pergunta.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a parte 'Em uma aula de Geometria Espacial, um estudante analisa um poliedro convexo que possui 8 vértices e 12 arestas, verificando também a consistência entre suas faces, vértices e arestas por meio de uma relação clássica da geometria dos poliedros.' e substituir por algo como 'Um poliedro convexo possui...'
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa D sendo consideravelmente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar desorientação do candidato.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

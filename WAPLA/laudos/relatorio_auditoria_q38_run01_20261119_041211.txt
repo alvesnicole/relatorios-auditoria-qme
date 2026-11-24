@@ -1,0 +1,59 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 04:16:55
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre compressão terapêutica em um cenário clínico específico, selecionando a alternativa que melhor se adequa à situação do paciente queimado. Não se trata de mera recordação de fatos, mas sim de avaliar e aplicar princípios fisioterapêuticos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização extensa e detalhada sobre o paciente e a situação clínica, que não é essencial para a compreensão da questão e para a avaliação do conhecimento do aluno. A descrição detalhada da avaliação e do plano terapêutico inicial (até a decisão de usar compressão) é excessiva e desnecessária.
+         → Sugestão: Remover a descrição detalhada da avaliação e do plano terapêutico inicial, focando apenas na situação clínica relevante para justificar a escolha da técnica compressiva. Por exemplo: 'Considerando o estágio de remodelação cicatricial e a necessidade de controle da hipertrofia e da retração tecidual, o fisioterapeuta decide inserir recurso compressivo como componente central do plano terapêutico.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O item descreve um paciente com queimaduras em fase de remodelação cicatricial, apresentando sinais de hipertrofia e retração tecidual. O fisioterapeuta opta por compressão como parte do plano terapêutico. A alternativa correta deve abordar o uso adequado da compressão para remodelar a cicatriz, controlar a hipertrofia e reduzir a retração, considerando a necessidade de ajustes conforme a evolução do paciente. 
+
+Análise das alternativas:
+
+A) Apresenta um uso adequado da compressiva, com pressão graduada, uso diário prolongado e ajustes periódicos, alinhando-se com a remodelação cicatricial e a redução do edema. 
+B) Prioriza o conforto imediato, sem planejamento para remodelação, o que é inadequado para o quadro do paciente. 
+C) Compressão intermitente intensa é agressiva e não condiz com a fase de remodelação. 
+D) Compressão localizada no centro da cicatriz é inadequada, pois pode comprometer a circulação. 
+E) Malha ampla e frouxa não oferece compressão efetiva para os objetivos terapêuticos.
+
+Portanto, a alternativa A é a mais condizente com o uso adequado da técnica compressiva.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que o conforto imediato é prioridade, negligenciando a remodelação cicatricial e o controle da hipertrofia.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Confundem compressão com técnica de massagem, buscando alívio imediato do prurido em detrimento da remodelação.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Alunos podem acreditar que a compressão localizada é suficiente, ignorando a importância da distribuição uniforme da pressão.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem acreditar que a compressão frouxa é suficiente para o conforto, sem considerar a necessidade de pressão para remodelação.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (44 palavras) é significativamente mais longa que a alternativa B (26 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização extensa e detalhada sobre o paciente e a situação clínica, que não é essencial para a compreensão da questão e para a avaliação do conhecimento do aluno. A descrição detalhada da avaliação e do plano terapêutico inicial (até a decisão de usar compressão) é excessiva e desnecessária.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da avaliação e do plano terapêutico inicial, focando apenas na situação clínica relevante para justificar a escolha da técnica compressiva. Por exemplo: 'Considerando o estágio de remodelação cicatricial e a necessidade de controle da hipertrofia e da retração tecidual, o fisioterapeuta decide inserir recurso compressivo como componente central do plano terapêutico.'
+    [G24] A alternativa A (44 palavras) é significativamente mais longa que a alternativa B (26 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para maior uniformidade, simplificando a alternativa A.
+
+================================================================================

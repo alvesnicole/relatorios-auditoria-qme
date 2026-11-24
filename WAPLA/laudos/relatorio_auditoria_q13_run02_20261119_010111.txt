@@ -1,0 +1,45 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 01:04:23
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique o conhecimento histórico sobre a proposta de Kekulé para o benzeno, simulando o processo de ajuste da estrutura molecular às regras de valência da época.  Não se trata apenas de lembrar a proposta, mas de utilizá-la para resolver um problema específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização histórica extensa (a evolução das propostas estruturais para o benzeno no século XIX) que não contribui diretamente para a avaliação do conhecimento do estudante sobre o tema central da questão (como ajustar a proposta estrutural de C_6H_6 às exigências de valência).
+         → Sugestão: Remover a contextualização histórica e apresentar diretamente o problema: 'De acordo com a proposta histórica de Kekulé para o benzeno, identifique um procedimento para ajustar a proposta estrutural de C_6H_6 às exigências de valência dos átomos envolvidos.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema exige uma estrutura que se ajuste à valência de carbono (4) e hidrogênio (1) na época de Kekulé. A alternativa A propõe um ciclo com ligações alternadas simples e duplas, o que satisfaz a valência de cada átomo e é consistente com a proposta histórica de Kekulé. As demais alternativas apresentam inconsistências: B permite carbonos com mais de três ligações, C não usa um ciclo, D permite carbonos com mais de quatro ligações, e E introduz uma única ligação dupla, o que não é suficiente para ajustar a fórmula e a valência. A alternativa A é a única que se alinha com o contexto histórico e as restrições de valência.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão entre a necessidade de representar todos os átomos de carbono com a valência correta e a possibilidade de ligações múltiplas em alguns carbonos para compensar.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da necessidade de ajustar a valência, levando a uma solução simplista de adicionar ligações duplas indiscriminadamente.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Dificuldade em compreender a necessidade de alternar ligações simples e duplas para satisfazer a valência e a estrutura cíclica.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Confusão entre a estrutura cíclica e a estrutura aberta, e a aplicação inadequada do conceito de valência.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (1):
+    [G16] O enunciado contém uma contextualização histórica extensa (a evolução das propostas estruturais para o benzeno no século XIX) que não contribui diretamente para a avaliação do conhecimento do estudante sobre o tema central da questão (como ajustar a proposta estrutural de C_6H_6 às exigências de valência).
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a contextualização histórica e apresentar diretamente o problema: 'De acordo com a proposta histórica de Kekulé para o benzeno, identifique um procedimento para ajustar a proposta estrutural de C_6H_6 às exigências de valência dos átomos envolvidos.'
+
+================================================================================

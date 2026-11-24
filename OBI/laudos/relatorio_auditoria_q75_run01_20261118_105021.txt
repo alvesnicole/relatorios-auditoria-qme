@@ -1,0 +1,64 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 10:55:53
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as restrições fornecidas (carro J não ultrapassou K, cada carro fez uma ultrapassagem, etc.) para deduzir as possíveis posições do carro J ao final da corrida. É necessário eliminar opções e considerar as relações entre as posições dos carros.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que o primeiro colocado não pode ultrapassar o último. Essa condição já é estabelecida pela natureza circular da pista.
+         → Sugestão: Remover a frase 'como a pista é circular isso poderia ocorrer, mas é garantido que não ocorreu.'
+    [G14] A pergunta 'qual a melhor posição e a pior posição que o carro J pode ter chegado ao final da corrida?' não é explicitamente clara. Poderia ser mais direto, como 'Determine a melhor e a pior posição possíveis para o carro J ao final da corrida.'
+         → Sugestão: Reformular a pergunta para maior clareza.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O problema exige determinar a melhor e pior posição do carro J após uma corrida, dado que ele não ultrapassou o carro K. Inicialmente, a ordem é J, K, L, M, N. Como J não ultrapassou K, K deve estar à frente de J na ordem final. Cada carro faz exatamente uma ultrapassagem, e o primeiro não ultrapassa o último. 
+
+Analisando as alternativas:
+
+A) J em 1º e K em 2º: Impossível, pois K deve estar à frente de J.
+B) J em 1º e K em 4º: Impossível, pois K deve estar à frente de J.
+C) J em 2º e K em 3º: Possível. J ultrapassa um carro, K ultrapassa um carro, e os outros carros também ultrapassam um carro cada. J em 2º significa que ele ultrapassou um carro. K em 3º significa que ele ultrapassou dois carros. Isso é consistente com as regras.
+D) J em 2º e K em 4º: Possível. J ultrapassa um carro, K ultrapassa dois carros, e os outros carros também ultrapassam um carro cada. Isso é consistente com as regras.
+E) J em 2º e K em 5º: Impossível, pois N está em último lugar e não pode ser ultrapassado por J.
+
+Para determinar qual entre C e D é a melhor resposta, precisamos considerar a restrição de que cada carro faz exatamente uma ultrapassagem. Se J está em 2º e K em 3º, J ultrapassou um carro e K ultrapassou dois carros. Se J está em 2º e K em 4º, J ultrapassou um carro e K ultrapassou três carros. Como cada carro faz exatamente uma ultrapassagem, a alternativa C é a mais plausível, pois K ultrapassa apenas um carro. A alternativa D é possível, mas menos provável.
+
+Considerando a pior posição, J não pode estar em primeiro lugar, pois K deve estar à frente. Portanto, a melhor posição é a segunda, e a pior é a quarta ou quinta. A alternativa E é descartada porque N está em último lugar. A alternativa C é a mais consistente com as restrições do problema.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar 'primeira' como a posição inicial e 'segunda' como a única posição possível após uma ultrapassagem, ignorando outras possibilidades.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na posição inicial (J) e na restrição de ultrapassagens, mas não considerarem a possibilidade de J perder posições.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Alunos podem interpretar erroneamente que a posição de J deve melhorar, ignorando a possibilidade de perder posições devido às ultrapassagens.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Alunos podem não compreender a restrição de que J não ultrapassou K, levando a conclusões sobre a posição final de J que não são válidas.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] Repetição desnecessária da informação de que o primeiro colocado não pode ultrapassar o último. Essa condição já é estabelecida pela natureza circular da pista.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'como a pista é circular isso poderia ocorrer, mas é garantido que não ocorreu.'
+    [G14] A pergunta 'qual a melhor posição e a pior posição que o carro J pode ter chegado ao final da corrida?' não é explicitamente clara. Poderia ser mais direto, como 'Determine a melhor e a pior posição possíveis para o carro J ao final da corrida.'
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformular a pergunta para maior clareza.
+    [G19] A resolução cega apontou C, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

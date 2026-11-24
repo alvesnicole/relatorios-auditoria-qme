@@ -1,0 +1,53 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 18:13:56
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Compreender
+  Justificativa   : O item exige que o aluno compreenda a relação entre hardware e software, identificando o que cada um representa dentro de um computador. Não se trata de mera memorização, mas de interpretar e relacionar conceitos.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G15] O enunciado é um tanto vago. Não é imediatamente claro qual é a pergunta que está sendo feita. A relação entre a primeira frase e a pergunta 'correspondem, respectivamente, a:' não é explícita.
+         → Sugestão: Reformule o enunciado para que a pergunta seja mais direta. Exemplo: 'Em um computador, o hardware e o software desempenham papéis distintos. Indique a que se referem os termos hardware e software, respectivamente.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : D
+  Justificativa           : O enunciado define hardware e software como componentes de um computador que atuam conjuntamente. A alternativa D parece ser a mais adequada, pois hardware se refere aos componentes físicos (placa-mãe, processador, memória RAM, etc.) e software se refere aos programas que são executados por esses componentes. As demais alternativas apresentam imprecisões ou termos inadequados. A alternativa A associa software a armazenamento, a B a comunicação e processamento, a C a processamento e execução, e a E a aplicativos e organização de dispositivos, o que não reflete a relação fundamental entre hardware e software.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confusão entre programas (software) e componentes de armazenamento (hardware), associando ambos ao software.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Troca dos papéis de hardware (processamento) e software (comunicação), demonstrando falta de clareza nos conceitos.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Inversão da função do hardware (execução de programas) e do software (processamento de informações).
+    [E] Distrator (Plausibilidade: 2/5)
+         → Associação inadequada de hardware com aplicativos e software com organização de dispositivos, demonstrando compreensão superficial.
+  Violações (G21–G24, G27–G31):
+    [G23] Heterogeneidade na estrutura das alternativas, com variações no uso de termos técnicos e na complexidade da linguagem.
+    [G30] Distratores não refletem erros típicos de estudantes sobre hardware e software.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G15] O enunciado é um tanto vago. Não é imediatamente claro qual é a pergunta que está sendo feita. A relação entre a primeira frase e a pergunta 'correspondem, respectivamente, a:' não é explícita.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reformule o enunciado para que a pergunta seja mais direta. Exemplo: 'Em um computador, o hardware e o software desempenham papéis distintos. Indique a que se referem os termos hardware e software, respectivamente.'
+    [G23] Heterogeneidade na estrutura das alternativas, com variações no uso de termos técnicos e na complexidade da linguagem.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar a estrutura gramatical e o nível de complexidade das alternativas para maior clareza.
+    [G30] Distratores não refletem erros típicos de estudantes sobre hardware e software.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar os distratores para incorporar concepções errôneas comuns sobre os componentes de um computador.
+
+================================================================================

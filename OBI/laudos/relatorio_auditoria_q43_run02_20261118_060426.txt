@@ -1,0 +1,72 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 06:10:05
+  Gabarito : B
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o aluno aplique as restrições fornecidas para determinar uma ordem de apresentação válida. Isso envolve a interpretação das regras e a sua aplicação sequencial para testar as alternativas.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da informação de que os alunos podem apresentar-se para mostrar suas habilidades, já introduzida na primeira frase.
+         → Sugestão: Remover a frase 'No tradicional Show de Talentos da escola os alunos podem apresentar-se para mostrar suas diversas habilidades.' e iniciar com 'No tradicional Show de Talentos da escola, os alunos podem apresentar...'.
+    [G16] A frase 'Vale tudo: música, drama, malabarismo,...' adiciona pouca informação relevante e pode ser considerada contextualização decorativa.
+         → Sugestão: Remover a frase 'Vale tudo: música, drama, malabarismo,...' ou substituí-la por uma lista mais concisa de exemplos de habilidades.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : MULTIPLOS
+  Justificativa           : Análise das alternativas:
+
+A) F,B,C,G,A,D,E: A deve estar no turno 3 ou 5. A está no turno 5. F não pode estar nos turnos 4 ou 6. F está no turno 1. B deve estar no turno após C. B está no turno 2, C no turno 3. Valida até o momento.
+B) F,D,E,G,A,C,B: A deve estar no turno 3 ou 5. A está no turno 5. F não pode estar nos turnos 4 ou 6. F está no turno 1. B deve estar no turno após C. B está no turno 7, C no turno 6. Valida até o momento.
+C) F,D,A,E,C,B,G: A deve estar no turno 3 ou 5. A está no turno 3. F não pode estar nos turnos 4 ou 6. F está no turno 1. B deve estar no turno após C. B está no turno 6, C no turno 5. Valida até o momento.
+D) C,B,A,G,E,F,D: A deve estar no turno 3 ou 5. A está no turno 3. F não pode estar nos turnos 4 ou 6. F está no turno 6. VIOLADA. B deve estar no turno após C. B está no turno 2, C no turno 1. Valida até o momento, mas a violação de F elimina esta opção.
+E) C,B,F,A,G,E,D: A deve estar no turno 3 ou 5. A está no turno 4. VIOLADA. F não pode estar nos turnos 4 ou 6. F está no turno 3. B deve estar no turno após C. B está no turno 2, C no turno 1. Valida até o momento, mas a violação de A elimina esta opção.
+
+Após a análise inicial, as alternativas A, B e C parecem válidas. Uma segunda verificação é necessária para confirmar.
+
+Alternativa A: F,B,C,G,A,D,E. A está no turno 5 (ok). F está no turno 1 (ok). B está no turno 2, C no turno 3 (ok). Se D estiver no turno 1, C deve estar no turno 2. D está no turno 6, C está no turno 3. Se E estiver no turno 4, F deve estar no turno 5. E está no turno 7, F está no turno 1. Esta alternativa é válida.
+
+Alternativa B: F,D,E,G,A,C,B. A está no turno 5 (ok). F está no turno 1 (ok). B está no turno 7, C no turno 6 (ok). Se D estiver no turno 1, C deve estar no turno 2. D está no turno 2, C está no turno 6. Se E estiver no turno 4, F deve estar no turno 5. E está no turno 3, F está no turno 1. Esta alternativa é válida.
+
+Alternativa C: F,D,A,E,C,B,G. A está no turno 3 (ok). F está no turno 1 (ok). B está no turno 6, C no turno 5 (ok). Se D estiver no turno 1, C deve estar no turno 2. D está no turno 2, C está no turno 5. Se E estiver no turno 4, F deve estar no turno 5. E está no turno 4, F está no turno 1. Esta alternativa é válida.
+
+Considerando que todas as três alternativas são válidas, a escolha de uma única alternativa como gabarito é impossível sem informações adicionais.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Alunos podem confundir a ordem dos eventos, especialmente se não internalizaram a restrição de F não poder se apresentar nos turnos 4 e 6.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pode levar à escolha por não considerar a restrição de B apresentar-se logo após C, ignorando a relação entre os dois.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Alunos podem focar na restrição de A no turno 3 ou 5 e ignorar a relação entre C e B.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Pode ser escolhida por não considerar a restrição de B apresentar-se logo após C, ignorando a relação entre os dois.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho entre as alternativas. A alternativa 'F,B,C,G,A,D,E' (50 caracteres) é significativamente maior que a alternativa 'C,B,F,A,G,E,D' (41 caracteres).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] Repetição desnecessária da informação de que os alunos podem apresentar-se para mostrar suas habilidades, já introduzida na primeira frase.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'No tradicional Show de Talentos da escola os alunos podem apresentar-se para mostrar suas diversas habilidades.' e iniciar com 'No tradicional Show de Talentos da escola, os alunos podem apresentar...'.
+    [G16] A frase 'Vale tudo: música, drama, malabarismo,...' adiciona pouca informação relevante e pode ser considerada contextualização decorativa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'Vale tudo: música, drama, malabarismo,...' ou substituí-la por uma lista mais concisa de exemplos de habilidades.
+    [G24] Diferença no tamanho entre as alternativas. A alternativa 'F,B,C,G,A,D,E' (50 caracteres) é significativamente maior que a alternativa 'C,B,F,A,G,E,D' (41 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o comprimento das alternativas para garantir maior uniformidade, evitando desviar a atenção do conteúdo.
+    [G19] Mais de uma alternativa foi considerada defensável na resolução cega. A resolução cega apontou MULTIPLOS, mas o gabarito oficial é B; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

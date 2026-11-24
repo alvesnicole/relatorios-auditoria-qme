@@ -1,0 +1,63 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 05:36:01
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o estudante compreenda as afirmações sobre semântica e, em seguida, analise as alternativas para identificar a que melhor define o objeto de estudo da Semântica, distinguindo-a de abordagens alternativas. Isso envolve a desconstrução das opções e a identificação daquela que melhor se alinha com o conceito de semântica.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado contém repetições desnecessárias. A introdução sobre a aula e as afirmações do professor poderiam ser mais concisa.
+         → Sugestão: Reescrever a introdução, eliminando a descrição detalhada da aula e condensando as informações sobre as afirmações do professor. Por exemplo: 'Em uma aula de Introdução à Semântica, o professor apresentou afirmações sobre o termo 'sentido' em língua natural, incluindo que expressões diferentes podem compartilhar o mesmo significado e que uma palavra pode ter sentidos distintos.'
+    [G16] A contextualização inicial com a descrição da aula e as afirmações do professor funciona como window dressing, pois não contribui diretamente para a tarefa de avaliação.
+         → Sugestão: Remover a descrição da aula e as afirmações do professor, apresentando diretamente o problema a ser resolvido.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : C
+  Justificativa           : O enunciado busca a alternativa que melhor define o objeto de estudo da Semântica, distinguindo-a de uma abordagem formalista. As afirmações (I), (II) e (III) fornecem contexto sobre o significado e a construção de sentidos. A alternativa correta deve abordar o significado na linguagem, considerando o contexto de uso. 
+
+A) Elimina-se pela ênfase em regras formais sem considerar a interpretação. 
+B) Aborda a fonética, não a semântica. 
+C) Esta alternativa alinha-se com a definição de semântica, focando no significado e na construção de sentidos em contextos de uso. 
+D) A etimologia é um aspecto da semântica, mas não a define completamente. 
+E) Aborda a grafia, não a semântica.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confunde semântica com sintaxe, ignorando o foco no significado e na interpretação.
+    [B] Distrator (Plausibilidade: 1/5)
+         → Demonstra total desconhecimento do objeto da semântica, focando em fonética e articulação.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Reduz a semântica à etimologia, ignorando a dinâmica do significado em uso.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Confunde semântica com a análise da grafia e da disposição visual das palavras.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa A (61 caracteres) é significativamente mais longa que a alternativa B (37 caracteres), C (56 caracteres), D (47 caracteres) e E (43 caracteres).
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G13] O enunciado contém repetições desnecessárias. A introdução sobre a aula e as afirmações do professor poderiam ser mais concisa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever a introdução, eliminando a descrição detalhada da aula e condensando as informações sobre as afirmações do professor. Por exemplo: 'Em uma aula de Introdução à Semântica, o professor apresentou afirmações sobre o termo 'sentido' em língua natural, incluindo que expressões diferentes podem compartilhar o mesmo significado e que uma palavra pode ter sentidos distintos.'
+    [G16] A contextualização inicial com a descrição da aula e as afirmações do professor funciona como window dressing, pois não contribui diretamente para a tarefa de avaliação.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição da aula e as afirmações do professor, apresentando diretamente o problema a ser resolvido.
+    [G24] A alternativa A (61 caracteres) é significativamente mais longa que a alternativa B (37 caracteres), C (56 caracteres), D (47 caracteres) e E (43 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.50/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

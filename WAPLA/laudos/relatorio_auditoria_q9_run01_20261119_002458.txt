@@ -1,0 +1,60 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:28:53
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o estudante aplique a relação de Euler para determinar o número de faces de um poliedro, dado o número de vértices e arestas. Embora a relação de Euler seja um conceito a ser compreendido, a resolução do problema envolve a aplicação dessa relação a um cenário específico.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado é prolixo e contém repetições desnecessárias. A frase 'verificando também a consistência entre suas faces, vértices e arestas por meio de uma relação clássica da geometria dos poliedros' é redundante, pois a relação entre faces, vértices e arestas é inerente à análise de um poliedro.
+         → Sugestão: Remover a frase 'verificando também a consistência entre suas faces, vértices e arestas por meio de uma relação clássica da geometria dos poliedros'.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema envolve a aplicação da relação de Euler para poliedros convexos. A relação de Euler é dada por V - A + F = 2, onde V é o número de vértices, A é o número de arestas e F é o número de faces. No problema, V = 8 e A = 12. Substituindo esses valores na relação de Euler, temos 8 - 12 + F = 2, o que implica F = 2 + 12 - 8 = 6. Portanto, o número de faces é 6.
+
+Análise das alternativas:
+
+A) Afirma que F = 6, usando a relação de Euler V - A + F = 2. Esta alternativa parece correta.
+B) Afirma uma relação arbitrária entre vértices e faces, sem base na geometria dos poliedros. Incorreta.
+C) Afirma que o número de faces é igual ao número de vértices, o que é falso em geral. Incorreta.
+D) Afirma que o número de faces é a soma de vértices e arestas menos dois, o que é uma forma incorreta de expressar a relação de Euler.
+E) Afirma que o número de faces é igual ao número de arestas, o que é falso em geral. Incorreta.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confusão entre o número de vértices e o número de faces, levando a uma relação arbitrária entre eles.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Interpretação errônea de que o número de faces sempre corresponde ao número de vértices em qualquer poliedro convexo.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Entendimento superficial da relação de Euler, aplicando-a de forma incorreta para calcular o número de faces.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Generalização incorreta da relação entre arestas e faces, acreditando que essa igualdade é válida para todos os poliedros.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa D sendo consideravelmente mais longa.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado é prolixo e contém repetições desnecessárias. A frase 'verificando também a consistência entre suas faces, vértices e arestas por meio de uma relação clássica da geometria dos poliedros' é redundante, pois a relação entre faces, vértices e arestas é inerente à análise de um poliedro.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a frase 'verificando também a consistência entre suas faces, vértices e arestas por meio de uma relação clássica da geometria dos poliedros'.
+    [G24] Diferença significativa no tamanho entre as alternativas, com a alternativa D sendo consideravelmente mais longa.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar desorientação do candidato.
+    [G29] A média de plausibilidade dos distratores é inferior a 3 (2.75/5).
+         ↳ origem: validacao_deterministica_python
+
+================================================================================

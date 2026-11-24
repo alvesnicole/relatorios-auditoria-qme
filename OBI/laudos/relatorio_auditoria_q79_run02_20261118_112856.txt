@@ -1,0 +1,77 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 11:33:47
+  Gabarito : D
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise as pistas fornecidas, elimine possibilidades e deduza a senha correta, demonstrando um processo de raciocínio lógico e análise de informações para chegar à solução. Não se trata de simples memorização ou aplicação direta de uma regra.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado apresenta uma narrativa desnecessária (história do pirata e do tesouro) que não contribui para a avaliação do conhecimento do aluno sobre lógica ou resolução de problemas. Essa contextualização é decorativa e não essencial para a compreensão da tarefa.
+         → Sugestão: Remover a introdução sobre o pirata e o tesouro, apresentando diretamente o problema da senha com as instruções.
+    [G13] A repetição da estrutura 'Exatamente um número está correto' e 'Exatamente dois números estão corretos' torna o enunciado mais longo do que o necessário. A informação pode ser condensada.
+         → Sugestão: Reescrever as instruções para evitar repetições, por exemplo: 'Na primeira linha, apenas um número está na posição correta. Na segunda linha, apenas um número está correto, mas em posição incorreta. Na terceira linha, nenhum número está correto. Na quarta linha, apenas um número está correto, mas em posição incorreta. Na quinta linha, dois números estão corretos, mas ambos em posições incorretas.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : NENHUM
+  Justificativa           : Análise cega do gabarito e pistas estruturais do problema do pirata. 
+
+Representação:
+
+Regras:
+1. 2 3 1: Exatamente um número correto e na posição correta.
+2. 3 4 5: Exatamente um número correto, mas fora da posição correta.
+3. 4 7 3: Nenhum número correto.
+4. 2 8 6: Exatamente um número correto, mas fora da posição correta.
+5. 1 5 2: Exatamente dois números corretos, ambos fora da posição correta.
+
+Verificação das Alternativas:
+
+A) 3 4 2: Regra 3 violada (3 está presente). Regra 5 violada (dois números corretos). Inconsistente.
+B) 8 4 2: Regra 3 violada (4 está presente). Regra 5 violada (dois números corretos). Inconsistente.
+C) 5 6 2: Regra 3 violada (2 está presente). Regra 5 violada (dois números corretos). Inconsistente.
+D) 5 6 2: Regra 3 violada (2 está presente). Regra 5 violada (dois números corretos). Inconsistente.
+E) 6 5 2: Regra 3 violada (2 está presente). Regra 5 violada (dois números corretos). Inconsistente.
+
+Após uma análise mais cuidadosa, percebe-se que a interpretação inicial das regras foi falha. É necessário considerar que as regras podem ser combinadas para eliminar opções. A regra 3 (4 7 3) elimina qualquer opção que contenha 4, 7 ou 3. Isso elimina as opções A, B, C, D e E. Portanto, nenhuma das alternativas é válida.
+
+Considerando que o problema deve ter uma resposta, é possível que haja um erro na formulação das regras ou nas alternativas. No entanto, seguindo rigorosamente as regras fornecidas, a conclusão é que nenhuma das alternativas é correta.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 3/5)
+         → Confusão na aplicação das regras, pode interpretar que o número 3 está correto na posição correta, ignorando a restrição.
+    [B] Distrator (Plausibilidade: 4/5)
+         → Pode focar nos números que aparecem em outras opções, levando a acreditar que 8 e 4 são corretos, mas em posições erradas.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Erro na interpretação das instruções, pode acreditar que a combinação de números 5, 6 e 2008 é plausível sem considerar as restrições.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Pode se concentrar em números que aparecem em outras opções, levando a acreditar que 6, 5 e 2001 são uma combinação possível.
+  Violações (G21–G24, G27–G31):
+    [G24] Diferença no tamanho das alternativas: A (35 caracteres) vs. B (33 caracteres) vs. C (33 caracteres) vs. E (33 caracteres).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (4):
+    [G16] O enunciado apresenta uma narrativa desnecessária (história do pirata e do tesouro) que não contribui para a avaliação do conhecimento do aluno sobre lógica ou resolução de problemas. Essa contextualização é decorativa e não essencial para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a introdução sobre o pirata e o tesouro, apresentando diretamente o problema da senha com as instruções.
+    [G13] A repetição da estrutura 'Exatamente um número está correto' e 'Exatamente dois números estão corretos' torna o enunciado mais longo do que o necessário. A informação pode ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Reescrever as instruções para evitar repetições, por exemplo: 'Na primeira linha, apenas um número está na posição correta. Na segunda linha, apenas um número está correto, mas em posição incorreta. Na terceira linha, nenhum número está correto. Na quarta linha, apenas um número está correto, mas em posição incorreta. Na quinta linha, dois números estão corretos, mas ambos em posições incorretas.'
+    [G24] Diferença no tamanho das alternativas: A (35 caracteres) vs. B (33 caracteres) vs. C (33 caracteres) vs. E (33 caracteres).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Padronizar o tamanho das alternativas para evitar viés devido ao comprimento.
+    [G19] Nenhuma alternativa foi considerada correta na resolução cega. A resolução cega apontou NENHUM, mas o gabarito oficial é D; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

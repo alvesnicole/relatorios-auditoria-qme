@@ -1,0 +1,49 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 03:47:59
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento sobre a importância da cor na obra para avaliar qual alternativa de montagem é a mais coerente com essa ênfase. Não se trata de memorização ou análise profunda, mas sim de aplicar um princípio a uma situação específica.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G16] O enunciado contém uma contextualização narrativa extensa sobre a criação da obra e o debate do grupo, que não contribui diretamente para a avaliação do conhecimento do aluno. Trata-se de um cenário descritivo que não é essencial para a compreensão da tarefa.
+         → Sugestão: Remover a descrição detalhada da obra e do debate do grupo, focando diretamente na questão da montagem e na ênfase na cor.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : A questão pede a alternativa que melhor se alinha com a ênfase na cor como experiência sensível predominante. A obra descrita busca imersão e foco na percepção da cor, vibração e profundidade. A alternativa A parece ser a mais coerente, pois propõe uma iluminação uniforme e distância que permite a percepção de variações sutis de cor, o que reforça a experiência sensorial da cor. As demais alternativas introduzem elementos que desviam a atenção da cor: obras figurativas (B), visão oblíqua (C), distância excessiva (D) e fragmentação (E). A alternativa A é a única que promove a imersão e a apreciação da cor como foco principal.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Alunos podem interpretar a ênfase na cor como um ponto focal, ignorando a imersão e a experiência sensorial abrangente.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Pode-se pensar que a visão oblíqua é uma forma de interação, mas desconsidera a experiência imersiva e a percepção da cor em profundidade.
+    [D] Distrator (Plausibilidade: 3/5)
+         → A distância e a restrição de aproximação podem ser vistas como uma forma de controle da experiência, mas não enfatizam a percepção da cor e da vibração.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Fragmentar a obra desconsidera a intenção de criar uma experiência imersiva e focada na percepção da cor como um todo.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa B (41 palavras) é significativamente mais longa que as demais (aproximadamente 25-30 palavras).
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G16] O enunciado contém uma contextualização narrativa extensa sobre a criação da obra e o debate do grupo, que não contribui diretamente para a avaliação do conhecimento do aluno. Trata-se de um cenário descritivo que não é essencial para a compreensão da tarefa.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição detalhada da obra e do debate do grupo, focando diretamente na questão da montagem e na ênfase na cor.
+    [G24] A alternativa B (41 palavras) é significativamente mais longa que as demais (aproximadamente 25-30 palavras).
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio e evitar pistas visuais.
+
+================================================================================

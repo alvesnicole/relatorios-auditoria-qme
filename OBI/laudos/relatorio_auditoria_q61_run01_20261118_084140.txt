@@ -1,0 +1,57 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 18/11/2026 às 08:46:13
+  Gabarito : C
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Analisar
+  Justificativa   : O item exige que o aluno analise um diagrama de relações de infecção para identificar o indivíduo que provavelmente foi o Paciente Zero, inferindo a cadeia de eventos e eliminando possibilidades. Não se trata de mera recordação ou aplicação direta de uma regra.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação sobre como a infecção é direta ou indireta. A explicação pode ser condensada.
+         → Sugestão: Remover a repetição da explicação sobre infecção direta e indireta. Exemplo: 'Dizemos que X foi infectado diretamente pela pessoa Y quando X teve contato com Y. Dizemos que X foi infectada indiretamente por Y quando X não teve contato com Y, mas teve contato com uma pessoa que Y infectou, direta ou indiretamente.' Pode ser substituído por uma única frase: 'Uma pessoa é considerada infectada diretamente por outra quando teve contato com ela, e indiretamente quando teve contato com alguém que a infectou.'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : E
+  Justificativa           : Representação: Construí um grafo de dependência onde os nós são as pessoas e as arestas indicam a infecção. O Paciente Zero é a pessoa que não foi infectada por ninguém. 
+
+Verificação das Alternativas:
+
+A) Duda: Duda foi infectada por Teco. Eliminação.
+B) Elba: Elba foi infectada por Neco. Eliminação.
+C) Teco: Teco infectou Duda e Zico, portanto não pode ser o Paciente Zero. Eliminação.
+D) Zico: Zico foi infectado por Teco. Eliminação.
+E) Neco: Neco infectou Mano, mas foi infectado por Neco (circular). Neco foi infectado por Neco, o que é impossível. Neco foi infectado por Neco, o que é impossível. Neco infectou Mano, mas não foi infectado por ninguém no grafo. Portanto, Neco é o Paciente Zero.
+
+Conclusão: Neco é o único candidato possível, pois não foi infectado por ninguém no grafo.
+  Confere com o oficial   : Não
+  Alternativas:
+    [A] Distrator (Plausibilidade: 4/5)
+         → Confunde Duda como ponto de partida da cadeia de infecções, ignorando que ela foi infectada por Teco.
+    [B] Distrator (Plausibilidade: 3/5)
+         → Foca na relação direta de Neco para Elba, sem considerar a cadeia de eventos anteriores.
+    [D] Distrator (Plausibilidade: 2/5)
+         → Assume que Zico é o primeiro infectado, sem analisar a origem da infecção de Duda.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Considera Neco como o primeiro infectado, sem levar em conta que ele foi infectado por Duda, que por sua vez foi infectada por Teco.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da explicação sobre como a infecção é direta ou indireta. A explicação pode ser condensada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da explicação sobre infecção direta e indireta. Exemplo: 'Dizemos que X foi infectado diretamente pela pessoa Y quando X teve contato com Y. Dizemos que X foi infectada indiretamente por Y quando X não teve contato com Y, mas teve contato com uma pessoa que Y infectou, direta ou indiretamente.' Pode ser substituído por uma única frase: 'Uma pessoa é considerada infectada diretamente por outra quando teve contato com ela, e indiretamente quando teve contato com alguém que a infectou.'
+    [G19] A resolução cega apontou E, mas o gabarito oficial é C; verifique tanto a resolução quanto o gabarito antes de concluir que há defeito no item.
+         ↳ origem: validacao_deterministica_g19
+
+================================================================================

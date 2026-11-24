@@ -1,0 +1,54 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 01:38:41
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : Aplicar
+  Justificativa   : O item exige que o candidato aplique o conhecimento de derivadas direcionais e vetor gradiente para interpretar uma situação prática de engenharia e escolher a conduta mais adequada. Não se trata apenas de lembrar definições, mas de usar esses conceitos para resolver um problema.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da situação e o objetivo do engenheiro-chefe são reiterados, tornando o texto mais longo do que o necessário.
+         → Sugestão: Remover a repetição da informação sobre o objetivo do engenheiro-chefe. Por exemplo, eliminar a frase 'Para isso, são realizadas medições locais...de modo a relacionar essa escolha com conceitos de cálculo vetorial...'
+    [G16] O enunciado contém uma contextualização extensa e narrativa que não contribui diretamente para a avaliação do conhecimento do aluno. A descrição da equipe de engenharia, da placa metálica e do cenário de medição é excessiva.
+         → Sugestão: Simplificar o enunciado, removendo a contextualização narrativa e focando diretamente no problema da orientação do sensor. Por exemplo, iniciar o enunciado com 'Em um ponto P₀ = (x₀, y₀), o engenheiro-chefe precisa orientar um sensor...'
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : O problema busca a direção de maior taxa de variação de temperatura, que corresponde ao vetor gradiente. A alternativa A descreve corretamente a medição de derivadas direcionais, a identificação do máximo e o alinhamento com o vetor gradiente. As demais alternativas propõem métodos inadequados ou que não se relacionam diretamente com o conceito de gradiente. A alternativa B envolve médias de temperatura em trajetórias fechadas, o que não fornece informação sobre a direção de maior variação. A alternativa C limita a velocidade e não considera a direção. A alternativa D busca uma trajetória de temperatura constante, o que não está relacionado ao objetivo. A alternativa E propõe uma inversão de sentido, que não garante a direção de maior crescimento.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 3/5)
+         → Confunde a média de temperatura em trajetórias fechadas com a direção de maior variação, ignorando o conceito de gradiente.
+    [C] Distrator (Plausibilidade: 2/5)
+         → Acredita que aumentar a velocidade até um limite de segurança define a direção de maior variação, demonstrando falta de compreensão sobre derivadas direcionais.
+    [D] Distrator (Plausibilidade: 4/5)
+         → Interpreta a constância da temperatura como forma de reduzir oscilações e controlar a trajetória, sem entender a relação com o gradiente.
+    [E] Distrator (Plausibilidade: 3/5)
+         → Assume que inverter o sentido do movimento após encontrar um decréscimo de temperatura resulta na direção de maior aumento, demonstrando confusão sobre o comportamento do gradiente.
+  Violações (G21–G24, G27–G31):
+    [G24] A alternativa D é significativamente mais curta que as demais, com uma diferença de mais de 8 palavras.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (3):
+    [G13] O enunciado apresenta repetição desnecessária de informações. A descrição da situação e o objetivo do engenheiro-chefe são reiterados, tornando o texto mais longo do que o necessário.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da informação sobre o objetivo do engenheiro-chefe. Por exemplo, eliminar a frase 'Para isso, são realizadas medições locais...de modo a relacionar essa escolha com conceitos de cálculo vetorial...'
+    [G16] O enunciado contém uma contextualização extensa e narrativa que não contribui diretamente para a avaliação do conhecimento do aluno. A descrição da equipe de engenharia, da placa metálica e do cenário de medição é excessiva.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Simplificar o enunciado, removendo a contextualização narrativa e focando diretamente no problema da orientação do sensor. Por exemplo, iniciar o enunciado com 'Em um ponto P₀ = (x₀, y₀), o engenheiro-chefe precisa orientar um sensor...'
+    [G24] A alternativa D é significativamente mais curta que as demais, com uma diferença de mais de 8 palavras.
+         ↳ origem: agente_analise_distratores
+         ↳ sugestão: Revisar o tamanho das alternativas para promover maior equilíbrio na apresentação.
+
+================================================================================

@@ -1,0 +1,58 @@
+================================================================================
+       RELATÓRIO DE AUDITORIA DE ITEM — HALADYNA ET AL. (2002)       
+================================================================================
+  Data     : 19/11/2026 às 00:43:45
+  Gabarito : A
+================================================================================
+
+1. NÍVEL COGNITIVO (G1, G3)
+----------------------------------------
+  Nível Cognitivo : ANÁLISE
+  Justificativa   : O item exige que o estudante compare dois cenários reacionais, identifique as diferenças nos mecanismos (adição eletrofílica vs. radicalar) e explique como essas diferenças afetam a orientação do bromo e a formação de isômeros. Isso envolve desestruturar o conhecimento sobre os mecanismos e relacioná-los a um resultado prático, caracterizando uma análise.
+  Violações (G1, G3): Nenhuma detectada.
+
+2. QUALIDADE DO ENUNCIADO (G2, G4–G7, G11–G17)
+----------------------------------------
+  Violações (G2, G4–G7, G11–G17):
+    [G13] Repetição desnecessária da explicação do mecanismo de adição eletrofílica e radicalar. A informação já é contextualizada e pode ser simplificada.
+         → Sugestão: Remover a repetição da explicação dos mecanismos. Por exemplo, eliminar a frase 'Nessa situação, ele sabe que a reação costuma prosseguir por um mecanismo de adição eletrofílica...'. A informação pode ser integrada de forma mais concisa.
+    [G16] Contextualização excessiva com a descrição detalhada do experimento. A narrativa sobre o estudante e seus frascos não contribui diretamente para a avaliação do conhecimento.
+         → Sugestão: Remover a descrição do estudante e dos frascos. Concentrar o enunciado na descrição dos mecanismos e na pergunta central.
+
+3. GABARITO CEGO E DISTRATORES (G18–G19, G21–G31)
+----------------------------------------
+  Resolução cega          : A
+  Justificativa           : Analisando o enunciado, o estudante está investigando a reação de um alceno com HBr sob duas condições: com e sem peróxido. A alternativa correta deve explicar como a presença do peróxido altera o mecanismo da reação e, consequentemente, a orientação do bromo. 
+
+A) Propõe que a adição eletrofílica segue a regra de Markovnikov (carbocátion mais estável) sem peróxido e o mecanismo radicalar leva à orientação anti-Markovnikov (radical mais estável) com peróxido. Essa alternativa parece plausível, pois reflete os princípios básicos da reação.
+B) Sugere que o bromo se une ao carbono menos substituído na primeira etapa, o que é inconsistente com a adição eletrofílica.
+C) Afirma que a distribuição do bromo é imprevisível, o que é improvável, pois os mecanismos são distintos.
+D) Propõe um ataque inicial do brometo, o que não se alinha com a descrição dos mecanismos.
+E) Sugere pequenas diferenças de velocidade e estereoquímica, o que minimiza a importância da mudança de mecanismo.
+
+A alternativa A é a que melhor descreve o raciocínio que o estudante deve utilizar, pois relaciona os mecanismos de reação com a orientação do bromo.
+  Confere com o oficial   : Sim
+  Alternativas:
+    [B] Distrator (Plausibilidade: 4/5)
+         → Confusão na ordem de adição: o aluno pode acreditar que a adição sempre ocorre no carbono menos substituído ou que a protonação é sempre o primeiro passo.
+    [C] Distrator (Plausibilidade: 3/5)
+         → Ignora a influência dos mecanismos: o aluno pode não compreender que os mecanismos de adição eletrofílica e radicalar levam a diferentes orientações.
+    [D] Distrator (Plausibilidade: 3/5)
+         → Interpretação superficial da sequência reacional: o aluno pode não entender a diferença fundamental entre a formação de um intermediário neutro e a protonação.
+    [E] Distrator (Plausibilidade: 2/5)
+         → Simplificação excessiva da reação: o aluno pode acreditar que as diferenças entre os mecanismos são mínimas e que a estereoquímica é o único fator determinante.
+  Violações (G21–G24, G27–G31): Nenhuma detectada.
+
+================================================================================
+4. CONSOLIDAÇÃO DAS VIOLAÇÕES
+================================================================================
+
+  Violações Agregadas (2):
+    [G13] Repetição desnecessária da explicação do mecanismo de adição eletrofílica e radicalar. A informação já é contextualizada e pode ser simplificada.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a repetição da explicação dos mecanismos. Por exemplo, eliminar a frase 'Nessa situação, ele sabe que a reação costuma prosseguir por um mecanismo de adição eletrofílica...'. A informação pode ser integrada de forma mais concisa.
+    [G16] Contextualização excessiva com a descrição detalhada do experimento. A narrativa sobre o estudante e seus frascos não contribui diretamente para a avaliação do conhecimento.
+         ↳ origem: agente_qualidade_enunciado
+         ↳ sugestão: Remover a descrição do estudante e dos frascos. Concentrar o enunciado na descrição dos mecanismos e na pergunta central.
+
+================================================================================
